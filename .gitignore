@@ -11,3 +11,8 @@ ehthumbs.db
 Thumbs.db
 log/
 *.log
+
+/fanfic/** 
+commonplace.html
+lexicon.html
+ 
