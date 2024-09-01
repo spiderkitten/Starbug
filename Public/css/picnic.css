@@ -339,6 +339,7 @@ max-width:80%;
 
 #toc {
   columns: 3;
+  -webkit-columns:3;
 }
 
 #toc li {
