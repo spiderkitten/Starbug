@@ -12,7 +12,7 @@ Thumbs.db
 log/
 *.log
 
-/fanfic/** 
+fanfic/style.css
+fanfic/test.html
 commonplace.html
-lexicon.html
  
