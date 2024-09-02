@@ -2,7 +2,7 @@
 CSS by Starbug  
 https://starbug.neocities.org  
 
-Style Name: Picnic
+Stylename: PicnicBlue
 
 Feel free to copy sections of my code to create your own style, no credit necessary. 
 
@@ -36,18 +36,18 @@ FAV MOVIES
 :root {
 
   /* gingham background */
-  --background-color: linear-gradient(90deg, #c8000080 50%, transparent 0), linear-gradient(#c8000080 50%, transparent 0 );
+  --background-color: linear-gradient(90deg, #0035c880 50%, transparent 0), linear-gradient(#0021c880 50%, transparent 0 );
   --background-size:30px 30px;
 
   /* colours */
-  --pallette1:#bf1f35; /* header bg */
-  --pallette2: #588d54; /* backgrounds */
+  --pallette1:#1f62bf; /* header bg */
+  --pallette2: #9dc5d7; /* backgrounds */
   --pallette3: #222222; /* font and also divider under header*/
   --pallette4: #ffffff; /* content background */
-  --pallette5: #c800001e; /* info boxes */
-  --pallette6: #588d5434; /* warning box */
-  --pallette7: #bf1f344a; /* two column list - right*/
-  --pallette8: #fe9696; /* two column list - left*/
+  --pallette5: #0035c81e; /* info boxes */
+  --pallette6: #54718d34; /* warning box */
+  --pallette7: #1d48834a; /* two column list - right*/
+  --pallette8: #96bcfe; /* two column list - left*/
 
   /* Fonts & Font Sizes */ 
 
@@ -55,9 +55,9 @@ FAV MOVIES
   --h2fontsize: 20px;
   --h3fontsize: 18px;
   --h4fontsize: 16px;
-    --fontheadings: cherryswash;
+    --fontheadings: lato-thin;
 
-  --fonttitle: leaf;
+  --fonttitle: lato-thin;
     --titletextshadow: 4px 4px 4px #000000;
   --fonttagline: lato;
     --fontsizetagline:14px;
@@ -69,10 +69,10 @@ FAV MOVIES
   --fontsizelinks:16px;
 
   /* Dividers*/
-  --dividerstyle: 2px dashed #588d54;
+  --dividerstyle: 2px dashed #545e8d;
 
   /* Style Images */
-  --bullet: url(../images/siteimgs/favicon_shroom1.gif);
+  --bullet: url(../images/siteimgs/eightbriittstar.gif);
   --imgwarning: url(../images/siteimgs/warningsmall.png);
   --imgwelcomebefore: url(../images/siteimgs/flower.png) no-repeat;
   --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
