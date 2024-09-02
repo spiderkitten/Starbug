@@ -1,33 +1,11 @@
 window.onload = () => {
 
-/*  fetch('header.html') // grab the page
-  .then(data => {
-    return data.text()
-  })
-  .then( data => {
-    document.getElementById("header").innerHTML = data; // insert the page
-  })
-
-*/
-
-  //
-
   fetch('nav.html')
   .then(data => {
     return data.text()
   })
   .then( data => {
     document.getElementById("nav").innerHTML = data;
-  })
-
-  //
-
-  fetch('footer.html')
-  .then(data => {
-    return data.text()
-  })
-  .then( data => {
-    document.getElementById("footer").innerHTML = data;
   })
 
   /*
@@ -42,7 +20,7 @@ window.onload = () => {
 
   //
 
-  /* TABLE OF CONTENTS */
+  /* TABLE OF CONTENTS H3 */
 
       // Get all headings
       var headings = document.querySelectorAll("h3");
@@ -67,6 +45,5 @@ window.onload = () => {
         toc.appendChild(link);
       }
 
+
 }
-
-
