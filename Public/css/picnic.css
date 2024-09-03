@@ -25,6 +25,7 @@ ABOUT PAGE
 USE PAGE
 GUESTBOOK 
 100x100 ICONS
+BOOK PAGES
 VAMPIRE MANAGEMENT PAGE
 COMMONPLACE BOOK
 A24 MOVIES
@@ -354,20 +355,6 @@ strong {
     padding:10px
   }
 
-    /* GoodReads Widget */
-  .gr_grid_container {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .gr_grid_book_container {
-    float: left;
-    height: 140px;
-    padding: 5px;
-    overflow: hidden;
-  }
-
   figure {
     text-align: center;
   }
@@ -408,14 +395,15 @@ strong {
   }
 
   .updatebox {
-    background-color: var(--pallette5);
+   background-color: var(--pallette5);
     border-color: var(--pallette2);
+    border-style: dashed;
     padding: 15px;
     border-radius: 10px;
-    border-style: dashed;
     width:90%;
     margin: 30px auto 30px auto;
   }
+
 
 /*====================================================================*/
 
@@ -564,6 +552,27 @@ padding:10px
   padding-bottom: 3px;
   list-style: none;
 
+}
+
+
+
+
+/*====================================================================*/
+
+/* BOOK PAGES */ 
+
+ /* GoodReads Widget */
+ .gr_grid_container {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gr_grid_book_container {
+  float: left;
+  height: 140px;
+  padding: 5px;
+  overflow: hidden;
 }
 
 /*====================================================================*/
