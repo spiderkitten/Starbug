@@ -23,6 +23,7 @@ Stuff used on multiple pages
 INDEX PAGE
 ABOUT PAGE 
 USE PAGE
+BOOK OF WORDS / LEXICON
 GUESTBOOK 
 100x100 ICONS
 BOOK PAGES
@@ -363,6 +364,34 @@ strong {
     font-size: small;
   }
 
+    /* TOC for H3 */
+  #toc {
+    columns: 3;
+    -webkit-columns:3;
+  }
+  
+  #toc li {
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
+  }
+
+    /* TOC for H2*/
+  #toc2 {
+    columns: 2;
+    -webkit-columns:2;
+  }
+  
+  #toc2 li {
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
+  }
+
   /*====================================================================*/
   /* INDEX PAGE */ 
 
@@ -376,9 +405,9 @@ strong {
     /* Warning box on front page - box and image before the warning */
   #important {
     background-color: var(--pallette6);
-    padding: 10px 10px 15px 10px;
+    padding: 5px 10px 5px 10px;
     border-radius: 10px;
-    margin: 30px auto 30px auto;
+    margin: 10px auto 10px auto;
     width: 90%;
   }
 
@@ -401,10 +430,36 @@ strong {
     padding: 15px;
     border-radius: 10px;
     width:90%;
-    margin: 30px auto 30px auto;
+    margin: 10px auto 30px auto;
   }
 
+  .todobox {
+    background-color: var(--pallette6);
+     border-color: var(--pallette7);
+     border-style: dashed;
+     padding: 10px;
+     border-radius: 10px;
+     width:90%;
+     margin: 0px auto 30px auto;
+   }
 
+/* colums */
+.frontpage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column {
+  padding:0px;
+}
+
+.column li {
+background-image: var(--bullet);
+background-repeat: no-repeat;
+padding-left: 20px;
+padding-bottom: 0px;
+list-style: none;
+}
 /*====================================================================*/
 
 /* ABOUT PAGE */
@@ -498,6 +553,37 @@ padding:10px
 }
 
 
+
+/*====================================================================*/
+
+/* BOOK OF WORDS / LEXICON */ 
+
+/* table */
+
+.words-stripedlist {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  max-width: 95%;
+  margin:auto;
+  background-color: var(--pallette7);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.words-stripedlist div:nth-child(odd) {
+  background-color: var(--pallette8);
+  padding:5px;
+  text-align: right;
+}
+
+.words-stripedlist div:nth-child(even) {
+  padding:5px;
+}
+
+
+
+
 /*====================================================================*/
 
 /* GUESTBOOK PAGE */ 
@@ -540,22 +626,6 @@ padding:10px
   -webkit-transform: rotate(-135deg);
 }
 
-#toc {
-  columns: 3;
-  -webkit-columns:3;
-}
-
-#toc li {
-  background-image: var(--bullet);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-bottom: 3px;
-  list-style: none;
-
-}
-
-
-
 
 /*====================================================================*/
 
@@ -564,8 +634,6 @@ padding:10px
  /* GoodReads Widget */
  .gr_grid_container {
   max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .gr_grid_book_container {
@@ -573,6 +641,15 @@ padding:10px
   height: 140px;
   padding: 5px;
   overflow: hidden;
+}
+
+.indexstrip {
+  background-color: var(--pallette6);
+  color: var(--pallette);
+  border-radius: 10px;
+  padding: 5px;
+  margin:auto;
+  margin-bottom:20px;
 }
 
 /*====================================================================*/
