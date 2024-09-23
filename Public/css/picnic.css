@@ -57,7 +57,7 @@ FAV MOVIES
   --h2fontsize: 20px;
   --h3fontsize: 18px;
   --h4fontsize: 16px;
-    --fontheadings: cherryswash;
+  --fontheadings: cherryswash;
 
   --fonttitle: leaf;
     --titletextshadow: 4px 4px 4px #000000;
@@ -66,7 +66,7 @@ FAV MOVIES
   --fontmain: 'Courier New';
     --fontsizemain:16px;
   --fontsidebar: lato;
-    --fontsizesidebar: 16px;
+    --fontsizesidebar: 14px;
   --fontquote: lato;
   --fontsizelinks:16px;
 
@@ -160,7 +160,7 @@ body {
   grid-template-areas:
     'header header'
     'sidebar main';
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 280px 1fr;
   grid-template-rows: 150px 1fr;
   padding-bottom: 10px;
   margin: 0;
@@ -229,7 +229,9 @@ body {
 
 .nav ul  {
   list-style: none;
-  padding-left: 10px;
+  padding:0px; 
+  margin-top:3px;
+  margin-bottom:15px;
 }
 
 .nav ul a {
@@ -281,15 +283,15 @@ h3{
   font-size: var(--h3fontsize);
   color: var(--pallette1);
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 
 h4 {
   font-size: var(--h4fontsize);
   color: var(--pallette1);
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 strong {
@@ -333,7 +335,7 @@ strong {
   }
 
   li {
-    padding-bottom:10px;
+    padding-bottom:5px;
     padding-left:30px;
   }
   
@@ -427,7 +429,7 @@ strong {
    background-color: var(--pallette5);
     border-color: var(--pallette2);
     border-style: dashed;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     width:90%;
     margin: 10px auto 30px auto;
@@ -440,7 +442,7 @@ strong {
      padding: 10px;
      border-radius: 10px;
      width:90%;
-     margin: 0px auto 30px auto;
+     margin: 10px auto 30px auto;
    }
 
 /* colums */
@@ -891,6 +893,27 @@ blockquote:after {
   content: " ";
  }
 
+ @media only screen and (max-width:500px) {
+body {
+   
+    grid-template-areas:
+      'header'
+      'main'
+      'sidebar';
+      grid-template-columns: 490px;
+      grid-template-rows: 230px 1fr 1fr;
+  }
+.sidebar {
+  grid-area: sidebar;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  }
+}
+
 /*====================================================================*/
 
 /* PAGE */ 
@@ -907,3 +930,6 @@ blockquote:after {
   padding-top: 10px;
 }
 */
+
+
+

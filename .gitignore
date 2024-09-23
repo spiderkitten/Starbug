@@ -12,8 +12,10 @@ Thumbs.db
 log/
 *.log
 
+fanfic/*
 fanfic/style.css
-fanfic/test.html
+fanfic/template.html
 commonplace.html
 fanfic.html
-styleswitcher.js
+styleswitcherold.js
+AIArt.html
