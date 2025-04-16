@@ -2,7 +2,7 @@
 CSS by Starbug  
 https://starbug.neocities.org  
 
-Stylename: PicnicBlue
+Style Name: Picnic 
 
 Feel free to copy sections of my code to create your own style, no credit necessary. 
 
@@ -23,12 +23,15 @@ Stuff used on multiple pages
 INDEX PAGE
 ABOUT PAGE 
 USE PAGE
+BOOK OF WORDS / LEXICON
 GUESTBOOK 
 100x100 ICONS
+BOOK PAGES
 VAMPIRE MANAGEMENT PAGE
 COMMONPLACE BOOK
 A24 MOVIES
 FAV MOVIES
+
 
 ============================== */ 
 
@@ -36,18 +39,18 @@ FAV MOVIES
 :root {
 
   /* gingham background */
-  --background-color: linear-gradient(90deg, #0035c880 50%, transparent 0), linear-gradient(#0021c880 50%, transparent 0 );
+  --background-color: linear-gradient(90deg, #0e428680 50%, transparent 0), linear-gradient(#0061c880 50%, transparent 0 );
   --background-size:30px 30px;
 
   /* colours */
-  --pallette1:#1f62bf; /* header bg */
-  --pallette2: #9dc5d7; /* backgrounds */
+  --pallette1:#bf1f35; /* header bg */
+  --pallette2: #588d54; /* backgrounds */
   --pallette3: #222222; /* font and also divider under header*/
   --pallette4: #ffffff; /* content background */
-  --pallette5: #0035c81e; /* info boxes */
-  --pallette6: #54718d34; /* warning box */
-  --pallette7: #1d48834a; /* two column list - right*/
-  --pallette8: #96bcfe; /* two column list - left*/
+  --pallette5: #c800001e; /* info boxes */
+  --pallette6: #588d5434; /* warning box */
+  --pallette7: #bf1f344a; /* two column list - right*/
+  --pallette8: #fe9696; /* two column list - left*/
 
   /* Fonts & Font Sizes */ 
 
@@ -55,24 +58,24 @@ FAV MOVIES
   --h2fontsize: 20px;
   --h3fontsize: 18px;
   --h4fontsize: 16px;
-    --fontheadings: lato-thin;
+  --fontheadings: cherryswash;
 
-  --fonttitle: lato-thin;
+  --fonttitle: leaf;
     --titletextshadow: 4px 4px 4px #000000;
   --fonttagline: lato;
     --fontsizetagline:14px;
   --fontmain: 'Courier New';
     --fontsizemain:16px;
   --fontsidebar: lato;
-    --fontsizesidebar: 16px;
+    --fontsizesidebar: 14px;
   --fontquote: lato;
   --fontsizelinks:16px;
 
   /* Dividers*/
-  --dividerstyle: 2px dashed #545e8d;
+  --dividerstyle: 2px dashed #588d54;
 
   /* Style Images */
-  --bullet: url(../images/siteimgs/eightbriittstar.gif);
+  --bullet: url(../images/siteimgs/favicon_shroom1.gif);
   --imgwarning: url(../images/siteimgs/warningsmall.png);
   --imgwelcomebefore: url(../images/siteimgs/flower.png) no-repeat;
   --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
@@ -158,7 +161,7 @@ body {
   grid-template-areas:
     'header header'
     'sidebar main';
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 280px 1fr;
   grid-template-rows: 150px 1fr;
   padding-bottom: 10px;
   margin: 0;
@@ -227,7 +230,9 @@ body {
 
 .nav ul  {
   list-style: none;
-  padding-left: 10px;
+  padding:0px; 
+  margin-top:3px;
+  margin-bottom:15px;
 }
 
 .nav ul a {
@@ -279,15 +284,15 @@ h3{
   font-size: var(--h3fontsize);
   color: var(--pallette1);
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 
 h4 {
   font-size: var(--h4fontsize);
   color: var(--pallette1);
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 strong {
@@ -331,7 +336,7 @@ strong {
   }
 
   li {
-    padding-bottom:10px;
+    padding-bottom:5px;
     padding-left:30px;
   }
   
@@ -354,26 +359,40 @@ strong {
     padding:10px
   }
 
-    /* GoodReads Widget */
-  .gr_grid_container {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .gr_grid_book_container {
-    float: left;
-    height: 140px;
-    padding: 5px;
-    overflow: hidden;
-  }
-
   figure {
     text-align: center;
   }
   
   figcaption {
     font-size: small;
+  }
+
+    /* TOC for H3 */
+  #toc {
+    columns: 3;
+    -webkit-columns:3;
+  }
+  
+  #toc li {
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
+  }
+
+    /* TOC for H2*/
+  #toc2 {
+    columns: 2;
+    -webkit-columns:2;
+  }
+  
+  #toc2 li {
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
   }
 
   /*====================================================================*/
@@ -389,9 +408,9 @@ strong {
     /* Warning box on front page - box and image before the warning */
   #important {
     background-color: var(--pallette6);
-    padding: 10px 10px 15px 10px;
+    padding: 5px 10px 5px 10px;
     border-radius: 10px;
-    margin: 30px auto 30px auto;
+    margin: 10px auto 10px auto;
     width: 90%;
   }
 
@@ -408,15 +427,42 @@ strong {
   }
 
   .updatebox {
-    background-color: var(--pallette5);
+   background-color: var(--pallette5);
     border-color: var(--pallette2);
-    padding: 15px;
-    border-radius: 10px;
     border-style: dashed;
+    padding: 10px;
+    border-radius: 10px;
     width:90%;
-    margin: 30px auto 30px auto;
+    margin: 10px auto 30px auto;
   }
 
+  .todobox {
+    background-color: var(--pallette6);
+     border-color: var(--pallette7);
+     border-style: dashed;
+     padding: 10px;
+     border-radius: 10px;
+     width:90%;
+     margin: 10px auto 30px auto;
+   }
+
+/* colums */
+.frontpage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column {
+  padding:0px;
+}
+
+.column li {
+background-image: var(--bullet);
+background-repeat: no-repeat;
+padding-left: 20px;
+padding-bottom: 0px;
+list-style: none;
+}
 /*====================================================================*/
 
 /* ABOUT PAGE */
@@ -510,6 +556,37 @@ padding:10px
 }
 
 
+
+/*====================================================================*/
+
+/* BOOK OF WORDS / LEXICON */ 
+
+/* table */
+
+.words-stripedlist {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  max-width: 95%;
+  margin:auto;
+  background-color: var(--pallette7);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.words-stripedlist div:nth-child(odd) {
+  background-color: var(--pallette8);
+  padding:5px;
+  text-align: right;
+}
+
+.words-stripedlist div:nth-child(even) {
+  padding:5px;
+}
+
+
+
+
 /*====================================================================*/
 
 /* GUESTBOOK PAGE */ 
@@ -552,18 +629,30 @@ padding:10px
   -webkit-transform: rotate(-135deg);
 }
 
-#toc {
-  columns: 3;
-  -webkit-columns:3;
+
+/*====================================================================*/
+
+/* BOOK PAGES */ 
+
+ /* GoodReads Widget */
+ .gr_grid_container {
+  max-width: fit-content;
 }
 
-#toc li {
-  background-image: var(--bullet);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-bottom: 3px;
-  list-style: none;
+.gr_grid_book_container {
+  float: left;
+  height: 140px;
+  padding: 5px;
+  overflow: hidden;
+}
 
+.indexstrip {
+  background-color: var(--pallette6);
+  color: var(--pallette);
+  border-radius: 10px;
+  padding: 5px;
+  margin:auto;
+  margin-bottom:20px;
 }
 
 /*====================================================================*/
@@ -805,6 +894,27 @@ blockquote:after {
   content: " ";
  }
 
+ @media only screen and (max-width:500px) {
+body {
+   
+    grid-template-areas:
+      'header'
+      'main'
+      'sidebar';
+      grid-template-columns: 490px;
+      grid-template-rows: 230px 1fr 1fr;
+  }
+.sidebar {
+  grid-area: sidebar;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  }
+}
+
 /*====================================================================*/
 
 /* PAGE */ 
@@ -821,3 +931,6 @@ blockquote:after {
   padding-top: 10px;
 }
 */
+
+
+

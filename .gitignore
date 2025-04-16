@@ -12,6 +12,8 @@ Thumbs.db
 log/
 *.log
 
+
+
 fanfic/*
 fanfic/style.css
 fanfic/template.html
@@ -21,3 +23,16 @@ styleswitcherold.js
 AIArt.html
 test.html
 Public/favs.html
+PublicBU/*
+
+local/images/*
+
+package.json
+package-lock.json
+
+# Ignore installed npm modules
+node_modules/
+
+# build artefacts
+Public
+
