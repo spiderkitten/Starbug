@@ -35,33 +35,10 @@ layout: layout/base.njk
 
 <div class="column"> <!--right column-->
 
-<h2>To Do:</h2>
+<h2>..</h2>
 <div class="todobox">
 <ul>
-  <li>css for freeze buttons</li>
-  <li>accessibility for screen readers</li>
-  <li>theme switcher</li>
-  <li>dyslexia theme</li>
-  <li>icons after external links?</li>
-  <li>fav things right now page (boots kipling)</li>
-  <li>links pages - tags?</li>
-  <li>fanfic archive</li>
-  <li>fanart</li>
-  <li>Wallpapers</li>
-  <li>shrines page</li>
-  <li>commonplace book</li>
-  <li>short film page</li>
-  <li>postcards page</li>
-  <li>secret page</li>
-  <li>novellas</li>
-  <li>sitemap</li>
-  <li>home alone essay.</li>
-
-</ul>
-<ul>
-  <li>Make a Zine</li>
-  <li>Start a webcomic</li>
-  <li>Twine Story</li>
+  <li>....</li>
 </ul>
 </div><!--rightupdatebox-->
 

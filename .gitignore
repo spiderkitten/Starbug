@@ -12,17 +12,7 @@ Thumbs.db
 log/
 *.log
 
-
-
-fanfic/*
-fanfic/style.css
-fanfic/template.html
-commonplace.html
-fanfic.html
-styleswitcherold.js
-AIArt.html
 test.html
-Public/favs.html
 PublicBU/*
 
 local/images/*
