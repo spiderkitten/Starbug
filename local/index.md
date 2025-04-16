@@ -8,7 +8,7 @@ layout: layout/base.njk
 <p>Hi, I'm Starbug, welcome to my little space on the internet where I will throw random stuff and just do whatever. You should be able to navigate everything in the sidebar to your left (or below if you are on mobile). </p>
 
 <div id="important">
-  <p>This site is a work in progress. This site is best viewed on a computer and requires javascript.</p>
+  <p>This site is a work in progress. This site is best viewed on a computer and requires javascript. :)</p>
 </div>
 
 <div class="frontpage">
