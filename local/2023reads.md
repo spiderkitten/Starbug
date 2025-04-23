@@ -27,7 +27,8 @@ cssFile: "books.css"
 
 
 <h2>2023 Reads</h2>
-<div class="gr_grid_container">
+    <div style=overflow:hidden; word-wrap:break-word;>
+ 
     <div class="gr_grid_book_container"><a title="The Thursday Murder Club" rel="nofollow" href="https://www.goodreads.com/book/show/55343854-the-thursday-murder-club"><img alt="The Thursday Murder Club" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600177058l/55343854._SX98_.jpg" /></a></div>
     <div class="gr_grid_book_container"><a title="Dead Silence" rel="nofollow" href="https://www.goodreads.com/book/show/58056838-dead-silence"><img alt="Dead Silence" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634062885l/58056838._SX98_.jpg" /></a></div>
     <div class="gr_grid_book_container"><a title="Record of a Spaceborn Few (Wayfarers, #3)" rel="nofollow" href="https://www.goodreads.com/book/show/35068827-record-of-a-spaceborn-few"><img alt="Record of a Spaceborn Few" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519921010l/35068827._SX98_.jpg" /></a></div>
@@ -71,3 +72,4 @@ cssFile: "books.css"
     <div class="gr_grid_book_container"><a title="The Future Library" rel="nofollow" href="https://www.goodreads.com/book/show/58578776-the-future-library"><img alt="The Future Library" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626883929l/58578776._SX98_.jpg" /></a></div>
     
     </div>
+    

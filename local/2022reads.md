@@ -26,6 +26,7 @@ cssFile: "books.css"
     </ul>
 
 <h2>2022 Reads</h2>
+    <div style=overflow:hidden; word-wrap:break-word;>
 
     <div class="gr_grid_container">
 
@@ -57,3 +58,4 @@ cssFile: "books.css"
     <div class="gr_grid_book_container"><a title="Emergency Skin" rel="nofollow" href="https://www.goodreads.com/book/show/49669410-emergency-skin"><img alt="Emergency Skin" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563468452l/49669410._SX98_SY160_.jpg" /></a></div>
   </div>
 
+</div>
