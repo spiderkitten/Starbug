@@ -1,0 +1,1076 @@
+/* ==============================
+CSS by Starbug  
+https://starbug.neocities.org  
+
+Style Name: Picnic 
+
+Feel free to copy sections of my code to create your own style, no credit necessary. 
+
+But please don't rip off my entire style sheet 
+Don't claim the style sheet as your own 
+Don't redistribute the entire style sheet   
+
+Contents - Ctrl+F to find:
+
+Variables
+Fonts
+Main Layout
+Header
+Top Navigation
+Text formatting
+Default Links & Lists
+Stuff used on multiple pages
+
+INDEX PAGE
+ABOUT PAGE 
+
+BOOK OF WORDS / LEXICON
+GUESTBOOK 
+100x100 ICONS
+BOOK PAGES
+VAMPIRE MANAGEMENT PAGE
+COMMONPLACE BOOK
+A24 MOVIES
+
+
+FAV MOVIES
+
+test mf
+============================== */ 
+
+/* Variables - cosmetic things that can be changed */
+:root {
+
+  /* gingham background */
+  --background-color: linear-gradient(90deg, #c8000080 50%, transparent 0), linear-gradient(#c8000080 50%, transparent 0 );
+  --background-size:30px 30px;
+
+  /* colours */
+  --pallette1:#bf1f35; /* header bg */
+  --pallette2: #588d54; /* backgrounds */
+  --pallette3: #222222; /* font and also divider under header*/
+  --pallette4: #ffffff; /* content background */
+  --pallette5: #c800001e; /* info boxes */
+  --pallette6: #588d5434; /* warning box */
+  --pallette7: #bf1f344a; /* two column list - right*/
+  --pallette8: #fe9696; /* two column list - left*/
+
+  /* Fonts & Font Sizes */ 
+
+  --h1fontsize: 26px;
+  --h2fontsize: 20px;
+  --h3fontsize: 18px;
+  --h4fontsize: 16px;
+  --fontheadings: cherryswash;
+
+  --fonttitle: leaf;
+    --titletextshadow: 4px 4px 4px #000000;
+  --fonttagline: lato;
+    --fontsizetagline:14px;
+  --fontmain: 'Courier New';
+    --fontsizemain:16px;
+  --fontsidebar: lato;
+    --fontsizesidebar: 14px;
+  --fontquote: lato;
+  --fontsizelinks:16px;
+
+  /* Dividers*/
+  --dividerstyle: 2px dashed #588d54;
+
+  /* Style Images */
+  --bullet: url(../images/siteimgs/favicon_shroom1.gif);
+  --imgwarning: url(../images/siteimgs/warningsmall.png);
+  --imgwelcomebefore: url(../images/siteimgs/flower.png) no-repeat;
+  --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
+
+  --imgmovmoviesbefore: url(../images/siteimgs/movies/popcorn.png) no-repeat;
+  --imgmovjapanbefore: url(../images/siteimgs/movies/castle.png) no-repeat;
+  --imgmovwarbefore: url(../images/siteimgs/movies/war.png) no-repeat;
+  --imgmovausbefore: url(../images/siteimgs/movies/koala.png) no-repeat;
+  --imgmovweirdbefore: url(../images/siteimgs/movies/weird.png) no-repeat;
+  --imgmovhorrorbefore: url(../images/siteimgs/movies/bloody.png) no-repeat;
+  --imgmovfolkbefore: url(../images/siteimgs/movies/wreath.png) no-repeat;
+  --imgmovkoreanbefore: url(../images/siteimgs/movies/korea.png) no-repeat;
+  --imgmovapocabefore: url(../images/siteimgs/movies/apoca.png) no-repeat;
+  --imgmovscifibefore: url(../images/siteimgs/movies/scifi.png) no-repeat;
+  --imgmovtimebefore: url(../images/siteimgs/movies/time.png) no-repeat;
+  --imgmovmusicbefore: url(../images/siteimgs/movies/music.png) no-repeat;
+  --imgmovanimebefore: url(../images/siteimgs/movies/anime.png) no-repeat;
+  --imgmovfamilybefore: url(../images/siteimgs/movies/family.png) no-repeat;
+
+  --imgwebbefore: url(../images/siteimgs/links/coding.png) no-repeat;
+}
+
+/* FONTS */
+
+@font-face{
+  font-family: lato-thin;
+       src: url(../fonts/Lato-Thin.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: lato;
+       src: url(../fonts/Lato-Regular.ttf) format("truetype");
+}
+@font-face{
+  font-family: leaf;
+       src: url(../fonts/leaf.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: CherrySwash;
+    src: url(../fonts/CherrySwash-Regular.otf) format("truetype");
+}
+
+@font-face{
+  font-family: CherrySwashBold;
+    src: url(../fonts/CherrySwash-Bold.otf) format("truetype");
+}
+
+@font-face{
+  font-family: 'CartoonistHand';
+       src: url('../fonts/Cartoonist_Hand.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'CartoonistHandBold';
+       src: url('../fonts/CartoonistHandBold.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'walterturncoat';
+       src: url('../fonts/walterturncoat.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'basiic';
+       src: url('../fonts/basiic.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'inter';
+       src: url('../fonts/Inter.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'inter-italic';
+       src: url('../fonts/Inter-Italic.ttf') format('truetype');
+}
+
+
+/* Main Layout */
+
+body {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'topnav'
+    'main'
+    'footer';
+
+  grid-template-columns: 100%;
+  grid-template-rows: 150px 90px 1fr 70px;
+  padding-bottom: 10px;
+  margin: 0;
+  background: var(--background-color);
+  background-size: var(--background-size);
+  font-family: var(--fontmain);
+  color: var(--pallette3);
+  font-size: var(--fontsizemain);
+
+}
+
+.header {
+  grid-area: header;
+  background: var(--pallette1);
+  padding: 10px;
+  border-bottom: var(--pallette3) solid 15px;
+}
+
+.topnav {
+  grid-area: topnav;
+  background: var(--pallette4);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.main {
+  grid-area: main;
+  background: var(--pallette4);
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footer {
+grid-area:footer;
+background: var(--pallette4);
+
+color: var(--pallette3);
+text-align: center;
+
+margin: 20px;
+margin-top: 10px;
+border-radius: 10px;
+padding-top: 10px;
+
+}
+
+/* Header */
+
+.header h1 {
+  color: var(--pallette2);
+  font-family:var(--fonttitle);
+  text-shadow: var(--titletextshadow);
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tagline {
+  color: var(--pallette4);
+  font-family: var(--fonttagline);
+  font-size: var(--fontsizetagline);
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Navigation */ 
+
+
+#navbutton, .dropdown button { 
+  border: 0;
+  font-size: 1.2em;
+  color: var(--pallette4);
+  text-decoration: none;
+  padding: 4px 10px;
+  background-color: var(--pallette2);
+  border-radius: 10px;
+  font-family: var(--fontmain);
+
+  &:hover {
+      background-color: var(--pallette8); 
+      color: var(--pallette4); 
+  } 
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  padding: 5px 0;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: block;
+  width: 100%;
+  font-size: 1.1em; 
+  border-radius: none; 
+  padding: 5px 10px; 
+  background-color: var(--pallette8);
+  color: var(--pallette4);
+  text-decoration: none;
+ 
+}
+
+.dropdown-content a:hover {
+  background-color:var(--pallette2); 
+  color: var(--pallette4); 
+  text-decoration:none;
+}
+
+
+
+/* Text Formatting */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fontheadings);
+}
+
+
+h1{
+  font-size: var(--h1fontsize);
+  color: var(--pallette1);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2{
+    font-size: var(--h2fontsize);
+    color: var(--pallette1);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h3{
+  font-size: var(--h3fontsize);
+  color: var(--pallette1);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+
+h4 {
+  font-size: var(--h4fontsize);
+  color: var(--pallette1);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* .rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
+
+.upsidedown {
+  display: Inline-block;
+  transform: rotate(180deg);
+}
+
+/* Default Links & Lists */
+
+ a {
+    color: var(--pallette2);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: var(--pallette5);
+  }
+
+  a:active {
+    text-decoration: underline overline;
+  }
+
+  ul  {
+    list-style-type: none;
+    padding:0px;
+
+  }
+
+  li {
+    padding-bottom:5px;
+    padding-left:30px;
+  }
+  
+  li a {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+    list-style: none;
+  }
+
+  ol li {
+    padding:0px;
+  }
+
+  /* Stuff used on multiple pages */
+
+    /* float image left and padd*/
+  .floatleft {
+    float: left;
+    padding:10px
+  }
+
+  figure {
+    text-align: center;
+  }
+  
+  figcaption {
+    font-size: small;
+  }
+
+    /* TOC for H3 */
+  #toc {
+    columns: 3;
+    -webkit-columns:3;
+  }
+  
+  #toc li {
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
+  }
+
+    /* TOC for H2*/
+  #toc2 {
+    columns: 2;
+    -webkit-columns:2;
+  }
+  
+  #toc2 li {
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
+  }
+
+  hr.dashed {
+    border-top: 3px dashed var(--pallette8);
+  }
+
+  /* blinking text */
+
+  .blinkingtext {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+/* pop  text */
+  .pop {
+    font-size:2em;
+    display: inline-block;
+    text-align:center; /* looks weird often if not aligned in center */
+    -webkit-animation: pop 1s ease-in-out infinite alternate;
+    -moz-animation: pop 1s ease-in-out infinite alternate;
+    animation: pop 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes pop {
+    from { transform:scale(0.95) }
+    50% { transform:scale(1) }
+    to { transform:scale(0.95) }
+    }
+    
+    @-webkit-keyframes pop {
+    from { -webkit-transform:scale(0.95) }
+    50% { -webkit-transform:scale(1) }
+    to { -webkit-transform:scale(0.95) }
+    }
+
+
+
+
+
+  /*====================================================================*/
+  /* INDEX PAGE */ 
+
+    /* image before welcome heading */
+  #spin {
+    /*background: var(--imgwelcomebefore);*/
+    padding: 0 4px;
+    vertical-align: middle;
+    animation: spin 3s infinite linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+    /* Warning box on front page - box and image before the warning */
+  #warning {
+    background-color: var(--pallette8);
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    margin: 20px auto 15px 20px;
+  }
+
+  #warning .marqueewarning {
+    overflow: hidden;
+  
+    .marquee {
+      animation: marquee 20s linear infinite;
+      display: inline-block;
+      white-space: nowrap;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
+
+
+  @keyframes marquee {
+    0% {
+      margin-left: 100%;
+      transform: translateX(0%);
+    }
+    100% {
+      margin-left: 0;
+      transform: translateX(-100%);
+    }
+  }
+
+  
+    /* button on front page */
+  #frontpagebuttons{
+    padding-top:10px;
+    text-align:center;
+  }
+
+.frontpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    overflow: auto;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.frontpage div {
+
+  margin: 5px;
+}
+
+
+  .updatebox {
+   background-color: var(--pallette5);
+    border-color: var(--pallette2);
+    border-style: dashed;
+    margin: auto; 
+    padding:10px;
+    overflow: hidden; 
+    min-width: 200px;
+    max-width: 500px;
+  }
+
+  .todobox {
+    background-color: var(--pallette6);
+     border-color: var(--pallette7);
+     border-style: dashed;
+     margin: auto; 
+    padding:10px;
+    min-width: 200px;
+    max-width: 300px;
+   }
+
+
+   .linkmebox {
+    background-color: var(--pallette6);
+     border-color: var(--pallette7);
+     border-style: dashed;
+     margin: auto; 
+    padding:10px;
+    max-width: 830px;
+   }
+
+
+/*====================================================================*/
+
+/* ABOUT PAGE */
+
+  /* basics table */
+
+.stripedlist {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  max-width: 95%;
+  margin:auto;
+  background-color: var(--pallette7);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.stripedlist div:nth-child(odd) {
+  background-color: var(--pallette8);
+  padding:5px;
+  text-align: right;
+}
+
+.stripedlist div:nth-child(even) {
+  padding:5px;
+}
+
+  /* favourite things table */
+.favthings {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+  background-color: var(--pallette7);
+  border-radius: 10px;
+  max-width: 95%;
+  margin:auto;
+}
+
+.favthings > div {
+  background-color: var(--pallette8);
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  padding:5px;
+}
+
+.favthings h3{
+background-color: var(--pallette5);
+border-radius: 10px;
+margin-top: 0px;
+}
+
+  /* Anti Bucket List table*/ 
+.stripedlist2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 95%;
+  margin:auto;
+  border-radius: 10px;
+overflow: hidden;
+  }
+
+  .stripedlist2 div {
+  text-align: left;
+  }
+
+  .stripedlist2 div:nth-child(1n)  {
+    background: var(--pallette8);
+  padding:10px;
+  }
+  .stripedlist2 div:nth-child(2n) {
+    background: var(--pallette7);
+padding:10px
+  }
+
+/*====================================================================*/
+
+/* BOOK OF WORDS / LEXICON */ 
+
+/* table */
+
+.words-stripedlist {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  max-width: 95%;
+  margin:auto;
+  background-color: var(--pallette7);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.words-stripedlist div:nth-child(odd) {
+  background-color: var(--pallette8);
+  padding:5px;
+  text-align: right;
+}
+
+.words-stripedlist div:nth-child(even) {
+  padding:5px;
+}
+
+
+
+
+/*====================================================================*/
+
+/* GUESTBOOK PAGE */ 
+
+      #gbook {
+        display:block;
+        width:90%;
+        margin:auto;
+        padding:10px;
+        border: none;
+        overflow: hidden;
+        height: 1300px;
+      }
+
+/*====================================================================*/
+
+/* 100x100 ICONS PAGES */ 
+
+.iconbox{
+  background-color: var(--pallette5);
+  border:dotted;
+  border-color: var(--pallette7);
+  padding:10px;
+  margin-bottom: 25px;
+}
+
+.iconbox h3 {
+  background-color: var(--pallette7);
+}
+
+.arrow {
+  border: solid var(--pallette2);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+
+/* VAMPIRE MANAGEMENT PAGE */ 
+
+
+.vampinfobox  {
+  background-color: var(--pallette5);
+  border-color: var(--pallette2);
+  padding: 10px;
+  border-radius: 10px;
+  border-style: dashed;
+  width:90%;
+  margin: 0px auto 30px auto;
+}
+
+cite {
+  text-align: left;
+  font-size: 12px;
+}
+
+/*====================================================================*/
+
+/* COMMONPLACE BOOK PAGE */ 
+
+  /* divider */
+.divider::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-top: var(--dividerstyle);
+  margin: auto;
+  padding-top: 10px;
+}
+
+      /*  blockquote */
+
+.quote { 
+  font-family: var(--fontquote);
+  color: #3f3f5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+blockquote {
+  font-size: 16px;
+  position: relative;
+  margin: 0;
+  padding: .5rem;
+  width:60%;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #990000;
+  font-size: 33px;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: '“';
+  left: -50px;
+  top: -5px;
+}
+
+blockquote:after {
+  content: '”';
+  right: -5rem;
+  bottom: -50px;
+}
+
+/*====================================================================*/
+
+/* A24 MOVIES PAGE */ 
+
+
+.A24 {
+  display: grid;
+  grid-template-columns: 40px 40px 50px 1fr;
+  max-width: 95%;
+  margin:auto;
+  background-color: var(--pallette);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.A24 div {
+  text-align: left;
+  padding:10px;
+}
+
+/* Column 1*/
+.A24 div:nth-child(4n-7) {
+  background: var(--pallette5);
+  color: var(--pallette1);
+  padding:10px;
+}
+
+/* column 2 */
+.A24 div:nth-child(4n-6) {
+  background: var(--pallette6);
+  color: var(--pallette2);
+  padding:10px;
+}
+
+/* Column 3 */
+.A24 div:nth-child(4n-5) {
+  background: var(--pallette7);
+  padding:10px;
+}
+
+  /* column 4*/
+.A24 div:nth-child(4n-4) {
+  background: var(--pallette8);
+}
+
+/*====================================================================*/
+
+/* FAV MOVIES PAGE */ 
+
+.movielist {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4px;
+  margin:auto;
+  background-color: var(--pallette6);
+  border-radius: 10px;
+  overflow: hidden;
+  padding:10px;
+  margin-bottom:30px;
+  max-width:80%;
+  }
+  
+  .movielist div:nth-child(2n+1),
+  .movielist div:nth-child(2n) {
+    background-color: var(--pallette6);
+    padding:3px;
+  }
+  
+  .movielist div:nth-child(4n+1),
+  .movielist div:nth-child(4n) {
+    background-color: var(--pallette6);
+  }
+
+  #imgmovies:before {
+    background: var(--imgmoviesbefore);
+    padding: 5px 20px;
+    content: " ";
+  }
+
+  #imgmovmovies:before {
+    background: var(--imgmovmoviesbefore);
+    padding: 5px 20px;
+    content: " ";
+  }
+
+ #imgmovjapan:before {
+  background: var(--imgmovjapanbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovwar:before {
+  background: var(--imgmovwarbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovaus:before {
+  background: var(--imgmovausbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovweird:before {
+  background: var(--imgmovweirdbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovhorror:before {
+  background: var(--imgmovhorrorbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovfolk:before {
+  background: var(--imgmovfolkbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovkorean:before {
+  background: var(--imgmovkoreanbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovapoca:before {
+  background: var(--imgmovapocabefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovscifi:before {
+  background: var(--imgmovscifibefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovtime:before {
+  background: var(--imgmovtimebefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovmusic:before {
+  background: var(--imgmovmusicbefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovanime:before {
+  background: var(--imgmovanimebefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+ #imgmovfamily:before {
+  background: var(--imgmovfamilybefore);
+  padding: 5px 20px;
+  content: " ";
+ }
+
+
+
+
+ @media only screen and (max-width:900px) {
+  body {
+   
+    grid-template-areas:
+      'header'
+      'topnav'     
+      'main'
+      'footer';
+      grid-template-columns: 100%;
+      grid-template-rows: 150px 120px 1fr 100px;
+  }
+  .header h1 {
+    color: var(--pallette2);
+    font-family:var(--fonttitle);
+    text-shadow: var(--titletextshadow);
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .topnav {
+    grid-area: topnav;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #navbutton, .dropdown button { 
+    margin-bottom: 10px;
+  }
+ }
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+body {
+   
+    grid-template-areas:
+      'header'
+      'topnav'     
+      'main'
+      'footer';
+      grid-template-columns: 100%;
+      grid-template-rows: 150px 180px 1fr 100px;
+  }
+
+  .header h1 {
+    color: var(--pallette2);
+    font-family:var(--fonttitle);
+    text-shadow: var(--titletextshadow);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .topnav {
+    grid-area: topnav;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #navbutton, .dropdown button { 
+    margin-bottom: 10px;
+  }
+
+
+
+
+}
+
+
+
+
+
+/*====================================================================*/
+
+
+

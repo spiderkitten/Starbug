@@ -1,0 +1,25 @@
+/* === BOOK PAGES .===*/ 
+
+ /* GoodReads Widget */
+ .gr_grid_container {
+    max-width: fit-content;
+  }
+  
+  .gr_grid_book_container {
+    float: left;
+    height: 140px;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+  .indexstrip {
+    background-color: var(--pallette6);
+    color: var(--pallette);
+    border-radius: 10px;
+    padding: 5px;
+    margin:auto;
+    margin-bottom:20px;
+  }
+
+  
+  
