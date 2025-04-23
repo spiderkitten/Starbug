@@ -14,6 +14,8 @@ script: js/freeze.js
       <div style="text-align: center;">
         <button onclick="resumegifs()">play gifs</button> 
         <button onclick="freezegifs()">pause gifs</button>
+        <div class="clear"></div>
+        <small>(requires javacript)</small>
       </div>
 
 <!-- Adoptables-->
@@ -58,19 +60,7 @@ script: js/freeze.js
       <a href="https://www.deviantart.com/pai-thagoras/art/I-Love-Cheese-Sandwiches-244180282"><img src="images/stamps/cheesesandwich.png"></a>
       <a href="https://www.deviantart.com/cfryant/art/Hello-my-name-is-65969527"><img src="images/stamps/hellomynameis.png"></a>
       <a href="https://www.deviantart.com/sharkfold/art/Studio-Ghibli-Fan-45074936"><img src="images/stamps/ghiblifan.png"></a>
-      <a href="https://www.deviantart.com/loneantarcticwolf/art/I-Love-My-Companion-Cube-69586805"><img src="images/stamps/i_love_my_companion_cube_by_loneantarcticwolf.png"></a>
-
-      <a href="https://www.deviantart.com/kezzi-rose/art/Marshmallow-Stamp-80164985"><img src="images/stamps/torturemarsh.png"></a>
-
-      <a href="https://www.deviantart.com/mc2lane-adopts/art/F2U-Tea-Lover-Stamp-671358048"><img src="images/stamps/tea.png"></a>
-
-      <a href="https://www.deviantart.com/thecandycoating/art/Sparkle-Waterfall-Stamp-636610709"><img src="images/stamps/sparkle_waterfall.png"></a>
-
-      <a href="https://www.deviantart.com/sideshow-coholic/art/SSC-stamp-282538561"><img src="images/stamps/strawshort.png"></a>
-
-      <a href="https://www.deviantart.com/clefairykid/art/The-Sims-Loading-196991324"><img src="images/stamps/sims.png"></a>
-
-      <a href="https://www.deviantart.com/jam-fairy/art/I-Heart-Rainbows-94877007"><img src="images/stamps/i_heart_rainbows_by_jam_fairy.png"></a>
+      <a href="https://www.deviantart.com/loneantarcticwolf/art/I-Love-My-Companion-Cube-69586805"><img src="images/stamps/i_love_my_companion_cube_by_loneantarcticwolf.png"></a> <a href="https://www.deviantart.com/kezzi-rose/art/Marshmallow-Stamp-80164985"><img src="images/stamps/torturemarsh.png"></a> <a href="https://www.deviantart.com/mc2lane-adopts/art/F2U-Tea-Lover-Stamp-671358048"><img src="images/stamps/tea.png"></a> <a href="https://www.deviantart.com/thecandycoating/art/Sparkle-Waterfall-Stamp-636610709"><img src="images/stamps/sparkle_waterfall.png"></a> <a href="https://www.deviantart.com/sideshow-coholic/art/SSC-stamp-282538561"><img src="images/stamps/strawshort.png"></a> <a href="https://www.deviantart.com/clefairykid/art/The-Sims-Loading-196991324"><img src="images/stamps/sims.png"></a> <a href="https://www.deviantart.com/jam-fairy/art/I-Heart-Rainbows-94877007"><img src="images/stamps/i_heart_rainbows_by_jam_fairy.png"></a>
 </div><!-- closing tag for freeze div -->
 
 <!-- Fanlists-->

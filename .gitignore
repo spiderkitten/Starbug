@@ -13,6 +13,8 @@ log/
 *.log
 
 test.html
+test.css
+links.html
 PublicBU/*
 
 local/images/*

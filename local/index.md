@@ -4,21 +4,38 @@ tagline: Just a girl floating through space...
 layout: layout/base.njk
 ---
 
-<h1 id="welcome">Welcome</h1>
-<p>Hi, I'm Starbug, welcome to my little space on the internet where I will throw random stuff and just do whatever. You should be able to navigate everything in the sidebar to your left (or below if you are on mobile). </p>
+<h1><img src="images/siteimgs/flower.png" id="spin"><div class="pop">Welcome</span></h1>
 
-<div id="important">
-  <p>This site is a work in progress. This site is best viewed on a computer and requires javascript. :)</p>
+<div class="welcome">
+<img src="images/siteimgs/girlme.png"  style="float:left; margin: 0 10px 10px 10px;" width="180px">
+
+<p>Hi, I'm Starbug, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
+<p>I'll admit, there probably isn't a lot that is hugely interesting here. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management page, and maybe the ??? page. Thanks for visiting!</p>
+
+
+<div style="clear:both;"></div>
+
+<div id="warning">
+  <div class="marqueewarning">
+  <span class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but mobile friendly) ★ Always a work in progress ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </span>
+  </div>
+</div>
 </div>
 
-<div class="frontpage">
-<div class="column">
 
-<h2>Updates</h2>
-  <div class="updatebox">
-      <p>
+<div style="clear:both;"></div>
+
+<div class="frontpage">
+
+<div class="updatebox">
+<h2>Recent Updates</h2>
+<p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. 
+</p>
+<p>
+
+
         <strong>3rd September 2024:</strong> added a lexicon/book of words with some cool words that I like in it. Fixed a few things behind the scenes.  
-      </p>
+</p>
 
       <p>
         <strong>25 August 2024:</strong> Livejournal/Dreamwidth stuff: Added a 100x100 icon archive of the icons I have made over the years, a page of friends only banners, and a mood theme.
@@ -28,41 +45,32 @@ layout: layout/base.njk
         <strong>19 August 2024:</strong> New layout! changed the guestbook to atabook, added a page about Vampire Resource Management, fixed a bunch of things.
       </p>
     <p><a href="changelog.html">Previous Updates</a></p>
-  </div>
+</div>
 
-</div><!--left column-->
-
-
-<div class="column"> <!--right column-->
-
-<h2>..</h2>
 <div class="todobox">
-<ul>
-  <li>....</li>
-</ul>
-</div><!--rightupdatebox-->
-
-</div><!--right column-->
-
-
-</div><!--frontpage div-->
+<h2>Randomosity</h2>
+<p>I'll probably add some webrings or something here sooooon</p>
+</div>
+</div>
 
 
 
 
 
+
+    <div class="linkmebox">
     <h2>Link to Meeeee</h2>
-    <div class="todobox">
-      <p style="text-align: center;"><small>If some crazy reason you want to link to me, here's a boring button:</p>
+      <p style="text-align: center;">
+      If some crazy reason you want to link to me, here's a boring button:</p>
 
-      <div style="text-align: center;">
-        <img src="images/siteimgs/starbug88x31button.png">
+<div style="text-align: center;">
+   <img src="images/siteimgs/starbug88x31button.png">
          
-        <p>please upload it to your own webspace and edit the img location accordingly:</p>
+   <p>please upload it to your own webspace and edit the img location accordingly:</p>
 
-        <center><textarea rows="3" cols="40"><a href="https://starbug.neocities.org/"><img src="starbug88x31button.png"></a>
-      </textarea></center>
-      </small>
+   <center><textarea rows="3" cols="40"><a href="https://starbug.neocities.org/"><img src="starbug88x31button.png"></a>
+      </textarea>
+  </center>
       </div>
 
 

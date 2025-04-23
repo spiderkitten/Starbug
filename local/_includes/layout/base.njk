@@ -10,9 +10,11 @@
   <meta name="robots" content="noarchive">
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="css/picnic.css" title="style" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/{{ cssFile }} "rel="stylesheet"  />
   <script src="js/load.js"></script>
   <script src="{{ script }}"></script>
+  
   <title>{{ title }}</title>
 </head>
  
@@ -22,16 +24,20 @@
     <div class="tagline">{{tagline}}</div>
   </div>
 
-  <div class="sidebar">
-    <div>{% include "partials/nav.njk" %}</div>
-  </div>
+
+{% include "partials/topnav.njk" %}
 
   <div class="main">
 <!-- Main Content Start-->
-{{ content | safe }}
+  {{ content | safe }}
 
 <!-- Main Content End-->
-</div> <!--main-->
+  </div> <!--main-->
+
+<!-- Footer -->
+  <div class="footer">
+ Site by Stargbug 2022-2025
+  </div>
 
 </body>
 </html> 

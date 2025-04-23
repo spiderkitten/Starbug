@@ -10,19 +10,20 @@ But please don't rip off my entire style sheet
 Don't claim the style sheet as your own 
 Don't redistribute the entire style sheet   
 
-Contents - Ctrl+F to find: 
+Contents - Ctrl+F to find:
+
 Variables
 Fonts
 Main Layout
 Header
-Sidebar
+Top Navigation
 Text formatting
 Default Links & Lists
 Stuff used on multiple pages
 
 INDEX PAGE
 ABOUT PAGE 
-USE PAGE
+
 BOOK OF WORDS / LEXICON
 GUESTBOOK 
 100x100 ICONS
@@ -30,6 +31,8 @@ BOOK PAGES
 VAMPIRE MANAGEMENT PAGE
 COMMONPLACE BOOK
 A24 MOVIES
+
+
 FAV MOVIES
 
 
@@ -39,7 +42,7 @@ FAV MOVIES
 :root {
 
   /* gingham background */
-  --background-color: linear-gradient(90deg, #0e428680 50%, transparent 0), linear-gradient(#0061c880 50%, transparent 0 );
+  --background-color: linear-gradient(90deg, #c8000080 50%, transparent 0), linear-gradient(#c8000080 50%, transparent 0 );
   --background-size:30px 30px;
 
   /* colours */
@@ -95,6 +98,7 @@ FAV MOVIES
   --imgmovanimebefore: url(../images/siteimgs/movies/anime.png) no-repeat;
   --imgmovfamilybefore: url(../images/siteimgs/movies/family.png) no-repeat;
 
+  --imgwebbefore: url(../images/siteimgs/links/coding.png) no-repeat;
 }
 
 /* FONTS */
@@ -159,10 +163,13 @@ FAV MOVIES
 body {
   display: grid;
   grid-template-areas:
-    'header header'
-    'sidebar main';
-  grid-template-columns: 280px 1fr;
-  grid-template-rows: 150px 1fr;
+    'header'
+    'topnav'
+    'main'
+    'footer';
+
+  grid-template-columns: 100%;
+  grid-template-rows: 150px 90px 1fr 70px;
   padding-bottom: 10px;
   margin: 0;
   background: var(--background-color);
@@ -180,23 +187,39 @@ body {
   border-bottom: var(--pallette3) solid 15px;
 }
 
-.sidebar {
-  grid-area: sidebar;
-  position: relative;
+.topnav {
+  grid-area: topnav;
   background: var(--pallette4);
-  padding: 15px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
   border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 
 .main {
   grid-area: main;
   background: var(--pallette4);
   margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   padding: 20px;
+}
+
+.footer {
+grid-area:footer;
+background: var(--pallette4);
+
+color: var(--pallette3);
+text-align: center;
+
+margin: 20px;
+margin-top: 10px;
+border-radius: 10px;
+padding-top: 10px;
+
 }
 
 /* Header */
@@ -222,40 +245,56 @@ body {
   padding: 0;
 }
 
-/* Sidebar */
-.nav{
-  font-family: var(--fontsidebar);
-  font-size: var(--fontsizesidebar);
-}
+/* Top Navigation */ 
 
-.nav ul  {
-  list-style: none;
-  padding:0px; 
-  margin-top:3px;
-  margin-bottom:15px;
-}
 
-.nav ul a {
-  color: var(--pallette2);
+#navbutton, .dropdown button { 
+  border: 0;
+  font-size: 1.2em;
+  color: var(--pallette4);
   text-decoration: none;
-  font-weight: normal;
-  text-transform: none;
-  font-size: var(--fontsizesidebar);
-  padding-left: 0px;
+  padding: 4px 10px;
+  background-color: var(--pallette2);
+  border-radius: 10px;
+  font-family: var(--fontmain);
+
+  &:hover {
+      background-color: var(--pallette8); 
+      color: var(--pallette4); 
+  } 
 }
 
-.nav li::before {
-  background-image: var(--bullet);
-  background-repeat:no-repeat;
-  padding: 0 10px;
-  content: " ";
+.dropdown {
+  display: inline-block;
 }
 
-.nav li {
-  padding:0px;
+.dropdown-content {
+  display: none;
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  padding: 5px 0;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: block;
+  width: 100%;
+  font-size: 1.1em; 
+  border-radius: none; 
+  padding: 5px 10px; 
+  background-color: var(--pallette8);
+  color: var(--pallette4);
+  text-decoration: none;
+ 
+}
 
+.dropdown-content a:hover {
+  background-color:var(--pallette2); 
+  color: var(--pallette4); 
+  text-decoration:none;
+}
 
 
 
@@ -395,74 +434,164 @@ strong {
     list-style: none;
   }
 
+  hr.dashed {
+    border-top: 3px dashed var(--pallette8);
+  }
+
+  /* blinking text */
+
+  .blinkingtext {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+/* pop  text */
+  .pop {
+    font-size:2em;
+    display: inline-block;
+    text-align:center; /* looks weird often if not aligned in center */
+    -webkit-animation: pop 1s ease-in-out infinite alternate;
+    -moz-animation: pop 1s ease-in-out infinite alternate;
+    animation: pop 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes pop {
+    from { transform:scale(0.95) }
+    50% { transform:scale(1) }
+    to { transform:scale(0.95) }
+    }
+    
+    @-webkit-keyframes pop {
+    from { -webkit-transform:scale(0.95) }
+    50% { -webkit-transform:scale(1) }
+    to { -webkit-transform:scale(0.95) }
+    }
+
+
+
+
+
   /*====================================================================*/
   /* INDEX PAGE */ 
 
     /* image before welcome heading */
-  #welcome:before {
-    background: var(--imgwelcomebefore);
-    padding: 0 20px;
-    content: " ";
+  #spin {
+    /*background: var(--imgwelcomebefore);*/
+    padding: 0 4px;
+    vertical-align: middle;
+    animation: spin 3s infinite linear;
   }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
 
     /* Warning box on front page - box and image before the warning */
-  #important {
-    background-color: var(--pallette6);
-    padding: 5px 10px 5px 10px;
+  #warning {
+    background-color: var(--pallette8);
+    padding: 5px 5px 5px 5px;
     border-radius: 10px;
-    margin: 10px auto 10px auto;
-    width: 90%;
+    margin: 20px auto 15px 20px;
   }
 
-  #important::before{
-    content: var(--imgwarning);
-    float:left;
-    padding: 5px;
+  #warning .marqueewarning {
+    overflow: hidden;
+  
+    .marquee {
+      animation: marquee 20s linear infinite;
+      display: inline-block;
+      white-space: nowrap;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
   }
 
+
+  @keyframes marquee {
+    0% {
+      margin-left: 100%;
+      transform: translateX(0%);
+    }
+    100% {
+      margin-left: 0;
+      transform: translateX(-100%);
+    }
+  }
+
+  
     /* button on front page */
   #frontpagebuttons{
     padding-top:10px;
     text-align:center;
   }
 
+  .welcome {
+
+  }
+
+.frontpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    overflow: auto;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.frontpage div {
+
+  margin: 5px;
+}
+
+
   .updatebox {
    background-color: var(--pallette5);
     border-color: var(--pallette2);
     border-style: dashed;
-    padding: 10px;
-    border-radius: 10px;
-    width:90%;
-    margin: 10px auto 30px auto;
+    margin: auto; 
+    padding:10px;
+    overflow: hidden; 
+    min-width: 200px;
+    max-width: 500px;
   }
 
   .todobox {
     background-color: var(--pallette6);
      border-color: var(--pallette7);
      border-style: dashed;
-     padding: 10px;
-     border-radius: 10px;
-     width:90%;
-     margin: 10px auto 30px auto;
+     margin: auto; 
+    padding:10px;
+    min-width: 200px;
+    max-width: 300px;
    }
 
-/* colums */
-.frontpage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-.column {
-  padding:0px;
-}
+   .linkmebox {
+    background-color: var(--pallette6);
+     border-color: var(--pallette7);
+     border-style: dashed;
+     margin: auto; 
+    padding:10px;
+    max-width: 830px;
+   }
 
-.column li {
-background-image: var(--bullet);
-background-repeat: no-repeat;
-padding-left: 20px;
-padding-bottom: 0px;
-list-style: none;
-}
+
 /*====================================================================*/
 
 /* ABOUT PAGE */
@@ -543,22 +672,6 @@ padding:10px
 
 /*====================================================================*/
 
-/* USE PAGE */ 
-
-.usebox  {
-  background-color: var(--pallette5);
-  border-color: var(--pallette2);
-  padding: 10px;
-  border-radius: 10px;
-  border-style: none;
-  width:90%;
-  margin: 0px auto 30px auto;
-}
-
-
-
-/*====================================================================*/
-
 /* BOOK OF WORDS / LEXICON */ 
 
 /* table */
@@ -632,28 +745,7 @@ padding:10px
 
 /*====================================================================*/
 
-/* BOOK PAGES */ 
 
- /* GoodReads Widget */
- .gr_grid_container {
-  max-width: fit-content;
-}
-
-.gr_grid_book_container {
-  float: left;
-  height: 140px;
-  padding: 5px;
-  overflow: hidden;
-}
-
-.indexstrip {
-  background-color: var(--pallette6);
-  color: var(--pallette);
-  border-radius: 10px;
-  padding: 5px;
-  margin:auto;
-  margin-bottom:20px;
-}
 
 /*====================================================================*/
 
@@ -894,43 +986,95 @@ blockquote:after {
   content: " ";
  }
 
- @media only screen and (max-width:500px) {
+
+
+
+ @media only screen and (max-width:900px) {
+  body {
+   
+    grid-template-areas:
+      'header'
+      'topnav'     
+      'main'
+      'footer';
+      grid-template-columns: 100%;
+      grid-template-rows: 150px 120px 1fr 100px;
+  }
+  .header h1 {
+    color: var(--pallette2);
+    font-family:var(--fonttitle);
+    text-shadow: var(--titletextshadow);
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .topnav {
+    grid-area: topnav;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #navbutton, .dropdown button { 
+    margin-bottom: 10px;
+  }
+ }
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
 body {
    
     grid-template-areas:
       'header'
+      'topnav'     
       'main'
-      'sidebar';
-      grid-template-columns: 490px;
-      grid-template-rows: 230px 1fr 1fr;
+      'footer';
+      grid-template-columns: 100%;
+      grid-template-rows: 150px 180px 1fr 100px;
   }
-.sidebar {
-  grid-area: sidebar;
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+
+  .header h1 {
+    color: var(--pallette2);
+    font-family:var(--fonttitle);
+    text-shadow: var(--titletextshadow);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 0;
+    text-transform: uppercase;
   }
+
+  .topnav {
+    grid-area: topnav;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #navbutton, .dropdown button { 
+    margin-bottom: 10px;
+  }
+
+
+
+
 }
+
+
+
+
 
 /*====================================================================*/
-
-/* PAGE */ 
-
-
-/* to delete 
-
-.dividerIcons::after {
-  content: "";
-  display: block;
-  width: 80%;
-  border-top: var(--dividerstyle);
-  margin: auto;
-  padding-top: 10px;
-}
-*/
 
 
 
