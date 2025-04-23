@@ -11,7 +11,6 @@ layout: layout/base.njk
 
 <p>Hi, I'm Starbug, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>I'll admit, there probably isn't a lot that is hugely interesting here. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management page, and maybe the ??? page. Thanks for visiting!</p>
-<p>HERE MOTHERFUCKERS!!!</p>
 
 
 <div style="clear:both;"></div>
