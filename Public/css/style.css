@@ -160,6 +160,12 @@ test mf
 
 /* Main Layout */
 
+.wrapper {
+  width:80%;
+  margin: auto;
+  max-width: 1000px;
+}
+
 body {
   display: grid;
   grid-template-areas:
@@ -183,8 +189,10 @@ body {
 .header {
   grid-area: header;
   background: var(--pallette1);
+  margin:20px;
   padding: 10px;
   border-bottom: var(--pallette3) solid 15px;
+  border-radius: 10px;
 }
 
 .topnav {
