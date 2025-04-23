@@ -339,11 +339,11 @@ strong {
   font-weight: bold;
 }
 
-.rainbow-text {
+/* .rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}*/
 
 .upsidedown {
   display: Inline-block;
@@ -537,10 +537,6 @@ strong {
   #frontpagebuttons{
     padding-top:10px;
     text-align:center;
-  }
-
-  .welcome {
-
   }
 
 .frontpage {
@@ -806,7 +802,7 @@ blockquote {
 blockquote:before,
 blockquote:after {
   position: absolute;
-  color: #99000;
+  color: #990000;
   font-size: 33px;
   width: 4rem;
   height: 4rem;
