@@ -1,105 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="pinterest" content="nopin" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="robots" content="noimageindex">
-  <meta name="robots" content="noarchive">
-
-  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
-  <link href="css/" rel="stylesheet"  />
-  <script src="js/load.js"></script>
-  <script src=""></script>
-  
-  <title>Space Cadet</title>
-</head>
- 
-<body>
-  <div class="wrapper">
-  <div class="header">
-    <h1>Space Cadet</h1>
-    <div class="tagline">Just a girl floating through space...</div>
-  </div>
+---
+title: Space Cadet
+tagline: Just a girl floating through space...
+layout: layout/base.njk
+---
 
 
+<!-- Image and Hello -->
 
-
-  <div class="topnav">
-
-    <a href="index.html" id="navbutton">Home</a> 
-    <a href="shinies.html" id="navbutton">Shinies</a>
-
-    <div class="dropdown">
-      <button>About</button>
-      <div class="dropdown-content">
-          <a href="about.html">About Me</a>
-          <a href="use.html">/Use</a>
-      </div>
-  </div>
-
-
-    <div class="dropdown">
-      <button>Stuff</button>
-      <div class="dropdown-content">
-          <a href="lexicon.html">Lexicon</a>
-          <a href="vampire_rm.html">Vampire Resource Management</a>
-      </div>
-  </div>
-
-  <div class="dropdown">
-    <button>Books & Movies</button>
-    <div class="dropdown-content">
-        <a href="2025reads.html">Reading</a>
-        <a href="cozyfantasy.html">Cozy Fantasy Recs</a>
-        <a href="a24movies.html">A24 Movie Challenge</a>
-    </div>
-</div>
-
-  <div class="dropdown">
-    <button>Fandom</button>
-    <div class="dropdown-content">
-      <a href="100x100.html">100x100 User Pics</a>
-      <a href="friendsonly.html">Friends Only Banners</a>
-      <a href="moodthemes.html">LJ/DW Mood Themes</a>
-    </div>
-  </div>
-
-  <!--<a href="links.html" id="navbutton">Links</a>-->
-
-
-
-      <div class="dropdown">
-          <button>Site Stuff</button>
-          <div class="dropdown-content">
-              <a href="guestbook.html">Guestbook</a>
-              <a href="credits.html">Site Credits</a>
-              <a href="changelog.html">Changelog</a>
-              <a href="https://neocities.org/site/starbug">Neocities Profile</a>
-          </div>
-      </div>
-
-  </div>
-
-
-
-    
-
-  <div class="main">
-<!-- Main Content Start-->
-  <!-- Image and Hello -->
 <div class="floatleft"><img src="images/siteimgs/girl.png" width="200" alt="illustration of a woman with long brown hair wearing a red shirt"></div>
+
 <div>
 <h1>Hello!</h1>
 <p>I'm Starbug. This is my about me page. I don't think anyone is actually interested in this info but I guess its just something I want to add to say hey, I exist and I'm a real person.</p>
 <p>...Or am I?</p>
 <p>Anyway, here you find just a little about me, who I am and what I like or dislike.</p>
 </div>
+
 <!-- The Basics -->
 <div style="clear: both;"></div>
+
 <h2>The Basics</h2>
 <div class="stripedlist" style="clear: both;">
 <div>pronouns:</div><div>She/Her</div>
@@ -110,6 +29,7 @@
 <div>Dislikes:</div><div>bananas, weetbix, mushrooms, hot weather, ads, anti-lgbtq, high fantasy, memes, </div>
 <div>Interests:</div><div>Reading, Movies, TV, Gaming. Scifi and Horror. Hopepunk. Evil characters. Weird stuff. Citizen Science, Comparative religion, history.</div>
 </div> <!--striped list div-->
+
 <!-- Fun Facts -->
 <h2>Fun Facts</h2>
 <div>
@@ -120,6 +40,7 @@
     <li>My dream house is Gull Cottage from The Ghost and Mrs Muir (ghostly sea captain included). It doesn't have to be the exact house, just a cottage up on a cliffside overlooking a stormy rocky ocean. A lighthouse would work too.</li>
   </ol>
 </div>
+
 <h2>Fav Things</h3>
   <p>I may add pages for these at some point, but for now these are some of my favourite shows, games and music</p>
 <div class="favthings">
@@ -138,6 +59,7 @@
   <p>Team Fortess 2, Farming Simulator, Minecraft, No Man's Sky, Oxygen Not Included, Firewatch, Balatro, Stardew Valley, Craft the World, House Flipper, Vampire Survivors, World of Warcraft, </p>
 </div>
 </div>
+
 <!-- Anti-Bucket List -->
 <h2>Anti-Bucket List</h2>
 <div>
@@ -146,16 +68,6 @@
 <div class="stripedlist2">
 <div>Spelunking</div> <div>I have been in a cave several times, nice big open caves like the ones at Jenolean Caves where you go on a guided walking tour and see the beautiful rock formations. Do I ever want to exploring a deep dark cave with climbing gear and descending into the ground via crawl spaces and abseiling down cliffs? HELL NO. I have seen too many "trapped in a cave" movies for that lol</div>
 <div>Casu marzu/casgiu merzu</div><div>Its a type of edible rotting cheese that contains live maggots. That would be a great big NO for me.</div>
+
 <div>Visit DisneyLand/World</div><div>I have never wanted to go to Disney, even as a child. Nothing has changed my mind on that. Its not even the cost or the wait times (though that would be reason enough), I have just never found it interesting enough to want to go there I guess.</div>
 </div>
-
-<!-- Main Content End-->
-  </div> <!--main-->
-
-<!-- Footer -->
-<div class="footer">
-    Site by Stargbug 2022-2025
-</div>
-</div>
-</body>
-</html> 

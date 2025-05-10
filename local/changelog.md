@@ -7,10 +7,18 @@ layout: layout/base.njk
 <h1>Changelog</h1>
 <p>Just a way to look back on all the updates I have made. Should be every major update.</p>
 
-      <h2>2024 Updates</h2>
+
+
+
+     
       <div class="updatebox">
+
+            <h2>2025 Updates</h2>
+
 <p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. 
 </p>
+
+      <h2>2024 Updates</h2>
         <p>
           <strong>3rd September 2024:</strong> added a lexicon/book of words with some cool words that I like in it. Fixed a few things behind the scenes.  
         </p>

@@ -37,7 +37,7 @@ layout: layout/base.njk
 <h2>Browser + Extensions</h2>
   <p>For browsing the internet I use <a href="https://brave.com/">Brave Browser</a>, which to be honest I am not a huge fan of, especially its crypto enhancements, but I prefer it over every other chrome based browser. I chromecast a lot so I need a chrome based browser and Brave seems to be the better of the lot.</p>
 
-          <p>Some of my favourite browser extensions are:</p>
+   <p>Some of my favourite browser extensions are:</p>
     <div class="usebox">
         <ul>
             <li><a href="https://chromewebstore.google.com/detail/enable-right-click/hhojmcideegachlhfgfdhailpfhgknjm">Enable Right Click</a> - this enables right click on pages that disable right click</li>
@@ -108,5 +108,3 @@ layout: layout/base.njk
   </ul>
 </div>
 
-
-</div>

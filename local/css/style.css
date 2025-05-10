@@ -161,7 +161,7 @@ test mf
 /* Main Layout */
 
 .wrapper {
-  width:80%;
+  width:85%;
   margin: auto;
   max-width: 1000px;
 }
@@ -190,6 +190,7 @@ body {
   grid-area: header;
   background: var(--pallette1);
   margin:20px;
+  margin-bottom: 10px;
   padding: 10px;
   border-bottom: var(--pallette3) solid 15px;
   border-radius: 10px;
@@ -199,6 +200,8 @@ body {
   grid-area: topnav;
   background: var(--pallette4);
   border-radius: 10px;
+  border-style: solid;
+  border-color: var(--pallette5);
   padding: 20px;
   margin: 20px;
   margin-top: 10px;
@@ -228,7 +231,7 @@ margin-top: 10px;
 margin-bottom:10px;
 border-radius: 10px;
 padding-top: 10px;
-
+padding-bottom:10px;
 }
 
 /* Header */
@@ -549,14 +552,8 @@ strong {
 
 .frontpage {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    width: 100%;
-    overflow: auto;
-    flex-direction: row;
-    align-items: stretch;
 }
 
 .frontpage div {
@@ -991,8 +988,7 @@ blockquote:after {
   content: " ";
  }
 
-
-
+ /* =========== Other Views ============= */ 
 
  @media only screen and (max-width:900px) {
   body {
@@ -1027,12 +1023,20 @@ blockquote:after {
   #navbutton, .dropdown button { 
     margin-bottom: 10px;
   }
+ 
+  .todobox {
+     margin: auto; 
+    padding:10px;
+    min-width: 200px;
+    max-width: 500px;
+   }
+
+   .favthings {
+    display: flex;
+    flex-direction: column;
+  }
+
  }
-
-
-
-
-
 
 @media only screen and (max-width:600px) {
 
@@ -1070,8 +1074,16 @@ body {
     margin-bottom: 10px;
   }
 
+  .frontpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-
+  .favthings {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
@@ -1080,6 +1092,5 @@ body {
 
 
 /*====================================================================*/
-
 
 

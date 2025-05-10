@@ -14,20 +14,23 @@ layout: layout/base.njk
   <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
 </div>
 
-<h2>General Stuff</h2>
+<h2>Site Stuff</h2>
  <ul>
-   <li><a href="https://neocities.org/">Neocities</a> for site hosting</li>
+   <li><a href="https://vscodium.com/">VSCodium</a> is the app I use to write my code. Its an open source binary of VSCode without Microsofts tracking. </li>
+   <li> <a href="https://www.11ty.dev/">11ty Static Site Generator</a> to make static pages from my code </li>
+  <li><a href="https://neocities.org/">Neocities</a> for site hosting</li>
+  <li><a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Tutorial</a> by PetraPixel for deploying to Neocities</li>
+<li></li>
+
+
    <li><a href="https://www.goodreads.com/user/edit?tab=widgets">Goodreads Widgets</a> for anywhere you see book covers</li>
    <li><a href="https://www.30secondsofcode.org/css/s/zebra-striped-list/">Striped list</a> by 30 seconds of code</li>
    <li>Freeze Gifs code by ??? </li>
-
-   <li><a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Tutorial</a> by PetraPixel for deploying to Neocities</li>
-
    <li><a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents Snippet</a> generates from headings</li>
 
    <li><a href="https://atabook.org">ATABook</a> - Guestbook</li>
 
-   <li><a href="https://loveberry.nekoweb.org/resources/text">Loveberry's CSS Text Effects</a> - some of the text effects</li>
+
 
    </ul>
 
@@ -40,6 +43,8 @@ layout: layout/base.njk
   <li>Font: <span style="font-family: lato";>Lato</span> from <a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>
   <li>Font: <span style="font-family: cherryswash";>CherrySwash</span> by <a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>
   <li>Font: <span style="font-family: basiic";>Basiic</span> by <a href="https://cinni.net/?z=/font">Cinni</a></li>
+  <br>
+     <li><a href="https://loveberry.nekoweb.org/resources/text">Loveberry's CSS Text Effects</a> - some of the text effects</li>
 
 </ul>
 

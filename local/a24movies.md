@@ -267,28 +267,47 @@ layout: layout/base.njk
 <div></div><div></div><div>2024</div><div>Babygirl</div>
 </div>
 
-
-<h3>2025 / Unknown</h3>
+<!--2025-->
+<h3>2025</h3>
 <div class="A24">
-<!--upcoming-->
-            <div></div><div></div><div></div><div>On Becoming a Guinea Fowl</div>
-              <div></div><div></div><div></div><div>Parthenope</div>
-              <div></div><div></div><div></div><div>The Smashing Machine</div>
-              <div></div><div></div><div></div><div>Bring Her Back</div>
-              <div></div><div></div><div></div><div>Death of a Unicorn</div>
-              <div></div><div></div><div></div><div>Eddington</div>
-              <div></div><div></div><div></div><div>Eternity</div>
-              <div></div><div></div><div></div><div>High and Low</div>
-              <div></div><div></div><div></div><div>Huntington</div>
-              <div></div><div></div><div></div><div>If I Had Legs I'd Kick You</div>
-              <div></div><div></div><div></div><div>The Legend of Ochi</div>
-              <div></div><div></div><div></div><div>Materialists</div>
-              <div></div><div></div><div></div><div>Mother Mary</div>
-              <div></div><div></div><div></div><div>Opus</div>
-              <div></div><div></div><div></div><div>Untitled haenyeo documentary</div>
-              <div></div><div></div><div></div><div>Warfare</div>
-              <div></div><div></div><div></div><div>Wizards!</div>
+  <div></div><div></div><div>2025</div><div>Parthenope</div>
+  <div></div><div></div><div>2025</div><div>On Becoming a Guinea Fowl</div>
+  <div></div><div></div><div>2025</div><div>Opus</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
+  <div></div><div></div><div>2025</div><div>Warfare</div>
+  <div></div><div></div><div>2025</div><div>The Legend of Ochi</div>
+  <div></div><div></div><div>2025</div><div>Friendship</div>
+  <div></div><div></div><div>2025</div><div>Bring Her Back</div>
+  <div></div><div></div><div></div><div>Materialists</div>
+  <div></div><div></div><div></div><div>Sorry Baby</div>
+  <div></div><div></div><div></div><div>Eddington</div>
+  <div></div><div></div><div></div><div>Highest 2 Lowest</div>
+  <div></div><div></div><div></div><div>The Smashing Machine</div>
+    <div></div><div></div><div></div><div>Marty Supreme</div>
+      <div></div><div></div><div></div><div>Andre is an Idiot</div>
+  <div></div><div></div><div></div><div>Architecton</div>
+  <div></div><div></div><div></div><div>Eternity</div>
+  <div></div><div></div><div></div><div>If I Had Legs I'd Kick You</div>
+  <div></div><div></div><div></div><div>Mother Mary</div>
+  <div></div><div></div><div></div><div>Pillion</div>
+</div>
 
-          </div>
+
+<!--upcoming-->
+ <h3>2026 / Unknown</h3>
+<div class="A24">
+  <div></div><div></div><div></div><div>Altar</div>
+  <div></div><div></div><div></div><div>Famous</div>
+  <div></div><div></div><div></div><div>Huntington</div>            
+  <div></div><div></div><div></div><div>Onslaught</div>
+  <div></div><div></div><div></div><div>Primetime</div>
+  <div></div><div></div><div></div><div>The Death of Robin Hood</div>
+  <div></div><div></div><div></div><div>The Drama</div>
+  <div></div><div></div><div></div><div>The Entertainment System is Down</div>
+  <div></div><div></div><div></div><div>The Moment</div>
+  <div></div><div></div><div></div><div>Untitled musical comedy</div>
+  <div></div><div></div><div></div><div>Wizards!</div>
+
+  </div>
 
 <!--<div>&#9733;</div><div>&#9473;</div><div>year</div><div>Blank line</div>-->

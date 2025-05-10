@@ -8,8 +8,12 @@ cssFile: "books.css"
 {% include "partials/readingyears.njk" %}
 
 <h1>2025 Reads</h1>
-  <p>Below are all the books I read in 2025 (so far). To see previous years, click the years above⬆</p>
-  <p>I think the ones I enjoyed the most are:</p>
+  <p>Below are all the books I read in 2025 (so far). I will admit, I am in a bit of a reading slump this year, and mostly I have just read a bunch of fanfic. Reading is reading though, right? </p> 
+  
+  <p>To see previous years, click the years above⬆</p>
+
+
+ <!-- <p>I think the ones I enjoyed the most are:</p>
   <ul>
     <li><strong>&#9733;</strong>...</li>
 
@@ -21,6 +25,7 @@ cssFile: "books.css"
   <ul>
     <li><strong>✗</strong>...</li> 
   </ul>
+  --> 
 
 
 <h2>2025 Reads</h2>
