@@ -10,11 +10,31 @@
   <meta name="robots" content="noarchive">
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
   <link href="css/" rel="stylesheet"  />
   <script src="js/load.js"></script>
   <script src=""></script>
-  
+
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>Space Cadet</title>
 </head>
  
@@ -55,6 +75,7 @@
     <div class="dropdown-content">
         <a href="2025reads.html">Reading</a>
         <a href="cozyfantasy.html">Cozy Fantasy Recs</a>
+        <!--<a href="movies.html">Favourite Movies</a>-->
         <a href="a24movies.html">A24 Movie Challenge</a>
     </div>
 </div>
@@ -82,7 +103,16 @@
           </div>
       </div>
 
-  </div>
+ <div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+ <a href="#" onclick="setTheme('css/style.css')">Default</a>
+ <a href="#" onclick="setTheme('css/bluestyle.css')">Blue</a>
+</div>
+</div>
+
+</div>
 
 
 
@@ -152,7 +182,7 @@ If some crazy reason you want to link to me, here's a boring button:</p></p>
 <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31px" title="Powered by a human!" alt=""></a>
 <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a>
 <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt="">
-<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>
+<!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>-->
 <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 </div>
 

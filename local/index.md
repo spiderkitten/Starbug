@@ -49,6 +49,7 @@ layout: layout/base.njk
 </div>
 
 <div class="todobox">
+
 <h2>Randomosity</h2>
 <p>I'll probably add some webrings or something here sooooon</p>
 
@@ -96,6 +97,6 @@ layout: layout/base.njk
 <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31px" title="Powered by a human!" alt=""></a>
 <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a>
 <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt="">
-<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>
+<!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>-->
 <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 </div>

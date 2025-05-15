@@ -10,11 +10,31 @@
   <meta name="robots" content="noarchive">
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
   <link href="css/" rel="stylesheet"  />
   <script src="js/load.js"></script>
   <script src=""></script>
-  
+
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>Space Cadet</title>
 </head>
  
@@ -55,6 +75,7 @@
     <div class="dropdown-content">
         <a href="2025reads.html">Reading</a>
         <a href="cozyfantasy.html">Cozy Fantasy Recs</a>
+        <!--<a href="movies.html">Favourite Movies</a>-->
         <a href="a24movies.html">A24 Movie Challenge</a>
     </div>
 </div>
@@ -82,7 +103,16 @@
           </div>
       </div>
 
-  </div>
+ <div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+ <a href="#" onclick="setTheme('css/style.css')">Default</a>
+ <a href="#" onclick="setTheme('css/bluestyle.css')">Blue</a>
+</div>
+</div>
+
+</div>
 
 
 
@@ -118,6 +148,7 @@
     <li>When I was in year 6 (6th grade), I won my school's book week costume contest. I was The Ghost of Christmas Past from A Christmas Carol. I wore a white sheet and carried some chains. Scary. lol</li>
     <li>My favourite alchohol drink is Gin and Elderberry</li>
     <li>My dream house is Gull Cottage from The Ghost and Mrs Muir (ghostly sea captain included). It doesn't have to be the exact house, just a cottage up on a cliffside overlooking a stormy rocky ocean. A lighthouse would work too.</li>
+    <li>Onions don't make me cry. I could chop onions for hours and hours.</li>
   </ol>
 </div>
 <h2>Fav Things</h3>

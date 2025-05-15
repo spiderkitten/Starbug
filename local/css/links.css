@@ -4,154 +4,156 @@
 
   /* ==== link filtering ==== */
 
-    /* hide the radio input so it looks like a regular button*/ 
-    input[type=radio] {
-        visibility:hidden;
-        width:0px;
-        height:0px;
-        padding:0px;
-        margin:0px;
-        margin-bottom:20px;
-        margin-top: 20px;
-        }
-    
-        /* style the "button" */
-        label {
+.linkmenu{
+  text-align: center;
+}
+
+
+        /* style the menu */
+        .linkmenu a {
         background-color: var(--pallette1);
         color: var(--pallette4);
-        padding: 8px;
-        margin: 0px;
+        padding: 10px;
         border-radius:10px;
-        cursor: pointer; /* makes it a pointy finger when hovering over*/
+        cursor: pointer; /* makes it a pointy finger when hovering over*/ 
+        display: inline-block;
+          font-family: var(--fontmain);
+          margin-top: 5px;
         }
-    
-        /* change the colour of the "button" when clicked */
-        input[type="radio"]:checked + label{
-        background-color: var(--pallette8);
-        }
-    
-        /* change colour of button when hovering over it */
-        label:hover {
+ 
+  
+        .linkmenu a:hover {
         background: var(--pallette8);
+              color: var(--pallette4);        
+        text-decoration: none;
         }
-    
-    
-    
-        /* hide links so they only show up when tag selected */
-        .collection:has(input:checked) span {
-        display: none;}
-    
-    
-        /* display all links when all is selected */
-        .collection:has(#all:checked) span {
-        display: inline-block;
-        width:100%;
-      }
-    
-    
-    
-      /* display only items with selected tag */
 
-          /* TEMPLATE 
-    
-        .collection:has(#test1:checked) span[class~="test1"] {
-          display: inline-block;
-          width:100%;
-        }
-    */
-    
-        .collection:has(#citscience:checked) span[class~="citscience"] {
-        display: inline-block;
-        width:100%;
-      }
-    
-      .collection:has(#fun:checked) span[class~="fun"] {
-        display: inline-block;
-        width:100%;
-      }
-    
-    
-      .collection:has(#gaming:checked) span[class~="gaming"] {
-        display: inline-block;
-        width:100%;
-      }
-    
-      .collection:has(#useful:checked) span[class~="useful"] {
-        display: inline-block;
-        width:100%;
-      }
-    
-        .collection:has(#sitecreation:checked) span[class~="sitecreation"] {
-        display: inline-block;
-        width:100%;
-      }          
-    
-    
-        .collection:has(#youtube:checked) span[class~="youtube"] {
-        display: inline-block;
-        width:100%;
-      }
-    
-    
 
-    
-          /* style the link box*/
-          .linkbox {
+/* Category Box*/
+
+          .categorybox {
           background-color: var(--pallette5);
           border-color: var(--pallette2);
           border-style: solid;
           border-width: 3px;
           padding: 10px;
+          padding-top: 0px;
           border-radius: 10px;
           margin: 10px auto 20px auto;
-          width:70%;
+          width:90%;
           }
 
-          .linkbox:hover {
+          .categorybox:hover {
             border-color: var(--pallette8);
             border-width: 3px;
         }
     
-          .linkbox a:link {
-            font-weight:600;
-            color: var(--pallette1);
-            padding: 0px;
-          }
-  
-          .linkbox a:hover {
-  
-          }
-  
-          .linkbox a:visited {
-  
-          }
-  
-          .tag {
-            display: inline-block;
-  font-family: var(--fonttagline);
-  font-size: 12px;
-  color: var(--pallette2);
-  background-color:#588d54; 
-  border-radius: 5px;
-  color:#ffffff;
-  padding:5px;
-  margin-top:5px;
-  
-          }
-
-    .description {
-      padding-top: 10px;
-    }
 
 
-  
-          #linkweb:before {
+
+
+
+
+ /* Style the categories*/
+ .categorytitle {
+  background-color: var(--pallette2);
+  color: var(--pallette4);
+  border-radius: 10px;
+}
+
+.categorysubtitle {
+  background-color: var(--pallette8);
+  color: var(--pallette4);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-left:10px;
+}
+
+
+      /* icons before titles */
+
+      #neosites:before {
+        background: var(--neositesbefore);
+        width:32px;
+        height:32px;
+        padding: 5px 20px;
+        content: " ";
+      } 
+
+          #smallweb:before {
             background: var(--imgwebbefore);
             width:32px;
             height:32px;
             padding: 5px 20px;
             content: " ";
           } 
+
+
+          #citsci:before {
+            background: var(--citscibefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+          #fun:before {
+            background: var(--funbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+          #gaming:before {
+            background: var(--gamingbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+          #useful:before {
+            background: var(--usefulbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+
+
+     
+          /* style the links*/
+
+
+          .categorybox a:link {
+            font-weight:600;
+            color: var(--pallette2);
+            padding: 0px;
+          }
+
+            /* style the link description */
+    .description {
+      padding-bottom: 10px;
+      padding-left: 10px;
+      border-bottom: 2px dashed var(--pallette4);
+      margin-bottom: 15px;
+      margin-top: 5px;
+    }
+
+
+
+
+  
+ 
+  
+ 
+
+
+
+  
+
 
 
 

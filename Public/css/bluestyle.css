@@ -1,0 +1,33 @@
+/* ==============================
+CSS by Starbug  
+https://starbug.neocities.org  
+
+Style Name: Green Picnic 
+
+Feel free to copy sections of my code to create your own style, no credit necessary. 
+
+But please don't rip off my entire style sheet 
+Don't claim the style sheet as your own 
+Don't redistribute the entire style sheet   
+
+ ============================== */
+@import url('style.css'); 
+
+:root {
+
+  /* gingham background */
+  --background-color: linear-gradient(90deg, #006bc880 50%, transparent 0), linear-gradient(#003fc780 50%, transparent 0 );
+  --background-size:30px 30px;
+
+  /* colours */
+  --pallette1:#1f8abf; /* header bg */
+  --pallette2: #54618d; /* backgrounds */
+  --pallette3: #222222; /* font and also divider under header*/
+  --pallette4: #ffffff; /* content background */
+  --pallette5: #0025c81e; /* info boxes */
+  --pallette6: #6c548d34; /* warning box */
+  --pallette7: #1f2fbf4a; /* two column list - right*/
+  --pallette8: #96a2fe; /* two column list - left*/
+
+}
+

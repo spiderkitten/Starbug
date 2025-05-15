@@ -10,11 +10,31 @@
   <meta name="robots" content="noarchive">
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
   <link href="css/{{ cssFile }}" rel="stylesheet"  />
   <script src="js/load.js"></script>
   <script src="{{ script }}"></script>
-  
+
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>{{ title }}</title>
 </head>
  

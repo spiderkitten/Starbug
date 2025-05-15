@@ -22,21 +22,29 @@ Default Links & Lists
 Stuff used on multiple pages
 
 INDEX PAGE
-ABOUT PAGE 
+SHINIES
+ABOUT ME PAGE 
+USE PAGE
 
 BOOK OF WORDS / LEXICON
-GUESTBOOK 
-100x100 ICONS
-BOOK PAGES
 VAMPIRE MANAGEMENT PAGE
-COMMONPLACE BOOK
-A24 MOVIES
 
 
-FAV MOVIES
+BOOK PAGES
+MOVIE PAGES
+MUSIC PAGES
 
-test mf
-============================== */ 
+FANDOM PAGES (100x100 ICONS / FRIENDS ONLY / MOOD THEMES)
+
+
+GUESTBOOK
+SITE CREDITS
+CHANGELOG
+
+ MEDIA QUERIES (Accessibility)
+
+
+/*====================================================================*/ 
 
 /* Variables - cosmetic things that can be changed */
 :root {
@@ -99,6 +107,11 @@ test mf
   --imgmovfamilybefore: url(../images/siteimgs/movies/family.png) no-repeat;
 
   --imgwebbefore: url(../images/siteimgs/links/coding.png) no-repeat;
+  --neositesbefore: url(../images/siteimgs/links/neosites.png) no-repeat;
+  --citscibefore: url(../images/siteimgs/links/scientist.png) no-repeat;
+  --funbefore: url(../images/siteimgs/links/fun.png) no-repeat;
+  --gamingbefore: url(../images/siteimgs/links/gaming.png) no-repeat;
+  --usefulbefore: url(../images/siteimgs/links/useful.png) no-repeat;
 }
 
 /* FONTS */
@@ -126,37 +139,6 @@ test mf
   font-family: CherrySwashBold;
     src: url(../fonts/CherrySwash-Bold.otf) format("truetype");
 }
-
-@font-face{
-  font-family: 'CartoonistHand';
-       src: url('../fonts/Cartoonist_Hand.woff') format('woff');
-}
-
-@font-face{
-  font-family: 'CartoonistHandBold';
-       src: url('../fonts/CartoonistHandBold.woff') format('woff');
-}
-
-@font-face{
-  font-family: 'walterturncoat';
-       src: url('../fonts/walterturncoat.woff') format('woff');
-}
-
-@font-face{
-  font-family: 'basiic';
-       src: url('../fonts/basiic.ttf') format('truetype');
-}
-
-@font-face{
-  font-family: 'inter';
-       src: url('../fonts/Inter.ttf') format('truetype');
-}
-
-@font-face{
-  font-family: 'inter-italic';
-       src: url('../fonts/Inter-Italic.ttf') format('truetype');
-}
-
 
 /* Main Layout */
 
@@ -262,15 +244,14 @@ padding-bottom:10px;
 
 #navbutton, .dropdown button { 
   border: 0;
-  font-size: 1.2em;
+  font-size:16px ;
   color: var(--pallette4);
   text-decoration: none;
-  padding: 4px 10px;
+  padding: 10px;
   background-color: var(--pallette2);
   border-radius: 10px;
   font-family: var(--fontmain);
-
-
+  margin-top: 5px;
 }
 
   #navbutton:hover, .dropdown button:hover {
@@ -309,7 +290,6 @@ padding-bottom:10px;
   color: var(--pallette4); 
   text-decoration:none;
 }
-
 
 
 /* Text Formatting */
@@ -488,125 +468,126 @@ strong {
     }
 
 
-
-
-
-  /*====================================================================*/
+/*====================================================================*/
   /* INDEX PAGE */ 
 
     /* image before welcome heading */
-  #spin {
-    /*background: var(--imgwelcomebefore);*/
-    padding: 0 4px;
-    vertical-align: middle;
-    animation: spin 3s infinite linear;
-  }
-
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
+    #spin {
+      /*background: var(--imgwelcomebefore);*/
+      padding: 0 4px;
+      vertical-align: middle;
+      animation: spin 3s infinite linear;
     }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-
-    /* Warning box on front page - box and image before the warning */
-  #warning {
-    background-color: var(--pallette8);
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-    margin: 20px auto 15px 20px;
-  }
-
-  #warning .marqueewarning {
-    overflow: hidden;
-    }
- 
-    .marquee {
-      animation: marquee 20s linear infinite;
-      display: inline-block;
-      white-space: nowrap;
- 
- }
-
- .marquee:hover {
-  animation-play-state: paused;
-}
-
-
-
-
-
-
-  @keyframes marquee {
-    0% {
-      margin-left: 100%;
-      transform: translateX(0%);
-    }
-    100% {
-      margin-left: 0;
-      transform: translateX(-100%);
-    }
-  }
-
   
-    /* button on front page */
-  #frontpagebuttons{
-    padding-top:10px;
-    text-align:center;
-  }
-
-.frontpage {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.frontpage div {
-
-  margin: 5px;
-}
-
-
-  .updatebox {
-   background-color: var(--pallette5);
-    border-color: var(--pallette2);
-    border-style: dashed;
-    margin: auto; 
-    padding:10px;
-    overflow: hidden; 
-    min-width: 200px;
-    max-width: 500px;
-  }
-
-  .todobox {
-    background-color: var(--pallette6);
-     border-color: var(--pallette7);
-     border-style: dashed;
-     margin: auto; 
-    padding:10px;
-    min-width: 200px;
-    max-width: 300px;
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  
+  
+      /* Warning box on front page - box and image before the warning */
+    #warning {
+      background-color: var(--pallette8);
+      padding: 5px 5px 5px 5px;
+      border-radius: 10px;
+      margin: 20px auto 15px 20px;
+    }
+  
+    #warning .marqueewarning {
+      overflow: hidden;
+      }
+   
+      .marquee {
+        animation: marquee 20s linear infinite;
+        display: inline-block;
+        white-space: nowrap;
+   
    }
-
-
-   .linkmebox {
-    background-color: var(--pallette6);
-     border-color: var(--pallette7);
-     border-style: dashed;
-     margin: auto; 
-    padding:10px;
-    max-width: 830px;
-   }
+  
+   .marquee:hover {
+    animation-play-state: paused;
+  }
+  
+  
+  
+  
+  
+  
+    @keyframes marquee {
+      0% {
+        margin-left: 100%;
+        transform: translateX(0%);
+      }
+      100% {
+        margin-left: 0;
+        transform: translateX(-100%);
+      }
+    }
+  
+    
+      /* button on front page */
+    #frontpagebuttons{
+      padding-top:10px;
+      text-align:center;
+    }
+  
+  .frontpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .frontpage div {
+  
+    margin: 5px;
+  }
+  
+  
+    .updatebox {
+     background-color: var(--pallette5);
+      border-color: var(--pallette2);
+      border-style: dashed;
+      margin: auto; 
+      padding:10px;
+      overflow: hidden; 
+      min-width: 200px;
+      max-width: 500px;
+    }
+  
+    .todobox {
+      background-color: var(--pallette6);
+       border-color: var(--pallette7);
+       border-style: dashed;
+       margin: auto; 
+      padding:10px;
+      min-width: 200px;
+      max-width: 300px;
+     }
+  
+  
+     .linkmebox {
+      background-color: var(--pallette6);
+       border-color: var(--pallette7);
+       border-style: dashed;
+       margin: auto; 
+      padding:10px;
+      max-width: 830px;
+     }
+  
+  
+/*====================================================================*/
+  /* SHINIES PAGE */ 
 
 
 /*====================================================================*/
 
-/* ABOUT PAGE */
-
-  /* basics table */
+/*====================================================================*/
+  /* ABOUT ME PAGE */ 
+/* basics table */
 
 .stripedlist {
   display: grid;
@@ -680,9 +661,17 @@ overflow: hidden;
 padding:10px
   }
 
+
 /*====================================================================*/
 
-/* BOOK OF WORDS / LEXICON */ 
+/*====================================================================*/
+  /* USE PAGE */ 
+
+
+/*====================================================================*/
+
+/*====================================================================*/
+  /* LEXICON PAGE */ 
 
 /* table */
 
@@ -709,58 +698,10 @@ padding:10px
 
 
 
-
 /*====================================================================*/
 
-/* GUESTBOOK PAGE */ 
-
-      #gbook {
-        display:block;
-        width:90%;
-        margin:auto;
-        padding:10px;
-        border: none;
-        overflow: hidden;
-        height: 1300px;
-      }
-
 /*====================================================================*/
-
-/* 100x100 ICONS PAGES */ 
-
-.iconbox{
-  background-color: var(--pallette5);
-  border:dotted;
-  border-color: var(--pallette7);
-  padding:10px;
-  margin-bottom: 25px;
-}
-
-.iconbox h3 {
-  background-color: var(--pallette7);
-}
-
-.arrow {
-  border: solid var(--pallette2);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-
-/*====================================================================*/
-
-
-
-/*====================================================================*/
-
-/* VAMPIRE MANAGEMENT PAGE */ 
-
+  /* VAMPIRE RESOURCE MANAGEMENT PAGE */ 
 
 .vampinfobox  {
   background-color: var(--pallette5);
@@ -779,61 +720,14 @@ cite {
 
 /*====================================================================*/
 
-/* COMMONPLACE BOOK PAGE */ 
+/*====================================================================*/
+  /* BOOK PAGES */ 
 
-  /* divider */
-.divider::after {
-  content: "";
-  display: block;
-  width: 50%;
-  border-top: var(--dividerstyle);
-  margin: auto;
-  padding-top: 10px;
-}
-
-      /*  blockquote */
-
-.quote { 
-  font-family: var(--fontquote);
-  color: #3f3f5a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top:10px;
-  padding-bottom: 10px;
-}
-
-blockquote {
-  font-size: 16px;
-  position: relative;
-  margin: 0;
-  padding: .5rem;
-  width:60%;
-}
-
-blockquote:before,
-blockquote:after {
-  position: absolute;
-  color: #990000;
-  font-size: 33px;
-  width: 4rem;
-  height: 4rem;
-}
-
-blockquote:before {
-  content: '“';
-  left: -50px;
-  top: -5px;
-}
-
-blockquote:after {
-  content: '”';
-  right: -5rem;
-  bottom: -50px;
-}
 
 /*====================================================================*/
+
+/*====================================================================*/
+  /* MOVIES PAGES */ 
 
 /* A24 MOVIES PAGE */ 
 
@@ -877,8 +771,6 @@ blockquote:after {
 .A24 div:nth-child(4n-4) {
   background: var(--pallette8);
 }
-
-/*====================================================================*/
 
 /* FAV MOVIES PAGE */ 
 
@@ -995,110 +887,192 @@ blockquote:after {
   padding: 5px 20px;
   content: " ";
  }
+/*====================================================================*/
 
- /* =========== Other Views ============= */ 
+/* MUSIC PAGES */
 
- @media only screen and (max-width:900px) {
-  body {
-   
-    grid-template-areas:
-      'header'
-      'topnav'     
-      'main'
-      'footer';
-      grid-template-columns: 100%;
-      grid-template-rows: 150px 120px 1fr 100px;
-  }
-  .header h1 {
-    color: var(--pallette2);
-    font-family:var(--fonttitle);
-    text-shadow: var(--titletextshadow);
-    text-align: center;
-    font-size: 60px;
-    letter-spacing: 5px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-
-  .topnav {
-    grid-area: topnav;
-    padding: 20px;
-    margin: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  #navbutton, .dropdown button { 
-    margin-bottom: 10px;
-  }
- 
-  .todobox {
-     margin: auto; 
-    padding:10px;
-    min-width: 200px;
-    max-width: 500px;
-   }
-
-   .favthings {
-    display: flex;
-    flex-direction: column;
-  }
-
- }
-
-@media only screen and (max-width:600px) {
-
-body {
-   
-    grid-template-areas:
-      'header'
-      'topnav'     
-      'main'
-      'footer';
-      grid-template-columns: 100%;
-      grid-template-rows: 150px 180px 1fr 100px;
-  }
-
-  .header h1 {
-    color: var(--pallette2);
-    font-family:var(--fonttitle);
-    text-shadow: var(--titletextshadow);
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 5px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-
-  .topnav {
-    grid-area: topnav;
-    padding: 20px;
-    margin: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  #navbutton, .dropdown button { 
-    margin-bottom: 10px;
-  }
-
-  .frontpage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .favthings {
-    display: flex;
-    flex-direction: column;
-  }
-
+#musicwebplayer {
+display:block;
+  width:90%;
+  margin:auto;
+  padding:10px;
+  border: none;
+  overflow: hidden;
+  height: 250px;
+  width: 600px;
 }
 
+/*====================================================================*/
+
+/*====================================================================*/
+  /* FANDOM PAGES */ 
+
+  /* 100x100 ICONS PAGES */ 
+
+.iconbox{
+  background-color: var(--pallette5);
+  border:dotted;
+  border-color: var(--pallette7);
+  padding:10px;
+  margin-bottom: 25px;
+}
+
+.iconbox h3 {
+  background-color: var(--pallette7);
+}
+
+.arrow {
+  border: solid var(--pallette2);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+
+/*====================================================================*/
+
+/*====================================================================*/
+  /* GUESTBOOK */ 
+
+  #gbook {
+    display:block;
+    width:90%;
+    margin:auto;
+    padding:10px;
+    border: none;
+    overflow: hidden;
+    height: 1300px;
+  }
+
+/*====================================================================*/
+
+/*====================================================================*/
+  /* SITE CREDITS */ 
+
+
+/*====================================================================*/
+
+/*====================================================================*/
+  /* CHANGELOG */ 
+
+
+/*====================================================================*/
+
+/*====================================================================*/
+  /* MEDIA QUERIES */ 
+
+  @media only screen and (max-width:900px) {
+    body {
+     
+      grid-template-areas:
+        'header'
+        'topnav'     
+        'main'
+        'footer';
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 120px 1fr 100px;
+    }
+    .header h1 {
+      color: var(--pallette2);
+      font-family:var(--fonttitle);
+      text-shadow: var(--titletextshadow);
+      text-align: center;
+      font-size: 60px;
+      letter-spacing: 5px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  
+    .topnav {
+      grid-area: topnav;
+      padding: 20px;
+      margin: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    #navbutton, .dropdown button { 
+      margin-bottom: 10px;
+      font-size:14px ;
+    }
+
+   
+    .todobox {
+       margin: auto; 
+      padding:10px;
+      min-width: 200px;
+      max-width: 500px;
+     }
+  
+     .favthings {
+      display: flex;
+      flex-direction: column;
+    }
+  
+   }
+  
+  @media only screen and (max-width:600px) {
+  
+  body {
+     
+      grid-template-areas:
+        'header'
+        'topnav'     
+        'main'
+        'footer';
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 180px 1fr 100px;
+    }
+  
+    .header h1 {
+      color: var(--pallette2);
+      font-family:var(--fonttitle);
+      text-shadow: var(--titletextshadow);
+      text-align: center;
+      font-size: 50px;
+      letter-spacing: 5px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  
+    .topnav {
+      grid-area: topnav;
+      padding: 20px;
+      margin: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    #navbutton, .dropdown button { 
+      margin-bottom: 10px;
+    }
+  
+    .frontpage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .favthings {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
+  
+  
+/*====================================================================*/
 
 
 
 
 /*====================================================================*/
+  /* EMPTY PAGE */ 
 
 
+/*====================================================================*/

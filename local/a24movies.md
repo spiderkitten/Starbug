@@ -43,7 +43,7 @@ layout: layout/base.njk
 <div></div><div></div><div>2014</div><div>Obvious Child</div>
 <div></div><div>&#10003;</div><div>2014</div><div>The Rover</div>
 <div>✗</div><div>&#10003;</div><div>2014</div><div>Life After Beth</div>
-<div></div><div></div><div>2014</div><div>Tusk</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Tusk</div>
 <div></div><div>&#10003;</div><div>2014</div><div>Laggies</div>
 <div></div><div>&#10003;</div><div>2014</div><div>Revenge of the Green Dragons</div>
 <div>&#9733;</div><div>&#10003;</div><div>2014</div><div>The Captive</div>
@@ -56,7 +56,7 @@ layout: layout/base.njk
 
 <div></div><div>&#10003;</div><div>2015</div><div>Son of a Gun</div>
 <div></div><div>&#10003;</div><div>2015</div><div>While We're Young</div>
-<div></div><div></div><div>2015</div><div>Cut Bank</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Cut Bank</div>
 <div></div><div>&#10003;</div><div>2015</div><div>Ex Machina</div>
 <div></div><div>&#10003;</div><div>2015</div><div>Slow West</div>
 <div></div><div>&#10003;</div><div>2015</div><div>Barely Lethal</div>
@@ -69,9 +69,9 @@ layout: layout/base.njk
 </div>
 <!--2016-->
 <h3>2016</h3>
-              <div class="A24">
+  <div class="A24">
 
-<div></div><div></div><div>2016</div><div>Mojave</div>
+<div></div><div>&#10003;</div><div>2016</div><div>Mojave</div>
 <div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Witch</div>
 <div></div><div>&#10003;</div><div>2016</div><div>Remember</div>
 <div></div><div></div><div>2016</div><div>Krisha</div>
@@ -114,7 +114,7 @@ layout: layout/base.njk
 
 <!--2018-->
 <h3>2018</h3>
-              <div class="A24">
+            <div class="A24">
             <div></div><div></div><div>2018</div><div>The Vanishing of Sidney Hall</div>
             <div></div><div></div><div>2018</div><div>The Last Movie Star</div>
             <div></div><div></div><div>2018</div><div>Lean on Pete</div>
@@ -209,7 +209,7 @@ layout: layout/base.njk
 <div></div><div></div><div>2022</div><div>The Inspection</div>
 <div></div><div></div><div>2022</div><div>White Noise</div>
 <div></div><div></div><div>2022</div><div>Close</div>
-<div></div><div></div><div>2022</div><div>The Eternal Daughter</div>
+<div></div><div>&#10003;</div><div>2022</div><div>The Eternal Daughter</div>
 <div></div><div></div><div>2022</div><div>The Whale</div>
 <div></div><div></div><div>2022</div><div>This Place Rules</div>
 </div>
@@ -267,14 +267,14 @@ layout: layout/base.njk
 <div></div><div></div><div>2024</div><div>Babygirl</div>
 </div>
 
-<!--2025-->
+<!-- 2025 -->
 <h3>2025</h3>
 <div class="A24">
   <div></div><div></div><div>2025</div><div>Parthenope</div>
   <div></div><div></div><div>2025</div><div>On Becoming a Guinea Fowl</div>
   <div></div><div></div><div>2025</div><div>Opus</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
-  <div></div><div></div><div>2025</div><div>Warfare</div>
+  <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Warfare</div>
   <div></div><div></div><div>2025</div><div>The Legend of Ochi</div>
   <div></div><div></div><div>2025</div><div>Friendship</div>
   <div></div><div></div><div>2025</div><div>Bring Her Back</div>

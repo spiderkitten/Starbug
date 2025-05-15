@@ -10,11 +10,31 @@
   <meta name="robots" content="noarchive">
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
   <link href="css/" rel="stylesheet"  />
   <script src="js/load.js"></script>
   <script src=""></script>
-  
+
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>Space Cadet</title>
 </head>
  
@@ -55,6 +75,7 @@
     <div class="dropdown-content">
         <a href="2025reads.html">Reading</a>
         <a href="cozyfantasy.html">Cozy Fantasy Recs</a>
+        <!--<a href="movies.html">Favourite Movies</a>-->
         <a href="a24movies.html">A24 Movie Challenge</a>
     </div>
 </div>
@@ -82,7 +103,16 @@
           </div>
       </div>
 
-  </div>
+ <div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+ <a href="#" onclick="setTheme('css/style.css')">Default</a>
+ <a href="#" onclick="setTheme('css/bluestyle.css')">Blue</a>
+</div>
+</div>
+
+</div>
 
 
 
@@ -118,7 +148,7 @@
 <div></div><div></div><div>2014</div><div>Obvious Child</div>
 <div></div><div>&#10003;</div><div>2014</div><div>The Rover</div>
 <div>✗</div><div>&#10003;</div><div>2014</div><div>Life After Beth</div>
-<div></div><div></div><div>2014</div><div>Tusk</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Tusk</div>
 <div></div><div>&#10003;</div><div>2014</div><div>Laggies</div>
 <div></div><div>&#10003;</div><div>2014</div><div>Revenge of the Green Dragons</div>
 <div>&#9733;</div><div>&#10003;</div><div>2014</div><div>The Captive</div>
@@ -129,7 +159,7 @@
               <div class="A24">
 <div></div><div>&#10003;</div><div>2015</div><div>Son of a Gun</div>
 <div></div><div>&#10003;</div><div>2015</div><div>While We're Young</div>
-<div></div><div></div><div>2015</div><div>Cut Bank</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Cut Bank</div>
 <div></div><div>&#10003;</div><div>2015</div><div>Ex Machina</div>
 <div></div><div>&#10003;</div><div>2015</div><div>Slow West</div>
 <div></div><div>&#10003;</div><div>2015</div><div>Barely Lethal</div>
@@ -141,8 +171,8 @@
 </div>
 <!--2016-->
 <h3>2016</h3>
-              <div class="A24">
-<div></div><div></div><div>2016</div><div>Mojave</div>
+  <div class="A24">
+<div></div><div>&#10003;</div><div>2016</div><div>Mojave</div>
 <div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Witch</div>
 <div></div><div>&#10003;</div><div>2016</div><div>Remember</div>
 <div></div><div></div><div>2016</div><div>Krisha</div>
@@ -182,7 +212,7 @@
 </div>
 <!--2018-->
 <h3>2018</h3>
-              <div class="A24">
+            <div class="A24">
             <div></div><div></div><div>2018</div><div>The Vanishing of Sidney Hall</div>
             <div></div><div></div><div>2018</div><div>The Last Movie Star</div>
             <div></div><div></div><div>2018</div><div>Lean on Pete</div>
@@ -268,7 +298,7 @@
 <div></div><div></div><div>2022</div><div>The Inspection</div>
 <div></div><div></div><div>2022</div><div>White Noise</div>
 <div></div><div></div><div>2022</div><div>Close</div>
-<div></div><div></div><div>2022</div><div>The Eternal Daughter</div>
+<div></div><div>&#10003;</div><div>2022</div><div>The Eternal Daughter</div>
 <div></div><div></div><div>2022</div><div>The Whale</div>
 <div></div><div></div><div>2022</div><div>This Place Rules</div>
 </div>
@@ -321,14 +351,14 @@
 <div></div><div></div><div>2024</div><div>Y2K</div>
 <div></div><div></div><div>2024</div><div>Babygirl</div>
 </div>
-<!--2025-->
+<!-- 2025 -->
 <h3>2025</h3>
 <div class="A24">
   <div></div><div></div><div>2025</div><div>Parthenope</div>
   <div></div><div></div><div>2025</div><div>On Becoming a Guinea Fowl</div>
   <div></div><div></div><div>2025</div><div>Opus</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
-  <div></div><div></div><div>2025</div><div>Warfare</div>
+  <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Warfare</div>
   <div></div><div></div><div>2025</div><div>The Legend of Ochi</div>
   <div></div><div></div><div>2025</div><div>Friendship</div>
   <div></div><div></div><div>2025</div><div>Bring Her Back</div>
