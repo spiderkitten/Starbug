@@ -503,7 +503,7 @@ strong {
       }
    
       .marquee {
-        animation: marquee 20s linear infinite;
+        animation: marquee 25s linear infinite;
         display: inline-block;
         padding-right: 100px;
    }
