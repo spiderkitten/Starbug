@@ -1,8 +1,8 @@
 /*================== LINKS PAGE ========================*/
 
-
-
   /* ==== link filtering ==== */
+
+  /* test */
 
 .linkmenu{
   text-align: center;
@@ -27,6 +27,20 @@
               color: var(--pallette4);        
         text-decoration: none;
         }
+
+        .linkmenu a:visited {
+          background: var(--pallette1);
+                color: var(--pallette5);        
+          text-decoration: none;
+          }
+
+          .linkmenu a:active {
+            background: var(--pallette8);
+                  color: var(--pallette4);        
+            text-decoration: none;
+            }
+
+
 
 
 /* Category Box*/
