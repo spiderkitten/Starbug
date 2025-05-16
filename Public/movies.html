@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="pinterest" content="nopin" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noimageindex">
+  <meta name="robots" content="noarchive">
+
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
+<link href="css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/" rel="stylesheet"  />
+  <script src="js/load.js"></script>
+  <script src=""></script>
+
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
+  <title>Space Cadet</title>
+</head>
+ 
+<body>
+  <div class="wrapper">
+  <div class="header">
+    <h1>Space Cadet</h1>
+    <div class="tagline">Just a girl floating through space...</div>
+  </div>
+
+
+
+
+  <div class="topnav">
+
+    <a href="index.html" id="navbutton">Home</a> 
+    <a href="shinies.html" id="navbutton">Shinies</a>
+
+    <div class="dropdown">
+      <button>About</button>
+      <div class="dropdown-content">
+          <a href="about.html">About Me</a>
+          <a href="use.html">/Use</a>
+      </div>
+  </div>
+
+
+    <div class="dropdown">
+      <button>Stuff</button>
+      <div class="dropdown-content">
+          <a href="lexicon.html">Lexicon</a>
+          <a href="vampire_rm.html">Vampire Resource Management</a>
+      </div>
+  </div>
+
+  <div class="dropdown">
+    <button>Books & Movies</button>
+    <div class="dropdown-content">
+        <a href="2025reads.html">Booklog</a>
+        <a href="cozyfantasy.html">Cozy Fantasy Recs</a>
+        <a href="movies.html">Favourite Movies</a> 
+        <a href="a24movies.html">A24 Movie Challenge</a>
+    </div>
+</div>
+
+  <div class="dropdown">
+    <button>Fandom</button>
+    <div class="dropdown-content">
+      <a href="100x100.html">100x100 User Pics</a>
+      <a href="friendsonly.html">Friends Only Banners</a>
+      <a href="moodthemes.html">LJ/DW Mood Themes</a>
+    </div>
+  </div>
+
+ <a href="links.html" id="navbutton">Links</a> 
+
+
+
+      <div class="dropdown">
+          <button>Site Stuff</button>
+          <div class="dropdown-content">
+              <a href="guestbook.html">Guestbook</a>
+              <a href="credits.html">Site Credits</a>
+              <a href="changelog.html">Changelog</a>
+              <a href="https://neocities.org/site/starbug">Neocities Profile</a>
+          </div>
+      </div>
+
+ <div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+ <a href="#" onclick="setTheme('css/style.css')">Default</a>
+ <a href="#" onclick="setTheme('css/bluestyle.css')">Blue</a>
+</div>
+</div>
+
+</div>
+
+
+
+    
+
+  <div class="main">
+<!-- Main Content Start-->
+    <h1 id="imgmovies">Movies</h1>
+<p>One of my favourite things to do is to curl up on the couch with a good movie. Especially on a rainy weekend. I could spend all weekend watching movies. When I was younger I would go to the movies all the time, even on my own. These days I watch via streaming services as there isn't a cinema nearby.</p>
+<h2>Favourite Movies</h2>
+<p>There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs.</p>
+<p>But in short, I love: Horror, Sci-Fi, Mind Fucks, Folk Horror, Post Apocalypse, Rankin Bass christmas movies, Shirley Temple movies, Doris Day movies, Time Travel, Korean Horror, and more.</p>
+<p>NOTE: This page is not really mobile friendly (yet), sorry.</p>
+<h3 id="imgmovmovies">General Movies</h3>
+<p><div class="movielist">
+<div>The Ghost &amp; Mrs Muir (1947)</div>
+<div>Duel (1971)</div>
+<div>Tremors (1990)</div>
+<div>Capricorn One (1978)</div>
+<div>Tank Girl (1995)</div>
+<div>Time Bandits (1981)</div>
+</div></p>
+<p><h3 id="imgmovjapan">Japanese Movies</h3></p>
+  <div class="movielist">
+    <div>Kamikaze Girls (2004)</div>
+    <div>Battle Royale (2000)</div>
+  </div>
+<p><h3 id="imgmovwar">War Movies</h3>
+<div  class="movielist">
+<div>The Great Escape (1963) </div>
+<div>Empire of the Sun (1987)</div>
+</div></p>
+<p><h3 id="imgmovaus">Australian Movies</h3>
+<div  class="movielist">
+<div>Spider &amp; Rose (1994)</div>
+<div>Picnic at Hanging Rock (1975)</div>
+<div>Lion (2016)</div>
+<div>The Tunnel (2011)</div>
+<div>Triangle (2009)</div><div></div>
+</div></p>
+<p><h3 id="imgmovweird">Weird / Mind Fucks</h3>
+<div class="movielist">
+<div>Cube (1997)</div><div>The Platform (2019)</div>
+<div>Being John Malkovich (1999)</div><div>The Skin I Live In (2011)</div>
+<div>The City of Lost Children (1995)</div><div></div>
+</div></p>
+<p><h3 id="imgmovhorror">Horror</h3>
+<div class="movielist">
+<div>The Loved Ones (2009)</div><div>The Village (2004)</div>
+<div>Undead (2003)</div>
+<div>Creep (2014)</div><div>Creep 2 (2017)</div>
+<div>X / Pearl (2022)</div>
+<div>In Fabric (2018)</div>
+<div>Cam (2018)</div>
+<div>Happy Death Day (2017)</div>
+</div></p>
+<p><h3 id="imgmovfolk">Folk Horror</h3>
+<div class="movielist">
+<div>The Wickerman (1975)</div><div>Midsommar</div>
+<div>The Wickerman ()</div><div>Hereditary</div>
+</div></p>
+<p><h3 id="imgmovkorean">Korean Horror</h3>
+<div class="movielist">
+<div>A Tale of Two Sisters (2003)</div><div>The Host (2006)</div>
+<div>Train to Busan (2016)</div><div>#Alive (2020)</div></p>
+  </div>
+<p><h3 id="imgmovapoca">(Post) Apocalypse</h3>
+<div class="movielist">
+<div>The Day After (1983)</div><div>Threads (1984)</div>
+<div>Night of the Comet (1984)</div><div>Shaun of the Dead (2004)</div>
+<div></div><div></div>
+</div></p>
+<h3 id="imgmovscifi">General Science Fiction</h3>
+<div class="movielist">
+  <div>Fahrenheit 451 (1966)</div><div>The Fifth Element (1997)</div>
+  <div>Stargate (1994)</div><div>Soylent Green (1973)</div>
+  <div>Star Trek: the Motion Picture (1979)</div><div>Star Trek IV: The Voyage Home (1986)</div>
+  <div>Star Trek: Generations (1994)</div><div>Star Trek: First Contact (1996)</div>
+</div>
+<h3 id="imgmovtime">Science Fiction - Time Travel</h3>
+<div class="movielist">
+  <div>Predestination (2014)</div><div>Time Lapse (2014)</div>
+  <div>Somewhere in Time (1980)</div><div>The Time Machine (1960)</div>
+  <div></div><div></div>
+</div>
+<h3 id="imgmovmusic">Musicals</h3>
+<div class="movielist">
+<div>The King and I (1956)</div><div>Rocky Horror Picture Show (1978)</div>
+<div>Xanadu (1980)</div><div>A Chorus Line (1986)</div>
+<div>Sister Act (1992)</div><div>Sister Act 2 (1993)</div>
+<div>Grease (1978)</div><div>Grease 2 (1982)</div>
+<div>Repo! The Genetic Opera</div>
+</div>
+<h3 id="imgmovanime">Anime / Animated Movies</h3>
+<div class="movielist">
+<div>The Garden of Words (2013)</div><div>Howls Moving Castle (2004)</div>
+<div>Grave of the Fireflies (1988)</div><div>When Marnie Was There (2014)</div>
+</div>
+<h3 id="imgmovfamily">Family Movies</h3>
+<div class="movielist">
+<div>Pollyanna (1960)</div>
+<div>The Year Without Santa Claus (1974)</div>
+<div>The Twelve Tasks of Asterix (1976)</div>
+<div>Annie (1982)</div>
+<div>War Games (1983)</div>
+<div>Toy Soldiers (1991)</div>
+<div>The Little Princess (1939)</div>
+<div>The Secret Garden (1993)</div>
+<div>The Little Princess (1995)</div>
+</div>
+
+
+<!-- Main Content End-->
+  </div> <!--main-->
+
+<!-- Footer -->
+<div class="footer">
+    Site by Stargbug 2022-2025
+</div>
+</div>
+</body>
+</html> 

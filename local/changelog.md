@@ -15,7 +15,7 @@ layout: layout/base.njk
 
             <h2>2025 Updates</h2>
 
-<p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things.
+<p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page  
 </p>
 
 <p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. 

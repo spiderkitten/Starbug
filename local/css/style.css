@@ -499,13 +499,13 @@ strong {
   
     #warning .marqueewarning {
       overflow: hidden;
+      white-space: nowrap;
       }
    
       .marquee {
         animation: marquee 20s linear infinite;
         display: inline-block;
-        white-space: nowrap;
-   
+        padding-right: 100px;
    }
   
    .marquee:hover {
@@ -513,10 +513,18 @@ strong {
   }
   
   
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to { 
+      transform: translateX(-100%);
+    }
+  }
   
   
-  
-  
+  /* remove this if the other one works 
+
     @keyframes marquee {
       0% {
         margin-left: 100%;
@@ -526,7 +534,8 @@ strong {
         margin-left: 0;
         transform: translateX(-100%);
       }
-    }
+    } 
+   */ 
   
     
       /* button on front page */

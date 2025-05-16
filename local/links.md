@@ -63,7 +63,9 @@ cssFile: "links.css"
 
  <h3 class="categorysubtitle">Other Sites I like</h3>
  <div style="display: inline-block;">
-<div><a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a> <a href="https://metmoxie.com/"><img src="images/neosites/metmoxie.png"></a> <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a></div>
+<div><a href="https://petrapixel.neocities.org/"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a> <a href="https://metmoxie.com/"><img src="images/neosites/metmoxie.png"></a> <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> 
+
+</div>
  </div>
 <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
@@ -166,7 +168,7 @@ cssFile: "links.css"
 
 
 
-<!-- ========== SITE CREATION ========== -->
+<!-- ========== SMALL WEB ========== -->
 
 <div class="categorybox">
 
@@ -180,15 +182,41 @@ cssFile: "links.css"
       <div><a href="https://nekoweb.org/">Nekoweb</a></div>
       <div class="description"> Free host similar to Neocities</div>
 
+<h3 class="categorysubtitle">Neocities Info</h3>
+
+      <div><a href="https://suboptimalism.neocities.org/writings/undocumented">Undocumented Neocities Mechanics</a></div>
+      <div class="description">things that are not in the FAQ, like how the activity page works, how "special sauce" is determined, file limits, etc</div>
+
+            <div><a href="https://content-security-policy.neocities.org/">Content Security Policy for Free Accounts</a></div>
+      <div class="description">Information about linking external resources on Neocities free accounts - what is an isn't supported. Forms, scripts etc. </div>
+
+      <div><a href="https://github.com/dawnvoid/neocities-profile-viewer">Neocities Profile Viewer</a></div>
+      <div class="description">bookmarklet that makes it easy to find and view people's Neocities Profiles</div>
+
+
+
+      
+
+
 <h3 class="categorysubtitle">Learn HTML / CSS / JS</h3>
  
-      <div><a href="https://www.w3schools.com/">W3Schools</a></div>
+      <div><a href="https://htmlforpeople.com/">HTML for people</a></div>
+      <div class="description">HTML tutorials</div>
+
+
+       <div><a href="https://www.w3schools.com/">W3Schools</a></div>
       <div class="description">FREE HTML, CSS and JS lessons.</div>
+
+       <div><a href="https://www.codecademy.com/catalog/language/html-css">Code Academy</a></div>
+      <div class="description">Full HTML, CSS, JS and other courses for free.</div>
+      
+      
+
+       <div><a href="https://web.pixelshannon.com/make/">Make Your Own Website</a></div>
+      <div class="description">Easy HTML lessons designed for younger people</div>
 
       <div><a href="https://coderpad.io/blog/development/a-very-very-in-depth-guide-on-css-grid/">A Very, Very, In Depth Guide On CSS Grid</a></div>
       <div class="description">A Very, Very, In Depth Guide On CSS Grid</div>
-
-
 
 
 <h3 class="categorysubtitle">Specific Tutorials</h3>

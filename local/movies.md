@@ -16,6 +16,7 @@ layout: layout/base.njk
 <p>But in short, I love: Horror, Sci-Fi, Mind Fucks, Folk Horror, Post Apocalypse, Rankin Bass christmas movies, Shirley Temple movies, Doris Day movies, Time Travel, Korean Horror, and more.</p>
 
 
+<p>NOTE: This page is not really mobile friendly (yet), sorry.</p>
 
 
 <h3 id="imgmovmovies">General Movies</h3>
