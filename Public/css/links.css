@@ -29,8 +29,8 @@
         }
 
         .linkmenu a:visited {
-          background: var(--pallette3);
-          color: var(--pallette4);
+          background: var(--pallette8);
+          color: var(--pallette4);        
           text-decoration: none;
           }
 
