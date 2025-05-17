@@ -11,7 +11,7 @@
 
         /* style the menu */
         .linkmenu a {
-        background-color: var(--pallette1);
+        background-color: var(--pallette2);
         color: var(--pallette4);
         padding: 10px;
         border-radius:10px;
