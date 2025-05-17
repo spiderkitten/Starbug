@@ -1,0 +1,176 @@
+/*================== LINKS PAGE ========================*/
+
+  /* ==== link filtering ==== */
+
+  /* test */
+
+.linkmenu{
+  text-align: center;
+}
+
+
+        /* style the menu */
+        .linkmenu a {
+        background-color: var(--pallette1);
+        color: var(--pallette4);
+        padding: 10px;
+        border-radius:10px;
+        cursor: pointer; /* makes it a pointy finger when hovering over*/ 
+        display: inline-block;
+          font-family: var(--fontmain);
+          margin-top: 5px;
+        }
+ 
+  
+        .linkmenu a:hover {
+        background: var(--pallette8);
+        color: var(--pallette4);        
+        text-decoration: none;
+        }
+
+        .linkmenu a:visited {
+          text-decoration: none;
+          }
+
+          .linkmenu a:active {
+            text-decoration: none;
+            }
+
+
+
+
+/* Category Box*/
+
+          .categorybox {
+          background-color: var(--pallette5);
+          border-color: var(--pallette2);
+          border-style: solid;
+          border-width: 3px;
+          padding: 10px;
+          padding-top: 0px;
+          border-radius: 10px;
+          margin: 10px auto 20px auto;
+          width:90%;
+          }
+
+          .categorybox:hover {
+            border-color: var(--pallette8);
+            border-width: 3px;
+        }
+    
+
+
+
+
+
+
+ /* Style the categories*/
+ .categorytitle {
+  background-color: var(--pallette2);
+  color: var(--pallette4);
+  border-radius: 10px;
+}
+
+.categorysubtitle {
+  background-color: var(--pallette8);
+  color: var(--pallette4);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-left:10px;
+}
+
+
+      /* icons before titles */
+
+      #neosites:before {
+        background: var(--neositesbefore);
+        width:32px;
+        height:32px;
+        padding: 5px 20px;
+        content: " ";
+      } 
+
+          #smallweb:before {
+            background: var(--imgwebbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+
+          #citsci:before {
+            background: var(--citscibefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+          #fun:before {
+            background: var(--funbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+          #gaming:before {
+            background: var(--gamingbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+          #useful:before {
+            background: var(--usefulbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
+
+
+
+     
+          /* style the links*/
+
+
+          .categorybox a:link {
+            font-weight:600;
+            color: var(--pallette2);
+            padding: 0px;
+          }
+
+            /* style the link description */
+    .description {
+      padding-bottom: 10px;
+      padding-left: 10px;
+      border-bottom: 2px dashed var(--pallette4);
+      margin-bottom: 15px;
+      margin-top: 5px;
+    }
+
+
+
+
+  
+ 
+  
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+                    
+  
+ 
