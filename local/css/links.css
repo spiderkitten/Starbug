@@ -24,11 +24,17 @@
   
         .linkmenu a:hover {
         background: var(--pallette8);
-              color: var(--pallette4);        
+        color: var(--pallette4);        
         text-decoration: none;
         }
 
+        .linkmenu a:visited {
+          text-decoration: none;
+          }
 
+          .linkmenu a:active {
+            text-decoration: none;
+            }
 
 
 
