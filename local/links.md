@@ -149,7 +149,7 @@ fanfic archives
 
  <h3 class="categorysubtitle">Just Plain Cool</a></h3>
 <div><a href="https://floor796.com/">Floor 796</a></div>
- <div class="description">A HUGE animated isometric image of floor 796 of a space station filled with characters from pop culture. takes a while to load completey!</div> 
+ <div class="description">A HUGE animated isometric image of floor 796 of a space station filled with characters from pop culture. takes a while to load completey but worth it! </div> 
 
 
 

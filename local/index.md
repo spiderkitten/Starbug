@@ -56,7 +56,7 @@ layout: layout/base.njk
 <div class="todobox">
 
 <h2>Randomosity</h2>
-<p>I'll probably add some webrings or something here sooooon</p>
+<p>Webrings and stuff</p>
 
 <!-------- TF2 Webring ------------>
     <div id='fortring'>
