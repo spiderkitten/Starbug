@@ -58,6 +58,13 @@ layout: layout/base.njk
 <h2>Randomosity</h2>
 <p>I'll probably add some webrings or something here sooooon</p>
 
+<!-------- TF2 Webring ------------>
+    <div id='fortring'>
+    <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
+    <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
+    </div>
+                        
+
 
 <!------- No AI Webring ----------->
 <div style="text-align: center;">

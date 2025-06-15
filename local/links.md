@@ -3,6 +3,7 @@ title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
 cssFile: "links.css"
+script: js/freeze.js
 ---
 
 <h1>Links</h1>
@@ -20,17 +21,36 @@ cssFile: "links.css"
 <a href="#useful">Useful</a>  
 <a href="#smallweb">Small Web</a>  
 <!--<a href="#">Youtube</a>-->  
+
+<!-- Reading   
+Interactive fictions (twine), webcomics, 
+-->
+
+<!--<a href="#">Fandom</a>
+fansites: general, castle, stargate etc. 
+fanlistings  
+fanfic archives
+--> 
+
  
 </div>
 
 <hr class="dashed">
+<div class="freeze"> <!-- gifs start paused -->
+      <div style="text-align: center;">
+        <button onclick="resumegifs()">play gifs</button> 
+        <button onclick="freezegifs()">pause gifs</button>
+        <div class="clear"></div>
+        <small>(requires javacript)</small>
+      </div>
 
 <!-- template 
-
- <div class="categorybox">
+ 
+<div class="categorybox">
 <h2 class="categorytitle" id=" "> </h2>
 
 <h3 class="categorysubtitle"> </h3>
+
 <div><a href=" "> </a></div>
  <div class="description"> </div> 
 
@@ -49,21 +69,24 @@ cssFile: "links.css"
 
 
 <h3 class="categorysubtitle">Interesting Sites</a></h3>
-<div><a href="https://bug.nekoweb.org/"><img src="images/neosites/bugphotosnow.png"></a></div>
- <div class="description"> </div> 
+
  <div><a href="https://dreambubble.neocities.org/garden">Learn to Garden</a></div>
  <div class="description">a beginners guide to gardening</div> 
 
-  <a href="https://onnade.neocities.org/">In Women's Hands: Transmitting the Literature of Heian Japan</a> - about women writers and readers in Japanese art
+ <div><a href="https://anemptyblissbeyondthisworld.neocities.org/music/disco">Beginners Guide to Disco</a></div>
+ <div class="description">a well written guide to the history of Disco music</div> 
+
+ <div><a href="https://onnade.neocities.org/">In Women's Hands: Transmitting the Literature of Heian Japan</a></div>
+<div class="description">about women writers and readers in Japanese art</div> 
 
  <h3 class="categorysubtitle">Sites with Cool Designs</h3>
  <p>At time of me visiting them, anyway</p>
-<div><a href=" "><img src=""></a></div>
+<div><a href="https://ellesho.me/page/"><img src="images/neosites/elles8831.png"></a></div>
  <div class="description"> </div> 
 
  <h3 class="categorysubtitle">Other Sites I like</h3>
  <div style="display: inline-block;">
-<div><a href="https://petrapixel.neocities.org/"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a> <a href="https://metmoxie.com/"><img src="images/neosites/metmoxie.png"></a> <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> 
+<div><a href="https://petrapixel.neocities.org/"><img src="images/neosites/petrapixel.png" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a> <a href="https://metmoxie.com/"><img src="images/neosites/metmoxie.png"></a> <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> 
 
 </div>
  </div>
@@ -79,6 +102,10 @@ cssFile: "links.css"
 
 
  <!-- ========== CITIZEN SCIENCE ========== -->
+ <!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
 
 <div class="categorybox">
 
@@ -110,18 +137,66 @@ cssFile: "links.css"
 
  
 <!-- ========== FUN ========== -->
+ 
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
 
 <div class="categorybox">
 <h2 class="categorytitle" id="fun">Fun Stuff</h2>
 
-<h3 class="categorysubtitle">Pretty</a></h3>
+ <h3 class="categorysubtitle">Just Plain Cool</a></h3>
+<div><a href="https://floor796.com/">Floor 796</a></div>
+ <div class="description">A HUGE animated isometric image of floor 796 of a space station filled with characters from pop culture. takes a while to load completey!</div> 
+
+
+
+
+
+
+<!--<h3 class="categorysubtitle">Pretty</a></h3>
 <div><a href="https://paveldogreat.github.io/WebGL-Fluid-Simulation/">WebGL Fluid Simulator</a></div>
- <div class="description">Its just So. Damn. Pretty.</div> 
+ <div class="description">Its just So. Damn. Pretty.</div>--> 
+
+<h3 class="categorysubtitle">Exploration</a></h3>
+
+<div><a href="https://virtualvacation.us/guess">CityGuesser</a></div>
+ <div class="description">guess the city from a video of a random person walking around</div> 
+
+<div><a href="https://www.window-swap.com/">Window Swap</a></div>
+ <div class="description">A random view from a window somewhere in the world</div> 
+
+<div><a href="https://www.tree.fm/">Tree FM</a></div>
+ <div class="description">Listen to sounds from forests all over the world</div> 
+
+<h3  class="categorysubtitle">Generators</h3>
+<div><a href="https://www.whothefuckismydndcharacter.com/">Who the F*ck is my DnD Character?</a></div>
+ <div class="description">Just a fun generator that creates a DnD character for you. </div> 
+
+<div><a href="https://scottyboy76567.github.io/WeaponGenerator/">What the F*ck is my Weapon?</a></div>
+<div class="description">Similar to the DnD character one, this generates a weapon</div> 
+
+
+
+
+
+
+
+
+
 
 <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
 <!-- ========== GAMING ========== -->
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
 
 <div class="categorybox">
 
@@ -140,6 +215,11 @@ cssFile: "links.css"
 </div>
 
 <!-- ========== USEFUL ========== -->
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
 
 <div class="categorybox">
 
@@ -169,6 +249,12 @@ cssFile: "links.css"
 
 
 <!-- ========== SMALL WEB ========== -->
+<!-- code & web resources, neocities, personal sites, forums, webrings, services -->
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
 
 <div class="categorybox">
 
@@ -198,51 +284,35 @@ cssFile: "links.css"
       
 
 
-<h3 class="categorysubtitle">Learn HTML / CSS / JS</h3>
- 
-      <div><a href="https://htmlforpeople.com/">HTML for people</a></div>
-      <div class="description">HTML tutorials</div>
+<h3 class="categorysubtitle">HTML / CSS / JS</h3>
+ <p>Almost every personal site has links to general places to learn HTML etc so I'm not going to be repetative, I'm just going to link to some specific tutorials that might be helpful and a few other fun thing</p>
 
 
-       <div><a href="https://www.w3schools.com/">W3Schools</a></div>
-      <div class="description">FREE HTML, CSS and JS lessons.</div>
-
-       <div><a href="https://www.codecademy.com/catalog/language/html-css">Code Academy</a></div>
-      <div class="description">Full HTML, CSS, JS and other courses for free.</div>
-      
-      
-
-       <div><a href="https://web.pixelshannon.com/make/">Make Your Own Website</a></div>
-      <div class="description">Easy HTML lessons designed for younger people</div>
-
-      <div><a href="https://coderpad.io/blog/development/a-very-very-in-depth-guide-on-css-grid/">A Very, Very, In Depth Guide On CSS Grid</a></div>
-      <div class="description">A Very, Very, In Depth Guide On CSS Grid</div>
+      <div><a href="https://codepen.io/plfstr/full/zYqQeRw">HTML Tags Memory Test</a></div>
+      <div class="description">Name as many HTML tags as you can from memory, 114 acceptable answers!</div>
 
 
-<h3 class="categorysubtitle">Specific Tutorials</h3>
-      <div><a href="https://solaria.neocities.org/bits/">CSS using images as borders tutorial</a></div>
+
+      <div><a href="https://solaria.neocities.org/bits/">using images as borders tutorial</a></div>
       <div class="description">how to use images for decorative borders using CSS</div>
-
-<h3 class="categorysubtitle">Useful Stuff</h3>
 
       <div><a href="https://rarebit.neocities.org/">Rarebits Comic Template</a></div>
       <div class="description"> A comic template for making a webcomic. Includes navigation and everything you need. If you need help to set it up, there's a really good tutorial: 
       <br>
       <a href="https://www.tumblr.com/oruguin/752875085457752065/small-rarebit-basics-to-start-your-webcomic-site">Part 1</a> | <a href="https://www.tumblr.com/oruguin/752875136669138944/small-rarebit-basics-to-start-your-webcomic-site"> Part 2</a> | <a href="https://www.tumblr.com/oruguin/752875175467466752/small-rarebit-basics-to-start-your-webcomic-site"> Part 3</a> </div>
 
-<h3 class="categorysubtitle">Generally Helpful Sites</h3>
+<h3 class="categorysubtitle">Communities</h3>
 
       <div><a href="https://32bit.cafe/">32bit Cafe</a></div>
       <div class="description">Resources and community based around the small web. Discourse forum where participants can get help, do challenges and more. Resource page with a lot of good resources for making websites.</div>
       
-      <div><a href="https://sharkcoder.com/">Sharkcoder</a> </div>
-      <div class="description"> HTML and CSS tutorials, Grid & Flexblox info, CSS effects, typography and more.</div>
 
       <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
       </div>
 
 
 
+</div><!-- end freeze-->
 
 
  <!-- end of section -->
