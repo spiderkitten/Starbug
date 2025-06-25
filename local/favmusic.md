@@ -8,19 +8,18 @@ cssFile: "favmusic.css"
 
 <h1>Intergalactic Disco</h1>
 
-<p>This is just a place for me to share my favourite music. I'm a child of the 70s and 80s so most of the music here is going to 70s, 80s and 90s. With maybe a few more recent ones.</p>
-
-
-
-
+<p>This is just a place for me to share my favourite music. I'm a child of the 70s and 80s so most of the music here is going to be 60s, 70s, 80s and 90s. With maybe a few more recent ones.</p>
 
 <p>bla bla bla</p>
 
-<div class="player-wrapper">
-<h2 class="playername">General Music </h2>
+
+ <div id="player">
+    <div class="player-wrapper">
+        <h2 class="playername">General Music </h2>
     <div class="song-name-wrapper">
         <div class="song-name-inner">
-             <div class="rotategrad"><div class="song-name" data-yt-role="song-name-display"></div></div>
+             <div class="rotategrad"><div class="song-name" data-yt-role="song-name-display"></div>
+            </div>
          </div>
     </div>
         
@@ -52,9 +51,9 @@ cssFile: "favmusic.css"
                     </div>
                 </div>
             </div>
-        </div>
-
-
+   </div>
+</div>
+  
 
 
 
@@ -64,8 +63,6 @@ cssFile: "favmusic.css"
 
 	    {id: 'eo8vW_0H_Kg', name: 'testsong - test song artist'},
 	    {id: 'W9mhsW5aWJM', name: 'test2'},
-
-
 	]
 	let songs =  Song.initializeFromDataArray(songsData);
 	let player =  PlayerManager.getInstance().createPlayer(songs);
