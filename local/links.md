@@ -23,7 +23,7 @@ script: js/freeze.js
 <!--<a href="#">Youtube</a>-->  
 
 <!-- Reading   
-Interactive fictions (twine), webcomics, 
+Interactive fictions (twine), webcomics, etc 
 -->
 
 <!--<a href="#">Fandom</a>
@@ -172,6 +172,22 @@ fanfic archives
 <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
+
+<!--============BOOKS==========-->
+
+<div class="categorybox">
+<h2 class="categorytitle" id="books">Books</h2>
+
+<h3 class="categorysubtitle">books</a></h3>
+
+<div><a href="https://howlongtoread.com/">How Long to Read</a></div>
+ <div class="description">do a reading test to find your reading speed, then for any book you enter it will tell you approx how long it will take you to read it.</div>
+
+ <div><a href="https://qbdatabase.wpcomstaging.com/">Queer Books Database</a></div>
+ <div class="description">a free, public, searchable database listing queer rep in books</div> 
+
+ <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+</div>
  
 <!-- ========== FUN ========== -->
  
@@ -216,14 +232,6 @@ fanfic archives
 <div class="description">Similar to the DnD character one, this generates a weapon</div> 
 
 
-
-
-
-
-
-
-
-
 <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
@@ -261,10 +269,8 @@ fanfic archives
 <div class="categorybox">
 
 <h2 class="categorytitle" id="useful">Useful Sites</h2>
-<h3 class="categorysubtitle">assorted</a></h3>
 
-<div><a href="https://howlongtoread.com/">How Long to Read</a></div>
- <div class="description">do a reading test to find your reading speed, then for any book you enter it will tell you approx how long it will take you to read it.</div>
+<h3 class="categorysubtitle">assorted</a></h3>
 
  
 <div><a href="https://temp-mail.org/en/">Temp Email</a></div>
@@ -278,8 +284,7 @@ fanfic archives
 <div><a href="https://www.abrathatfits.org/calculator.php">A Bra That Fites calculator</a></div>
  <div class="description">created by the awesome people over at /r/ABraThatFits on reddit to help you find your bra size</div> 
 
- <div><a href="https://qbdatabase.wpcomstaging.com/">Queer Books Database</a></div>
- <div class="description">a free, public, searchable database listing queer rep in books</div> 
+
 
  <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>

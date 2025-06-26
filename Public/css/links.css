@@ -133,7 +133,13 @@
             content: " ";
           } 
 
-
+          #books:before {
+            background: var(--booksbefore);
+            width:32px;
+            height:32px;
+            padding: 5px 20px;
+            content: " ";
+          } 
 
      
           /* style the links*/
