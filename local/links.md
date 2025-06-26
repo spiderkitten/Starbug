@@ -15,8 +15,8 @@ script: js/freeze.js
 <div class="linkmenu" id="top">
 <a href="#neosites">Personal Sites</a> 
 <a href="#citsci">Citizen Science</a> 
+<a href="#books">Books/Reading</a> 
 <a href="#fun">Fun</a>  
-<!--<a href="#">Free Stuff</a>-->  
 <a href="#gaming">Gaming</a>  
 <a href="#useful">Useful</a>  
 <a href="#smallweb">Site Making</a>  
