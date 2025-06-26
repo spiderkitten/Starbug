@@ -19,7 +19,7 @@ script: js/freeze.js
 <!--<a href="#">Free Stuff</a>-->  
 <a href="#gaming">Gaming</a>  
 <a href="#useful">Useful</a>  
-<a href="#smallweb">Small Web</a>  
+<a href="#smallweb">Site Making</a>  
 <!--<a href="#">Youtube</a>-->  
 
 <!-- Reading   
@@ -64,12 +64,12 @@ fanfic archives
 <h2 class="categorytitle" id="neosites">Neocities / Nekoweb Sites</h2>
 
 <h3 class="categorysubtitle"></a>Down Under</h3>
-<p>Site run by Aussies!</p>
+<p>Site run by other Aussies!</p>
 <div><a href="https://readingproject.neocities.org/"><img src="images/neosites/ReadingProjectButton2.png"></a> <a href="https://debtdeath.neocities.org/"><img src="images/neosites/debtdeath-2-button.png"></a></div>
 
 
-<h3 class="categorysubtitle">Over 40s Club</a></h3>
-<p>Neocities sites run by people aged 40+</p>  
+<!--<h3 class="categorysubtitle">Over 40s Club</a></h3>
+<p>Neocities sites run by people aged 40+</p> --> 
 <!--template
  <div><a href=""> </a></div>
  <div class="description"> </div> 
@@ -122,7 +122,7 @@ fanfic archives
 <a href=""><img src="images/neosites"></a>
  -->
  <div style="display: inline-block;">
-<div><a href="https://petrapixel.neocities.org/"><img src="images/neosites/petrapixel.png" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a> <a href="https://metmoxie.com/"><img src="images/neosites/metmoxie.png"></a> <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> <a href="https://nerdymug.com/"><img src="images/neosites/nerdymugbutton.png"></a> <a href="https://leyworthy.neocities.org/"><img src="images/neosites/juki.png"></a> <a href="https://its-priestess.neocities.org/"><img src="images/neosites/convent_button.png"></a> <a href="https://steponleaf.neocities.org/"><img src="images/neosites/steponleaf.png"></a> 
+<div><a href="https://petrapixel.neocities.org/"><img src="images/neosites/petrapixel.png" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a> <a href="https://metmoxie.com/"><img src="images/neosites/metmoxie.png"></a> <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> <a href="https://nerdymug.com/"><img src="images/neosites/nerdymugbutton.png"></a> <a href="https://leyworthy.neocities.org/"><img src="images/neosites/juki.png"></a> <a href="https://its-priestess.neocities.org/"><img src="images/neosites/convent_button.png"></a> <a href="https://steponleaf.neocities.org/"><img src="images/neosites/steponleaf.png"></a> <a href="https://thegardenofmadeline.neocities.org/"><img src="images/neosites/gardenofmadeline_sitebutton.png"></a> 
 
 
 </div>
@@ -278,6 +278,9 @@ fanfic archives
 <div><a href="https://www.abrathatfits.org/calculator.php">A Bra That Fites calculator</a></div>
  <div class="description">created by the awesome people over at /r/ABraThatFits on reddit to help you find your bra size</div> 
 
+ <div><a href="https://qbdatabase.wpcomstaging.com/">Queer Books Database</a></div>
+ <div class="description">a free, public, searchable database listing queer rep in books</div> 
+
  <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
@@ -295,7 +298,7 @@ fanfic archives
 
 <div class="categorybox">
 
-<h2 class="categorytitle" id="smallweb">Small Web</h2>
+<h2 class="categorytitle" id="smallweb">Site Making</h2>
 <h3 class="categorysubtitle">Site Hosts</h3>
 
       <div><a href="http://www.neocities.com" >Neocities</a></div>
@@ -322,11 +325,11 @@ fanfic archives
 
 
 <h3 class="categorysubtitle">HTML / CSS / JS</h3>
- <p>Almost every personal site has links to general places to learn HTML etc so I'm not going to be repetative, I'm just going to link to some specific tutorials that might be helpful and a few other fun thing</p>
+ <p>Almost every personal site has links to general places to learn HTML etc so I'm not going to be repetative, Instead I'll link to some specific tutorials that might be helpful on neocities or other small/indie web sites</p>
 
 
-      <div><a href="https://codepen.io/plfstr/full/zYqQeRw">HTML Tags Memory Test</a></div>
-      <div class="description">Name as many HTML tags as you can from memory, 114 acceptable answers!</div>
+      <div><a href="https://randomboo.com/88x31.html">Hover Button Effect</a></div>
+      <div class="description">CSS code that makes your 88x31 buttons look like they are being pressed when you click them</div>
 
       <div><a href="https://xobyte.org/demos/protected/">hiding a page behind a password</a></div>
       <div class="description">how to hide a page behind a password</div>

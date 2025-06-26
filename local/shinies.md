@@ -26,7 +26,7 @@ script: js/freeze.js
       <a href="https://mooncandy.toys/adopt"><img src="images/adoptables/tina-alien-cat-3.png"></a>
       <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/nicky.png"></a>
       <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/pxl_LegendofLuoXiaohei.png"></a>
-
+      <a href="https://thegardenofmadeline.neocities.org/pages/adopts"><img src="images/adoptables/may12023.png" width="60px"></a>
 
 <!-- Blinkies -->
   <h2>Blinkies</h2>

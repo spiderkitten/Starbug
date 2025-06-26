@@ -32,6 +32,10 @@ layout: layout/base.njk
 <div class="updatebox">
 <h2>Recent Updates</h2>
 
+<p><strong>June 2025:</strong>
+Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring.
+</p>
+
 <p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page  
 </p>
 
@@ -47,9 +51,6 @@ layout: layout/base.njk
         <strong>25 August 2024:</strong> Livejournal/Dreamwidth stuff: Added a 100x100 icon archive of the icons I have made over the years, a page of friends only banners, and a mood theme.
       </p>
 
-      <p>
-        <strong>19 August 2024:</strong> New layout! changed the guestbook to atabook, added a page about Vampire Resource Management, fixed a bunch of things.
-      </p>
     <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 

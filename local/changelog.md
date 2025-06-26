@@ -15,6 +15,10 @@ layout: layout/base.njk
 
             <h2>2025 Updates</h2>
 
+            <p><strong>June 2025:</strong>
+Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring. 
+</p>
+
 <p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page  
 </p>
 
