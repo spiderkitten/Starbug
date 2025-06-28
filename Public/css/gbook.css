@@ -142,6 +142,7 @@
     padding: 10px;
     border: 2px solid var(--pallette4);
     background-color: var(--pallette6); 
+    border-radius: 10px;
 }
 .c-reply {
     display: block;
@@ -150,8 +151,9 @@
     margin-left: auto;
     margin-right: 0;
     padding: 10px;
-    border: 2px solid var(--pallette4);
+    border: 2px dotted var(--pallette4);
     background-color: var(--pallette6); 
+    border-radius: 10px;
 }
 .c-reply:last-child {margin-bottom: 0;}
 .c-replyContainer {
@@ -166,8 +168,9 @@
     margin: 0;
     margin-right: 10px;
     padding: 0;
-    text-transform: uppercase;
+    text-transform: ;
     font-weight: bold;
+    color: var(--pallette2)
 }
 .c-site {
     text-transform: uppercase;
