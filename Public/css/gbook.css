@@ -100,7 +100,7 @@
     margin: -10px;
     margin-bottom: 10px;
     padding: 5px;
-    text-transform: ;
+    text-transform: none;
     font-style: italic;
     font-weight: bold;
     text-align: left;
@@ -167,7 +167,7 @@
     display: inline-block;
     margin: 0;
     margin-right: 10px;
-.    padding: 0;
+
     font-weight: bold;
     color: var(--pallette2)
 }
