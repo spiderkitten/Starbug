@@ -65,7 +65,7 @@ fanfic archives
 
 <h3 class="categorysubtitle"></a>Down Under</h3>
 <p>Site run by other Aussies!</p>
-<div><a href="https://readingproject.neocities.org/"><img src="images/neosites/ReadingProjectButton2.png"></a> <a href="https://debtdeath.neocities.org/"><img src="images/neosites/debtdeath-2-button.png"></a></div>
+<div><a href="https://readingproject.neocities.org/"><img src="images/neosites/ReadingProjectButton2.png" ></a> <a href="https://debtdeath.neocities.org/"><img src="images/neosites/debtdeath-2-button.png"></a></div>
 
 
 <!--<h3 class="categorysubtitle">Over 40s Club</a></h3>
