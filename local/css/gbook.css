@@ -141,7 +141,7 @@
     margin-bottom: 15px;
     padding: 10px;
     border: 2px solid var(--pallette4);
-    background-color: #2D0B52; 
+    background-color: var(--pallette6); 
 }
 .c-reply {
     display: block;
