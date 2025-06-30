@@ -17,8 +17,8 @@ layout: layout/base.njk
 
 <div id="warning">
   <div class="marqueewarning">
-  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>
- 
+  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol</div>
+
   </div>
 </div>
 </div>
@@ -33,7 +33,7 @@ layout: layout/base.njk
 <h2>Recent Updates</h2>
 
 <p><strong>June 2025:</strong>
-Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring.
+Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring
 </p>
 
 <p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page  
@@ -94,7 +94,7 @@ Updated the links page with some new sites in most categories! check them out! A
 <div style="text-align: center;">
    <img src="images/siteimgs/starbug88x31button.png">
          
-   <p>please upload it to your own webspace and edit the img location accordingly:</p>
+   <p>please upload the button to your own webspace and edit the img location accordingly:</p>
 
    <center><textarea rows="3" cols="40"><a href="https://starbug.neocities.org/"><img src="starbug88x31button.png"></a>
       </textarea>
