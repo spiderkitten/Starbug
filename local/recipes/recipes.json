@@ -1,0 +1,4 @@
+{
+	"layout": "layout/recipes.njk",
+    "tags": "recipe"
+}
