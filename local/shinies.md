@@ -29,6 +29,9 @@ script: js/freeze.js
       <a href="https://thegardenofmadeline.neocities.org/pages/adopts"><img src="images/adoptables/may12023.png" width="60px"></a>
 
 <!-- Blinkies -->
+<!---
+<a href=""><img src=""></a>
+--->
   <h2>Blinkies</h2>
       <img src="images/blinkies/lando.png"> 
       <img src="images/blinkies/bats.png"> 
@@ -40,6 +43,11 @@ script: js/freeze.js
       <a href="https://shishka.neocities.org/shishka/blinkies"><img src="images/blinkies/blinkie-i-block.png"></a> 
       <a href="https://web.archive.org/web/20091027123659/http://geocities.com/jrwrfulton/images/gingerbreadluv.gif"><img src="images/blinkies/gingerbreadluv.png"></a> 
       <a href="https://web.archive.org/web/20091027032116/http://geocities.com/dustydriveway/autumn_2.gif"><img src="images/blinkies/autumn_2.png"></a>
+<img src="images/blinkies/aishas.png">
+ <img src="images/blinkies/iloveglitter.png"> 
+ <img src="images/blinkies/ilovelighthouses.png"> 
+<img src="images/blinkies/ilovepizza.png">
+<img src="">
 
 
 <!-- Buttons -->
@@ -54,6 +62,9 @@ script: js/freeze.js
 
 
 <!-- Stamps -->
+<!---
+<a href=""><img src=""></a>
+--->
   <h3>Stamps</h3>
       <a href="https://www.deviantart.com/wotawota/art/I-Love-Postcards-735447421"><img src="images/stamps/iheartpostcards.png"></a>
       <a href="https://www.deviantart.com/oceanstamps/art/Amanita-muscaria-stamp-512931703"><img src="images/stamps/amanitamuscaria.png"></a>
@@ -61,12 +72,9 @@ script: js/freeze.js
       <a href="https://www.deviantart.com/cfryant/art/Hello-my-name-is-65969527"><img src="images/stamps/hellomynameis.png"></a>
       <a href="https://www.deviantart.com/sharkfold/art/Studio-Ghibli-Fan-45074936"><img src="images/stamps/ghiblifan.png"></a>
       <a href="https://www.deviantart.com/loneantarcticwolf/art/I-Love-My-Companion-Cube-69586805"><img src="images/stamps/i_love_my_companion_cube_by_loneantarcticwolf.png"></a> <a href="https://www.deviantart.com/kezzi-rose/art/Marshmallow-Stamp-80164985"><img src="images/stamps/torturemarsh.png"></a> <a href="https://www.deviantart.com/mc2lane-adopts/art/F2U-Tea-Lover-Stamp-671358048"><img src="images/stamps/tea.png"></a> <a href="https://www.deviantart.com/thecandycoating/art/Sparkle-Waterfall-Stamp-636610709"><img src="images/stamps/sparkle_waterfall.png"></a> <a href="https://www.deviantart.com/sideshow-coholic/art/SSC-stamp-282538561"><img src="images/stamps/strawshort.png"></a> <a href="https://www.deviantart.com/clefairykid/art/The-Sims-Loading-196991324"><img src="images/stamps/sims.png"></a> <a href="https://www.deviantart.com/jam-fairy/art/I-Heart-Rainbows-94877007"><img src="images/stamps/i_heart_rainbows_by_jam_fairy.png"></a>
-<a href="https://www.deviantart.com/anime-dragon-tamer/gallery/31309401/stamps"><img src="images/stamps/rainbowgradient.png"></a>
-
-
-<a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/tf2stamp.png"></a> 
+<a href="https://www.deviantart.com/anime-dragon-tamer/gallery/31309401/stamps"><img src="images/stamps/rainbowgradient.png"></a> <a href="https://www.deviantart.com/demire/art/minimal-FireAlpaca-stamp-390483089"><img src="images/stamps/firealpaca.png"></a> <a href="https://www.deviantart.com/twomakesaparty/art/Scooby-Doo-Stamp-364802673"><img src="images/stamps/scooby.png"></a> <a href="https://www.deviantart.com/sonira-stamps/art/Explaining-Stamp-151139115"><img src="images/stamps/badexplaining.png"></a> <a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/tf2stamp.png"></a> 
 <a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/pyro1.png"></a>
-<a href="https://www.deviantart.com/supasoldier/gallery/7819602/stamps"><img src="images/stamps/tf2red.png"></a>
+<a href="https://www.deviantart.com/supasoldier/gallery/7819602/stamps"><img src="images/stamps/tf2red.png"></a> <a href="https://www.deviantart.com/aaestheticc/art/rainbow-01-732813715"><img src="images/stamps/rbow.png"></a> <a href="https://www.deviantart.com/estecka/art/Nyan-Stamp-289447160"><img src="images/stamps/catnyancat.png"></a> <a href="https://www.deviantart.com/bigblueghost/art/Black-Cat-Stamp-568425829"><img src="images/stamps/blackcateyes.png"></a>
 
 </div><!-- closing tag for freeze div -->
 

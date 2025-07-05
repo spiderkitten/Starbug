@@ -523,21 +523,6 @@ strong {
     }
   }
   
-  
-  /* remove this if the other one works 
-
-    @keyframes marquee {
-      0% {
-        margin-left: 100%;
-        transform: translateX(0%);
-      }
-      100% {
-        margin-left: 0;
-        transform: translateX(-100%);
-      }
-    } 
-   */ 
-  
     
       /* button on front page */
     #frontpagebuttons{
@@ -559,14 +544,17 @@ strong {
   
     .updatebox {
      background-color: var(--pallette5);
-      border-color: var(--pallette2);
-      border-style: dashed;
+     border-color: var(--pallette2);
+ border-style: dashed;
       margin: auto; 
       padding:10px;
       overflow: hidden; 
       min-width: 200px;
       max-width: 500px;
     }
+
+
+
   
     .todobox {
       background-color: var(--pallette6);

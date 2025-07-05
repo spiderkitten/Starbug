@@ -10,7 +10,7 @@ cssFile: "favmusic.css"
 
 <p>This is just a place for me to share my favourite music. I'm a child of the 70s and 80s so most of the music here is going to be 60s, 70s, 80s and 90s. With maybe a few more recent ones.</p>
 
-<p>bla bla bla</p>
+<p>bla bla bla   </p>
 
 
  <div id="player">
