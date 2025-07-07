@@ -6,10 +6,6 @@ layout: layout/base.njk
 
 <h1>Changelog</h1>
 <p>Just a way to look back on all the updates I have made. Should be every major update.</p>
-
-
-
-
      
       <div class="updatebox">
 

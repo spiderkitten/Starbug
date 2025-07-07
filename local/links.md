@@ -60,7 +60,7 @@ fanfic archives
 
  <!-- ========== Neocities Sites ========== -->
 
- <div class="categorybox">
+<div class="categorybox">
 <h2 class="categorytitle" id="neosites">Neocities / Nekoweb Sites</h2>
 
 <h3 class="categorysubtitle"></a>Down Under</h3>
