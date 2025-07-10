@@ -71,7 +71,7 @@ CHANGELOG
   --h4fontsize: 16px;
   --fontheadings: cherryswash;
 
-  --fonttitle: leaf;
+  --fonttitle: lato;
     --titletextshadow: 4px 4px 4px #000000;
   --fonttagline: lato;
     --fontsizetagline:14px;
@@ -126,9 +126,30 @@ CHANGELOG
   font-family: lato;
        src: url(../fonts/Lato-Regular.ttf) format("truetype");
 }
+
 @font-face{
-  font-family: leaf;
-       src: url(../fonts/leaf.ttf) format("truetype");
+  font-family: Inter;
+       src: url(../fonts/Inter.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: walter;
+       src: url(../fonts/walterturncoat.woff) format("truetype");
+}
+
+@font-face{
+  font-family: basiic;
+       src: url(../fonts/basiic.ttf) format("truetype");
+}
+
+@font-face{
+  font-family: gardenstone;
+       src: url(../fonts/GardenStone.tff) format("truetype");
+}
+
+@font-face{
+  font-family: zombie;
+       src: url(../fonts/zombiegardenparty.tff) format("truetype");
 }
 
 @font-face{
@@ -220,7 +241,7 @@ padding-bottom:10px;
 /* Header */
 
 .header h1 {
-  color: var(--pallette2);
+  color: var(--pallette8);
   font-family:var(--fonttitle);
   text-shadow: var(--titletextshadow);
   text-align: center;
@@ -249,7 +270,7 @@ padding-bottom:10px;
   color: var(--pallette4);
   text-decoration: none;
   padding: 10px;
-  background-color: var(--pallette2);
+  background-color: var(--pallette8);
   border-radius: 10px;
   font-family: var(--fontmain);
   margin-top: 5px;
