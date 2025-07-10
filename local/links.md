@@ -339,7 +339,7 @@ fanfic archives
       <div><a href="https://xobyte.org/demos/protected/">hiding a page behind a password</a></div>
       <div class="description">how to hide a page behind a password</div>
 
-      <div><a href="https://solaria.neocities.org/bits/">using images as borders tutorial</a></div>
+      <div><a href="https://solaria.neocities.org/guides/borderimage/">using images as borders tutorial</a></div>
       <div class="description">how to use images for decorative borders using CSS</div>
 
       <div><a href="https://rarebit.neocities.org/">Rarebits Comic Template</a></div>
