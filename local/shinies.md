@@ -5,7 +5,7 @@ layout: layout/base.njk
 script: js/freeze.js
 ---
     
-    <h1>Shinies!</h1>
+   <h1>Shinies!</h1>
       <p>This is where you will find all the little collectables I have found around the place, or the cliques/fanlistings I have joined. Everything should be linked to the source where possible.</p>
 
 
