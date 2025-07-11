@@ -11,7 +11,8 @@
     --fontsizelinks:16px;
     --fontheadings: opendyslexic;
     --fontstrong: opendyslexic-bold;
-    --h1fontsize: 20px;
+    --headerh1fontsize: 60px;
+    --h1fontsize: 36px;
     --h2fontsize: 20px;
     --h3fontsize: 18px;
     --h4fontsize: 16px;
@@ -49,4 +50,15 @@
         color: var(--pallette1);
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    header h1 {
+        color: var(--pallette8);
+        font-family:var(--fonttitle);
+        text-shadow: var(--titletextshadow);
+        text-align: center;
+        font-size: var(--headerh1fontsize);
+        letter-spacing: 5px;
+        margin: 0;
+        text-transform: uppercase;
     }

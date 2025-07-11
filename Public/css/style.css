@@ -32,6 +32,7 @@ Don't redistribute the entire style sheet
   --pallette8: #fe9696;  /* dark pink */
 
   /* Fonts & Font Sizes */ 
+  --headerh1fontsize: 60px;
   --h1fontsize: 32px;
   --h2fontsize: 20px;
   --h3fontsize: 18px;
@@ -215,7 +216,7 @@ header h1 {
   font-family:var(--fonttitle);
   text-shadow: var(--titletextshadow);
   text-align: center;
-  font-size: 80px;
+  font-size: var(--headerh1fontsize);
   letter-spacing: 5px;
   margin: 0;
   text-transform: uppercase;
