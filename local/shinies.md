@@ -97,3 +97,9 @@ script: js/freeze.js
 
       <a href="https://theatregirl.net/cats/index.php"><img src="images/fanlists/cats31x88-1.gif" title="Cats Fan"></a>
 
+
+    <div style="text-align:center;">
+  <!--10 coins-->
+  <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
+</div>
+

@@ -2,19 +2,17 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
+cssFile: "links.css"
 ---
 
 
 <h1>Site Credits</h1>
 
-<p>Everything this site is made with. And Mosscap.</p>
+<p>Everything this site is made with.</p>
 
-<div style="text-align:center;">
-  <!--10 coins-->
-  <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
-</div>
 
-<h2>Site Stuff</h2>
+<div class="categorybox">
+<h2 class="categorysubtitle">Site Stuff</h2>
  <ul>
    <li><a href="https://vscodium.com/">VSCodium</a> is the app I use to write my code. Its an open source binary of VSCode without Microsofts tracking. </li>
    <li> <a href="https://www.11ty.dev/">11ty Static Site Generator</a> to make static pages from my code </li>
@@ -31,11 +29,11 @@ layout: layout/base.njk
 
    <li><a href="https://atabook.org">ATABook</a> - Guestbook</li>
 
-
-
    </ul>
+</div>
 
-<h3>Fonts and Text</h3>
+<div class="categorybox">
+<h2 class="categorysubtitle">Fonts and Text</h2>
 <p>Some fonts may be theme specific, or from previous layouts</p>
 <ul>
   <li>Font: <span style="font-family: Leaf";>Leaf</span> from <a href="https://www.dafont.com/leaf1.font">DaFont</a></li>
@@ -54,8 +52,10 @@ layout: layout/base.njk
      <li><a href="https://loveberry.nekoweb.org/resources/text">Loveberry's CSS Text Effects</a> - some of the text effects</li>
 
 </ul>
+</div>
 
-<h3>Images</h3>
+<div class="categorybox">
+<h2 class="categorysubtitle">Images</h2>
 <ul>
   <li>Pixel gold star gif by <a href="https://eightbriitt.neocities.org/">Eightbritt</a></li>
   <li>Tulip Girl on About Page by <a href="https://www.flaticon.com/stickers-pack/beautiful-female-avatars">Flaticon</a></li>
@@ -70,3 +70,4 @@ layout: layout/base.njk
 
 
 </ul>
+</div>

@@ -2,14 +2,15 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
+cssFile: index.css
 ---
 
-<h1><img src="images/siteimgs/flower.png" id="spin"><div class="pop">Welcome</span></h1>
+<h1><div class="pop">Welcome</div></h1>
 
 <div class="welcome">
 <img src="images/siteimgs/girlme.png"  style="float:left; margin: 0 10px 10px 10px;" width="180px">
 
-<p>Hi, I'm Starbug, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
+<p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>I'll admit, there probably isn't a lot that is hugely interesting here. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management page, and maybe the Booklog page. Thanks for visiting!</p>
 
 
@@ -17,7 +18,10 @@ layout: layout/base.njk
 
 <div id="warning">
   <div class="marqueewarning">
-  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol</div>
+  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  
+  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  
+  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  
+  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol</div>
 
   </div>
 </div>
@@ -52,6 +56,8 @@ Updated the links page with some new sites in most categories! check them out! A
       </p>
 
     <p><a href="changelog.html">Previous Updates</a></p>
+
+
 </div>
 
 <div class="todobox">

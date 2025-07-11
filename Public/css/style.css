@@ -10,40 +10,6 @@ But please don't rip off my entire style sheet
 Don't claim the style sheet as your own 
 Don't redistribute the entire style sheet   
 
-Contents - Ctrl+F to find:
-
-Variables
-Fonts
-Main Layout
-Header
-Top Navigation
-Text formatting
-Default Links & Lists
-Stuff used on multiple pages
-
-INDEX PAGE
-SHINIES
-ABOUT ME PAGE 
-USE PAGE
-
-BOOK OF WORDS / LEXICON
-VAMPIRE MANAGEMENT PAGE
-
-
-BOOK PAGES
-MOVIE PAGES
-MUSIC PAGES
-
-FANDOM PAGES (100x100 ICONS / FRIENDS ONLY / MOOD THEMES)
-
-
-GUESTBOOK
-SITE CREDITS
-CHANGELOG
-
- MEDIA QUERIES (Accessibility)
-
-
 /*====================================================================*/ 
 
 /* Variables - cosmetic things that can be changed */
@@ -87,10 +53,10 @@ CHANGELOG
 
   /* Style Images */
   --bullet: url(../images/siteimgs/favicon_shroom1.gif);
-  --imgwarning: url(../images/siteimgs/warningsmall.png);
-  --imgwelcomebefore: url(../images/siteimgs/flower.png) no-repeat;
-  --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
 
+
+
+  --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
   --imgmovmoviesbefore: url(../images/siteimgs/movies/popcorn.png) no-repeat;
   --imgmovjapanbefore: url(../images/siteimgs/movies/castle.png) no-repeat;
   --imgmovwarbefore: url(../images/siteimgs/movies/war.png) no-repeat;
@@ -119,37 +85,37 @@ CHANGELOG
 
 @font-face{
   font-family: lato-thin;
-       src: url(../fonts/Lato-Thin.ttf) format("truetype");
+    src: url(../fonts/Lato-Thin.ttf) format("truetype");
 }
 
 @font-face{
   font-family: lato;
-       src: url(../fonts/Lato-Regular.ttf) format("truetype");
+    src: url(../fonts/Lato-Regular.ttf) format("truetype");
 }
 
 @font-face{
   font-family: Inter;
-       src: url(../fonts/Inter.ttf) format("truetype");
+    src: url(../fonts/Inter.ttf) format("truetype");
 }
 
 @font-face{
   font-family: walter;
-       src: url(../fonts/walterturncoat.woff) format("truetype");
+    src: url(../fonts/walterturncoat.woff) format("truetype");
 }
 
 @font-face{
   font-family: basiic;
-       src: url(../fonts/basiic.ttf) format("truetype");
+    src: url(../fonts/basiic.ttf) format("truetype");
 }
 
 @font-face{
   font-family: gardenstone;
-       src: url(../fonts/GardenStone.tff) format("truetype");
+    src: url(../fonts/GardenStone.tff) format("truetype");
 }
 
 @font-face{
   font-family: zombie;
-       src: url(../fonts/zombiegardenparty.tff) format("truetype");
+    src: url(../fonts/zombiegardenparty.tff) format("truetype");
 }
 
 @font-face{
@@ -162,13 +128,9 @@ CHANGELOG
     src: url(../fonts/CherrySwash-Bold.otf) format("truetype");
 }
 
-/* Main Layout */
 
-.wrapper {
-  width:85%;
-  margin: auto;
-  max-width: 1000px;
-}
+
+/* ====== Main Layout ===== */
 
 body {
   display: grid;
@@ -190,7 +152,13 @@ body {
 
 }
 
-.header {
+container {
+  width:85%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+header {
   grid-area: header;
   background: var(--pallette1);
   margin:20px;
@@ -213,7 +181,7 @@ body {
 }
 
 
-.main {
+main {
   grid-area: main;
   background: var(--pallette4);
   margin: 20px;
@@ -240,7 +208,7 @@ padding-bottom:10px;
 
 /* Header */
 
-.header h1 {
+header h1 {
   color: var(--pallette8);
   font-family:var(--fonttitle);
   text-shadow: var(--titletextshadow);
@@ -251,18 +219,16 @@ padding-bottom:10px;
   text-transform: uppercase;
 }
 
-.tagline {
+tagline {
+  display:block;
   color: var(--pallette4);
   font-family: var(--fonttagline);
   font-size: var(--fontsizetagline);
   text-align: center;
   letter-spacing: 2px;
-  margin: 0;
-  padding: 0;
 }
 
 /* Top Navigation */ 
-
 
 #navbutton, .dropdown button { 
   border: 0;
@@ -304,7 +270,7 @@ padding-bottom:10px;
   background-color: var(--pallette8);
   color: var(--pallette4);
   text-decoration: none;
- 
+
 }
 
 .dropdown-content a:hover {
@@ -354,11 +320,12 @@ strong {
   font-weight: bold;
 }
 
-/* .rainbow-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(254, 211, 102), orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}*/
+  font-weight:bold;
+} 
 
 .upsidedown {
   display: Inline-block;
@@ -367,7 +334,7 @@ strong {
 
 /* Default Links & Lists */
 
- a {
+  a {
     color: var(--pallette2);
     text-decoration: none;
   }
@@ -490,504 +457,14 @@ strong {
     }
 
 
-/*====================================================================*/
-  /* INDEX PAGE */ 
 
-    /* image before welcome heading */
-    #spin {
-      /*background: var(--imgwelcomebefore);*/
-      padding: 0 4px;
-      vertical-align: middle;
-      animation: spin 3s infinite linear;
-    }
-  
-    @keyframes spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  
-  
-      /* Warning box on front page - box and image before the warning */
-    #warning {
-      background-color: var(--pallette8);
-      padding: 5px 5px 5px 5px;
-      border-radius: 10px;
-      margin: 20px auto 15px 20px;
-    }
-  
-    #warning .marqueewarning {
-      overflow: hidden;
-      white-space: nowrap;
-      }
-   
-      .marquee {
-        animation: marquee 25s linear infinite;
-        display: inline-block;
-        padding-right: 100px;
-   }
-  
-   .marquee:hover {
-    animation-play-state: paused;
-  }
-  
-  
-  @keyframes marquee {
-    from {
-      transform: translateX(0);
-    }
-    to { 
-      transform: translateX(-100%);
-    }
-  }
-  
-    
-      /* button on front page */
-    #frontpagebuttons{
-      padding-top:10px;
-      text-align:center;
-    }
-  
-  .frontpage {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .frontpage div {
-  
-    margin: 5px;
-  }
-  
-  
-    .updatebox {
-     background-color: var(--pallette5);
-     border-color: var(--pallette2);
- border-style: dashed;
-      margin: auto; 
-      padding:10px;
-      overflow: hidden; 
-      min-width: 200px;
-      max-width: 500px;
-    }
-
-
-
-  
-    .todobox {
-      background-color: var(--pallette6);
-       border-color: var(--pallette7);
-       border-style: dashed;
-       margin: auto; 
-      padding:10px;
-      min-width: 200px;
-      max-width: 300px;
-     }
-  
-  
-     .linkmebox {
-      background-color: var(--pallette6);
-       border-color: var(--pallette7);
-       border-style: dashed;
-       margin: auto; 
-      padding:10px;
-      max-width: 830px;
-     }
-  
-  
-/*====================================================================*/
-  /* SHINIES PAGE */ 
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* ABOUT ME PAGE */ 
-/* basics table */
-
-.stripedlist {
-  display: grid;
-  grid-template-columns: 130px 1fr;
-  max-width: 95%;
-  margin:auto;
-  background-color: var(--pallette7);
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-.stripedlist div:nth-child(odd) {
-  background-color: var(--pallette8);
-  padding:5px;
-  text-align: right;
-}
-
-.stripedlist div:nth-child(even) {
-  padding:5px;
-}
-
-  /* favourite things table */
-.favthings {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content:center;
-  background-color: var(--pallette7);
-  border-radius: 10px;
-  max-width: 95%;
-  margin:auto;
-}
-
-.favthings > div {
-  background-color: var(--pallette8);
-  margin: 10px;
-  text-align: center;
-  border-radius: 10px;
-  flex-grow: 1;
-  flex-basis: 0;
-  min-width: 0;
-  padding:5px;
-}
-
-.favthings h3{
-background-color: var(--pallette5);
-border-radius: 10px;
-margin-top: 0px;
-}
-
-  /* Anti Bucket List table*/ 
-.stripedlist2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 95%;
-  margin:auto;
-  border-radius: 10px;
-overflow: hidden;
-  }
-
-  .stripedlist2 div {
-  text-align: left;
-  }
-
-  .stripedlist2 div:nth-child(1n)  {
-    background: var(--pallette8);
-  padding:10px;
-  }
-  .stripedlist2 div:nth-child(2n) {
-    background: var(--pallette7);
-padding:10px
-  }
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* USE PAGE */ 
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* LEXICON PAGE */ 
-
-/* table */
-
-.words-stripedlist {
-  display: grid;
-  grid-template-columns: 180px 1fr;
-  max-width: 95%;
-  margin:auto;
-  background-color: var(--pallette7);
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-.words-stripedlist div:nth-child(odd) {
-  background-color: var(--pallette8);
-  padding:5px;
-  text-align: right;
-}
-
-.words-stripedlist div:nth-child(even) {
-  padding:5px;
-}
-
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* VAMPIRE RESOURCE MANAGEMENT PAGE */ 
-
-.vampinfobox  {
-  background-color: var(--pallette5);
-  border-color: var(--pallette2);
-  padding: 10px;
-  border-radius: 10px;
-  border-style: dashed;
-  width:90%;
-  margin: 0px auto 30px auto;
-}
-
-cite {
-  text-align: left;
-  font-size: 12px;
-}
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* BOOK PAGES */ 
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* MOVIES PAGES */ 
-
-/* A24 MOVIES PAGE */ 
-
-
-.A24 {
-  display: grid;
-  grid-template-columns: 40px 40px 50px 1fr;
-  max-width: 95%;
-  margin:auto;
-  background-color: var(--pallette);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.A24 div {
-  text-align: left;
-  padding:10px;
-}
-
-/* Column 1*/
-.A24 div:nth-child(4n-7) {
-  background: var(--pallette5);
-  color: var(--pallette1);
-  padding:10px;
-}
-
-/* column 2 */
-.A24 div:nth-child(4n-6) {
-  background: var(--pallette6);
-  color: var(--pallette2);
-  padding:10px;
-}
-
-/* Column 3 */
-.A24 div:nth-child(4n-5) {
-  background: var(--pallette7);
-  padding:10px;
-}
-
-  /* column 4*/
-.A24 div:nth-child(4n-4) {
-  background: var(--pallette8);
-}
-
-/* FAV MOVIES PAGE */ 
-
-.movielist {
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 4px;
-  margin:auto;
-  background-color: var(--pallette6);
-  border-radius: 10px;
-  overflow: hidden;
-  padding:10px;
-  margin-bottom:30px;
-  max-width:80%;
-  }
-  
-  .movielist div:nth-child(2n+1),
-  .movielist div:nth-child(2n) {
-    background-color: var(--pallette6);
-    padding:3px;
-  }
-  
-  .movielist div:nth-child(4n+1),
-  .movielist div:nth-child(4n) {
-    background-color: var(--pallette6);
-  }
-
-  #imgmovies:before {
-    background: var(--imgmoviesbefore);
-    padding: 5px 20px;
-    content: " ";
-  }
-
-  #imgmovmovies:before {
-    background: var(--imgmovmoviesbefore);
-    padding: 5px 20px;
-    content: " ";
-  }
-
- #imgmovjapan:before {
-  background: var(--imgmovjapanbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovwar:before {
-  background: var(--imgmovwarbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovaus:before {
-  background: var(--imgmovausbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovweird:before {
-  background: var(--imgmovweirdbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovhorror:before {
-  background: var(--imgmovhorrorbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovfolk:before {
-  background: var(--imgmovfolkbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovkorean:before {
-  background: var(--imgmovkoreanbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovapoca:before {
-  background: var(--imgmovapocabefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovscifi:before {
-  background: var(--imgmovscifibefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovtime:before {
-  background: var(--imgmovtimebefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovmusic:before {
-  background: var(--imgmovmusicbefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovanime:before {
-  background: var(--imgmovanimebefore);
-  padding: 5px 20px;
-  content: " ";
- }
-
- #imgmovfamily:before {
-  background: var(--imgmovfamilybefore);
-  padding: 5px 20px;
-  content: " ";
- }
-/*====================================================================*/
-
-/* MUSIC PAGES */
-
-#musicwebplayer {
-display:block;
-  width:90%;
-  margin:auto;
-  padding:10px;
-  border: none;
-  overflow: hidden;
-  height: 250px;
-  width: 600px;
-}
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* FANDOM PAGES */ 
-
-  /* 100x100 ICONS PAGES */ 
-
-.iconbox{
-  background-color: var(--pallette5);
-  border:dotted;
-  border-color: var(--pallette7);
-  padding:10px;
-  margin-bottom: 25px;
-}
-
-.iconbox h3 {
-  background-color: var(--pallette7);
-}
-
-.arrow {
-  border: solid var(--pallette2);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* GUESTBOOK */ 
-
-  #gbook {
-    display:block;
-    width:90%;
-    margin:auto;
-    padding:10px;
-    border: none;
-    overflow: hidden;
-    height: 1300px;
-  }
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* SITE CREDITS */ 
-
-
-/*====================================================================*/
-
-/*====================================================================*/
-  /* CHANGELOG */ 
-
-
-/*====================================================================*/
 
 /*====================================================================*/
   /* MEDIA QUERIES */ 
 
   @media only screen and (max-width:900px) {
     body {
-     
+
       grid-template-areas:
         'header'
         'topnav'     
@@ -1020,25 +497,25 @@ display:block;
       font-size:14px ;
     }
 
-   
+
     .todobox {
-       margin: auto; 
+      margin: auto; 
       padding:10px;
       min-width: 200px;
       max-width: 500px;
-     }
+      }
   
-     .favthings {
+    .favthings {
       display: flex;
       flex-direction: column;
     }
   
-   }
+  }
   
   @media only screen and (max-width:600px) {
   
   body {
-     
+
       grid-template-areas:
         'header'
         'topnav'     
@@ -1086,13 +563,3 @@ display:block;
   
   
 /*====================================================================*/
-
-
-
-
-/*====================================================================*/
-  /* EMPTY PAGE */ 
-
-
-/*====================================================================*/
-

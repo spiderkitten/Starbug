@@ -2,6 +2,7 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
+cssFile: vamp.css
 ---
 
 <h1>Vampire Resource Management</h1>

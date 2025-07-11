@@ -1,0 +1,27 @@
+  /* FANDOM PAGES */ 
+
+  /* 100x100 ICONS PAGES */ 
+
+  .iconbox{
+    background-color: var(--pallette5);
+    border:dotted;
+    border-color: var(--pallette7);
+    padding:10px;
+    margin-bottom: 25px;
+  }
+  
+  .iconbox h3 {
+    background-color: var(--pallette7);
+  }
+  
+  .arrow {
+    border: solid var(--pallette2);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }

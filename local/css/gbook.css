@@ -1,3 +1,15 @@
+
+/*
+Guestbook is Ayano's comment widget  
+https://virtualobserver.moe/ayano/comment-widget  
+
+Note: this only works on older neocities accounts created prior to 2022. This is because of Neocities' new Content Security Policy. You can read more about that at this user created page:  
+https://content-security-policy.neocities.org/  
+
+*/
+
+/*============= Guestbook Stylesheet ===============*/
+
 /*
     Below you will be able to freely customize every aspect of the comment widget.
     Most aspects of the widget are 100% able to be customized in CSS, but for strong structural changes,

@@ -332,6 +332,11 @@ fanfic archives
 <h3 class="categorysubtitle">HTML / CSS / JS</h3>
  <p>Almost every personal site has links to general places to learn HTML etc so I'm not going to be repetative, Instead I'll link to some specific tutorials that might be helpful on neocities or other small/indie web sites</p>
 
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
 
       <div><a href="https://randomboo.com/88x31.html">Hover Button Effect</a></div>
       <div class="description">CSS code that makes your 88x31 buttons look like they are being pressed when you click them</div>
@@ -341,6 +346,20 @@ fanfic archives
 
       <div><a href="https://solaria.neocities.org/guides/borderimage/">using images as borders tutorial</a></div>
       <div class="description">how to use images for decorative borders using CSS</div>
+
+<h3 class="categorysubtitle">Templates</h3>
+<p>Some useful templates made by lovely people that are free to use for your site</p>
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
+<div><a href="https://kingdra.net/masterlist-template/">Kingdra's Fanfic Masterlist Template</a></div>
+ <div class="description">A template for creating a filterable list of your fanfic. Note this template is for the master list only</div> 
+ 
+<div><a href="https://kayleerowena.com/blog/2025/code-template/">Kaylee Rowena's Simple Image Portfolio Template</a></div>
+ <div class="description">A template for a simple image gallery</div> 
+
 
       <div><a href="https://rarebit.neocities.org/">Rarebits Comic Template</a></div>
       <div class="description"> A comic template for making a webcomic. Includes navigation and everything you need. If you need help to set it up, there's a really good tutorial: 

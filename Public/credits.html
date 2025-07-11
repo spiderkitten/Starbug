@@ -11,10 +11,12 @@
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
   <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all" />
-  <link href="/css/" rel="stylesheet" type="text/css" media="all"  /> 
-  <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">                       
+  <link href="/css/links.css" rel="stylesheet" type="text/css" media="all"  /> 
+  
+  <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
+                      
   <script src="/js/load.js"></script>
-  <script src="/"></script>
+  <script src="/js/"></script>
 
 
 <!-------- Theme Switch Code ------->
@@ -38,26 +40,25 @@
     }
   </script>
 
-<title>Space Cadet</title>
+  <title>Space Cadet</title>
 </head>
 
 <body>
-  <div class="wrapper">
-  <div class="header">
+  <container>
+  <header>
     <h1>Space Cadet</h1>
-    <div class="tagline">Just a girl floating through space...</div>
-  </div>
+    <tagline>Just a girl floating through space...</tagline>
+  </header>
 
 
-
+  
 
   <div class="topnav">
 
     <a href="/index.html" id="navbutton">Home</a> 
-    <a href="/shinies.html" id="navbutton">Shinies</a>
 
     <div class="dropdown">
-      <button>About</button>
+      <button>Me</button>
       <div class="dropdown-content">
           <a href="/about.html">About Me</a>
           <a href="/use.html">/Use</a>
@@ -68,6 +69,7 @@
     <div class="dropdown">
       <button>Stuff</button>
       <div class="dropdown-content">
+        <a href="/shinies.html">Shinies</a>
           <a href="/lexicon.html">Lexicon</a>
           <a href="/vampire_rm.html">Vampire Resource Management</a>
       </div>
@@ -121,15 +123,13 @@
 
     
 
-  <div class="main">
+  <main>
 <!-- Main Content Start-->
+
   <h1>Site Credits</h1>
-<p>Everything this site is made with. And Mosscap.</p>
-<div style="text-align:center;">
-  <!--10 coins-->
-  <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
-</div>
-<h2>Site Stuff</h2>
+<p>Everything this site is made with.</p>
+<div class="categorybox">
+<h2 class="categorysubtitle">Site Stuff</h2>
  <ul>
    <li><a href="https://vscodium.com/">VSCodium</a> is the app I use to write my code. Its an open source binary of VSCode without Microsofts tracking. </li>
    <li> <a href="https://www.11ty.dev/">11ty Static Site Generator</a> to make static pages from my code </li>
@@ -143,7 +143,9 @@
    <li><a href="https://codepen.io/sadness97/pen/BaQbJQb">Seamless Marquee Codepen</a> by Sadgirl</li>
    <li><a href="https://atabook.org">ATABook</a> - Guestbook</li>
    </ul>
-<h3>Fonts and Text</h3>
+</div>
+<div class="categorybox">
+<h2 class="categorysubtitle">Fonts and Text</h2>
 <p>Some fonts may be theme specific, or from previous layouts</p>
 <ul>
   <li>Font: <span style="font-family: Leaf";>Leaf</span> from <a href="https://www.dafont.com/leaf1.font">DaFont</a></li>
@@ -155,7 +157,9 @@
   <br>
      <li><a href="https://loveberry.nekoweb.org/resources/text">Loveberry's CSS Text Effects</a> - some of the text effects</li>
 </ul>
-<h3>Images</h3>
+</div>
+<div class="categorybox">
+<h2 class="categorysubtitle">Images</h2>
 <ul>
   <li>Pixel gold star gif by <a href="https://eightbriitt.neocities.org/">Eightbritt</a></li>
   <li>Tulip Girl on About Page by <a href="https://www.flaticon.com/stickers-pack/beautiful-female-avatars">Flaticon</a></li>
@@ -167,14 +171,15 @@
 <li>flower icon on A24 page by flaticon</li>
 <li>Les Vampires image on Vampire Resource Management page - ????</li>
 </ul>
+</div>
 
 <!-- Main Content End-->
-  </div> <!--main-->
+  </main>
 
 <!-- Footer -->
 <div class="footer">
     Site by Stargbug 2022-2025
 </div>
-</div>
+</container>
 </body>
 </html> 

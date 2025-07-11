@@ -2,12 +2,13 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
+cssFile: "about.css"
 ---
 
 
 <!-- Image and Hello -->
 
-<div class="floatleft"><img src="images/siteimgs/girl.png" width="200" alt="illustration of a woman with long brown hair wearing a red shirt"></div>
+<div class="floatleft"><img src="images/siteimgs/girlme.png" width="200" alt="illustration of a woman with long brown hair wearing a red shirt"></div>
 
 <div>
 <h1>Hello!</h1>

@@ -2,6 +2,7 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
+cssFile: movies.css
 ---
 
 <h1>A24 Movies</h1>
