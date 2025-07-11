@@ -237,6 +237,12 @@ tag-line {
   text-decoration: none;
 }
 
+.topnav a {
+  background-color: var(--pallette8);
+  color: var(--pallette4);
+  text-decoration: none;
+}
+
 .navbutton, .dropdown button { 
   border: 0;
   font-size:16px ;
