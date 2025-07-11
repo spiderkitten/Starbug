@@ -152,7 +152,7 @@ body {
 
 }
 
-wrapper {
+.wrapper {
   width:85%;
   margin: auto;
   max-width: 1000px;
