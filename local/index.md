@@ -5,10 +5,10 @@ layout: layout/base.njk
 cssFile: index.css
 ---
 
-<h1><div class="pop">Welcome</div></h1>
+<h1><pop>Welcome</pop></h1>
 
 <div class="welcome">
-<img src="images/siteimgs/girlme.png" alt="" style="float:left; margin: 0 10px 10px 10px;" width="180px">
+<img src="images/siteimgs/girlme.png" alt="" style="float:left; margin: 0 10px 10px 10px;" width="180">
 
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>I'll admit, there probably isn't a lot that is hugely interesting here. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management page, and maybe the Booklog page. Thanks for visiting!</p>
@@ -81,11 +81,9 @@ cssFile: index.css
 
 
 
-    <div class="linkmebox">
-    <h2>Link to Meeeee</h2>
-      <p style="text-align: center;">
-      If some crazy reason you want to link to me, here's a boring button:
-      </p>
+<div class="linkmebox">
+  <h2>Link to Meeeee</h2>
+   <p style="text-align: center;">If some crazy reason you want to link to me, here's a boring button:</p>
 
 <div style="text-align: center;">
    <img src="images/siteimgs/starbug88x31button.png" alt="88x31 link button">
@@ -93,17 +91,16 @@ cssFile: index.css
    <p>please upload the button to your own webspace and edit the img location accordingly:</p>
 
 <textarea rows="3" cols="40"><a href="https://starbug.neocities.org/"><img src="starbug88x31button.png"></a>
-      </textarea>
+</textarea>
 
-      </div>
-
+</div>
 
 <div style="clear:both"></div>
 
 </div>
 <div id="frontpagebuttons">
 <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" title="Say No To Web3!" alt=""></a>
-<a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31px" title="Powered by a human!" alt=""></a>
+<a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" title="Powered by a human!" alt=""></a>
 <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a>
 <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt="">
 <!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>-->

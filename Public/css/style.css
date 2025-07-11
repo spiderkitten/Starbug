@@ -230,7 +230,11 @@ tag-line {
 
 /* Top Navigation */ 
 
-#navbutton, .dropdown button { 
+.topnav a:hover { 
+  text-decoration: none;
+}
+
+.navbutton, .dropdown button { 
   border: 0;
   font-size:16px ;
   color: var(--pallette4);
@@ -242,7 +246,7 @@ tag-line {
   margin-top: 5px;
 }
 
-  #navbutton:hover, .dropdown button:hover {
+.navbutton:hover, .dropdown button:hover {
       background-color: var(--pallette8); 
       color: var(--pallette4); 
   } 
@@ -435,7 +439,7 @@ rainbow-text {
 
 
 /* pop  text */
-  .pop {
+  pop {
     font-size:2em;
     display: inline-block;
     text-align:center; /* looks weird often if not aligned in center */
