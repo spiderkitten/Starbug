@@ -31,7 +31,7 @@ Don't redistribute the entire style sheet
 
   /* Fonts & Font Sizes */ 
 
-  --h1fontsize: 26px;
+  --h1fontsize: 32px;
   --h2fontsize: 20px;
   --h3fontsize: 18px;
   --h4fontsize: 16px;
@@ -439,8 +439,7 @@ rainbow-text {
 
 
 /* pop  text */
-  pop {
-    font-size:2em;
+  .pop {
     display: inline-block;
     text-align:center; /* looks weird often if not aligned in center */
     -webkit-animation: pop 1s ease-in-out infinite alternate;

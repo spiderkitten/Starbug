@@ -5,8 +5,6 @@ layout: layout/base.njk
 cssFile: index.css
 ---
 
-<h1><pop>Welcome</pop></h1>
-
 <div class="welcome">
 <img src="images/siteimgs/girlme.png" alt="" style="float:left; margin: 0 10px 10px 10px;" width="180">
 
