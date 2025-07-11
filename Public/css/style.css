@@ -12,25 +12,26 @@ Don't redistribute the entire style sheet
 
 /*====================================================================*/ 
 
-/* Variables - cosmetic things that can be changed */
+/* Variables - cosmetic things that can be changed  */
+
 :root {
 
   /* gingham background */
   --background-color: linear-gradient(90deg, #c8000080 50%, transparent 0), linear-gradient(#c8000080 50%, transparent 0 );
   --background-size:30px 30px;
 
-  /* colours */
-  --pallette1:#bf1f35; /* header bg */
-  --pallette2: #588d54; /* backgrounds */
-  --pallette3: #222222; /* font and also divider under header*/
-  --pallette4: #ffffff; /* content background */
-  --pallette5: #c800001e; /* info boxes */
-  --pallette6: #588d5434; /* warning box */
-  --pallette7: #bf1f344a; /* two column list - right*/
-  --pallette8: #fe9696; /* two column list - left*/
+  /* colours used throughout site */
+  /* transparent colors will show up differently on different coloured backgrounds */
+  --pallette1:#bf1f35; /* dark red */ 
+  --pallette2: #588d54; /* dark green */
+  --pallette3: #222222;  /* almost black*/
+  --pallette4: #ffffff;  /* white */
+  --pallette5: #c800001e; /* transparent pale pink */
+  --pallette6: #588d5434; /* transparent pale green */ 
+  --pallette7: #bf1f344a; /* transparent pink */
+  --pallette8: #fe9696;  /* dark pink */
 
   /* Fonts & Font Sizes */ 
-
   --h1fontsize: 32px;
   --h2fontsize: 20px;
   --h3fontsize: 18px;
@@ -128,9 +129,12 @@ Don't redistribute the entire style sheet
     src: url(../fonts/CherrySwash-Bold.otf) format("truetype");
 }
 
+@font-face{
+  font-family: CartoonistHand;
+    src: url(../fonts/Cartoonist_Hand.woff);
+}
 
-
-/* ====== Main Layout ===== */
+/* ====== Main Layout / Basic Structure ===== */
 
 body {
   display: grid;
@@ -194,10 +198,8 @@ main {
 .footer {
 grid-area:footer;
 background: var(--pallette4);
-
 color: var(--pallette3);
 text-align: center;
-
 margin: 20px;
 margin-top: 10px;
 margin-bottom:10px;
@@ -228,7 +230,7 @@ tag-line {
   letter-spacing: 2px;
 }
 
-/* Top Navigation */ 
+/* ===== Top Navigation =====*/ 
 
 .topnav a:hover { 
   text-decoration: none;
@@ -458,6 +460,10 @@ rainbow-text {
     50% { -webkit-transform:scale(1) }
     to { -webkit-transform:scale(0.95) }
     }
+
+
+/* ===== Default text Boxes ===== */
+
 
 
 

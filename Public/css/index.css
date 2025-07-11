@@ -8,6 +8,7 @@
           padding: 5px 5px 5px 5px;
           border-radius: 10px;
           margin: 20px auto 15px 20px;
+          color: var(--pallette4);
         }
       
         #warning .marqueewarning {
@@ -41,50 +42,50 @@
         padding-top:10px;
         text-align:center;
       }
-    
-    .frontpage {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    
-    .frontpage div {
-    
-      margin: 5px;
-    }
-    
-    
-      .updatebox {
-        background-color: var(--pallette5);
-        border-color: var(--pallette2);
-        border-style: dashed;
-        margin: auto; 
-        padding:10px;
-        overflow: hidden; 
-        min-width: 200px;
-        max-width: 500px;
+      
+      .frontpage {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
       }
-  
-  
-  
-    
-      .todobox {
-        background-color: var(--pallette6);
-        border-color: var(--pallette7);
-        border-style: dashed;
-        margin: auto; 
-        padding:10px;
-        min-width: 200px;
-        max-width: 300px;
+      
+      .frontpage div {
+      
+        margin: 5px;
       }
-    
-    
-      .linkmebox {
-        background-color: var(--pallette6);
-        border-color: var(--pallette7);
-        border-style: dashed;
-        margin: auto; 
-        padding:10px;
-        max-width: 830px;
+      
+      
+        .updatebox {
+          background-color: var(--pallette5);
+          border-color: var(--pallette2);
+          border-style: dashed;
+          margin: auto; 
+          padding:10px;
+          overflow: hidden; 
+          min-width: 200px;
+          max-width: 500px;
         }
     
+    
+    
+      
+        .todobox {
+          background-color: var(--pallette6);
+          border-color: var(--pallette7);
+          border-style: dashed;
+          margin: auto; 
+          padding:10px;
+          min-width: 200px;
+          max-width: 300px;
+        }
+      
+      
+        .linkmebox {
+          background-color: var(--pallette6);
+          border-color: var(--pallette7);
+          border-style: dashed;
+          margin: auto; 
+          padding:10px;
+          max-width: 830px;
+          }
+      
