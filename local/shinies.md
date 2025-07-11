@@ -2,7 +2,7 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
-script: js/freeze.js
+script: freeze.js
 ---
     
    <h1>Shinies!</h1>
@@ -47,7 +47,7 @@ script: js/freeze.js
  <img src="images/blinkies/iloveglitter.png"> 
  <img src="images/blinkies/ilovelighthouses.png"> 
 <img src="images/blinkies/ilovepizza.png">
-<img src="">
+
 
 
 <!-- Buttons -->

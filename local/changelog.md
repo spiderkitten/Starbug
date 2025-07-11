@@ -7,11 +7,18 @@ layout: layout/base.njk
 <h1>Changelog</h1>
 <p>Just a way to look back on all the updates I have made. Should be every major update.</p>
      
-      <div class="updatebox">
+  <div class="updatebox">
 
-            <h2>2025 Updates</h2>
+   <h2>2025 Updates</h2>
 
-            <p><strong>June 2025:</strong>
+<p><strong>July 2025:</strong>
+Added a dyslexic theme. I hope this works, feel free to let me know if its not right. 
+tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
+Moved the shinies page under "stuff" in the menu.  
+Added some links to the links page
+</p>
+
+<p><strong>June 2025:</strong>
 Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring. 
 </p>
 

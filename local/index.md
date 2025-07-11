@@ -27,11 +27,16 @@ cssFile: index.css
 <div class="frontpage">
 <div class="updatebox">
 <h2>Recent Updates</h2>
+<p><strong>July 2025:</strong>
+Added a dyslexic theme that uses the Open Dyslexic font. I hope this works, feel free to let me know if its not right. 
+tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
+Moved the shinies page under "stuff" in the menu.  
+Added some links to the links page
+</p>
 <p><strong>June 2025:</strong>Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring</p>
 <p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page</p>
 <p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. </p>
 <p><strong>3rd September 2024:</strong> added a lexicon/book of words with some cool words that I like in it. Fixed a few things behind the scenes.</p>
-<p><strong>25 August 2024:</strong> Livejournal/Dreamwidth stuff: Added a 100x100 icon archive of the icons I have made over the years, a page of friends only banners, and a mood theme.</p>
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 <div class="todobox">

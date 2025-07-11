@@ -39,7 +39,7 @@ Don't redistribute the entire style sheet
   --h4fontsize: 16px;
   --fontheadings: cherryswash;
 
-  --fonttitle: lato;
+  --fonttitle: lato-thin;
     --titletextshadow: 4px 4px 4px #000000;
   --fonttagline: lato;
     --fontsizetagline:14px;
@@ -102,7 +102,7 @@ Don't redistribute the entire style sheet
 
 @font-face{
   font-family: walter;
-    src: url(../fonts/walterturncoat.woff) format("truetype");
+    src: url(../fonts/walterturncoat.woff) format("woff");
 }
 
 @font-face{
@@ -112,27 +112,23 @@ Don't redistribute the entire style sheet
 
 @font-face{
   font-family: gardenstone;
-    src: url(../fonts/GardenStone.tff) format("truetype");
+    src: url(../fonts/GardenStone.woff) format("woff");
 }
 
-@font-face{
-  font-family: zombie;
-    src: url(../fonts/zombiegardenparty.tff) format("truetype");
-}
 
 @font-face{
   font-family: CherrySwash;
-    src: url(../fonts/CherrySwash-Regular.otf) format("truetype");
+    src: url(../fonts/CherrySwash-Regular.otf) format("opentype");
 }
 
 @font-face{
   font-family: CherrySwashBold;
-    src: url(../fonts/CherrySwash-Bold.otf) format("truetype");
+    src: url(../fonts/CherrySwash-Bold.otf) format("opentype");
 }
 
 @font-face{
   font-family: CartoonistHand;
-    src: url(../fonts/Cartoonist_Hand.woff);
+    src: url(../fonts/Cartoonist_Hand.woff) format("woff");
 }
 
 /* ====== Main Layout / Basic Structure ===== */
@@ -469,9 +465,18 @@ rainbow-text {
     }
 
 
-/* ===== Default text Boxes ===== */
+/* ===== freeze buttons ===== */
 
-
+.freeze button {
+  background-color: var(--pallette8);
+  border: 0px;
+  border-radius: 10px;
+  color: var(--pallette4);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--fontmain);
+}
 
 
 
