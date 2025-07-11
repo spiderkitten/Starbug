@@ -152,7 +152,7 @@ body {
 
 }
 
-.wrapper {
+page-container {
   width:85%;
   margin: auto;
   max-width: 1000px;
@@ -219,7 +219,7 @@ header h1 {
   text-transform: uppercase;
 }
 
-tagline {
+tag-line {
   display:block;
   color: var(--pallette4);
   font-family: var(--fonttagline);
