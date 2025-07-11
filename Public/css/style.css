@@ -237,7 +237,7 @@ tag-line {
   text-decoration: none;
 }
 
-.topnav a {
+.topnav a:visited {
   background-color: var(--pallette8);
   color: var(--pallette4);
   text-decoration: none;
