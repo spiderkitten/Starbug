@@ -62,7 +62,6 @@ layout: layout/base.njk
 </div>
 </div>
 
-
 <!-- Anti-Bucket List -->
 <div class="textbox">
 <h3>Anti-Bucket List</h3>

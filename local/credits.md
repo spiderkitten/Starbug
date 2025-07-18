@@ -27,6 +27,7 @@ layout: layout/base.njk
    <li><a href="https://codepen.io/sadness97/pen/BaQbJQb">Seamless Marquee Codepen</a> by Sadgirl</li>
 
    <li><a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a> - Guestbook</li>
+   <li><a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon</li>
 
    </ul>
 </div>

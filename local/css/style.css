@@ -50,6 +50,11 @@ Don't redistribute the entire style sheet
   /* Bullets */
   --bullet: url(../images/siteimgs/favicon_shroom1.gif); 
 
+  /* External Link Icon */
+  /* colour: https://angel-rs.github.io/css-color-filter-generator/ */
+  --extlink: url(../images/siteimgs/external_link.png);
+  --extlinkcolour: brightness(0) saturate(100%) invert(57%) sepia(17%) saturate(1262%) hue-rotate(314deg) brightness(114%) contrast(83%);
+
   /* Images before headings on movie page*/
   --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
   --imgmovmoviesbefore: url(../images/siteimgs/movies/popcorn.png) no-repeat;
@@ -495,6 +500,24 @@ margin-bottom: 10px;
     height: auto;
     border-radius: 10px; 
     filter: drop-shadow(1px 3px 5px var(--pallette8));
+}
+
+/* External Link Icon*/
+
+[href^="http"]:not([href*=""])::after {
+  content: '(external link)';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-indent: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: var(--extlink);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75% auto;
+  vertical-align: text-bottom;
+filter: var(--extlinkcolour);
 }
 
 /*====================================================================*/
