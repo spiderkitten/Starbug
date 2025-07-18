@@ -28,8 +28,8 @@ cssFile: "books.css"
     <li><strong>✗</strong> TAAQTUMI an anthology of Arctic Stories by Aviaq Johnston</li>
   </ul>
 
-
-<h2>2024 Reads</h2>
+<div class="textbox">
+<h3>2024 Reads</h3>
     <div style=overflow:hidden; word-wrap:break-word;>
 
   <div class="gr_grid_book_container"><a title="Practical Potions and Premeditated Murder (Practical Potions, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/199331074-practical-potions-and-premeditated-murder"><img alt="Practical Potions and Premeditated Murder" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696860129l/199331074._SX98_.jpg" /></a></div>
@@ -104,5 +104,5 @@ cssFile: "books.css"
 
   </div>
  
-
+</div>
 

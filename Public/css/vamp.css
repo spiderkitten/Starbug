@@ -1,18 +1,6 @@
 /*====================================================================*/
   /* VAMPIRE RESOURCE MANAGEMENT PAGE */ 
 
-  .vampinfobox  {
-    background-color: var(--pallette5);
-    border-color: var(--pallette2);
-    padding: 10px;
-    border-radius: 10px;
-    border-style: dashed;
-    width:90%;
-    margin: 0px auto 30px auto;
-  }
   
-  cite {
-    text-align: left;
-    font-size: 12px;
-  }
+
   

@@ -74,4 +74,8 @@
   padding:10px
     }
   
-  
+      /* float image left and padd*/
+      .floatleft {
+        float: left;
+        padding:10px
+      }

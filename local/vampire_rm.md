@@ -2,7 +2,6 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
-cssFile: vamp.css
 ---
 
 <h1>Vampire Resource Management</h1>
@@ -20,7 +19,7 @@ cssFile: vamp.css
 
 <p>I'm going to copy paste the important part of the article, in case the page ever goes missing because I love this! There's some links to the papers at the bottom if anyone wants to read them.</p>
 
-<div class="vampinfobox">
+<div class="textbox">
 <p style="font-style:italic">In 2006 physicists Costas Efthimiou and Sohang Gandhi worked out that if the first vampires had turned up in 1600, if they’d needed to feed only once a month, and if the world population at that time had been 536,870,911 (as estimated), then <a href="https://cds.cern.ch/record/977097/files/0608059.pdf">the vampire population would have increased geometrically</a> and the last human would have succumbed in June 1602, after a bloodbath of only two and half years.</p>
 
 <p style="font-style:italic">Worse, in 1982 a team of Austrian mathematicians led by R. Haiti and A. Mehlmann found that intelligent vampires could calculate a bloodsucking frequency that would <a href="https://www.rairo-ro.org/articles/ro/pdf/1982/04/ro1982160403791.pdf">maximize total utility per vampire</a> and keep the human race alive indefinitely — and solutions exist no matter whether they’re “asymptotically satiated vampires,” “blood-maximizing vampires,” or “unsatiable vampires.” </p>

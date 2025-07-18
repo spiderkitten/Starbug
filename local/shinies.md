@@ -5,7 +5,7 @@ layout: layout/base.njk
 script: freeze.js
 ---
     
-   <h1>Shinies!</h1>
+   <h2>Shinies!</h2>
       <p>This is where you will find all the little collectables I have found around the place, or the cliques/fanlistings I have joined. Everything should be linked to the source where possible.</p>
 
 
@@ -19,20 +19,21 @@ script: freeze.js
       </div>
 
 <!-- Adoptables-->
-  <h2>Adoptables</h2>
-      <a href="https://www.lejlart.com/apple.html"><img src="images/adoptables/lacroixhydrangea.png"></a>  
-      <a href="https://turtlewitch.neocities.org/rescues.html"><img src="images/adoptables/fluffsace.png"></a> 
+<div class="textbox">
+  <h3>Adoptables</h3>
+  <a href="https://www.lejlart.com/apple.html"><img src="images/adoptables/lacroixhydrangea.png"></a> <a href="https://turtlewitch.neocities.org/rescues.html"><img src="images/adoptables/fluffsace.png"></a> 
       <a href="https://blanketfort.neocities.org/adoptables"><img src="images/adoptables/mail bear.png"></a>
       <a href="https://mooncandy.toys/adopt"><img src="images/adoptables/tina-alien-cat-3.png"></a>
       <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/nicky.png"></a>
       <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/pxl_LegendofLuoXiaohei.png"></a>
       <a href="https://thegardenofmadeline.neocities.org/pages/adopts"><img src="images/adoptables/may12023.png" width="60px"></a>
-
+</div>
 <!-- Blinkies -->
 <!---
 <a href=""><img src=""></a>
 --->
-  <h2>Blinkies</h2>
+<div class="textbox">
+  <h3>Blinkies</h3>
       <img src="images/blinkies/lando.png"> 
       <img src="images/blinkies/bats.png"> 
       <img src="images/blinkies/game.png"> 
@@ -47,24 +48,27 @@ script: freeze.js
  <img src="images/blinkies/iloveglitter.png"> 
  <img src="images/blinkies/ilovelighthouses.png"> 
 <img src="images/blinkies/ilovepizza.png">
-
+</div>
 
 
 <!-- Buttons -->
-  <h2>Buttons</h2>
+<div class="textbox">
+  <h3>Buttons</h3>
       <img src="images/buttons/macmade-wht.png"> <img src="images/buttons/myownwebsite.png"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.png" width="88px" height="32"> <img src="images/buttons/neocities_button.png"> <img src="images/buttons/roly-saynotoweb3.png"> <img src="images/buttons/startrek.png">
-
+</div>
 
 <!-- Cliques -->
-  <h2>Cliques</h2>
+<div class="textbox">
+  <h3>Cliques</h3>
       <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcspace.png"></a>
       <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcppm.png"></a>
-
+</div>
 
 <!-- Stamps -->
 <!---
 <a href=""><img src=""></a>
 --->
+<div class="textbox">
   <h3>Stamps</h3>
       <a href="https://www.deviantart.com/wotawota/art/I-Love-Postcards-735447421"><img src="images/stamps/iheartpostcards.png"></a>
       <a href="https://www.deviantart.com/oceanstamps/art/Amanita-muscaria-stamp-512931703"><img src="images/stamps/amanitamuscaria.png"></a>
@@ -75,11 +79,12 @@ script: freeze.js
 <a href="https://www.deviantart.com/anime-dragon-tamer/gallery/31309401/stamps"><img src="images/stamps/rainbowgradient.png"></a> <a href="https://www.deviantart.com/demire/art/minimal-FireAlpaca-stamp-390483089"><img src="images/stamps/firealpaca.png"></a> <a href="https://www.deviantart.com/twomakesaparty/art/Scooby-Doo-Stamp-364802673"><img src="images/stamps/scooby.png"></a> <a href="https://www.deviantart.com/sonira-stamps/art/Explaining-Stamp-151139115"><img src="images/stamps/badexplaining.png"></a> <a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/tf2stamp.png"></a> 
 <a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/pyro1.png"></a>
 <a href="https://www.deviantart.com/supasoldier/gallery/7819602/stamps"><img src="images/stamps/tf2red.png"></a> <a href="https://www.deviantart.com/aaestheticc/art/rainbow-01-732813715"><img src="images/stamps/rbow.png"></a> <a href="https://www.deviantart.com/estecka/art/Nyan-Stamp-289447160"><img src="images/stamps/catnyancat.png"></a> <a href="https://www.deviantart.com/bigblueghost/art/Black-Cat-Stamp-568425829"><img src="images/stamps/blackcateyes.png"></a>
-
+</div>
 </div><!-- closing tag for freeze div -->
 
 <!-- Fanlists-->
-  <h2>Fanlists</h2>
+<div class="textbox">
+  <h3>Fanlists</h3>
       <a href="http://rhythm-emotion.net/bumblebees/index.php"><img src="images/fanlists/bumble50501.png" title="Bumblebee Fan"></a>
       <a href="https://kelli.altervista.org/bees/index.php"><img src="images/fanlists/bees42a7f0.png" Title="Beeeeees! Fan"></a>
       <a href="http://contradiction.altervista.org/cheesecake/index.php"><img src="images/fanlists/cheesecake.png"></a> 
@@ -96,10 +101,12 @@ script: freeze.js
       <a href="http://into-a-dream.com.ar/wwstv/"><img src="images/fanlists/wwdits200x40_06.png"></a>
 
       <a href="https://theatregirl.net/cats/index.php"><img src="images/fanlists/cats31x88-1.gif" title="Cats Fan"></a>
+</div>
 
-
-    <div style="text-align:center;">
+<div class="textbox">
+<h3>Mosscap</h3>
+  <div style="text-align:center;">
   <!--10 coins-->
   <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
 </div>
-
+</div>

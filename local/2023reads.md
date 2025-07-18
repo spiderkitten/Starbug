@@ -25,8 +25,8 @@ cssFile: "books.css"
     </ul>
 
 
-
-<h2>2023 Reads</h2>
+<div class="textbox">
+<h3>2023 Reads</h3>
     <div style=overflow:hidden; word-wrap:break-word;>
  
     <div class="gr_grid_book_container"><a title="The Thursday Murder Club" rel="nofollow" href="https://www.goodreads.com/book/show/55343854-the-thursday-murder-club"><img alt="The Thursday Murder Club" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600177058l/55343854._SX98_.jpg" /></a></div>
@@ -72,4 +72,4 @@ cssFile: "books.css"
     <div class="gr_grid_book_container"><a title="The Future Library" rel="nofollow" href="https://www.goodreads.com/book/show/58578776-the-future-library"><img alt="The Future Library" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626883929l/58578776._SX98_.jpg" /></a></div>
     
     </div>
-    
+    </div>

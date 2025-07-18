@@ -6,7 +6,7 @@ cssFile: "links.css"
 script: freeze.js
 ---
 
-<h1>Links</h1>
+<h2>Links</h2>
 <p>Just a collection of sites I wanted to share. A work in progress!</p> 
  
 
@@ -20,17 +20,6 @@ script: freeze.js
 <a href="#gaming">Gaming</a>  
 <a href="#useful">Useful</a>  
 <a href="#smallweb">Site Making</a>  
-<!--<a href="#">Youtube</a>-->  
-
-<!-- Reading   
-Interactive fictions (twine), webcomics, etc 
--->
-
-<!--<a href="#">Fandom</a>
-fansites: general, castle, stargate etc. 
-fanlistings  
-fanfic archives
---> 
 
  
 </div>
@@ -46,10 +35,10 @@ fanfic archives
 
 <!-- template 
  
-<div class="categorybox">
-<h2 class="categorytitle" id=" "> </h2>
+<div class="textbox">
+<h2 id=" "> </h2>
 
-<h3 class="categorysubtitle"> </h3>
+<h3> </h3>
 
 <div><a href=" "> </a></div>
  <div class="description"> </div> 
@@ -60,33 +49,27 @@ fanfic archives
 
  <!-- ========== Neocities Sites ========== -->
 
-<div class="categorybox">
-<h2 class="categorytitle" id="neosites">Neocities / Nekoweb Sites</h2>
+<div class="textbox">
+<h2 id="neosites">Neocities / Nekoweb Sites</h2>
 
-<h3 class="categorysubtitle"></a>Down Under</h3>
+<h3></a>Down Under</h3>
 <p>Site run by other Aussies!</p>
 <div><a href="https://readingproject.neocities.org/"><img src="images/neosites/ReadingProjectButton2.png" ></a> <a href="https://debtdeath.neocities.org/"><img src="images/neosites/debtdeath-2-button.png"></a></div>
 
 
-<!--<h3 class="categorysubtitle">Over 40s Club</a></h3>
+<!--<h3>Over 40s Club</a></h3>
 <p>Neocities sites run by people aged 40+</p> --> 
 <!--template
  <div><a href=""> </a></div>
  <div class="description"> </div> 
 -->
 
-<h3 class="categorysubtitle">Interesting Sites</a></h3>
+<h3>Interesting Sites</a></h3>
 
 <!--template
  <div><a href=""> </a></div>
  <div class="description"> </div> 
-
-
-
-
 -->
-
-
 
  <div>
  <div style="float: left; padding-right: 5px; padding-bottom: 5px;"> <a href="https://dailypokemoncrochet.neocities.org/"><img src="images/neosites/dailypkm.png" title="Daily Pokemon Crochet" alt="Daily Pokemon Crochet"></a></div>
@@ -110,14 +93,14 @@ fanfic archives
  <div class="description">A collection of postage stamps that feature bugs</div> 
 
 
- <h3 class="categorysubtitle">Sites with Cool Designs</h3>
+ <h3>Sites with Cool Designs</h3>
  <p>At time of me visiting them, anyway</p>
 <div><a href="https://ellesho.me/page/"><img src="images/neosites/elles8831.png"></a></div>
  <div class="description"> </div> 
 
 
 
- <h3 class="categorysubtitle">Other Sites I like</h3>
+ <h3>Other Sites I like</h3>
  <!-- template: 
 <a href=""><img src="images/neosites"></a>
  -->
@@ -144,11 +127,11 @@ fanfic archives
  <div class="description"> </div> 
 -->
 
-<div class="categorybox">
+<div class="textbox">
 
-<h2 class="categorytitle" id="citsci">Citizen Science</h2>
+<h2 id="citsci">Citizen Science</h2>
  <p>Note that you normally do NOT have to reside in the country the program is based in, most of these are open globally. I've just seperated them because I'm in Australia and wanted a special category for those. </p>
-<h3 class="categorysubtitle">Australia Based</h3>
+<h3>Australia Based</h3>
 <div><a href="https://volunteer.ala.org.au/">Digivol Australia</a></div> 
 <div class="description">transcribe botanical plates, ID animals in photos etc for the Australian Museum and the CSIRO</div>
 <div><a href="https://inaturalist.ala.org.au/">inaturalist</a></div>
@@ -159,7 +142,7 @@ fanfic archives
 <div class="description">transcribe audio tapes, historical documents etc</div>
 
 
- <h3 class="categorysubtitle">US Based</a></h3>
+ <h3>US Based</a></h3>
 <div><a href="https://www.zooniverse.org">Zooniverse</a></div>
 <div class="description">lots of projects to help out with from identifying animals in photos to transcribing documents and more.</div>
 <div><a href="https://www.pgdp.net/c/">Distributed Proofreaders</a></div>
@@ -175,10 +158,10 @@ fanfic archives
 
 <!--============BOOKS==========-->
 
-<div class="categorybox">
-<h2 class="categorytitle" id="books">Books</h2>
+<div class="textbox">
+<h2 id="books">Books</h2>
 
-<h3 class="categorysubtitle">books</a></h3>
+<h3>books</a></h3>
 
 <div><a href="https://howlongtoread.com/">How Long to Read</a></div>
  <div class="description">do a reading test to find your reading speed, then for any book you enter it will tell you approx how long it will take you to read it.</div>
@@ -197,16 +180,16 @@ fanfic archives
  <div class="description"> </div> 
 -->
 
-<div class="categorybox">
-<h2 class="categorytitle" id="fun">Fun Stuff</h2>
+<div class="textbox">
+<h2 id="fun">Fun Stuff</h2>
 
- <h3 class="categorysubtitle">Real World Fun</a></h3>
+ <h3>Real World Fun</a></h3>
 
 <div><a href="https://www.postcrossing.com/">Postcrossing</a></div>
  <div class="description">Send and recieve postcard to/from random strangers!</div> 
 
 
- <h3 class="categorysubtitle">Just Plain Cool</a></h3>
+ <h3>Just Plain Cool</a></h3>
 <div><a href="https://floor796.com/">Floor 796</a></div>
  <div class="description">A HUGE animated isometric image of floor 796 of a space station filled with characters from pop culture. takes a while to load completey but worth it! </div> 
 
@@ -215,11 +198,11 @@ fanfic archives
 
 
 
-<!--<h3 class="categorysubtitle">Pretty</a></h3>
+<!--<h3>Pretty</a></h3>
 <div><a href="https://paveldogreat.github.io/WebGL-Fluid-Simulation/">WebGL Fluid Simulator</a></div>
  <div class="description">Its just So. Damn. Pretty.</div>--> 
 
-<h3 class="categorysubtitle">Exploration</a></h3>
+<h3>Exploration</a></h3>
 
 <div><a href="https://virtualvacation.us/guess">CityGuesser</a></div>
  <div class="description">guess the city from a video of a random person walking around</div> 
@@ -230,7 +213,7 @@ fanfic archives
 <div><a href="https://www.tree.fm/">Tree FM</a></div>
  <div class="description">Listen to sounds from forests all over the world</div> 
 
-<h3  class="categorysubtitle">Generators</h3>
+<h3>Generators</h3>
 <div><a href="https://www.whothefuckismydndcharacter.com/">Who the F*ck is my DnD Character?</a></div>
  <div class="description">Just a fun generator that creates a DnD character for you. </div> 
 
@@ -249,16 +232,16 @@ fanfic archives
 -->
 
 
-<div class="categorybox">
+<div class="textbox">
 
-<h2 class="categorytitle" id="gaming">Gaming</h2>
-<h3 class="categorysubtitle">Games</a></h3>
+<h2 id="gaming">Gaming</h2>
+<h3>Games</h3>
 
 <div><a href="https://farmrpg.com/">Farm RPG</a></div>
  <div class="description">starts as an Idle/Clicker but quickly becomes so much more</div>
 
 
-<h3 class="categorysubtitle">Useful Sites</a></h3>
+<h3>Useful Sites</a></h3>
 <div><a href="https://randombundlegame.com/">Bundle Browser</a></div>
  <div class="description">if you have ever bought a bundle from itch.io that supports a cause (for example the Queer Games Bundle) then you know how many games/TTRPGs you have to sort through. With the bundle browser you can browse and filter them easily</div> 
 
@@ -272,11 +255,11 @@ fanfic archives
  <div class="description"> </div> 
 -->
 
-<div class="categorybox">
+<div class="textbox">
 
-<h2 class="categorytitle" id="useful">Useful Sites</h2>
+<h2 id="useful">Useful Sites</h2>
 
-<h3 class="categorysubtitle">assorted</a></h3>
+<h3>assorted</a></h3>
 
  
 <div><a href="https://temp-mail.org/en/">Temp Email</a></div>
@@ -307,10 +290,10 @@ fanfic archives
  <div class="description"> </div> 
 -->
 
-<div class="categorybox">
+<div class="textbox">
 
-<h2 class="categorytitle" id="smallweb">Site Making</h2>
-<h3 class="categorysubtitle">Site Hosts</h3>
+<h2 id="smallweb">Site Making</h2>
+<h3>Site Hosts</h3>
 
       <div><a href="http://www.neocities.com" >Neocities</a></div>
       <div class="description">My current site host. Free (but also has a premium plan). Good for beginners and static pages.</div> 
@@ -319,7 +302,7 @@ fanfic archives
       <div><a href="https://nekoweb.org/">Nekoweb</a></div>
       <div class="description"> Free host similar to Neocities</div>
 
-<h3 class="categorysubtitle">Neocities Info</h3>
+<h3>Neocities Info</h3>
 
       <div><a href="https://suboptimalism.neocities.org/writings/undocumented">Undocumented Neocities Mechanics</a></div>
       <div class="description">things that are not in the FAQ, like how the activity page works, how "special sauce" is determined, file limits, etc</div>
@@ -335,7 +318,7 @@ fanfic archives
       
 
 
-<h3 class="categorysubtitle">HTML / CSS / JS</h3>
+<h3>HTML / CSS / JS</h3>
  <p>Almost every personal site has links to general places to learn HTML etc so I'm not going to be repetative, Instead I'll link to some specific tutorials that might be helpful on neocities or other small/indie web sites</p>
 
 <!-- template
@@ -353,7 +336,7 @@ fanfic archives
       <div><a href="https://solaria.neocities.org/guides/borderimage/">using images as borders tutorial</a></div>
       <div class="description">how to use images for decorative borders using CSS</div>
 
-<h3 class="categorysubtitle">Templates</h3>
+<h3>Templates</h3>
 <p>Some useful templates made by lovely people that are free to use for your site</p>
 <!-- template
 <div><a href=""> </a></div>
@@ -372,7 +355,7 @@ fanfic archives
       <br>
       <a href="https://www.tumblr.com/oruguin/752875085457752065/small-rarebit-basics-to-start-your-webcomic-site">Part 1</a> | <a href="https://www.tumblr.com/oruguin/752875136669138944/small-rarebit-basics-to-start-your-webcomic-site"> Part 2</a> | <a href="https://www.tumblr.com/oruguin/752875175467466752/small-rarebit-basics-to-start-your-webcomic-site"> Part 3</a> </div>
 
-<h3 class="categorysubtitle">Communities</h3>
+<h3>Communities</h3>
 
 <!-- template 
 <div><a href=""> </a></div>
@@ -389,7 +372,7 @@ fanfic archives
       
 
 
-<h3 class="categorysubtitle">Pixel Clubs (link exchanges)</h3>
+<h3>Pixel Clubs (link exchanges)</h3>
 <p>a unique way to exchange links is by creating and collecting tiny pixel art! Simply make pixel art (templates are often provided for you to personalise), add it to your site for people to collect, then collect other people's to add to your collection. More info can be found at each individual club</p>
 <!-- template 
 <div><a href=""> </a></div>

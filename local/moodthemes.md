@@ -22,7 +22,7 @@ cssFile: fandom.css
 <h2 id="directory">Mood Themes</h2>
 
 
-<div class="iconbox">
+<div class="textbox">
   <h3>Bunny</h3>
   <p>From an old flash cartoon at AlbinoBlacksheep called "Everyone has had more sex than me" which is currently viewablein video format [<a href="http://www.albinoblacksheep.com/flash/bunny.php">Link</a>]</p>
 

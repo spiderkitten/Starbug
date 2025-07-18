@@ -24,7 +24,8 @@ cssFile: "books.css"
       <li><strong>✗</strong> The Summer Is Ended And We Are Not Yet Saved by Joey Comeau</li>
     </ul>
 
-<h2>2022 Reads</h2>
+<div class="textbox">
+<h3>2022 Reads</h3>
 <!-- start widget -->
 <div style=overflow:hidden; word-wrap:break-word;>
 

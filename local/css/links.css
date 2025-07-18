@@ -33,49 +33,7 @@
           .linkmenu a:active {
             text-decoration: none;
             }
-
-
-
-
-/* Category Box*/
-
-          .categorybox {
-          background-color: var(--pallette5);
-          border-color: var(--pallette2);
-          border-style: solid;
-          border-width: 3px;
-          padding: 10px;
-          padding-top: 0px;
-          border-radius: 10px;
-          margin: 10px auto 20px auto;
-          width:90%;
-          }
-
-          .categorybox:hover {
-            border-color: var(--pallette8);
-            border-width: 3px;
-        }
     
-
-
-
-
-
-
- /* Style the categories*/
- .categorytitle {
-  background-color: var(--pallette2);
-  color: var(--pallette4);
-  border-radius: 10px;
-}
-
-.categorysubtitle {
-  background-color: var(--pallette8);
-  color: var(--pallette4);
-  border-radius: 10px;
-  margin-bottom: 10px;
-  padding-left:10px;
-}
 
 
       /* icons before titles */
@@ -140,7 +98,7 @@
           /* style the links*/
 
 
-          .categorybox a:link {
+          .textbox a:link {
             font-weight:600;
             color: var(--pallette2);
             padding: 0px;

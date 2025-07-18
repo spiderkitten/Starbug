@@ -21,7 +21,7 @@ layout: layout/base.njk
 
 <div id="toc" style="padding:20px;"></div>
 
-<div class="iconbox">
+<div class="textbox">
   <h3 id="foassorted">Assorted</h3>
   <p></p>
   <details>
@@ -34,7 +34,7 @@ layout: layout/base.njk
   <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
   </div>
 
-    <div class="iconbox">
+    <div class="textbox">
       <h3 id="deadlikeme">Dead Like Me</h3>
       <p></p>
       <details>
@@ -45,7 +45,7 @@ layout: layout/base.njk
       <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
       </div>
 
-      <div class="iconbox">
+      <div class="textbox">
         <h3 id="monstersinc">Monsters Inc</h3>
         <p></p>
         <details>
@@ -55,7 +55,7 @@ layout: layout/base.njk
         <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
         </div>
 
-        <div class="iconbox">
+        <div class="textbox">
           <h3 id="pussinboots">Puss in Boots</h3>
           <p></p>
           <details>
@@ -65,7 +65,7 @@ layout: layout/base.njk
           <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
           </div>
 
-      <div class="iconbox">
+      <div class="textbox">
         <h3 id="spooky">Spooky</h3>
         <p></p>
         <details>
@@ -76,7 +76,7 @@ layout: layout/base.njk
         <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
         </div>
 
-  <div class="iconbox">
+  <div class="textbox">
     <h3 id="foassorted">Stargate SG1</h3>
     <p></p>
     <details>
@@ -91,7 +91,7 @@ layout: layout/base.njk
 
 <!-- Template
 
-  <div class="iconbox">
+  <div class="textbox">
     <h3 id=""></h3>
     <p></p>
     <details>

@@ -4,12 +4,13 @@ tagline: Just a girl floating through space...
 layout: layout/base.njk
 ---
 
-<h1>Changelog</h1>
+<h2>Changelog</h2>
 <p>Just a way to look back on all the updates I have made. Should be every major update.</p>
      
   <div class="updatebox">
 
-   <h2>2025 Updates</h2>
+<div class="textbox">
+   <h3>2025 Updates</h3>
 
 <p><strong>July 2025:</strong>
 Added a dyslexic theme. I hope this works, feel free to let me know if its not right. 
@@ -27,8 +28,10 @@ Updated the links page with some new sites in most categories! check them out! A
 
 <p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. 
 </p>
+</div>
 
-      <h2>2024 Updates</h2>
+<div class="textbox">
+      <h3>2024 Updates</h3>
         <p>
           <strong>3rd September 2024:</strong> added a lexicon/book of words with some cool words that I like in it. Fixed a few things behind the scenes.  
         </p>
@@ -64,4 +67,5 @@ Updated the links page with some new sites in most categories! check them out! A
         redid the entire site. IT'S <span class="rainbow-text">BRAND SPANKING NEW, BABY</span>. Heck yeah. I'm
         still working on some pages, so there may some dead links in the menu.
       </p>
+</div>
 </div>

@@ -7,16 +7,13 @@ cssFile: "links.css"
 
 <!-- Intro -->
 
-  <h1>What I am using</h1>
-
-       <p>So this is just a page where I'm going to talk about what I use to get things done. Broken down into neat little sections, hopefully. Inspired by the /use movement I guess! </p>
-
-       <p>I don't use my phone much so there probably won't be a lot in that section lol </p>
+  <h2>/Use</h2>
+    <p>So this is just a page where I'm going to talk about what I use to get things done. Broken down into neat little sections, hopefully. Inspired by the /use movement I guess! </p>
 
 <!-- Website Stuff -->
 
-<div class="categorybox">
-<h2 class="categorysubtitle">Website</h2>
+<div class="textbox">
+<h3>Website</h3>
 <p>All the things I use to make this website!</p>
 
    <ul>
@@ -35,8 +32,8 @@ cssFile: "links.css"
 
 <!-- Browser Extensions -->
 
-<div class="categorybox">
-<h2 class="categorysubtitle" id="">Browser + Extensions</h2>
+<div class="textbox">
+<h3>Browser + Extensions</h3>
   <p>For browsing the internet I use <a href="https://brave.com/">Brave Browser</a>, which to be honest I am not a huge fan of, especially its crypto enhancements, but I prefer it over every other chrome based browser. I chromecast a lot so I need a chrome based browser and Brave seems to be the better of the lot.</p>
 
    <p>Some of my favourite browser extensions are:</p>
@@ -59,8 +56,8 @@ cssFile: "links.css"
 
         <!-- General Apps -->
 
-<div class="categorybox">
-<h2 class="categorysubtitle" id="">General Apps</h2>
+<div class="textbox">
+<h3>General Apps</h3>
 <p>Just general apps I use on my computer</p>
 <ul>
 <li><a href="http://limechat.net/mac/">LimeChat</a> - IRC client for Mac</li>
@@ -77,8 +74,8 @@ cssFile: "links.css"
 
 
 <!-- Ebooks -->
-<div class="categorybox">
-<h2 class="categorysubtitle" id="">Ebooks</h2>
+<div class="textbox">
+<h3>Ebooks</h3>
 <p>I primarily read books digitally both on my computer and on my ipad. Its cheaper than physical books and takes up less space. I love books and given a choice would live in a library but ebooks are more within my budget.</p>
 
 <ul>
@@ -95,8 +92,8 @@ cssFile: "links.css"
 
 <!-- Games -->
 
-<div class="categorybox">
-<h2 class="categorysubtitle" id="">Games</h2>
+<div class="textbox">
+<h3>Games</h3>
 <p>Just some apps I use when it comes to playing games. </p>
 <ul>
 <li><a href="https://prismlauncher.org/">Prism</a> - Prism is a launcher for minecraft that lets you manage different versions of the game, modpacks and more.</li>
@@ -108,8 +105,8 @@ cssFile: "links.css"
 </div>
 
 <!----ios Apps------>
-<div class="categorybox">
-<h2 class="categorysubtitle" id="">ios Apps</h2>
+<div class="textbox">
+<h3>ios Apps</h3>
 <p>Just some apps I have on my phone/ipad.</p>
 <ul>
   <li><a href="https://www.maplepop.com/web/mr/index.php">Mapleread</a> - Ebook reader</li>

@@ -50,42 +50,17 @@
       }
       
       .frontpage div {
-      
         margin: 5px;
       }
       
-      
-        .updatebox {
-          background-color: var(--pallette5);
-          border-color: var(--pallette2);
-          border-style: dashed;
-          margin: auto; 
-          padding:10px;
-          overflow: hidden; 
-          min-width: 200px;
-          max-width: 500px;
-        }
-    
-    
-    
-      
-        .todobox {
-          background-color: var(--pallette6);
-          border-color: var(--pallette7);
-          border-style: dashed;
-          margin: auto; 
-          padding:10px;
+#random {
+    background-color: var(--pallette6);
           min-width: 200px;
           max-width: 300px;
-        }
-      
-      
-        .linkmebox {
-          background-color: var(--pallette6);
-          border-color: var(--pallette7);
-          border-style: dashed;
-          margin: auto; 
-          padding:10px;
-          max-width: 830px;
-          }
-      
+}   
+
+#recent {
+          overflow: hidden;     
+          min-width: 200px;
+          max-width: 500px;
+}
