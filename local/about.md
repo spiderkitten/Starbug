@@ -2,13 +2,12 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
-cssFile: "about.css"
 ---
 
 
 <!-- Image and Hello -->
 
-<div class="floatleft"><img src="images/siteimgs/girlme.png" width="200" alt="illustration of a woman with long brown hair wearing a red shirt"></div>
+
 
 <div>
 <h1>Hello!</h1>
@@ -16,6 +15,7 @@ cssFile: "about.css"
 <p>...Or am I?</p>
 <p>Anyway, here you find just a little about me, who I am and what I like or dislike.</p>
 </div>
+
 
 <!-- The Basics -->
 <div style="clear: both;"></div>
@@ -32,7 +32,8 @@ cssFile: "about.css"
 </div> <!--striped list div-->
 
 <!-- Fun Facts -->
-<h2>Fun Facts</h2>
+<div class="textbox">
+<h3>Fun Facts</h3>
 <div>
   <ol>
     <li>I've always wanted to try Roller Derby</li>
@@ -42,34 +43,39 @@ cssFile: "about.css"
     <li>Onions don't make me cry. I could chop onions for hours and hours.</li>
   </ol>
 </div>
+</div>
 
-<h2>Fav Things</h3>
+<div class="textbox">
+<h3>Fav Things</h3>
   <p>I may add pages for these at some point, but for now these are some of my favourite shows, games and music</p>
-<div class="favthings">
-<div>
-  <h3>TV Shows</h3>
-<p>Stargate SG1, Star Trek, Castle, Law & Order:SVU, Evil, Rizzoli & Isles, Derry Girls, Let the Blood Run Free, Monkey (Magic), Red Dwarf, Samauri Pizza Cats
-</p>
-</div>
-<div>
-  <h3>Music</h3>
-  <p>David Bowie, The B-52s, The Divine Comedy, They Might Be Giants, Queen, Graveyard Train, The Chats, The Doors</p>
-<p> </p>
-</div>
-<div>
-  <h3>Games</h3>
-  <p>Team Fortess 2, Farming Simulator, Minecraft, No Man's Sky, Oxygen Not Included, Firewatch, Balatro, Stardew Valley, Craft the World, House Flipper, Vampire Survivors, World of Warcraft, </p>
+
+<div class="stripedlist">
+ <div>TV Shows</div>
+<div>Stargate SG1, Star Trek, Castle, Law & Order:SVU, Evil, Rizzoli & Isles, Derry Girls, Let the Blood Run Free, Monkey (Magic), Red Dwarf, Samauri Pizza Cats</div>
+
+<div>Music</div>
+  <div>David Bowie, The B-52s, The Divine Comedy, They Might Be Giants, Queen, Graveyard Train, The Chats, The Doors</div>
+ 
+<div> Games</div>
+  <divp>Team Fortess 2, Farming Simulator, Minecraft, No Man's Sky, Oxygen Not Included, Firewatch, Balatro, Stardew Valley, Craft the World, House Flipper, Vampire Survivors, World of Warcraft, </div>
+
 </div>
 </div>
+
 
 <!-- Anti-Bucket List -->
-<h2>Anti-Bucket List</h2>
+<div class="textbox">
+<h3>Anti-Bucket List</h3>
 <div>
 <p>Everyone seems to have a bucket list, but what about an anti-bucket list of things you never want to do or want to avoid at all costs? Here is mine, although right now its a bit short:</p>
 </div>
-<div class="stripedlist2">
-<div>Spelunking</div> <div>I have been in a cave several times, nice big open caves like the ones at Jenolean Caves where you go on a guided walking tour and see the beautiful rock formations. Do I ever want to exploring a deep dark cave with climbing gear and descending into the ground via crawl spaces and abseiling down cliffs? HELL NO. I have seen too many "trapped in a cave" movies for that lol</div>
-<div>Casu marzu/casgiu merzu</div><div>Its a type of edible rotting cheese that contains live maggots. That would be a great big NO for me.</div>
+<div>
+<h4>Spelunking</h4>
+<p>I have been in a cave several times, nice big open caves like the ones at Jenolean Caves where you go on a guided walking tour and see the beautiful rock formations. Do I ever want to exploring a deep dark cave with climbing gear and descending into the ground via crawl spaces and abseiling down cliffs? HELL NO. I have seen too many "trapped in a cave" movies for that lol</p>
+<h4>Casu marzu/casgiu merzu</h4>
+<p>Its a type of edible rotting cheese that contains live maggots. That would be a great big NO for me.</p>
 
-<div>Visit DisneyLand/World</div><div>I have never wanted to go to Disney, even as a child. Nothing has changed my mind on that. Its not even the cost or the wait times (though that would be reason enough), I have just never found it interesting enough to want to go there I guess.</div>
+<h4>Visit DisneyLand/World</h4>
+<p>I have never wanted to go to Disney, even as a child. Nothing has changed my mind on that. Its not even the cost or the wait times (though that would be reason enough), I have just never found it interesting enough to want to go there I guess.</p>
+</div>
 </div>

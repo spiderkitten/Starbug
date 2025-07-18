@@ -2,14 +2,13 @@
 title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
-cssFile: lexicon.css
 ---
 
 
 <h1>Book of Words</h1>
 <p>Nick Cave of the band Nick Cave and the Bad Seeds kept a handwritten book of words in which he wrote down words he wanted to remember. Some photos of the book are available online to view, here is one of them:</p>
   
-<figure><img src="images/siteimgs/nickcavewords.jpg" alt="photograph of Nick Cave's Book of Words" style="width:100%; max-width: 700px; height: auto;">
+<figure class="fancy"><img src="images/siteimgs/nickcavewords.jpg" alt="photograph of Nick Cave's Book of Words" >
   <figcaption>Photo of Nick Caves Book of Words</figcaption></figure>
 
 <p>I have always wanted to keep my own book of words, so this is me starting one I guess. Not much here yet but will build on it. Collected below will be words (And some phrases) I like, find interesting, have meaning or I might include them for some other reason. I may even use different fonts just to give the words some personality. We'll see how that goes. </p>
@@ -17,7 +16,7 @@ cssFile: lexicon.css
 <p>I'm including any word I like. Not all of them may appear in the dictionary. </p>
 
 <h2>A-K</h2>
-<div class="words-stripedlist">
+<div class="stripedlist">
 <div>Bimble</div><div>to walk at a leisurely pace</div>
 <div>Clowder</div><div>cluster of cats</div>
 <div>Dendrophile</div><div>someone who loves trees</div>
@@ -29,7 +28,7 @@ cssFile: lexicon.css
 </div>
 
 <h2>L-Z</h2>
-<div class="words-stripedlist">
+<div class="stripedlist">
 <div>Librocubicularist</div> <div>someone who reads in bed</div>
 <div>Lubberwort</div><div>16th Century, meaning: lazy, stupid person</div>
 <div>Mellifluous</div><div>a pleasing sweet sound</div>

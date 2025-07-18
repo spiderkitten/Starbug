@@ -2,80 +2,26 @@
   /* ABOUT ME PAGE */ 
 /* basics table */
 
-.stripedlist {
-    display: grid;
-    grid-template-columns: 130px 1fr;
-    max-width: 95%;
-    margin:auto;
-    background-color: var(--pallette7);
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-  
-  .stripedlist div:nth-child(odd) {
-    background-color: var(--pallette8);
-    padding:5px;
-    text-align: right;
-  }
-  
-  .stripedlist div:nth-child(even) {
-    padding:5px;
-  }
-  
     /* favourite things table */
-  .favthings {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:center;
-    background-color: var(--pallette7);
-    border-radius: 10px;
-    max-width: 95%;
-    margin:auto;
-  }
-  
-  .favthings > div {
-    background-color: var(--pallette8);
-    margin: 10px;
-    text-align: center;
-    border-radius: 10px;
-    flex-grow: 1;
-    flex-basis: 0;
-    min-width: 0;
-    padding:5px;
-  }
-  
-  .favthings h3{
-  background-color: var(--pallette5);
-  border-radius: 10px;
-  margin-top: 0px;
-  }
-  
-    /* Anti Bucket List table*/ 
-  .stripedlist2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 95%;
-    margin:auto;
-    border-radius: 10px;
-  overflow: hidden;
+
+    .favthings {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content:center;
+      background-color: var(--pallette7);
+      border-radius: 10px;
+      max-width: 95%;
+      margin:auto;
+    }
+    
+    .favthings > div {
+      background-color: var(--pallette7);
+      margin: 10px;
+      text-align: center;
+      border-radius: 10px;
+      flex-grow: 1;
+      flex-basis: 0;
+      min-width: 0;
+      padding:5px;
     }
   
-    .stripedlist2 div {
-    text-align: left;
-    }
-  
-    .stripedlist2 div:nth-child(1n)  {
-      background: var(--pallette8);
-    padding:10px;
-    }
-    .stripedlist2 div:nth-child(2n) {
-      background: var(--pallette7);
-  padding:10px
-    }
-  
-      /* float image left and padd*/
-      .floatleft {
-        float: left;
-        padding:10px
-      }

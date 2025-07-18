@@ -11,8 +11,8 @@ layout: layout/base.njk
 <p>Well. I for one welcome our new Vampire Overlords. But isn't that super interesting! Its fascinating but also kind of terrifying. I love that there are people in the world who wrote papers about this.</p>
 
  
-  <figure>
-    <img src="images/siteimgs/levamp.png" style="width:100%; max-width: 500px; height: auto;" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
+  <figure class="fancy">
+    <img src="images/siteimgs/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
     <figcaption>Les Vampires (1915–1916)</figcaption>
   </figure>
  

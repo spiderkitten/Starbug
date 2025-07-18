@@ -32,32 +32,25 @@ Don't redistribute the entire style sheet
   --pallette8: #fe9696;  /* dark pink */
 
   /* Fonts & Font Sizes */ 
-  --headerh1fontsize: 60px;
+  --headerh1fontsize: 60px; /*Site Title*/
   --h1fontsize: 32px;
   --h2fontsize: 24px;
   --h3fontsize: 20px;
   --h4fontsize: 16px;
   --fontheadings: cherryswash;
 
-  --fonttitle: lato-thin;
+  --fonttitle: lato-thin; /*Site Title*/
     --titletextshadow: 4px 4px 4px #000000;
-  --fonttagline: lato;
+  --fonttagline: lato; /*Site Title Tagline*/
     --fontsizetagline:14px;
+
   --fontmain: 'Courier New';
     --fontsizemain:16px;
-  --fontsidebar: lato;
-    --fontsizesidebar: 14px;
-  --fontquote: lato;
-  --fontsizelinks:16px;
 
-  /* Dividers*/
-  --dividerstyle: 2px dashed #588d54;
+  /* Bullets */
+  --bullet: url(../images/siteimgs/favicon_shroom1.gif); 
 
-  /* Style Images */
-  --bullet: url(../images/siteimgs/favicon_shroom1.gif);
-
-
-
+  /* Images before headings on movie page*/
   --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
   --imgmovmoviesbefore: url(../images/siteimgs/movies/popcorn.png) no-repeat;
   --imgmovjapanbefore: url(../images/siteimgs/movies/castle.png) no-repeat;
@@ -74,6 +67,7 @@ Don't redistribute the entire style sheet
   --imgmovanimebefore: url(../images/siteimgs/movies/anime.png) no-repeat;
   --imgmovfamilybefore: url(../images/siteimgs/movies/family.png) no-repeat;
 
+    /* Images before headings on links page*/
   --imgwebbefore: url(../images/siteimgs/links/coding.png) no-repeat;
   --neositesbefore: url(../images/siteimgs/links/neosites.png) no-repeat;
   --citscibefore: url(../images/siteimgs/links/scientist.png) no-repeat;
@@ -96,27 +90,6 @@ Don't redistribute the entire style sheet
 }
 
 @font-face{
-  font-family: Inter;
-    src: url(../fonts/Inter.ttf) format("truetype");
-}
-
-@font-face{
-  font-family: walter;
-    src: url(../fonts/walterturncoat.woff) format("woff");
-}
-
-@font-face{
-  font-family: basiic;
-    src: url(../fonts/basiic.ttf) format("truetype");
-}
-
-@font-face{
-  font-family: gardenstone;
-    src: url(../fonts/GardenStone.woff) format("woff");
-}
-
-
-@font-face{
   font-family: CherrySwash;
     src: url(../fonts/CherrySwash-Regular.otf) format("opentype");
 }
@@ -126,10 +99,6 @@ Don't redistribute the entire style sheet
     src: url(../fonts/CherrySwash-Bold.otf) format("opentype");
 }
 
-@font-face{
-  font-family: CartoonistHand;
-    src: url(../fonts/Cartoonist_Hand.woff) format("woff");
-}
 
 /* ====== Main Layout / Basic Structure ===== */
 
@@ -159,7 +128,7 @@ page-container {
   max-width: 1000px;
 }
 
-header {
+header { /* Site Title Area */
   grid-area: header;
   background: var(--pallette1);
   margin:20px;
@@ -169,7 +138,7 @@ header {
   border-radius: 10px;
 }
 
-.topnav {
+.topnav { /* Main Menu Navigation */
   grid-area: topnav;
   background: var(--pallette4);
   border-radius: 10px;
@@ -182,7 +151,7 @@ header {
 }
 
 
-main {
+main { 
   grid-area: main;
   background: var(--pallette4);
   margin: 20px;
@@ -205,7 +174,7 @@ padding-top: 10px;
 padding-bottom:10px;
 }
 
-/* Header */
+/* Site Title  */
 
 header h1 {
   color: var(--pallette8);
@@ -227,7 +196,7 @@ tag-line {
   letter-spacing: 2px;
 }
 
-/* ===== Top Navigation =====*/ 
+/* ===== Main Menu =====*/ 
 
 .topnav a:hover { 
   text-decoration: none;
@@ -330,9 +299,12 @@ strong {
   font-weight: bold;
 }
 
+/* fun font styling */
+
 rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(254, 211, 102), orange, red);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight:bold;
 } 
@@ -393,8 +365,8 @@ rainbow-text {
     font-size: small;
   }
 
-    /* TOC for H3 */
-  #toc {
+    /* Table of Contents using H3 - Used on fandom pages*/
+  #toc {  
     columns: 3;
     -webkit-columns:3;
   }
@@ -407,7 +379,7 @@ rainbow-text {
     list-style: none;
   }
 
-    /* TOC for H2*/
+    /* Table of Contents using H2 */
   #toc2 {
     columns: 2;
     -webkit-columns:2;
@@ -421,16 +393,42 @@ rainbow-text {
     list-style: none;
   }
 
-  hr.dashed {
+  hr.dashed { /* dashed line */
     border-top: 3px dashed var(--pallette8);
   }
 
-  cite {
+  cite { /* reference text on VRM page*/
     text-align: left;
     font-size: 12px;
   }
 
-/* ===== freeze buttons ===== */
+/* list with two columns used on about and lexicon page*/ 
+  .stripedlist {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    max-width: 95%;
+    margin:auto;
+    background-color: var(--pallette7);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .stripedlist div:nth-child(odd) {
+    background-color: var(--pallette8);
+    padding:5px;
+    text-align: right;
+  }
+  
+  .stripedlist div:nth-child(even) {
+    padding:5px;
+  }
+
+
+
+
+/* ===== freeze buttons  ===== */
+/* the buttons that pause animated images */
 
 .freeze button {
   background-color: var(--pallette8);
@@ -444,8 +442,7 @@ rainbow-text {
 }
 
 
-
-/* Text Box*/
+/* Default Text Box */
 
 .textbox {
   background-color: var(--pallette5);
@@ -463,7 +460,7 @@ rainbow-text {
     border-color: var(--pallette2);
 }
 
-/* Style the categories*/
+/*  textbox headings */
 .textbox h2 {
 background-color: var(--pallette2);
 color: var(--pallette4);
@@ -481,11 +478,28 @@ padding-left:10px;
 margin-bottom: 10px;
 }
 
+.textbox h4 {
+  background-color: var(--pallette6);
+  color: var(--pallette1);
+  font-size: var(--h4fontsize);
+  border-radius: 10px;
+  padding-left:10px;
+  margin-bottom: 10px;
+  }
 
+/* img */
 
+.fancy img  {
+    width:100%; 
+    max-width: 500px; 
+    height: auto;
+    border-radius: 10px; 
+    filter: drop-shadow(1px 3px 5px var(--pallette8));
+}
 
 /*====================================================================*/
   /* MEDIA QUERIES */ 
+  /* these are for mobile and other screens */ 
 
   @media only screen and (max-width:900px) {
     body {
@@ -527,14 +541,6 @@ margin-bottom: 10px;
       min-width: 200px;
       max-width: 500px;
       }
-
-
-
-  
-    .favthings {
-      display: flex;
-      flex-direction: column;
-    }
   
   }
   
