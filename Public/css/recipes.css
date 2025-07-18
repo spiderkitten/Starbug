@@ -69,3 +69,8 @@
         font-family: var(--fontmain);
         margin-top: 5px;
     }
+
+    .source {
+        text-align: left;
+        font-size: 12px;
+    }

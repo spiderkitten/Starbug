@@ -27,7 +27,7 @@ layout: layout/base.njk
 {% endfor %}
 </ul>
 
-<!--
+
 <h3>Snacks</h3>
 <ul>
 {% for post in collections.snack %}
@@ -41,7 +41,7 @@ layout: layout/base.njk
 <li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
 {% endfor %}
 </ul>
--->
+
 
 <h3>Meals</h3>
 <ul>

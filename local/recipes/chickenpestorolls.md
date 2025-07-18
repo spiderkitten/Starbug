@@ -50,3 +50,9 @@ tags:
 </ul>
 
 </div>
+
+<div class="source">
+<ul>
+<li>Original Recipe: https://workweeklunch.com/pesto-chicken-salad/</li>
+</ul>
+</div>
