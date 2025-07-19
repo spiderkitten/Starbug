@@ -9,7 +9,7 @@ script: randomquote.js
 <img src="images/siteimgs/girlme.png" alt="" style="float:left; margin: 0 10px 10px 10px;" width="180">
 
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
-<p>I'll admit, there probably isn't a lot that is hugely interesting here. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management page, and maybe my new cookbook. Thanks for visiting!</p>
+<p>I'll admit, there probably isn't a lot that is hugely interesting here, yet. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management post in the Posts section, and maybe my new cookbook in the Stuff menu. Thanks for visiting!</p>
 
 
 <div style="clear:both;"></div>
@@ -32,7 +32,10 @@ script: randomquote.js
 
 <div class="textbox" id="recent">
 <h3>Recent Updates</h3>
-<p><strong>July 2025:</strong>
+<p><strong>Mid July 2025:</strong>
+Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
+</p>
+<p><strong>Early July 2025:</strong>
 Added a dyslexic theme that uses the Open Dyslexic font. I hope this works, feel free to let me know if its not right. 
 tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
 Moved the shinies page under "stuff" in the menu.  
@@ -41,7 +44,6 @@ Added some links to the links page
 <p><strong>June 2025:</strong>Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring</p>
 <p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page</p>
 <p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. </p>
-<p><strong>3rd September 2024:</strong> added a lexicon/book of words with some cool words that I like in it. Fixed a few things behind the scenes.</p>
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 
@@ -86,3 +88,5 @@ Added some links to the links page
 <!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>-->
 <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 </div>
+
+

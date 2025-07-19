@@ -20,6 +20,8 @@ PublicBU/*
 
 local/images/*
 
+common*
+
 package.json
 package-lock.json
 

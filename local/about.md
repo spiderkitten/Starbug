@@ -37,7 +37,7 @@ layout: layout/base.njk
 <div>
   <ol>
     <li>I've always wanted to try Roller Derby</li>
-    <li>When I was in year 6 (6th grade), I won my school's book week costume contest. I was The Ghost of Christmas Past from A Christmas Carol. I wore a white sheet and carried some chains. Scary. lol</li>
+    <li>When I was in year 6 (6th grade), I won my school's book week costume contest. I was The Ghost of Christmas Past from A Christmas Carol. I wore a white sheet and carried some chains. WoooOOOooo. Scary. lol</li>
     <li>My favourite alchohol drink is Gin and Elderberry</li>
     <li>My dream house is Gull Cottage from The Ghost and Mrs Muir (ghostly sea captain included). It doesn't have to be the exact house, just a cottage up on a cliffside overlooking a stormy rocky ocean. A lighthouse would work too.</li>
     <li>Onions don't make me cry. I could chop onions for hours and hours.</li>

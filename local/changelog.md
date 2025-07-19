@@ -12,7 +12,11 @@ layout: layout/base.njk
 <div class="textbox">
    <h3>2025 Updates</h3>
 
-<p><strong>July 2025:</strong>
+<p><strong>Mid July 2025:</strong>
+Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
+</p>
+
+<p><strong>Early July 2025:</strong>
 Added a dyslexic theme. I hope this works, feel free to let me know if its not right. 
 tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
 Moved the shinies page under "stuff" in the menu.  
@@ -64,7 +68,7 @@ Updated the links page with some new sites in most categories! check them out! A
       </p>
       <p>
         <strong>14 May 2024</strong>: So I guess this is a big update because I
-        redid the entire site. IT'S <span class="rainbow-text">BRAND SPANKING NEW, BABY</span>. Heck yeah. I'm
+        redid the entire site. IT'S <rainbow-text>BRAND SPANKING NEW, BABY</rainbow-text>. Heck yeah. I'm
         still working on some pages, so there may some dead links in the menu.
       </p>
 </div>

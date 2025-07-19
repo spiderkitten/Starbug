@@ -1,35 +1,42 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
-layout: layout/base.njk
+posttitle: Vampire Resource Management
+tags:  
+- 'Science'
 ---
 
-<h1>Vampire Resource Management</h1>
+<p>As a long time horror fan, I've often wondered, what would happen if vampires turned everyone into vampires and there was no one left to feed on? or what if they just ran out of people to drain? </p>
 
-<p>There's an interesting article over at <a href="https://www.futilitycloset.com">Futility Closet</a> about Vampire Resource Management. A bunch of people have written papers about how long humanity would last if Vampires ever put in a concerted effort to feed on us. Spoiler alert: Its not long. Some other researchers discovered that if Vampires actually modelled a cyclical pattern of bloodsucking, they could keep humans alive indefinitely as a food source. </p>
+<p>Fortunately, there are some really awesome scientists out there who have also pondered this question and actually come up with some research about it!</p>
 
-<p>Well. I for one welcome our new Vampire Overlords. But isn't that super interesting! Its fascinating but also kind of terrifying. I love that there are people in the world who wrote papers about this.</p>
+<p>I first read about this in an article over at <a href="https://www.futilitycloset.com">Futility Closet</a> back in 2020, titled "Resource Management". </p>
 
- 
+<p> According to the article (and my own deep dive into the topic) there are a LOT of smart people who have written papers about how long humanity would last if Vampires ever put in a concerted effort to feed on us. </p>
+
+<p><rainbow-text>Spoiler alert:</rainbow-text> Its not long. Back in the 1600s it would have only taken them two and a half years to wipe us all out.</p>
+
+<p>Other researchers discovered that if Vampires modelled a cyclical pattern of bloodsucking, they could keep humans alive indefinitely as a food source.</p>
+
+<p>Well. I for one welcome our new Vampire Overlords. But isn't that super interesting! Its fascinating but also kind of terrifying. I love that there are people in the world who wrote papers about this!</p>
+
   <figure class="fancy">
-    <img src="images/siteimgs/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
+    <img src="/images/siteimgs/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
     <figcaption>Les Vampires (1915–1916)</figcaption>
   </figure>
  
 
-<p>I'm going to copy paste the important part of the article, in case the page ever goes missing because I love this! There's some links to the papers at the bottom if anyone wants to read them.</p>
+<p>I'm going to copy paste the important part of the <a href-"https://www.futilitycloset.com/2020/10/18/resource-management/">Futility Closet article</a>, in case the page ever goes missing because I love this! There's also some links to the papers mentioned at the bottom, and some links to other related papers that are available to read if anyone wants to check them out.</p>
 
-<div class="textbox">
+<div class="textbox" style="margin-bottom: 5px;">
 <p style="font-style:italic">In 2006 physicists Costas Efthimiou and Sohang Gandhi worked out that if the first vampires had turned up in 1600, if they’d needed to feed only once a month, and if the world population at that time had been 536,870,911 (as estimated), then <a href="https://cds.cern.ch/record/977097/files/0608059.pdf">the vampire population would have increased geometrically</a> and the last human would have succumbed in June 1602, after a bloodbath of only two and half years.</p>
 
 <p style="font-style:italic">Worse, in 1982 a team of Austrian mathematicians led by R. Haiti and A. Mehlmann found that intelligent vampires could calculate a bloodsucking frequency that would <a href="https://www.rairo-ro.org/articles/ro/pdf/1982/04/ro1982160403791.pdf">maximize total utility per vampire</a> and keep the human race alive indefinitely — and solutions exist no matter whether they’re “asymptotically satiated vampires,” “blood-maximizing vampires,” or “unsatiable vampires.” </p>
 
 <p style="font-style:italic">Later they expanded on this to show that <a href="https://www.researchgate.net/publication/225866573_Cycles_of_fear_Periodic_bloodsucking_rates_for_vampires">cyclical bloodsucking patterns are optimal</a>.</p>
-
-<p><cite>Ross, G. (2020) Resource management, Futility Closet. Available at: <a href="https://www.futilitycloset.com/2020/10/18/resource-management/">https://www.futilitycloset.com/2020/10/18/resource-management/</a> (Accessed: September 2024).</cite></p> 
 </div>
 
+<div style="padding-left: 30px;"><cite>Ross, G. (2020) Resource management, Futility Closet. Available at: <a href="https://www.futilitycloset.com/2020/10/18/resource-management/">https://www.futilitycloset.com/2020/10/18/resource-management/</a> (Accessed: September 2024).</cite></div> 
 
+<hr class="dashed">
 
 <div id="links">
 <h2>Articles linked in text above</h2>
