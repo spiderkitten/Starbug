@@ -504,7 +504,7 @@ margin-bottom: 10px;
 
 /* External Link Icon*/
 
-[href^="http"]:not([href*=""])::after {
+[href^="http"]:not(:has(img))::after {
   content: '(external link)';
   display: inline-block;
   width: 16px;
@@ -519,6 +519,8 @@ margin-bottom: 10px;
   vertical-align: text-bottom;
 filter: var(--extlinkcolour);
 }
+
+
 
 /*====================================================================*/
   /* MEDIA QUERIES */ 

@@ -26,10 +26,10 @@ layout: layout/base.njk
   <p></p>
   <details>
   <summary> (4) Friends Only Banners</summary>
-    <img src="images/FriendsOnly/battyFO.jpg">
-    <img src="images/FriendsOnly/FOnoose.jpg">
-    <img src="images/FriendsOnly/FOrobots.gif">
-    <img src="images/FriendsOnly/FO1.png">
+    <img src="/images/FriendsOnly/battyFO.jpg">
+    <img src="/images/FriendsOnly/FOnoose.jpg">
+    <img src="/images/FriendsOnly/FOrobots.gif">
+    <img src="/images/FriendsOnly/FO1.png">
   </details>
   <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
   </div>
@@ -39,8 +39,8 @@ layout: layout/base.njk
       <p></p>
       <details>
       <summary> (2) Friends Only Banners</summary>
-        <img src="images/FriendsOnly/reapersonly.jpg">
-        <img src="images/FriendsOnly/reggiefonly.jpg">
+        <img src="/images/FriendsOnly/reapersonly.jpg">
+        <img src="/images/FriendsOnly/reggiefonly.jpg">
       </details>
       <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
       </div>
@@ -50,7 +50,7 @@ layout: layout/base.njk
         <p></p>
         <details>
         <summary> (1) Friends Only Banner</summary>
-          <img src="images/FriendsOnly/FOsully.jpg">
+          <img src="/images/FriendsOnly/FOsully.jpg">
         </details>
         <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
         </div>
@@ -60,7 +60,7 @@ layout: layout/base.njk
           <p></p>
           <details>
           <summary> (1) Friends Only Banner</summary>
-            <img src="images/FriendsOnly/FOpussboots.jpg">
+            <img src="/images/FriendsOnly/FOpussboots.jpg">
           </details>
           <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
           </div>
@@ -70,8 +70,8 @@ layout: layout/base.njk
         <p></p>
         <details>
         <summary> (2) Friends Only Banners</summary>
-          <img src="images/FriendsOnly/ghostFO.gif">
-          <img src="images/FriendsOnly/ghostNFO.gif">
+          <img src="/images/FriendsOnly/ghostFO.gif">
+          <img src="/images/FriendsOnly/ghostNFO.gif">
         </details>
         <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
         </div>
@@ -81,8 +81,8 @@ layout: layout/base.njk
     <p></p>
     <details>
     <summary> (2) Friends Only Banners</summary>
-      <img src="images/FriendsOnly/sg1friendsonly.jpg">
-      <img src="images/FriendsOnly/sg1men.jpg">
+      <img src="/images/FriendsOnly/sg1friendsonly.jpg">
+      <img src="/images/FriendsOnly/sg1men.jpg">
     </details>
     <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
     </div>
@@ -96,7 +96,7 @@ layout: layout/base.njk
     <p></p>
     <details>
     <summary> (1) Icon</summary>
-      <img src="images/100x100">
+      <img src="/images/100x100">
     </details>
     <div align="right"><a href="#icondirectory">top <i class="arrow up"></i></a></div>
     </div>

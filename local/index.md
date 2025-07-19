@@ -3,12 +3,14 @@ title: Space Cadet
 tagline: Just a girl floating through space...
 layout: layout/base.njk
 cssFile: index.css
+script: randomquote.js
 ---
 
 <img src="images/siteimgs/girlme.png" alt="" style="float:left; margin: 0 10px 10px 10px;" width="180">
 
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>I'll admit, there probably isn't a lot that is hugely interesting here. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management page, and maybe my new cookbook. Thanks for visiting!</p>
+
 
 <div style="clear:both;"></div>
 

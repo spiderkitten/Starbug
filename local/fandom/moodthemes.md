@@ -29,7 +29,7 @@ cssFile: fandom.css
   <p><a href="https://files.catbox.moe/cu35bs.zip">Download Zip</a></p>
   <details> 
     <summary>Example Moods</summary>
-    <img src="images/moodtheme/bunnymood.png" width="90%">
+    <img src="/images/moodtheme/bunnymood.png" width="90%">
   </details>
  
   <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
