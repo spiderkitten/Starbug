@@ -504,7 +504,7 @@ margin-bottom: 10px;
 
 /* External Link Icon*/
 
-[href^="http"]:not(:has(img))::after {
+[href^="http"]:not([href*="flap"]):not(:has(img))::after{
   content: '(external link)';
   display: inline-block;
   width: 16px;
@@ -537,6 +537,7 @@ filter: var(--extlinkcolour);
         grid-template-columns: 100%;
         grid-template-rows: 150px 120px 1fr 100px;
     }
+
     .header h1 {
       color: var(--pallette2);
       font-family:var(--fonttitle);
