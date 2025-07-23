@@ -25,6 +25,7 @@ layout: layout/base.njk
    <li><a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a> - Guestbook</li>
    <li><a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon</li>
 <li><a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page</a> added using tutorial by Daniele</li>
+<li><a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a></li>
    </ul>
 
 </div>
@@ -45,6 +46,7 @@ layout: layout/base.njk
 <ul>
   <li>Pixel gold star gif by <a href="https://eightbriitt.neocities.org/">Eightbritt</a></li>
  <li>Mushroom favicon and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
+ <li>Cherry divider by whimsical</li>
   <li>Tulip Girl on About Page by <a href="https://www.flaticon.com/stickers-pack/beautiful-female-avatars">Flaticon</a></li>
 
   <li>book on Guestbook page by Flaticon</li>
@@ -59,7 +61,7 @@ layout: layout/base.njk
 </ul>
 </div>
 
- <p style="text-align: center;">And a huge thankyou to the  <span id="visitorCounter"></span> people who <rainbow-text>volunteered</rainbow-text> to be ritually sacrificed so that this site could be created. I &#9829; you.</p>
+ <p style="text-align: center;">And a huge thankyou to the  <span id="visitorCounter"></span> people who <rainbow-text>volunteered</rainbow-text> to be ritually sacrificed so that this site could be created. I <span style="color:red;">&#9829;</span> you.</p>
 
 <!--
 counter tutorial

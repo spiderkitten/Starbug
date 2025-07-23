@@ -48,7 +48,7 @@ Don't redistribute the entire style sheet
     --fontsizemain:16px;
 
   /* Bullets */
-  --bullet: url(../images/siteimgs/favicon_shroom1.gif); 
+  --bullet: url(/images/siteimgs/favicon_shroom1.gif); 
 
   /* External Link Icon */
   /* colour: https://angel-rs.github.io/css-color-filter-generator/ */
@@ -103,6 +103,7 @@ Don't redistribute the entire style sheet
   font-family: CherrySwashBold;
     src: url(../fonts/CherrySwash-Bold.otf) format("opentype");
 }
+
 
 
 /* ====== Main Layout / Basic Structure ===== */
@@ -224,6 +225,7 @@ tag-line {
   border-radius: 10px;
   font-family: var(--fontmain);
   margin-top: 5px;
+  cursor: pointer;
 }
 
 .navbutton:hover, .dropdown button:hover {
@@ -457,8 +459,7 @@ rainbow-text {
   padding: 10px;
   padding-top: 10px;
   border-radius: 10px;
-  margin: 10px auto 20px auto;
-  width:90%;
+  margin: 5px auto 10px auto;
   }
 
   .textbox:hover {
@@ -491,6 +492,8 @@ margin-bottom: 10px;
   padding-left:10px;
   margin-bottom: 10px;
   }
+
+
 
 /* img */
 
@@ -555,23 +558,25 @@ filter: var(--extlinkcolour);
       margin-bottom: 5px;
     }
   
-    #navbutton, .dropdown button { 
-      margin-bottom: 10px;
-      font-size:14px ;
-    }
+  .frontgrid {
+    display: grid;
+grid-template-areas: 
+'intro status'
+'intro webrings'
+'randomquote webrings'
+'recentupdates recentupdates'
+'images'
+'frontpagebuttons frontpagebuttons';
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto auto auto auto auto;
+column-gap: 10px;
 
-    #random {
-      padding:10px;
-      min-width: 200px;
-      max-width: 500px;
-      }
-  
   }
+}
   
   @media only screen and (max-width:600px) {
   
   body {
-
       grid-template-areas:
         'header'
         'topnav'     
@@ -600,22 +605,20 @@ filter: var(--extlinkcolour);
       margin-bottom: 5px;
     }
   
-    #navbutton, .dropdown button { 
-      margin-bottom: 10px;
-    }
   
-    .frontpage {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .favthings {
-      display: flex;
-      flex-direction: column;
-    }
-  
+  .frontgrid {
+    display: grid;
+grid-template-areas: 
+'intro'
+'status'
+'randomquote'
+'webrings'
+'recentupdates'
+'images'
+'frontpagebuttons';
+grid-template-columns: 1fr;
+grid-template-rows: auto auto auto auto auto auto;
+column-gap: 10px;
   }
-  
-  
-/*====================================================================*/
+
+}

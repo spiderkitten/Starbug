@@ -22,6 +22,8 @@ local/images/*
 
 common*
 
+local/posts/savemoneygroceries.md
+
 package.json
 package-lock.json
 
@@ -29,3 +31,5 @@ package-lock.json
 node_modules/
 
 # build artefacts
+
+Public/posts/savemoneygroceries.html

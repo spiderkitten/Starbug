@@ -8,7 +8,6 @@ script: freeze.js
 
 <h2>Links</h2>
 <p>Just a collection of sites I wanted to share. A work in progress!</p> 
- 
 
 <hr class="dashed">
 
@@ -25,7 +24,8 @@ script: freeze.js
 </div>
 
 <hr class="dashed">
-<div class="freeze"> <!-- gifs start paused -->
+
+  <div class="freeze"> <!-- gifs start paused -->
       <div style="text-align: center;">
         <button onclick="resumegifs()">play gifs</button> 
         <button onclick="freezegifs()">pause gifs</button>

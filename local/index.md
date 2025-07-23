@@ -6,31 +6,73 @@ cssFile: index.css
 script: randomquote.js
 ---
 
-<img src="images/siteimgs/girlme.png" alt="" style="float:left; margin: 0 10px 10px 10px;" width="180">
+<div class="frontgrid">
 
-<p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
-<p>I'll admit, there probably isn't a lot that is hugely interesting here, yet. Buuut if I could recommend a page to visit here, it would be the Vampire Resource Management post in the Posts section, and maybe my new cookbook in the Stuff menu. Thanks for visiting!</p>
+<!-- Intro Section -->
+<div id="intro">
+<h2>Welcome</h2>
+<p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in Australia. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
+<p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more </p>
 
+<p>I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://trakt.tv/users/spiderkitten">Trakt</a></p>
 
-<div style="clear:both;"></div>
-
-
-<div id="warning">
-
-  <div class="marqueewarning">
-  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  
-  <div class="marquee">(hover to pause) ★ SOME PAGES REQUIRE JAVASCRIPT TO WORK ★ Best viewed on a computer (but <i>mostly</i> mobile friendly. mostly.) ★ Always a work in progress ★ Bees are awesome! ★ Please sign my guestbook ★  Are you still reading this? ★ Go do something else ★ Or don't, I'm not your boss lol </div>  
-  </div>
-
+<p>Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to sign my guestbook before you leave! </p>
 </div>
 
-<div style="clear:both;"></div>
+<div id="images">
+<img src="images/siteimgs/divider2b.gif"><img src="images/siteimgs/divider2b.gif">
+</div>
 
-<div class="frontpage">
+<!-- Status Box -->
+<div id="status" class="textbox">
+<h3>Status/Currently</h3>
+<div><strong>Reading:</strong> fanfic!</div>
+<div><strong>Watching:</strong> Untamed </div>
+<div><strong>Listening:</strong>to the endless void</div>
+<div><strong>Playing:</strong>7 days to die</div>
+<strong></strong>
+<strong></strong>
+<strong></strong>
+</div>
+
+<!-- Webrings -->
+<div id="webrings" class="textbox">
+<h3>Rings and Things</h3>
+<!-- TF2 Webring -->
+<div id='fortring'>
+  <script src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
+  <script src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
+</div>
+<!--No AI Webring-->
+<div style="text-align: center;">
+<map name="noaimini2">
+<area href="https://baccyflap.com/noai" target="_blank" shape="rect" coords="5,3,83,14" alt="no ai webring" title="no ai webring">
+<area href="https://baccyflap.com/noai/?prv&s=spc" target="_top" shape="rect" coords="5,16,16,26" alt="previous" title="previous">
+<area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="38,16,51,27" alt="random" title="random">
+<area href="https://baccyflap.com/noai/?nxt&s=spc" target="_top" shape="rect" coords="72,16,83,26" alt="next" title="next">
+</map>
+<img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
+</div>
 
 
+<div class="linkme">
+<p>Want to link to me? Here's a button:</p>
+   <img src="images/siteimgs/starbug88x31button.png" alt="small pink rectangular with a yellow star and the word Starbug in white">
+ <p>please upload the button to your own webspace!</p>
+</div>
+</div>
 
-<div class="textbox" id="recent">
+<!-- Quotes -->
+<div id="randomquote" class="textbox">
+<h3>Random Quote</h3>
+<div id="quote" class="quotebox">
+<q id="quotes"></q> 
+<div>-- <span id="author"></span> </div>
+<button id="generate">refresh</button>
+</div>
+</div>
+
+<div id="recentupdates" class="textbox">
 <h3>Recent Updates</h3>
 <p><strong>Mid July 2025:</strong>
 Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
@@ -47,46 +89,25 @@ Added some links to the links page
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 
-<div class="textbox" id="random">
-<h3>Randomosity</h3>
-<p>Webrings and stuff</p>
-<!-- TF2 Webring -->
-<div id='fortring'>
-  <script src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
-  <script src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
-</div>
-<!--No AI Webring-->
-<div style="text-align: center;">
-<map name="noaimini2">
-<area href="https://baccyflap.com/noai" target="_blank" shape="rect" coords="5,3,83,14" alt="no ai webring" title="no ai webring">
-<area href="https://baccyflap.com/noai/?prv&s=spc" target="_top" shape="rect" coords="5,16,16,26" alt="previous" title="previous">
-<area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="38,16,51,27" alt="random" title="random">
-<area href="https://baccyflap.com/noai/?nxt&s=spc" target="_top" shape="rect" coords="72,16,83,26" alt="next" title="next">
-</map>
-<img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
-</div>
-</div>
-</div>
-
-
-<div class="textbox">
-  <h3>Link to Meeeee</h3>
-   <p style="text-align: center;">If some crazy reason you want to link to me, here's a boring button you can use:</p>
-<div style="text-align: center;">
-   <img src="images/siteimgs/starbug88x31button.png" alt="small pink rectangular with a yellow star and the word Starbug in white">
-   <p>please upload the button to your own webspace and edit the img location accordingly:</p>
-<textarea rows="3" cols="40" label="codebox"><a href="https://starbug.neocities.org/"><img src="starbug88x31button.png"></a>
-</textarea>
-</div>
-<div style="clear:both"></div>
-</div>
 <div id="frontpagebuttons">
-<a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" title="Say No To Web3!" alt=""></a>
-<a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" title="Powered by a human!" alt=""></a>
-<a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a>
-<img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt="">
-<!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>-->
-<a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>--> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 </div>
+
+
+</div> <!-- end flexbox-->
+
+
+
+
+<div style="clear:both"></div>
+
+
+
+
+
+
+
+
+
 
 
