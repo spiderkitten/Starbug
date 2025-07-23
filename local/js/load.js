@@ -51,5 +51,4 @@ window.onload = () => {
         toc.appendChild(link);
       }
 
-
 }
