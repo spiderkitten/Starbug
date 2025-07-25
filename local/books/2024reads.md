@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: 2024 Reads
 layout: layout/base.njk
 cssFile: "books.css"
 ---

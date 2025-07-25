@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Changelog
 layout: layout/base.njk
 ---
 

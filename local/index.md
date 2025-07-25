@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Index
 layout: layout/base.njk
 cssFile: index.css
 script: randomquote.js
@@ -55,11 +54,7 @@ script: randomquote.js
 </div>
 
 
-<div class="linkme">
-<p>Want to link to me? Here's a button:</p>
-   <img src="images/siteimgs/starbug88x31button.png" alt="small pink rectangular with a yellow star and the word Starbug in white">
- <p>please upload the button to your own webspace!</p>
-</div>
+
 </div>
 
 <!-- Quotes -->
@@ -67,10 +62,22 @@ script: randomquote.js
 <h3>Random Quote</h3>
 <div id="quote" class="quotebox">
 <q id="quotes"></q> 
-<div>-- <span id="author"></span> </div>
+<div style="text-align: right;">-- <span id="author"></span> </div>
 <button id="generate">refresh</button>
 </div>
 </div>
+
+<!-- -->
+
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Here's a button:</p>
+   <img src="images/siteimgs/starbug88x31button.png" alt="small pink rectangular with a yellow star and the word Starbug in white">
+ <p>please upload the button to your own webspace!</p>
+</div>
+</div>
+
 
 <div id="recentupdates" class="textbox">
 <h3>Recent Updates</h3>

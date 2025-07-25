@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Favourite Movies
 layout: layout/base.njk
 cssFile: movies.css
 ---

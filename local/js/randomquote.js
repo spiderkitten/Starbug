@@ -9,10 +9,6 @@ const generateQuote = function() {
         author: "The Criminologiest, RHPS"
     },
     {
-        quote: "A mental mind fuck can be nice.",
-        author: "Dr Frank N Furter, RHPS"
-    },
-    {
         quote: "Timeline? This is no time to talk about time! We don't have the time!",
         author: "Deanna Troi, Star Trek First Contact"
     },
@@ -30,15 +26,17 @@ const generateQuote = function() {
         author: "Capt. Kathryn Janeway, Star Trek Voyager"
     },
     {
-        quote: "",
-        author: ""
+        quote: "Rude alert! Rude alert! An electrical fire has knocked out my voice recognition unicycle! Many wurlitzers are missing from my database. Abandon shop! This is not a daffodil. Repeat: this is not a daffodil.",
+        author: "Holly, Red Dwarf"
     },
-
-
-
-
-    
-
+    {
+        quote: "Call it extreme if you like, but I propose we hit it hard and hit it fast with a major - and I mean major - leaflet campaign",
+        author: "Rimmer, Red Dwarf"
+    },
+    {
+        quote: "As the days go by, we face the increasing inevitability that we are alone in a godless, uninhabited, hostile and meaningless universe. Still, you've got to laugh, haven't you?",
+        author: "Holly, Red Dwarf"
+    }
 
 /* template
 ,

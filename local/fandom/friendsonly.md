@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Friends Only Banners
 layout: layout/base.njk
 ---
 

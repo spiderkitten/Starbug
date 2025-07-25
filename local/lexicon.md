@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Book of Words
 layout: layout/base.njk
 ---
 

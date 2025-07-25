@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Guest Book
 layout: layout/base.njk
 
 ---

@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
      eleventyConfig.addPassthroughCopy("local/ai.txt"); 
      eleventyConfig.addPassthroughCopy("local/robots.txt");
      
+     eleventyConfig.addFilter('blogDate', blogDate)
 
   return {
     passthroughFileCopy: true,
@@ -24,4 +25,20 @@ module.exports = function (eleventyConfig) {
       includes: "_includes"
     },
   };
+  
+  // function to set date to format: January 1st, 2024
+  // pairs with above code: eleventyConfig.addFilter('blogDate', blogDate)
+  function blogDate(input) {
+    return `${new Date(input).toLocaleString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })}`;
+  }
+
+
+
+
+
+
 };

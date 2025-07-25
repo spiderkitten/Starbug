@@ -1,11 +1,13 @@
 ---
 posttitle: First Post
+date: 2025-07-25
 tags:  
 - 'news'
 
 ---
 <div class="textbox">
 <h3>Where I start writing things I guess</h3>
+
 
 <p>My official first posts using 11ty! although technically I have made other pages, and this feels like the same, but its in a post category I guess so first post!</p>
 

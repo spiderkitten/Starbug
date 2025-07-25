@@ -21,16 +21,19 @@ margin-top: 5px;
 .frontgrid {
 display: grid;
 grid-template-areas: 
-'intro status'
-'intro webrings'
-'images webrings'
-'randomquote webrings'
-'recentupdates recentupdates'
-'frontpagebuttons frontpagebuttons';
-grid-template-columns: 2fr 1fr;
+'intro intro status'
+'intro intro webrings'
+'images images linkme'
+'randomquote randomquote linkme'
+'recentupdates recentupdates recentupdates'
+'frontpagebuttons frontpagebuttons frontpagebuttons'
+;
+
+grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto auto auto;
     column-gap: 10px;
       }
+
 
       #intro {
         grid-area: intro;
@@ -38,7 +41,8 @@ grid-template-columns: 2fr 1fr;
       }
 
       #status {
-grid-area: status;
+        grid-area: status;
+        width:90%;
       }
 
       #webrings {
@@ -52,7 +56,11 @@ grid-area: webrings;
 
       #randomquote {
 grid-area: randomquote;  
-width:90%;
+width:95%;
+      }
+
+      #linkme {
+        grid-area: linkme;
       }
 
       #recentupdates {
@@ -77,8 +85,7 @@ grid-area: frontpagebuttons;
   padding-top: 10px;
   border-radius: 10px;
   margin: 5px auto 10px auto;
-  font-size: small;
-
+  font-size: smaller;
   }
 
   .quotebox:hover {
@@ -111,3 +118,4 @@ q{
 small {
   font-size: 7px;
 }
+

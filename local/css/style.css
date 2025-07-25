@@ -150,10 +150,11 @@ header { /* Site Title Area */
   border-radius: 10px;
   border-style: solid;
   border-color: var(--pallette5);
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 
@@ -220,9 +221,9 @@ tag-line {
   font-size:16px ;
   color: var(--pallette4);
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   background-color: var(--pallette8);
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: var(--fontmain);
   margin-top: 5px;
   cursor: pointer;
@@ -550,25 +551,19 @@ filter: var(--extlinkcolour);
       text-transform: uppercase;
     }
   
-    .topnav {
-      grid-area: topnav;
-      padding: 20px;
-      margin: 20px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
+
   
   .frontgrid {
     display: grid;
 grid-template-areas: 
-'intro status'
-'intro webrings'
-'randomquote webrings'
-'recentupdates recentupdates'
-'images'
-'frontpagebuttons frontpagebuttons';
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto auto auto auto auto;
+'intro intro status'
+'intro intro webrings'
+'images images webrings'
+'randomquote randomquote linkme'
+'recentupdates recentupdates recentupdates'
+'frontpagebuttons frontpagebuttons frontpagebuttons';
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto auto auto auto auto auto;
 column-gap: 10px;
 
   }
@@ -597,14 +592,6 @@ column-gap: 10px;
       text-transform: uppercase;
     }
   
-    .topnav {
-      grid-area: topnav;
-      padding: 20px;
-      margin: 20px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-  
   
   .frontgrid {
     display: grid;
@@ -612,6 +599,7 @@ grid-template-areas:
 'intro'
 'status'
 'randomquote'
+'linkme'
 'webrings'
 'recentupdates'
 'images'

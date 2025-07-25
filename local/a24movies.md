@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: A24 Movie Challenge
 layout: layout/base.njk
 cssFile: movies.css
 ---

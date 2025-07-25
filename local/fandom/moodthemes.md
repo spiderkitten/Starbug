@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Mood Themes
 layout: layout/base.njk
 cssFile: fandom.css
 ---

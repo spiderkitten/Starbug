@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Credits
 layout: layout/base.njk
 ---
 
@@ -42,7 +41,7 @@ layout: layout/base.njk
 </div>
 
 <div class="textbox">
-<h3>Images</h3>
+  <h3>Images</h3>
 <ul>
   <li>Pixel gold star gif by <a href="https://eightbriitt.neocities.org/">Eightbritt</a></li>
  <li>Mushroom favicon and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  

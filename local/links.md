@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Links
 layout: layout/base.njk
 cssFile: "links.css"
 script: freeze.js

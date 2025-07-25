@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Shinies
 layout: layout/base.njk
 script: freeze.js
 ---

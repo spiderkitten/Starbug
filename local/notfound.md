@@ -1,6 +1,5 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: 404 Not Found
 layout: layout/base.njk
 ---
 

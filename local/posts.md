@@ -1,7 +1,7 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Posts
 layout: layout/base.njk
+description: archive of all posts
 
 ---
 
@@ -14,9 +14,15 @@ layout: layout/base.njk
 </ul>
 -->
 
+<h2>Post Archive</h2>
+<p>A listing of all my posts</p>
+<div class="textbox">
 <h3>All Posts</h3>
 <ul>
 {% for post in collections.posts %}
-<li><a href="{{post.url}}"> {{ post.data.posttitle}}</a></li>
+<li><a href="{{post.url}}"> {{ post.data.posttitle}}</a>  </li>
 {% endfor %}
 </ul>
+</div>
+
+

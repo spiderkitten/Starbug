@@ -1,8 +1,6 @@
 ---
-title: Space Cadet
-tagline: Just a girl floating through space...
+title: Use
 layout: layout/base.njk
-cssFile: "links.css"
 ---
 
 <!-- Intro -->
@@ -116,3 +114,4 @@ cssFile: "links.css"
   <li><a href="https://procreate.com">Procreate</a> - paint program, good for art etc</li>
   </ul>
 </div>
+
