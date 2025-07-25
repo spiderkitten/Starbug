@@ -47,6 +47,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
       #webrings {
 grid-area: webrings;
+width:90%;
       }
 
 #images {
@@ -61,6 +62,7 @@ width:95%;
 
       #linkme {
         grid-area: linkme;
+        width:90%;
       }
 
       #recentupdates {
