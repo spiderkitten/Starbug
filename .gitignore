@@ -33,3 +33,6 @@ node_modules/
 # build artefacts
 
 Public/posts/savemoneygroceries.html
+test.js
+local/books/covers/legendslattes.png
+local/books/books.json

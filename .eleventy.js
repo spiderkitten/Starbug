@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
      eleventyConfig.addPassthroughCopy("local/ai.txt"); 
      eleventyConfig.addPassthroughCopy("local/robots.txt");
      
-     eleventyConfig.addFilter('blogDate', blogDate)
+     eleventyConfig.addFilter('blogDate', blogDate) 
 
   return {
     passthroughFileCopy: true,

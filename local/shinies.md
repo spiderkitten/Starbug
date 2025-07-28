@@ -53,7 +53,7 @@ script: freeze.js
 <!-- Buttons -->
 <div class="textbox">
   <h3>Buttons</h3>
-      <img src="images/buttons/macmade-wht.png"> <img src="images/buttons/myownwebsite.png"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.png" width="88px" height="32"> <img src="images/buttons/neocities_button.png"> <img src="images/buttons/roly-saynotoweb3.png"> <img src="images/buttons/startrek.png">
+      <img src="images/buttons/macmade-wht.png"> <img src="images/buttons/myownwebsite.png"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.png" width="88px" height="32"> <img src="images/buttons/neocities_button.png"> <img src="images/buttons/roly-saynotoweb3.png"> <img src="images/buttons/startrek.png"> <a href="https://moonpr1sm.com/random/30plusclub"><img src="images/buttons/30plusclub.png"></a>
 </div>
 
 <!-- Cliques -->
