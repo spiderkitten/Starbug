@@ -30,5 +30,6 @@ local/_data/booksread.json
 local/books/books.json
 local/books/booksread.md
 Public/books/booksread.html
-Public/images/bookcovers/legendslattes.png
 
+local/images/bookcovers/*
+Public/images/bookcovers/*
