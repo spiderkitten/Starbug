@@ -25,6 +25,7 @@ layout: layout/base.njk
    <li><a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon</li>
 <li><a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page</a> added using tutorial by Daniele</li>
 <li><a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a></li>
+<li><a href="https://github.com/lars-rooij/webmeji/tree/main">Webmeji on front page</a>(little walking creature) by lars-rooj</li> 
    </ul>
 
 </div>
