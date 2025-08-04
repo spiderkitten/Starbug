@@ -9,8 +9,8 @@
         .linkmenu a {
         background-color: var(--pallette1);
         color: var(--pallette4);
-        padding: 10px;
-        border-radius:10px;
+        padding: 5px;
+        border-radius:5px;
         cursor: pointer; /* makes it a pointy finger when hovering over*/ 
         display: inline-block;
           font-family: var(--fontmain);

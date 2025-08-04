@@ -4,7 +4,7 @@ layout: layout/base.njk
 ---
 
 <h2>Changelog</h2>
-<p>Just a way to look back on all the updates I have made. Should be every major update.</p>
+<p>Just a way to look back on all the updates I have made. Should be every major update. Unless I forget</p>
      
   <div class="updatebox">
 
@@ -15,7 +15,7 @@ layout: layout/base.njk
 Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
 </p>
 
-<p><strong>Early July 2025:</strong>
+<p><strong>Early July 2025: </strong>
 Added a dyslexic theme. I hope this works, feel free to let me know if its not right. 
 tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
 Moved the shinies page under "stuff" in the menu.  

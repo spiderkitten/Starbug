@@ -18,6 +18,21 @@ module.exports = function (eleventyConfig) {
      
      eleventyConfig.addFilter('blogDate', blogDate) 
 
+     // Next & Previous links on bottom of posts
+    eleventyConfig.addCollection("posts", function(collection) {
+      const coll = collection.getFilteredByTag("posts");
+  
+      for(let i = 0; i < coll.length ; i++) {
+          const prevPost = coll[i-1];
+          const nextPost = coll[i + 1];
+  
+          coll[i].data["prevPost"] = prevPost;
+          coll[i].data["nextPost"] = nextPost;
+      }
+  
+      return coll;
+  });
+
   return {
     passthroughFileCopy: true,
     dir: {

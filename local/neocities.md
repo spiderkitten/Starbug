@@ -1,0 +1,237 @@
+---
+title: Neocities
+layout: layout/base.njk
+cssFile: links.css
+---
+
+<h2>Site Making Resources</h2>
+<p>If you want to create your own personal site on Neocities these are some resources to help you! While some of the resources here are primarly for neocities, many of them are suitable for other site hosts.</p>
+
+
+<hr class="dashed">
+<div class="linkmenu" id="top">
+    <a href="#codeapps">Writing Code</a>    
+    <a href="#neosites">Site Hosts</a> 
+    <a href="#uploading">Uploading your site</a>
+    <a href="#neocities">!Neocities Specific Info!</a> 
+    <a href="#tutorials">Coding Tutorials</a> 
+    <a href="#templates">Templates</a>  
+    <a href="#buttons">Buttons/Stamps etc</a>    
+    <a href="#pixclubs">Pixel Clubs</a>  
+    <a href="#help">Getting Help</a>  
+    <a href="#advanced">Advanced Options</a>     
+ </div>
+ <hr class="dashed">
+
+
+
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
+
+<div class="textbox" id="codeapps">
+
+<h3></h3>
+
+</div>
+
+
+<div class="textbox">
+
+<h3>Site Hosts</h3>
+
+      <div><a href="http://www.neocities.com" >Neocities</a></div>
+      <div class="description">My current site host. Free (but also has a premium plan). Good for beginners and static pages.</div> 
+
+ 
+      <div><a href="https://nekoweb.org/">Nekoweb</a></div>
+      <div class="description"> Free host similar to Neocities</div>
+
+</div>
+
+<div class="textbox" id="uploading">
+
+<h3>Uploading Your Site</h3>
+
+</div>
+
+<div class="textbox">
+<h3>Neocities Specific Info</h3>
+
+      <div><a href="https://suboptimalism.neocities.org/writings/undocumented">Undocumented Neocities Mechanics</a></div>
+      <div class="description">things that are not in the FAQ, like how the activity page works, how "special sauce" is determined, file limits, etc</div>
+
+            <div><a href="https://content-security-policy.neocities.org/">Content Security Policy for Free Accounts</a></div>
+      <div class="description">Information about linking external resources on Neocities free accounts - what is an isn't supported. Forms, scripts etc. </div>
+
+      <div><a href="https://github.com/dawnvoid/neocities-profile-viewer">Neocities Profile Viewer</a></div>
+      <div class="description">bookmarklet that makes it easy to find and view people's Neocities Profiles</div>
+</div>
+
+
+<div class="textbox">
+
+
+<h3>Coding Tutorials</h3>
+ <p>Almost every personal site has links to general places to learn HTML etc so I'm not going to be repetative, Instead I'll link to some specific tutorials that might be helpful on neocities or other small/indie web sites</p>
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
+
+      <div><a href="https://randomboo.com/88x31.html">Hover Button Effect</a></div>
+      <div class="description">CSS code that makes your 88x31 buttons look like they are being pressed when you click them</div>
+
+      <div><a href="https://xobyte.org/demos/protected/">hiding a page behind a password</a></div>
+      <div class="description">how to hide a page behind a password</div>
+
+      <div><a href="https://solaria.neocities.org/guides/borderimage/">using images as borders tutorial</a></div>
+      <div class="description">how to use images for decorative borders using CSS</div>
+</div>
+
+<div class="textbox">
+<h3>Templates</h3>
+<p>Some useful templates made by lovely people that are free to use for your site</p>
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
+<div><a href="https://kingdra.net/masterlist-template/">Kingdra's Fanfic Masterlist Template</a></div>
+ <div class="description">A template for creating a filterable list of your fanfic. Note this template is for the master list only</div> 
+ 
+<div><a href="https://kayleerowena.com/blog/2025/code-template/">Kaylee Rowena's Simple Image Portfolio Template</a></div>
+ <div class="description">A template for a simple image gallery</div> 
+
+
+      <div><a href="https://rarebit.neocities.org/">Rarebits Comic Template</a></div>
+      <div class="description"> A comic template for making a webcomic. Includes navigation and everything you need. If you need help to set it up, there's a really good tutorial: 
+      <br>
+      <a href="https://www.tumblr.com/oruguin/752875085457752065/small-rarebit-basics-to-start-your-webcomic-site">Part 1</a> | <a href="https://www.tumblr.com/oruguin/752875136669138944/small-rarebit-basics-to-start-your-webcomic-site"> Part 2</a> | <a href="https://www.tumblr.com/oruguin/752875175467466752/small-rarebit-basics-to-start-your-webcomic-site"> Part 3</a> </div>
+
+</div>
+
+<div class="textbox" id="buttons">
+
+<h3>Buttons/Stamps etc</h3>
+
+</div>
+      
+      
+
+<div class="textbox">
+<h3>Pixel Clubs (link exchanges)</h3>
+<p>a unique way to exchange links is by creating and collecting tiny pixel art! Simply make pixel art (templates are often provided for you to personalise), add it to your site for people to collect, then collect other people's to add to your collection. More info can be found at each individual club</p>
+<!-- template 
+<div><a href=""> </a></div>
+<div class="description"> </div>
+-->
+
+<div><a href="https://sweetcharm.net/.CuteDesktop/Website/RPGClub/index.html">RPG Club</a></div>
+<div class="description">Create a 100x100 RPG character card to exchange with others - template available</div>
+
+<div><a href="https://divergentrays.com/pocket">Pocket Town</a></div>
+<div class="description">Create a tiny pixel home to add to other people's pocket towns - template available</div> 
+
+<div><a href="https://necroath.neocities.org/pixel_scouts">Pixel Scouts</a></div>
+<div class="description">Inspired by Scout badges/patches - create your own scout patch and share it with others - template available</div>
+
+<div><a href="https://pastelhello.com/yumyum">Yum Yum Shoppe</a></div>
+<div class="description">Create some pixel art groceries to share.</div>
+
+<div><a href="https://blissnet.neocities.org/toybox/JJ">Jar Jam</a></div>
+<div class="description">Create a tiny jar of jam to exchange with others - template available</div>
+
+<div><a href="https://keysklubhouse.com/pixelcliques/teenytowers">Teeny Towers</a></div>
+<div class="description">Create a pixel room that people can place in their tower. Room templates available as well as special rooms to add such as "room for rent" and elevators</div>
+
+<div><a href="https://stickersheetclub.neocities.org/">Sticker Sheet Club</a></div>
+<div class="description">Create some pixel stickers for people to collect and display on their sticker page - tutorial available</div>
+
+<div><a href="https://lostletters.neocities.org/afternoontea/">Afternoon Tea Club</a></div>
+<div class="description">Create a tea mug for people to link back to you - template available</div>
+
+<div><a href="https://divergentrays.com/kitty">Kitty Friends Pixel Club</a></div>
+<div class="description">Create a tiny kitty from a template</div>
+
+<div><a href="https://fizzsea.neocities.org/extra/fizzyvendor">Fizzy Vendor</a></div>
+<div class="description">Fizzy drink (soda) based, template available</div>
+
+<div><a href="https://lavalounge.neocities.org/">The Lava Lounge</a></div>
+<div class="description">Lava Lamps! template available</div>
+
+<div><a href="https://honeyedcharlatan.neocities.org/ministrife">Ministrife Pixel Club</a></div>
+<div class="description">Humstuck inspired (but not just for homestuck) - templates available</div>
+
+
+<div><a href="https://solaria.neocities.org/pixel/bunnygarden/bunnygarden">Bunny Garden</a></div>
+<div class="description">Bunnies! (be careful though, bunnies aren't cute like everyone supposes, they got them hoppy legs and twitchy little noses, and whats with all the carrots? what do they need such good eyesight for anyway?) - templates available</div>
+
+<div><a href="https://armxnd.neocities.org/hatcherypixelclique">The Hatchery</a></div>
+<div class="description">Cute pixel eggs. template available</div>
+
+<div><a href="https://pixelrevival.xyz/kindnessrocks/">Kindness Rocks</a></div>
+<div class="description">Painted Rocks - template available</div>
+
+<div><a href="https://humanfinny.neocities.org/clubs/cd_world/cdworld_home">CD World</a></div>
+<div class="description">CDs and Cases - Templates available</div>
+
+<div><a href="https://callmemanatee.neocities.org/crayon_clique">Compact Crayons</a></div>
+<div class="description">Tny crayons - template available</div>
+
+<div><a href="https://armxnd.neocities.org/chaogardenclique">Chao Garden</a></div>
+<div class="description">little creatures - template available</div>
+
+<div><a href="https://cosy-diner.nekoweb.org/parfum.html">Eau De Parfum </a></div>
+<div class="description">Perfume Bottles - templates available</div>
+
+<div><a href="https://leviathren.neocities.org/hallofrock">Hall of Rock</a></div>
+<div class="description">Electric Guitars! template available</div>
+
+<div><a href="https://milkteamoon.net/objets/">Objets</a></div>
+<div class="description">Inspired by caboodle cases - no templates</div>
+
+<div><a href="https://floral-tears.neocities.org/HMH/Pixel-Club">Hold My Hand</a></div>
+<div class="description">Pixel people - like the paper dolls you can make that are holding hands - templates available</div>
+
+<div><a href="https://charmbracelets.xandra.cc/">Charm Bracelets</a></div>
+<div class="description">Charm Bracelets - templates available</div>
+
+<div><a href="https://sleepysprout.neocities.org/pages/quilt">Quilting Bee</a> and <a href="https://dollzrevival.neocities.org/Pages/General/Quilt">Quilt</a></div>
+<div class="description">Both are reviving the old quilting bee pixel club - only Quilt has a template</div>
+
+<div><a href="https://onlywonder.net/pixel-clubs/armoury/">The Armoury</a></div>
+<div class="description">for armour and weaponry - armour template available</div>
+
+<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+      </div>
+
+      </div>
+
+
+
+<div class="textbox" id="help">
+<h3>Getting Help</h3>
+
+<!-- template 
+<div><a href=""> </a></div>
+<div class="description"> </div>
+-->
+
+      <div><a href="https://32bit.cafe/">32bit Cafe</a></div>
+      <div class="description">Resources and community based around the small web. Discourse forum where participants can get help, do challenges and more. Resource page with a lot of good resources for making websites.</div>
+
+<div><a href="https://forum.melonland.net/">Melonland Forum</a></div>
+<div class="description">retro stylf forum for small web, web design and more. Closed on Mondays (for real)</div>
+</div>
+
+<div class="textbox" id="advanced">
+
+<h3>Advanced Options</h3>
+
+</div>

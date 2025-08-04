@@ -227,6 +227,7 @@ tag-line {
   font-family: var(--fontmain);
   margin-top: 5px;
   cursor: pointer;
+
 }
 
 .navbutton:hover, .dropdown button:hover {
@@ -251,7 +252,7 @@ tag-line {
 .dropdown-content a {
   display: block;
   width: 100%;
-  font-size: 1.1em; 
+  font-size: 16px; 
   border-radius: 0; 
   padding: 5px 10px; 
   background-color: var(--pallette8);
@@ -441,12 +442,13 @@ rainbow-text {
 .freeze button {
   background-color: var(--pallette8);
   border: 0px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--pallette4);
-  padding: 10px 10px;
+  padding: 5px 5px;
   text-align: center;
   text-decoration: none;
   font-family: var(--fontmain);
+  font-size: 12px;
 }
 
 
