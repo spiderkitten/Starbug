@@ -8,7 +8,17 @@ script: freeze.js
 <h2>Links</h2>
 <p>Just a collection of sites I wanted to share. A work in progress!</p> 
 
-{% include "partials/linksmenu.njk" %}
+<hr class="dashed">
+<div class="linkmenu" id="top">
+    <a href="#neosites">Personal Sites</a> 
+    <a href="#citsci">Citizen Science</a> 
+    <a href="#books">Books/Reading</a> 
+    <a href="#fun">Fun</a>  
+    <a href="#gaming">Gaming</a>  
+    <a href="#useful">Useful</a>  
+    <a href="neocities.html">Site Making</a>  
+ </div>
+ <hr class="dashed">
 
 
   <div class="freeze"> <!-- gifs start paused -->

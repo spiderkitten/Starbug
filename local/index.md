@@ -10,7 +10,7 @@ script: randomquote.js
 <!-- Intro Section -->
 <div id="intro">
 <h2>Welcome</h2>
-<p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in Australia. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
+<p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <upsidedown>Australia</upsidedown>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more </p>
 
 <p>I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://trakt.tv/users/spiderkitten">Trakt</a></p>
@@ -26,9 +26,9 @@ script: randomquote.js
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
 <div><strong>Reading:</strong> fanfic!</div>
-<div><strong>Watching:</strong> Untamed </div>
+<div><strong>Watching:</strong> - </div>
 <div><strong>Listening:</strong>to the endless void</div>
-<div><strong>Playing:</strong>7 days to die</div>
+<div><strong>Playing:</strong>Dead Island 2</div>
 <strong></strong>
 <strong></strong>
 <strong></strong>
@@ -61,7 +61,9 @@ script: randomquote.js
 <div id="randomquote" class="textbox">
 <h3>Random Quote</h3>
 <div id="quote" class="quotebox">
-<q id="quotes"></q> 
+<span id="quotes1"></span> 
+<br>
+<span id="quotes2"></span>
 <div style="text-align: right;">-- <span id="author"></span> </div>
 <button id="generate">refresh</button>
 </div>
@@ -108,7 +110,7 @@ Added some links to the links page
 
 <div style="clear:both"></div>
 
-
+<script src="/js/webmeji.js"></script>
 
 
 

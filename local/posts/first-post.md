@@ -1,6 +1,6 @@
 ---
-posttitle: First Post
-date: 2025-07-25
+title: First Post
+date: 2024-01-01
 tags:  
 - 'news'
 

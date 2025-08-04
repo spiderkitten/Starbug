@@ -12,47 +12,58 @@ layout: layout/base.njk
 <hr class="dashed">
 <p>Note: Work in Progress</p>
 <hr class="dashed">
+
+<!-- 
+<div class="textbox"> 
 <h3>Breakfast</h3>
 <ul>
 {% for post in collections.breakfast %}
 <li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
 {% endfor %}
 </ul>
+</div>
 
+<div class="textbox"> 
 <h3>Lunch</h3>
 <ul>
 {% for post in collections.lunch %}
 <li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
 {% endfor %}
 </ul>
+</div>
 
-
+<div class="textbox"> 
 <h3>Snacks</h3>
 <ul>
 {% for post in collections.snack %}
 <li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
 {% endfor %}
 </ul>
+</div>
 
+<div class="textbox"> 
 <h3>Dessert</h3>
 <ul>
 {% for post in collections.dessert %}
 <li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
 {% endfor %}
 </ul>
+</div>
 
-
+<div class="textbox"> 
 <h3>Meals</h3>
 <ul>
 {% for post in collections.meal %}
 <li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
 {% endfor %}
 </ul>
+</div>
+-->
 
-
+<div class="textbox"> 
 <h3>All Recipes</h3>
 <ul>
 {% for post in collections.recipe %}
 <li><a href="{{post.url}}"> {{ post.data.recipetitle}}</a></li>
 {% endfor %}
-</ul>
+</ul></div>

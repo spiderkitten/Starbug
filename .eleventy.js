@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
 
+
   // passthrough
 
 
@@ -17,7 +18,7 @@ module.exports = function (eleventyConfig) {
      
      
      eleventyConfig.addFilter('blogDate', blogDate) 
-
+     
      // Next & Previous links on bottom of posts
     eleventyConfig.addCollection("posts", function(collection) {
       const coll = collection.getFilteredByTag("posts");
@@ -29,6 +30,8 @@ module.exports = function (eleventyConfig) {
           coll[i].data["prevPost"] = prevPost;
           coll[i].data["nextPost"] = nextPost;
       }
+
+       
   
       return coll;
   });

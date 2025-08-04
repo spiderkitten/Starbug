@@ -46,5 +46,4 @@ tags:
 <li>I use frozen veggies. the carrots and spinach are store bought but I make and freeze the brocolli rice myself</li>
 <li>to make brocolli rice, just put a head or two of fresh brocolli into a food processor for about 30 seconds to a minute or until riced. then put it in a freezer safe ziplock or container and freeze.</li>
 </ul>
-
 </div>

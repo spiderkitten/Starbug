@@ -37,6 +37,8 @@ Don't redistribute the entire style sheet
   --h2fontsize: 24px;
   --h3fontsize: 20px;
   --h4fontsize: 16px;
+  --h5fontsize: 14px;
+  --h6fontsize: 12px;
   --fontheadings: cherryswash;
 
   --fonttitle: lato-thin; /*Site Title*/
@@ -150,7 +152,7 @@ header { /* Site Title Area */
   border-radius: 10px;
   border-style: solid;
   border-color: var(--pallette5);
-  padding: 10px;
+  padding: 5px;
   margin: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -162,10 +164,13 @@ main {
   grid-area: main;
   background: var(--pallette4);
   margin: 20px;
-  margin-top: 10px;
+  margin-top: 14px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 20px;
+  padding-top: 5px;
+  border-top: var(--pallette6) solid 15px;
+  border-bottom: var(--pallette6) solid 15px;
 }
 
 .footer {
@@ -225,7 +230,7 @@ tag-line {
   background-color: var(--pallette8);
   border-radius: 5px;
   font-family: var(--fontmain);
-  margin-top: 5px;
+  margin-top: 3px;
   cursor: pointer;
 
 }
@@ -318,9 +323,14 @@ rainbow-text {
   font-weight:bold;
 } 
 
-.upsidedown {
+upsidedown {
   display: Inline-block;
   transform: rotate(180deg);
+/*  transform: scaleY(-1);*/
+}
+
+void{
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
 }
 
 /* Default Links & Lists */

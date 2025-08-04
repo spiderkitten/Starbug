@@ -4,7 +4,7 @@ layout: layout/base.njk
 ---
 
 
-<h2>{{ posttitle }}</h2>
+<h2>{{ title }}</h2>
 <time>{{ date | blogDate }}</time> 
 <!-- Tags -->
 <div>
@@ -43,12 +43,17 @@ Tags: {% set comma = joiner() %}
 <!-- Next / Previous navigation -->
 <div style="text-align: center;">
     <nav id="nextprev">
-        {% if nextPost.url %}
-        <a class="next" href="{{ nextPost.url }}">« Next</a> |
-        {% endif %}
-        <a href="../posts.html">Posts</a>
+
         {% if prevPost.url %}
-        | <a class="previous" href="{{ prevPost.url }}">Previous »</a>
+        <a href="{{ prevPost.url }}">« {{prevPost.data.title}}</a> |
         {% endif %}
+
+        {% if nextPost.url %}
+        <a  href="{{ nextPost.url }}"> {{nextPost.data.title}} »</a> |
+        {% endif %}
+
+        <a href="../posts.html">All Posts</a>
+
+       
     </nav>
 </div>

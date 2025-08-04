@@ -1,6 +1,6 @@
 ---
-posttitle: Vampire Resource Management
-date: 2024-09-20
+title: Vampire Resource Management
+date: 2024-02-02
 tags:  
 - 'curiosities'
 ---
