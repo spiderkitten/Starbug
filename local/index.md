@@ -19,7 +19,7 @@ script: randomquote.js
 </div>
 
 <div id="images">
-<img src="images/siteimgs/divider2b.gif"><img src="images/siteimgs/divider2b.gif">
+<img src="images/siteimgs/divider2b.gif"><img src="images/siteimgs/divider2b.gif" id="heartdivider2">
 </div>
 
 <!-- Status Box -->
@@ -83,6 +83,7 @@ script: randomquote.js
 
 <div id="recentupdates" class="textbox">
 <h3>Recent Updates</h3>
+<p><strong>Early August 2025:</strong> updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator. </p>
 <p><strong>Mid July 2025:</strong>
 Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
 </p>
@@ -94,7 +95,6 @@ Added some links to the links page
 </p>
 <p><strong>June 2025:</strong>Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring</p>
 <p><strong>May 2025:</strong> added the noAI webring to the front page. readded my about and use pages. fixed a few things. Added a new theme (blue), added my fav movies page back, added a links page, updated the A24 challenge page</p>
-<p><strong>April 2025:</strong> moved the navigation from a sidebar to a top nav. also got rid of some pages I wasn't happy with. they may come back later. they may not. </p>
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 

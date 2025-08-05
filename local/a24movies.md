@@ -4,134 +4,194 @@ layout: layout/base.njk
 cssFile: movies.css
 ---
 
-<h1>A24 Movies</h1>
+
+<div class="textbox">
+<h3>A24 Movies</h3>
+<div style="float: left; width: 200px; margin: 5px; margin-right:15px;"><img src="/images/siteimgs/movies/a24.png" style="width: 200px; ">
+<figcaption>A24 Logo</figcaption></div>
 
  <p>When most people think of A24 they think of their horror lineup. Midsommar, Hereditary, etc. They may even think of some of their bigger films like Everything Everywhere All At Once, Moonlight, and the upcoming (at time of writing) Civil War (2024). But A24 actually have so many more movies under their belt. Some are self produced, others they just distribute. But they all have a unique quality about them that makes them stand out compared to others.</p>
 
 <p>What I love about A24 is that unique quality of movies. Its rare to find one that is terrible. Even within the group of smaller lesser known films. I've watched a lot of them (see below) and while I didn't particularly enjoy some of them, the movies were still really high quality.</p>
+</div>
 
-
-<h2 id="imgmovfolk">A24 Challenge</h2>
+<div class="textbox">
+<h3>My A24 Challenge</h3>
+<div style="float: right; width: 180px; margin: 5px; margin-right:15px;"><img src="/images/siteimgs/movies/watchingmovies.png" style="width: 180px; "></div>
 <p>
             In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair few, but I pushed myself to watch any that I could legally access. Even movies I might not have chosen to watch normally. And I had a great time, watched a lot of really good movies (and a handful of ones I didn't like.) 
             
-            2023 has come and gone now but I'm still trying to watch every single A24 movie. Every time one becomes available to watch somehow, I watch it. Here's a list of all A24 movies and which ones I have seen and haven't seen.
+            2023 has been and gone now but I'm still trying to watch every single A24 movie. Every time one becomes available to watch somehow, I watch it. Below is a list of all A24 movies and which ones I have seen and haven't seen.
 </p>
-
-<h2>List of A24 Movies</h2>
-             <p>Movies are divided into years but are otherwise in release order. Movies I have seen have a check mark. Movies I really liked are starred. Movies I disliked have an ✗</p>
+</div>
 
 
-<!--2013-->
-<h3>2013</h3>
+<div class="textbox">
+<h3>List of A24 Movies</h3>
+             <p>Movies are divided into years but are otherwise <i>mostly</i> in release order (reverse).</p>
 
+<div style="display: table; margin:auto;">
+             <ul>
+             <li>&#10003; Movies I have seen</li>
+             <li>&#9733; Movies I really liked</li>
+             <li>✗ Movies I disliked</li>
+             </ul>
+</div>
+
+<p><strong>Recently seen:</strong> The Legend of Ochi (2025), Bring Her Back (2025), The Adderall Diaries (2016), Krisha (2016)</p>
+
+
+
+<!--upcoming-->
+ <h3>2026 / Unknown</h3>
 <div class="A24">
+  <div></div><div></div><div></div><div>Altar</div>
+  <div></div><div></div><div></div><div>Enemies</div>
+  <div></div><div></div><div></div><div>Famous</div>
+  <div></div><div></div><div></div><div>Huntington</div>            
+  <div></div><div></div><div></div><div>Onslaught</div>
+  <div></div><div></div><div></div><div>Primetime</div>
+  <div></div><div></div><div></div><div>The Backrooms</div>
+  <div></div><div></div><div></div><div>The Death of Robin Hood</div>
+  <div></div><div></div><div></div><div>The Drama</div>
+  <div></div><div></div><div></div><div>The Entertainment System is Down</div>
+  <div></div><div></div><div></div><div>The Moment</div>
+  <div></div><div></div><div></div><div>Untitled musical comedy</div>
+  <div></div><div></div><div></div><div>Untitled film (Chris Rock)</div>
+  <div></div><div></div><div></div><div>Wizards!</div>
 
-<div></div><div></div><div>2013</div><div>A Glimpse Inside the Mind of Charles Swan III</div>
-<div></div><div>&#10003;</div><div>2013</div><div>Ginger & Rosa</div>
-<div>&#9733;</div><div>&#10003;</div><div>2013</div><div>Spring Breakers</div>
-<div></div><div>&#10003;</div><div>2013</div><div>The Bling Ring</div>
-<div></div><div>&#10003;</div><div>2013</div><div>The Spectacular Now</div>
+  </div>
+
+
+<!-- 2025 -->
+<h3>2025</h3>
+<div class="A24">
+  <div></div><div></div><div>2025</div><div>Parthenope</div>
+  <div></div><div></div><div>2025</div><div>On Becoming a Guinea Fowl</div>
+  <div></div><div></div><div>2025</div><div>Opus</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
+  <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Warfare</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>The Legend of Ochi</div>
+  <div></div><div></div><div>2025</div><div>Friendship</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Bring Her Back</div>
+  <div></div><div></div><div>2025</div><div>Materialists</div>
+  <div></div><div></div><div>2025</div><div>Sorry Baby</div>
+  <div></div><div></div><div>2025</div><div>Eddington</div>
+  <div></div><div></div><div>2025</div><div>Highest 2 Lowest</div>
+  <div></div><div></div><div>2025</div><div>Ne Zha 2</div>
+  <div></div><div></div><div>2025</div><div>The Smashing Machine</div>
+    <div></div><div></div><div>2025</div><div>Marty Supreme</div>
+      <div></div><div></div><div>2025</div><div>Andre is an Idiot</div>
+  <div></div><div></div><div>2025</div><div>Architecton</div>
+  <div></div><div></div><div>2025</div><div>Eternity</div>
+  <div></div><div></div><div>2025</div><div>If I Had Legs I'd Kick You</div>
+  <div></div><div></div><div>2025</div><div>Mother Mary</div>
+  <div></div><div></div><div>2025</div><div>Pillion</div>
 </div>
-<!--2014-->
-<h3>2014</h3>
-   <div class="A24">
 
-<div></div><div>&#10003;</div><div>2014</div><div>Enemy</div>
-<div></div><div>&#10003;</div><div>2014</div><div>Under the Skin</div>
-<div></div><div>&#10003;</div><div>2014</div><div>Locke</div>
-<div></div><div></div><div>2014</div><div>Obvious Child</div>
-<div></div><div>&#10003;</div><div>2014</div><div>The Rover</div>
-<div>✗</div><div>&#10003;</div><div>2014</div><div>Life After Beth</div>
-<div></div><div>&#10003;</div><div>2014</div><div>Tusk</div>
-<div></div><div>&#10003;</div><div>2014</div><div>Laggies</div>
-<div></div><div>&#10003;</div><div>2014</div><div>Revenge of the Green Dragons</div>
-<div>&#9733;</div><div>&#10003;</div><div>2014</div><div>The Captive</div>
-<div></div><div>&#10003;</div><div>2014</div><div>A Most Violent Year</div>
+<!--2024-->
+<h3>2024</h3>
+              <div class="A24">
+<div></div><div></div><div>2024</div><div>My Mercury</div>
+<div></div><div></div><div>2024</div><div>Open Wide</div>
+<div></div><div></div><div>2024</div><div>Problemista</div>
+<div></div><div></div><div>2024</div><div>Love Lies Bleeding</div>
+<div></div><div>&#10003;</div><div>2024</div><div>Civil War</div>
+<div></div><div>&#10003;</div><div>2024</div><div>I Saw the TV Glow</div>
+<div></div><div></div><div>2024</div><div>Tuesday</div>
+<div></div><div></div><div>2024</div><div>Janet Planet</div>
+<div></div><div>&#10003;</div><div>2024</div><div>MaXXXine</div>
+<div></div><div></div><div>2024</div><div>Sing Sing</div>
+<div></div><div></div><div>2024</div><div>Look into My Eyes</div>
+<div></div><div></div><div>2024</div><div>The Front Room</div>
+ <div></div><div></div><div>2024</div><div>A Different Man</div>
+ <div></div><div></div><div>2024</div><div>Architecton</div>
+<div></div><div></div><div>2024</div><div>We Live in Time</div>
+<div>&#9733;</div><div>&#10003;</div><div>2024</div><div>Heretic</div>
+<div></div><div></div><div>2024</div><div>Y2K</div>
+<div></div><div>&#10003;</div><div>2024</div><div>Babygirl</div>
 </div>
 
-<!--2015-->
-<h3>2015</h3>
+<!--2023-->
+<h3>2023</h3>
               <div class="A24">
 
-<div></div><div>&#10003;</div><div>2015</div><div>Son of a Gun</div>
-<div></div><div>&#10003;</div><div>2015</div><div>While We're Young</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Cut Bank</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Ex Machina</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Slow West</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Barely Lethal</div>
-<div></div><div></div><div>2015</div><div>Amy</div>
-<div></div><div></div><div>2015</div><div>The End of the Tour</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Dark Places</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Mississippi Grind</div>
-<div></div><div>&#10003;</div><div>2015</div><div>Room</div>
-
-</div>
-<!--2016-->
-<h3>2016</h3>
-  <div class="A24">
-
-<div></div><div>&#10003;</div><div>2016</div><div>Mojave</div>
-<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Witch</div>
-<div></div><div>&#10003;</div><div>2016</div><div>Remember</div>
-<div></div><div></div><div>2016</div><div>Krisha</div>
-<div></div><div>&#10003;</div><div>2016</div><div>Green Room</div>
-<div></div><div></div><div>2016</div><div>The Adderall Diaries</div>
-<div></div><div>&#10003;</div><div>2016</div><div>The Lobster</div>
-<div></div><div></div><div>2016</div><div>De Palma</div>
-<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Swiss Army Man</div>
-<div></div><div>&#10003;</div><div>2016</div><div>Equals</div>
-<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Into the Forest</div>
-<div></div><div>&#10003;</div><div>2016</div><div>Morris from America</div>
-<div></div><div>&#10003;</div><div>2016</div><div>The Sea of Trees</div>
-<div></div><div></div><div>2016</div><div>American Honey</div>
-<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Moonlight</div>
-<div></div><div></div><div>2016</div><div>Oasis: Supersonic</div>
-<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Monster</div>
-<div></div><div>&#10003;</div><div>2016</div><div>20th Century Women</div>
+<div></div><div></div><div>2023</div><div>When You Finish Saving the World</div>
+<div></div><div>&#10003;</div><div>2023</div><div>Sharper</div>
+<div></div><div></div><div>2023</div><div>Pi</div>
+<div></div><div></div><div>2023</div><div>Showing Up</div>
+<div></div><div></div><div>2023</div><div>Beau Is Afraid</div>
+<div></div><div></div><div>2023</div><div>You Hurt My Feelings</div>
+<div></div><div></div><div>2023</div><div>Past Lives</div>
+<div></div><div></div><div>2023</div><div>Earth Mama</div>
+<div></div><div></div><div>2023</div><div>The Deepest Breath</div>
+<div></div><div>&#10003;</div><div>2023</div><div>Talk to Me</div>
+<div></div><div>&#10003;</div><div>2023</div><div>Medusa Deluxe</div>
+<div></div><div></div><div>2023</div><div>Stop Making Sense</div>
+<div></div><div></div><div>2023</div><div>Dicks: The Musical</div>
+<div></div><div></div><div>2023</div><div>Priscilla</div>
+<div></div><div></div><div>2023</div><div>All Dirt Roads Taste of Salt</div>
+<div></div><div>&#10003;</div><div>2023</div><div>Dream Scenario</div>
+<div>&#9733;</div><div>&#10003;</div><div>2023</div><div>The Zone of Interest</div>
+<div></div><div></div><div>2023</div><div>The Iron Claw</div>
+<div></div><div></div><div>2023</div><div>Occupied City</div>
 </div>
 
-<!--2017-->
-<h3>2017</h3>
+<!--2022-->
+<h3>2022</h3>
+              <div class="A24">
+<div></div><div>&#10003;</div><div>2022</div><div>After Yang</div>
+<div>&#9733;</div><div>&#10003;</div><div>2022</div><div>X</div>
+<div></div><div>&#10003;</div><div>2022</div><div>Everything, Everywhere, All At Once</div>
+<div></div><div>&#10003;</div><div>2022</div><div>Men</div>
+<div></div><div></div><div>2022</div><div>Elizabeth: A Portrait in Parts</div>
+<div>&#9733;</div><div>&#10003;</div><div>2022</div><div>Marcel the Shell with Shoes On</div>
+<div></div><div>&#10003;</div><div>2022</div><div>Bodies Bodies Bodies</div>
+<div></div><div></div><div>2022</div><div>Funny Pages</div>
+<div>&#9733;</div><div>&#10003;</div><div>2022</div><div>Pearl</div>
+<div></div><div></div><div>2022</div><div>Instinct</div>
+<div></div><div></div><div>2022</div><div>God's Creatures</div>
+<div></div><div></div><div>2022</div><div>Stars at Noon</div>
+<div></div><div></div><div>2022</div><div>Aftersun</div>
+<div></div><div></div><div>2022</div><div>Causeway</div>
+<div></div><div></div><div>2022</div><div>The Inspection</div>
+<div></div><div></div><div>2022</div><div>White Noise</div>
+<div></div><div></div><div>2022</div><div>Close</div>
+<div></div><div>&#10003;</div><div>2022</div><div>The Eternal Daughter</div>
+<div></div><div></div><div>2022</div><div>The Whale</div>
+<div></div><div></div><div>2022</div><div>This Place Rules</div>
+</div>
+
+
+<!--2021-->
+<h3>2021</h3>
               <div class="A24">
 
-<div></div><div>&#10003;</div><div>2017</div><div>Trespass Against Us</div>
-<div>&#9733;</div><div>&#10003;</div><div>2017</div><div>The Blackcoat's Daughter</div>
-<div></div><div></div><div>2017</div><div>Free Fire</div>
-<div></div><div></div><div>2017</div><div>The Lovers</div>
-<div></div><div></div><div>2017</div><div>The Exception</div>
-<div></div><div>&#10003;</div><div>2017</div><div>It Comes at Night</div>
-<div>&#9733;</div><div>&#10003;</div><div>2017</div><div>A Ghost Story</div>
-<div></div><div>&#10003;</div><div>2017</div><div>Menashe</div>
-<div></div><div></div><div>2017</div><div>Good Time</div>
-<div></div><div></div><div>2017</div><div>Woodshock</div>
-<div>&#9733;</div><div>&#10003;</div><div>2017</div><div>The Florida Project</div>
-<div></div><div>&#10003;</div><div>2017</div><div>The Killing of a Sacred Deer</div>
-<div></div><div>&#10003;</div><div>2017</div><div>Lady Bird</div>
-<div></div><div></div><div>2017</div><div>The Disaster Artist</div>
-<div></div><div></div><div>2017</div><div>The Ballad of Lefty Brown</div>
+<div></div><div>&#10003;</div><div>2021</div><div>Saint Maud</div>
+<div></div><div></div><div>2021</div><div>Minari</div>
+<div></div><div></div><div>2021</div><div>False Positive</div>
+<div></div><div></div><div>2021</div><div>Zola</div>
+<div></div><div>&#10003;</div><div>2021</div><div>Val</div>
+<div></div><div></div><div>2021</div><div>The Green Knight</div>
+<div></div><div></div><div>2021</div><div>Lamb</div>
+<div></div><div></div><div>2021</div><div>The Souvenir Part II</div>
+<div></div><div></div><div>2021</div><div>C'mon C'mon</div>
+<div></div><div>&#10003;</div><div>2021</div><div>The Humans</div>
+<div></div><div>&#10003;</div><div>2021</div><div>Red Rocket</div>
+<div></div><div></div><div>2021</div><div>The Tragedy of Macbeth</div>
+<div></div><div></div><div>2021</div><div>The Sky is Everywhere</div>
+ </div>
+
+<!--2020-->
+<h3>2020</h3>
+              <div class="A24">
+
+<div></div><div></div><div>2020</div><div>First Cow</div>
+<div></div><div>&#10003;</div><div>2020</div><div>Boys State</div>
+<div></div><div></div><div>2020</div><div>On the Rocks</div>
 </div>
 
-<!--2018-->
-<h3>2018</h3>
-            <div class="A24">
-            <div></div><div></div><div>2018</div><div>The Vanishing of Sidney Hall</div>
-            <div></div><div></div><div>2018</div><div>The Last Movie Star</div>
-            <div></div><div></div><div>2018</div><div>Lean on Pete</div>
-            <div></div><div></div><div>2018</div><div>Backstabbing for Beginners</div>
-            <div></div><div></div><div>2018</div><div>First Reformed</div>
-            <div></div><div>&#10003;</div><div>2018</div><div>How to Talk to Girls at Parties</div>
-            <div>&#9733;</div><div>&#10003;</div><div>2018</div><div>Hereditary</div>
-            <div>&#9733;</div><div>&#10003;</div><div>2018</div><div>Woman Walks Ahead</div>
-            <div></div><div>&#10003;</div><div>2018</div><div>Eighth Grade</div>
-            <div></div><div></div><div>2018</div><div>Hot Summer Nights</div>
-            <div></div><div></div><div>2018</div><div>Never Goin' Back</div>
-            <div></div><div></div><div>2018</div><div>A Prayer Before Dawn</div>
-            <div></div><div></div><div>2018</div><div>Slice</div>
-            <div></div><div>&#10003;</div><div>2018</div><div>The Children Act</div>
-            <div></div><div>&#10003;</div><div>2018</div><div>Mid90s</div>
-            <div></div><div></div><div>2018</div><div>Outlaws</div>
-            </div>
+
 
 <!--2019-->
 
@@ -160,154 +220,119 @@ cssFile: movies.css
 <div></div><div></div><div>2019</div><div>Uncut Gems</div>
 </div>
 
+<!--2018-->
+<h3>2018</h3>
+            <div class="A24">
+            <div></div><div></div><div>2018</div><div>The Vanishing of Sidney Hall</div>
+            <div></div><div></div><div>2018</div><div>The Last Movie Star</div>
+            <div></div><div></div><div>2018</div><div>Lean on Pete</div>
+            <div></div><div></div><div>2018</div><div>Backstabbing for Beginners</div>
+            <div></div><div></div><div>2018</div><div>First Reformed</div>
+            <div></div><div>&#10003;</div><div>2018</div><div>How to Talk to Girls at Parties</div>
+            <div>&#9733;</div><div>&#10003;</div><div>2018</div><div>Hereditary</div>
+            <div>&#9733;</div><div>&#10003;</div><div>2018</div><div>Woman Walks Ahead</div>
+            <div></div><div>&#10003;</div><div>2018</div><div>Eighth Grade</div>
+            <div></div><div></div><div>2018</div><div>Hot Summer Nights</div>
+            <div></div><div></div><div>2018</div><div>Never Goin' Back</div>
+            <div></div><div></div><div>2018</div><div>A Prayer Before Dawn</div>
+            <div></div><div></div><div>2018</div><div>Slice</div>
+            <div></div><div>&#10003;</div><div>2018</div><div>The Children Act</div>
+            <div></div><div>&#10003;</div><div>2018</div><div>Mid90s</div>
+            <div></div><div></div><div>2018</div><div>Outlaws</div>
+            </div>
 
-<!--2020-->
-<h3>2020</h3>
+
+<!--2017-->
+<h3>2017</h3>
               <div class="A24">
 
-<div></div><div></div><div>2020</div><div>First Cow</div>
-<div></div><div>&#10003;</div><div>2020</div><div>Boys State</div>
-<div></div><div></div><div>2020</div><div>On the Rocks</div>
+<div></div><div>&#10003;</div><div>2017</div><div>Trespass Against Us</div>
+<div>&#9733;</div><div>&#10003;</div><div>2017</div><div>The Blackcoat's Daughter</div>
+<div></div><div></div><div>2017</div><div>Free Fire</div>
+<div></div><div></div><div>2017</div><div>The Lovers</div>
+<div></div><div></div><div>2017</div><div>The Exception</div>
+<div></div><div>&#10003;</div><div>2017</div><div>It Comes at Night</div>
+<div>&#9733;</div><div>&#10003;</div><div>2017</div><div>A Ghost Story</div>
+<div></div><div>&#10003;</div><div>2017</div><div>Menashe</div>
+<div></div><div></div><div>2017</div><div>Good Time</div>
+<div></div><div></div><div>2017</div><div>Woodshock</div>
+<div>&#9733;</div><div>&#10003;</div><div>2017</div><div>The Florida Project</div>
+<div></div><div>&#10003;</div><div>2017</div><div>The Killing of a Sacred Deer</div>
+<div></div><div>&#10003;</div><div>2017</div><div>Lady Bird</div>
+<div></div><div></div><div>2017</div><div>The Disaster Artist</div>
+<div></div><div></div><div>2017</div><div>The Ballad of Lefty Brown</div>
 </div>
 
-<!--2021-->
-<h3>2021</h3>
+<!--2016-->
+<h3>2016</h3>
+  <div class="A24">
+
+<div></div><div>&#10003;</div><div>2016</div><div>Mojave</div>
+<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Witch</div>
+<div></div><div>&#10003;</div><div>2016</div><div>Remember</div>
+<div></div><div>&#10003;</div><div>2016</div><div>Krisha</div>
+<div></div><div>&#10003;</div><div>2016</div><div>Green Room</div>
+<div></div><div>&#10003;</div><div>2016</div><div>The Adderall Diaries</div>
+<div></div><div>&#10003;</div><div>2016</div><div>The Lobster</div>
+<div></div><div></div><div>2016</div><div>De Palma</div>
+<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Swiss Army Man</div>
+<div></div><div>&#10003;</div><div>2016</div><div>Equals</div>
+<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Into the Forest</div>
+<div></div><div>&#10003;</div><div>2016</div><div>Morris from America</div>
+<div></div><div>&#10003;</div><div>2016</div><div>The Sea of Trees</div>
+<div></div><div></div><div>2016</div><div>American Honey</div>
+<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Moonlight</div>
+<div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Monster</div>
+<div></div><div>&#10003;</div><div>2016</div><div>20th Century Women</div>
+</div>
+
+<!--2015-->
+<h3>2015</h3>
               <div class="A24">
 
-<div></div><div>&#10003;</div><div>2021</div><div>Saint Maud</div>
-<div></div><div></div><div>2021</div><div>Minari</div>
-<div></div><div></div><div>2021</div><div>False Positive</div>
-<div></div><div></div><div>2021</div><div>Zola</div>
-<div></div><div>&#10003;</div><div>2021</div><div>Val</div>
-<div></div><div></div><div>2021</div><div>The Green Knight</div>
-<div></div><div></div><div>2021</div><div>Lamb</div>
-<div></div><div></div><div>2021</div><div>The Souvenir Part II</div>
-<div></div><div></div><div>2021</div><div>C'mon C'mon</div>
-<div></div><div>&#10003;</div><div>2021</div><div>The Humans</div>
-<div></div><div>&#10003;</div><div>2021</div><div>Red Rocket</div>
-<div></div><div></div><div>2021</div><div>The Tragedy of Macbeth</div>
-<div></div><div></div><div>2021</div><div>The Sky is Everywhere</div>
- </div>
+<div></div><div>&#10003;</div><div>2015</div><div>Son of a Gun</div>
+<div></div><div>&#10003;</div><div>2015</div><div>While We're Young</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Cut Bank</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Ex Machina</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Slow West</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Barely Lethal</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Dark Places</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Mississippi Grind</div>
+<div></div><div>&#10003;</div><div>2015</div><div>Room</div>
 
-<!--2022-->
-<h3>2022</h3>
-              <div class="A24">
-<div></div><div>&#10003;</div><div>2022</div><div>After Yang</div>
-<div>&#9733;</div><div>&#10003;</div><div>2022</div><div>X</div>
-<div></div><div>&#10003;</div><div>2022</div><div>Everything, Everywhere, All At Once</div>
-<div></div><div>&#10003;</div><div>2022</div><div>Men</div>
-<div></div><div></div><div>2022</div><div>Elizabeth: A Portrait in Parts</div>
-<div>&#9733;</div><div>&#10003;</div><div>2022</div><div>Marcel the Shell with Shoes On</div>
-<div></div><div>&#10003;</div><div>2022</div><div>Bodies Bodies Bodies</div>
-<div></div><div></div><div>2022</div><div>Funny Pages</div>
-<div>&#9733;</div><div>&#10003;</div><div>2022</div><div>Pearl</div>
-<div></div><div></div><div>2022</div><div>Instinct</div>
-<div></div><div></div><div>2022</div><div>God's Creatures</div>
-<div></div><div></div><div>2022</div><div>Stars at Noon</div>
-<div></div><div></div><div>2022</div><div>Aftersun</div>
-<div></div><div></div><div>2022</div><div>Causeway</div>
-<div></div><div></div><div>2022</div><div>The Inspection</div>
-<div></div><div></div><div>2022</div><div>White Noise</div>
-<div></div><div></div><div>2022</div><div>Close</div>
-<div></div><div>&#10003;</div><div>2022</div><div>The Eternal Daughter</div>
-<div></div><div></div><div>2022</div><div>The Whale</div>
-<div></div><div></div><div>2022</div><div>This Place Rules</div>
 </div>
 
 
-<!--2023-->
-<h3>2023</h3>
-              <div class="A24">
+<!--2014-->
+<h3>2014</h3>
+   <div class="A24">
 
-<div></div><div></div><div>2023</div><div>When You Finish Saving the World</div>
-<div></div><div>&#10003;</div><div>2023</div><div>Sharper</div>
-<div></div><div></div><div>2023</div><div>Pi</div>
-<div></div><div></div><div>2023</div><div>Showing Up</div>
-<div></div><div></div><div>2023</div><div>Beau Is Afraid</div>
-<div></div><div></div><div>2023</div><div>You Hurt My Feelings</div>
-<div></div><div></div><div>2023</div><div>Past Lives</div>
-<div></div><div></div><div>2023</div><div>Earth Mama</div>
-<div></div><div></div><div>2023</div><div>The Deepest Breath</div>
-<div></div><div></div><div>2023</div><div>Stephen Curry: Underrated</div>
-<div></div><div>&#10003;</div><div>2023</div><div>Talk to Me</div>
-<div></div><div>&#10003;</div><div>2023</div><div>Medusa Deluxe</div>
-<div></div><div></div><div>2023</div><div>Stop Making Sense</div>
-<div></div><div></div><div>2023</div><div>Dicks: The Musical</div>
-<div></div><div></div><div>2023</div><div>Priscilla</div>
-<div></div><div></div><div>2023</div><div>All Dirt Roads Taste of Salt</div>
-<div></div><div>&#10003;</div><div>2023</div><div>Dream Scenario</div>
-<div>&#9733;</div><div>&#10003;</div><div>2023</div><div>The Zone of Interest</div>
-<div></div><div></div><div>2023</div><div>The Iron Claw</div>
-<div></div><div></div><div>2023</div><div>Occupied City</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Enemy</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Under the Skin</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Locke</div>
+<div></div><div></div><div>2014</div><div>Obvious Child</div>
+<div></div><div>&#10003;</div><div>2014</div><div>The Rover</div>
+<div>✗</div><div>&#10003;</div><div>2014</div><div>Life After Beth</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Tusk</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Laggies</div>
+<div></div><div>&#10003;</div><div>2014</div><div>Revenge of the Green Dragons</div>
+<div>&#9733;</div><div>&#10003;</div><div>2014</div><div>The Captive</div>
+<div></div><div>&#10003;</div><div>2014</div><div>A Most Violent Year</div>
 </div>
 
-<!--2024-->
-<h3>2024</h3>
-              <div class="A24">
-<div></div><div></div><div>2024</div><div>My Mercury</div>
-<div></div><div></div><div>2024</div><div>Open Wide</div>
-<div></div><div></div><div>2024</div><div>Jerry Lee Lewis: Trouble in Mind</div>
-<div></div><div></div><div>2024</div><div>Problemista</div>
-<div></div><div></div><div>2024</div><div>Love Lies Bleeding</div>
-<div></div><div></div><div>2024</div><div>Steve! (Martin): A Documentary in 2 Pieces</div>
-<div></div><div>&#10003;</div><div>2024</div><div>Civil War</div>
-<div></div><div></div><div>2024</div><div>I Saw the TV Glow</div>
-<div></div><div></div><div>2024</div><div>The Sixth</div>
-<div></div><div></div><div>2024</div><div>Tuesday</div>
-<div></div><div></div><div>2024</div><div>Janet Planet</div>
-<div></div><div>&#10003;</div><div>2024</div><div>MaXXXine</div>
-<div></div><div></div><div>2024</div><div>Sing Sing</div>
-<div></div><div></div><div>2024</div><div>Look into My Eyes</div>
-<div></div><div></div><div>2024</div><div>The Front Room</div>
- <div></div><div></div><div>2024</div><div>A Different Man</div>
- <div></div><div></div><div>2024</div><div>Architecton</div>
-<div></div><div></div><div>2024</div><div>We Live in Time</div>
-<div>&#9733;</div><div>&#10003;</div><div>2024</div><div>Heretic</div>
-<div></div><div></div><div>2024</div><div>Y2K</div>
-<div></div><div></div><div>2024</div><div>Babygirl</div>
-</div>
 
-<!-- 2025 -->
-<h3>2025</h3>
+<!--2013-->
+<h3>2013</h3>
+
 <div class="A24">
-  <div></div><div></div><div>2025</div><div>Parthenope</div>
-  <div></div><div></div><div>2025</div><div>On Becoming a Guinea Fowl</div>
-  <div></div><div></div><div>2025</div><div>Opus</div>
-  <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
-  <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Warfare</div>
-  <div></div><div></div><div>2025</div><div>The Legend of Ochi</div>
-  <div></div><div></div><div>2025</div><div>Friendship</div>
-  <div></div><div></div><div>2025</div><div>Bring Her Back</div>
-  <div></div><div></div><div></div><div>Materialists</div>
-  <div></div><div></div><div></div><div>Sorry Baby</div>
-  <div></div><div></div><div></div><div>Eddington</div>
-  <div></div><div></div><div></div><div>Highest 2 Lowest</div>
-  <div></div><div></div><div></div><div>The Smashing Machine</div>
-    <div></div><div></div><div></div><div>Marty Supreme</div>
-      <div></div><div></div><div></div><div>Andre is an Idiot</div>
-  <div></div><div></div><div></div><div>Architecton</div>
-  <div></div><div></div><div></div><div>Eternity</div>
-  <div></div><div></div><div></div><div>If I Had Legs I'd Kick You</div>
-  <div></div><div></div><div></div><div>Mother Mary</div>
-  <div></div><div></div><div></div><div>Pillion</div>
+
+<div></div><div></div><div>2013</div><div>A Glimpse Inside the Mind of Charles Swan III</div>
+<div></div><div>&#10003;</div><div>2013</div><div>Ginger & Rosa</div>
+<div>&#9733;</div><div>&#10003;</div><div>2013</div><div>Spring Breakers</div>
+<div></div><div>&#10003;</div><div>2013</div><div>The Bling Ring</div>
+<div></div><div>&#10003;</div><div>2013</div><div>The Spectacular Now</div>
 </div>
 
-
-<!--upcoming-->
- <h3>2026 / Unknown</h3>
-<div class="A24">
-  <div></div><div></div><div></div><div>Altar</div>
-  <div></div><div></div><div></div><div>Famous</div>
-  <div></div><div></div><div></div><div>Huntington</div>            
-  <div></div><div></div><div></div><div>Onslaught</div>
-  <div></div><div></div><div></div><div>Primetime</div>
-  <div></div><div></div><div></div><div>The Death of Robin Hood</div>
-  <div></div><div></div><div></div><div>The Drama</div>
-  <div></div><div></div><div></div><div>The Entertainment System is Down</div>
-  <div></div><div></div><div></div><div>The Moment</div>
-  <div></div><div></div><div></div><div>Untitled musical comedy</div>
-  <div></div><div></div><div></div><div>Wizards!</div>
-
-  </div>
 
 <!--<div>&#9733;</div><div>&#9473;</div><div>year</div><div>Blank line</div>-->
+</div>

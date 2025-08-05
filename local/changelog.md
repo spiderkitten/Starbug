@@ -10,7 +10,7 @@ layout: layout/base.njk
 
 <div class="textbox">
    <h3>2025 Updates</h3>
-
+<p><strong>Early August 2025:</strong> updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator. </p>
 <p><strong>Mid July 2025:</strong>
 Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
 </p>

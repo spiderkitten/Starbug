@@ -47,17 +47,13 @@ layout: layout/base.njk
   <li>Pixel gold star gif by <a href="https://eightbriitt.neocities.org/">Eightbritt</a></li>
  <li>Mushroom favicon and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
  <li>Cherry divider by whimsical</li>
-  <li>Tulip Girl on About Page by <a href="https://www.flaticon.com/stickers-pack/beautiful-female-avatars">Flaticon</a></li>
-
-  <li>book on Guestbook page by Flaticon</li>
-  <li>UFO on 404 page by Flaticon</li>
+ <br>
+<li>UFO on 404 page by Flaticon</li>
 <li>icons on Fav Movies page by flaticon</li>
-<li>flower icon on A24 page by flaticon</li>
 <br>
 <li>Les Vampires image on Vampire Resource Management page - ????</li>
 <li>Nick Cave's book of words  - </li>
-
-
+<li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
 </ul>
 </div>
 
