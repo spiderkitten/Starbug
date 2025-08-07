@@ -1,0 +1,41 @@
+.fcgallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.character {
+    font-size: 12px;
+    background-color: var(--pallette5);
+    width: 20%;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: var(--pallette8);
+    box-sizing: border-box;
+}
+
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.charactertxt {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: var(--pallette3)
+}
+
+@media screen and (max-width: 800px) {
+    .character { width: 40%; font-size: 15px; }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .character { width: 75%; font-size: 15px; }
+        }

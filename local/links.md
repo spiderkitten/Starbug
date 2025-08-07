@@ -16,6 +16,7 @@ script: freeze.js
     <a href="#fun">Fun</a>  
     <a href="#gaming">Gaming</a>  
     <a href="#useful">Useful</a>  
+    <a href="#youtube">Youtube</a>
     <a href="neocities.html">Site Making</a>  
  </div>
  <hr class="dashed">
@@ -264,7 +265,7 @@ script: freeze.js
 
 <h2 id="useful">Useful Sites</h2>
 
-<h3>assorted</a></h3>
+<h3>assorted</h3>
 
  
 <div><a href="https://temp-mail.org/en/">Temp Email</a></div>
@@ -283,8 +284,54 @@ script: freeze.js
  <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
+<!-- ========== YOUTUBE ========== -->
+
+<!-- template
+<div><a href=""> </a></div>
+ <div class="description"> </div> 
+-->
+
+<div class="textbox">
+
+<h2 id="youtube">Youtube</h2>
+
+<h3>Short Film</h3>
+<div><a href="https://www.youtube.com/@Omeleto/videos">Omeleto</a></div>
+ <div class="description">Well made short films in all genres</div> 
+
+<div><a href="https://www.youtube.com/@WatchALTER">Alter</a></div>
+ <div class="description">Horror short films</div> 
+
+ <div><a href="https://www.youtube.com/@watchdust">Dust</a></div>
+ <div class="description">Sci-fi short films</div> 
+
+ <div><a href="https://www.youtube.com/@shortoftheweek">Short of the Week</a></div>
+ <div class="description">A weekly short film - different genres</div> 
+
+<h3>Movie related</h3>
+<div><a href="https://www.youtube.com/@A24/videos">A24 Trailers</a></div>
+ <div class="description">Official A24 youtube channel, trailers for A24 movies</div>
+
+ <div><a href="https://www.youtube.com/@criterioncollection/videos">Criterion</a></div>
+ <div class="description">I love this channel for the Criterion Closet videos, where a movie actor will visit their closet of DVD and pick some out and talk about them.</div> 
+
+<div><a href="https://www.youtube.com/@neonrated/videos">Neon</a></div>
+ <div class="description">Neon produces and distributes movies like A24 does, this is their trailer channel. Some great films!</div> 
+
+<h3>Comedy</h3>
+<div><a href="https://www.youtube.com/@ABeckettKing/videos">Alasdair Beckett-King</a></div>
+ <div class="description">Short comedy sketches under 2 minutes long, sometimes parodies of specific genres.</div> 
+
+ <div><a href=""> </a></div>
+ <div class="description"> </div> 
 
 
+
+
+
+
+ <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+</div>
 
 </div><!-- end freeze-->
 

@@ -1,6 +1,5 @@
 window.onload = () => {
 
-
   /* TABLE OF CONTENTS H3 */
 
       // Get all headings

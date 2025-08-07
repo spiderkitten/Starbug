@@ -38,7 +38,7 @@ cssFile: movies.css
              </ul>
 </div>
 
-<p><strong>Recently seen:</strong> The Legend of Ochi (2025), Bring Her Back (2025), The Adderall Diaries (2016), Krisha (2016)</p>
+<p><strong>Recently seen:</strong> The Legend of Ochi (2025), Bring Her Back (2025), The Adderall Diaries (2016), Krisha (2016), American Honey (2016)</p>
 
 
 
@@ -68,7 +68,7 @@ cssFile: movies.css
 <div class="A24">
   <div></div><div></div><div>2025</div><div>Parthenope</div>
   <div></div><div></div><div>2025</div><div>On Becoming a Guinea Fowl</div>
-  <div></div><div></div><div>2025</div><div>Opus</div>
+  <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Opus</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
   <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Warfare</div>
   <div></div><div>&#10003;</div><div>2025</div><div>The Legend of Ochi</div>
@@ -280,7 +280,7 @@ cssFile: movies.css
 <div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Into the Forest</div>
 <div></div><div>&#10003;</div><div>2016</div><div>Morris from America</div>
 <div></div><div>&#10003;</div><div>2016</div><div>The Sea of Trees</div>
-<div></div><div></div><div>2016</div><div>American Honey</div>
+<div></div><div>&#10003;</div><div>2016</div><div>American Honey</div>
 <div>&#9733;</div><div>&#10003;</div><div>2016</div><div>Moonlight</div>
 <div>&#9733;</div><div>&#10003;</div><div>2016</div><div>The Monster</div>
 <div></div><div>&#10003;</div><div>2016</div><div>20th Century Women</div>
