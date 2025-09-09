@@ -1,5 +1,4 @@
-/* A24 MOVIES PAGE */ 
-
+/* ============= A24 MOVIES PAGE ========== */ 
 
 .A24 {
     display: grid;
@@ -40,9 +39,191 @@
   .A24 div:nth-child(4n-4) {
     background: var(--pallette8);
   }
+
+
+  /* ============= FAV MOVIES PAGE ========== */ 
   
-  /* FAV MOVIES PAGE */ 
+  p {
+    margin: 0px;
+  }
   
+  p span {
+    display: block;
+  }
+  
+  .title{
+  font-weight: bold;
+  }
+  
+  .artist {
+  text-transform: uppercase;
+  }
+  
+  .year {
+    letter-spacing: 2px;
+  }
+  
+  .year::before{
+    content: "=";
+  }
+  .year::after{
+    content: "=";
+  }
+
+  .moviegallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.movie {
+    font-size: 12px;
+    background-color: var(--pallette6);
+    width: 20%;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: var(--pallette9);
+    box-sizing: border-box;
+}
+
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+    filter: opacity(80%) saturate(50%)  sepia(10%) ;
+}
+
+.icons {
+  max-width: 25px;
+  height: auto;
+  cursor:pointer;
+  padding-top: 5px;
+}
+
+heart {
+  color:red;
+}
+
+.movietxt {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: var(--pallette3);
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .movie { width: 40%; font-size: 15px; }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .movie { width: 75%; font-size: 15px; }
+        }
+
+
+
+  
+        #imgmovies:before {
+          background: var(--imgmoviesbefore);
+          padding: 5px 20px;
+          content: " ";
+        }
+      
+        #imgmovmovies:before {
+          background: var(--imgmovmoviesbefore);
+          padding: 5px 20px;
+          content: " ";
+        }
+      
+        #imgmovjapan:before {
+        background: var(--imgmovjapanbefore);
+        padding: 5px 20px;
+        content: " ";
+        }
+      
+        #imgmovwar:before {
+        background: var(--imgmovwarbefore);
+        padding: 5px 20px;
+        content: " ";
+        }
+      
+        #imgmovaus:before {
+        background: var(--imgmovausbefore);
+        padding: 5px 20px;
+        content: " ";
+        }
+      
+       #imgmovweird:before {
+        background: var(--imgmovweirdbefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovhorror:before {
+        background: var(--imgmovhorrorbefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovfolk:before {
+        background: var(--imgmovfolkbefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovkorean:before {
+        background: var(--imgmovkoreanbefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovapoca:before {
+        background: var(--imgmovapocabefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovscifi:before {
+        background: var(--imgmovscifibefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovtime:before {
+        background: var(--imgmovtimebefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovmusic:before {
+        background: var(--imgmovmusicbefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovanime:before {
+        background: var(--imgmovanimebefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+      
+       #imgmovfamily:before {
+        background: var(--imgmovfamilybefore);
+        padding: 5px 20px;
+        content: " ";
+       }
+
+
+
+
+
+
+  /*
   .movielist {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -66,93 +247,14 @@
     .movielist div:nth-child(4n) {
       background-color: var(--pallette6);
     }
-  
-    #imgmovies:before {
-      background: var(--imgmoviesbefore);
-      padding: 5px 20px;
-      content: " ";
-    }
-  
-    #imgmovmovies:before {
-      background: var(--imgmovmoviesbefore);
-      padding: 5px 20px;
-      content: " ";
-    }
-  
-    #imgmovjapan:before {
-    background: var(--imgmovjapanbefore);
-    padding: 5px 20px;
-    content: " ";
-    }
-  
-    #imgmovwar:before {
-    background: var(--imgmovwarbefore);
-    padding: 5px 20px;
-    content: " ";
-    }
-  
-    #imgmovaus:before {
-    background: var(--imgmovausbefore);
-    padding: 5px 20px;
-    content: " ";
-    }
-  
-   #imgmovweird:before {
-    background: var(--imgmovweirdbefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovhorror:before {
-    background: var(--imgmovhorrorbefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovfolk:before {
-    background: var(--imgmovfolkbefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovkorean:before {
-    background: var(--imgmovkoreanbefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovapoca:before {
-    background: var(--imgmovapocabefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovscifi:before {
-    background: var(--imgmovscifibefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovtime:before {
-    background: var(--imgmovtimebefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovmusic:before {
-    background: var(--imgmovmusicbefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovanime:before {
-    background: var(--imgmovanimebefore);
-    padding: 5px 20px;
-    content: " ";
-   }
-  
-   #imgmovfamily:before {
-    background: var(--imgmovfamilybefore);
-    padding: 5px 20px;
-    content: " ";
-   }
+
+*/
+
+
+
+
+
+
+
+
+

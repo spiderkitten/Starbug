@@ -1,0 +1,24 @@
+<div class="movie">
+    <img src="/images/movies/posters/{{- favmovies.poster }}">
+    
+    <div class="movietxt">
+        <div class="title">{{- favmovies.title }}</div>
+        <div class="year">{{- favmovies.year }}</div>
+    
+    <div>
+        {%- if favmovies.imdb != "" %} 
+        <a href="{{ favmovies.imdb }}" target="_blank"><img src="/images/siteimgs/imdb.png" class="icons" title="View on IMDB"></a> 
+        {%- endif %} 
+
+
+        {%- if favmovies.trailer != "" %} 
+        <a href="{{ favmovies.trailer }}" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a>
+        {%- endif%} 
+            
+
+
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    

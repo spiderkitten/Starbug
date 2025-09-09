@@ -1,0 +1,604 @@
+[
+    {
+    "title": "The Ghost and Mrs Muir",
+    "category": "General",
+    "year": "1947",
+    "poster": "ghostmrsmuir.png",
+    "imdb": "https://www.imdb.com/title/tt0039420/",
+    "trailer": "https://www.youtube.com/watch?v=n-X00-BoG9o"
+    },
+
+    {
+    "title": "Duel",
+    "category": "General",
+    "year": "1971",
+    "poster": "duel.png",
+    "imdb": "https://www.imdb.com/title/tt0067023/",
+    "trailer": "https://www.youtube.com/watch?v=SutDTIhbQ2g"
+    },
+
+    {
+    "title": "Capricorn One",
+    "category": "General",
+    "year": "1978",
+    "poster": "capricornone.png",
+    "imdb": "https://www.imdb.com/title/tt0077294/",
+    "trailer": "https://www.youtube.com/watch?v=8QuOJwI0aVQ"
+    },
+
+    {
+    "title": "Tremors",
+    "category": "General",
+    "year": "1990",
+    "poster": "tremors.png",
+    "imdb": "https://www.imdb.com/title/tt0100814/",
+    "trailer": "https://www.youtube.com/watch?v=liJfZvXdiTE"
+    },
+
+    {
+    "title": "Tank Girl",
+    "category": "General",
+    "year": "1995",
+    "poster": "tankgirl.png",
+    "imdb": "https://www.imdb.com/title/tt0114614/",
+    "trailer": "https://www.youtube.com/watch?v=rpxWdGkiGqg"
+    },
+
+    {
+    "title": "Kamikaze Girls",
+    "category": "Japanese",
+    "year": "2000",
+    "poster": "kamikazegirls.png",
+    "imdb": "https://www.imdb.com/title/tt0416220/",
+    "trailer": "https://www.youtube.com/watch?v=IF4T_K5ia-U"
+    },
+
+    {
+    "title": "Battle Royale",
+    "category": "Japanese",
+    "year": "2000",
+    "poster": "battleroyale.png",
+    "imdb": "https://www.imdb.com/title/tt0266308/",
+    "trailer": "https://www.youtube.com/watch?v=N0p1t-dC7Ko"
+    },
+
+    {
+    "title": "Empire of the Sun",
+    "category": "War",
+    "year": "1987",
+    "poster": "empireofsun.png",
+    "imdb": "https://www.imdb.com/title/tt0092965/",
+    "trailer": "https://www.youtube.com/watch?v=i_WiDVA1kLY"
+    },
+
+    {
+    "title": "The Great Escape",
+    "category": "War",
+    "year": "1963",
+    "poster": "greatescape.png",
+    "imdb": "https://www.imdb.com/title/tt0057115/",
+    "trailer": "https://www.youtube.com/watch?v=M2bEzJFVdQ4"
+    },
+
+    {
+    "title": "Spider & Rose",
+    "category": "Aussie",
+    "year": "1994",
+    "poster": "spiderrose.png",
+    "imdb": "https://www.imdb.com/title/tt0111260/",
+    "trailer": "https://www.youtube.com/watch?v=TG6XOh7pJWA"
+    },
+
+    {
+    "title": "Picnic At Hanging Rock",
+    "category": "Aussie",
+    "year": "1975",
+    "poster": "picnicHR.png",
+    "imdb": "https://www.imdb.com/title/tt0073540/",
+    "trailer": "https://www.youtube.com/watch?v=CFtQMzXZZQs"
+    },
+
+    {
+    "title": "Lion",
+    "category": "Aussie",
+    "year": "2016",
+    "poster": "lion.png",
+    "imdb": "https://www.imdb.com/title/tt3741834/",
+    "trailer": "https://www.youtube.com/watch?v=-RNI9o06vqo"
+    },
+
+    {
+    "title": "Cube",
+    "category": "Weird",
+    "year": "1997",
+    "poster": "cube.png",
+    "imdb": "https://www.imdb.com/title/tt0123755/",
+    "trailer": "https://www.youtube.com/watch?v=Esjc0rPj3K4"
+    },
+    
+    {
+    "title": "The Skin I Live In",
+    "category": "Weird",
+    "year": "2011",
+    "poster": "skinilivein.png",
+    "imdb": "https://www.imdb.com/title/tt1189073/",
+    "trailer": "https://www.youtube.com/watch?v=PavJUoZNT7g"
+    },
+
+    {
+    "title": "Being John Malkoviich",
+    "category": "Weird",
+    "year": "1999",
+    "poster": "bjm.png",
+    "imdb": "https://www.imdb.com/title/tt0120601/",
+    "trailer": "https://www.youtube.com/watch?v=2UuRFr0GnHM"
+    },
+
+    {
+    "title": "The Platform",
+    "category": "Weird",
+    "year": "2019",
+    "poster": "theplatform.png",
+    "imdb": "https://www.imdb.com/title/tt8228288/",
+    "trailer": "https://www.youtube.com/watch?v=RlfooqeZcdY"
+    },
+
+    {
+    "title": "The City of Lost Children",
+    "category": "Weird",
+    "year": "1995",
+    "poster": "citylostkids.png",
+    "imdb": "https://www.imdb.com/title/tt0112682/",
+    "trailer": "https://www.youtube.com/watch?v=U0HWDOzi2h0"
+    },
+    {
+    "title": "The Loved Ones",
+    "category": "Aussie",
+    "year": "2009",
+    "poster": "thelovedones.png",
+    "imdb": "https://www.imdb.com/title/tt1316536/",
+    "trailer": "https://www.youtube.com/watch?v=Xci4h83W3jY"
+    },
+
+    {
+    "title": "The Village",
+    "category": "Horror",
+    "year": "2004",
+    "poster": "thevillage.png",
+    "imdb": "https://www.imdb.com/title/tt0368447/",
+    "trailer": "https://www.youtube.com/watch?v=sTGyhwvdY6k"
+    },
+
+    {
+    "title": "Undead",
+    "category": "Aussie",
+    "year": "2003",
+    "poster": "undead.png",
+    "imdb": "https://www.imdb.com/title/tt0339840/",
+    "trailer": "https://www.youtube.com/watch?v=YzL7kgGMvBY"
+    },
+
+    {
+    "title": "Creep",
+    "category": "Horror",
+    "year": "2014",
+    "poster": "creep.png",
+    "imdb": "https://www.imdb.com/title/tt2428170/",
+    "trailer": "https://www.youtube.com/watch?v=a1FmJHhWm8A"
+    },
+
+    {
+    "title": "Creep 2",
+    "category": "Horror",
+    "year": "2017",
+    "poster": "creep2.png",
+    "imdb": "https://www.imdb.com/title/tt3654796/",
+    "trailer": "https://www.youtube.com/watch?v=838PE2pbzM4"
+    },
+
+    {
+    "title": "In Fabric",
+    "category": "Horror",
+    "year": "2018",
+    "poster": "infabric.png",
+    "imdb": "https://www.imdb.com/title/tt7464188/",
+    "trailer": "https://www.youtube.com/watch?v=biHUTtV4K40"
+    },
+
+    {
+    "title": "Cam",
+    "category": "Horror",
+    "year": "2018",
+    "poster": "cam.png",
+    "imdb": "https://www.imdb.com/title/tt8361028/",
+    "trailer": "https://www.youtube.com/watch?v=pN8xZ5WDonk"
+    },
+
+    {
+    "title": "Happy Death Day",
+    "category": "Horror",
+    "year": "2017",
+    "poster": "happydeathday.png",
+    "imdb": "https://www.imdb.com/title/tt5308322/",
+    "trailer": "https://www.youtube.com/watch?v=1NTaDm3atkc"
+    },
+
+    {
+    "title": "The Wickerman",
+    "category": "Folk Horror",
+    "year": "1973",
+    "poster": "wickerman73.png",
+    "imdb": "https://www.imdb.com/title/tt0070917/",
+    "trailer": "https://www.youtube.com/watch?v=MXq-NuS24fg"
+    },
+
+    {
+    "title": "The Wickerman",
+    "category": "Folk Horror",
+    "year": "2006",
+    "poster": "wickerman06.png",
+    "imdb": "https://www.imdb.com/title/tt0450345/",
+    "trailer": "https://www.youtube.com/watch?v=_DtW7j6DK9k"
+    },
+
+    {
+    "title": "Midsommar",
+    "category": "Folk Horror",
+    "year": "2019",
+    "poster": "midsommar.png",
+    "imdb": "https://www.imdb.com/title/tt8772262/",
+    "trailer": "https://www.youtube.com/watch?v=1Vnghdsjmd0"
+    },
+
+    {
+    "title": "Hereditary",
+    "category": "Folk Horror",
+    "year": "2018",
+    "poster": "hereditary.png",
+    "imdb": "https://www.imdb.com/title/tt7784604/",
+    "trailer": "https://www.youtube.com/watch?v=V6wWKNij_1M"
+    },
+
+    {
+    "title": "A Tale of Two Sisters",
+    "category": "Korean Horror",
+    "year": "2003",
+    "poster": "taletwosisters.png",
+    "imdb": "https://www.imdb.com/title/tt0365376/",
+    "trailer": "https://www.youtube.com/watch?v=4YmCIp4qlGg"
+    },
+
+    {
+    "title": "The Host",
+    "category": "Korean Horror",
+    "year": "2006",
+    "poster": "thehost.png",
+    "imdb": "https://www.imdb.com/title/tt0468492/",
+    "trailer": "https://www.youtube.com/watch?v=xrLY0wO06l4"
+    },
+
+    {
+    "title": "Train to Busan",
+    "category": "Korean Horror",
+    "year": "2016",
+    "poster": "traintobusan.png",
+    "imdb": "https://www.imdb.com/title/tt5700672/",
+    "trailer": "https://www.youtube.com/watch?v=9rTKsTIq9J0"
+    },
+
+    {
+    "title": "#Alive",
+    "category": "Korean Horror",
+    "year": "2020",
+    "poster": "alive.png",
+    "imdb": "https://www.imdb.com/title/tt10620868/",
+    "trailer": "https://www.youtube.com/watch?v=jQ8CCg1tOqc"
+    },
+
+    {
+    "title": "The Day After",
+    "category": "Apoca",
+    "year": "1983",
+    "poster": "dayafter.png",
+    "imdb": "https://www.imdb.com/title/tt0085404/",
+    "trailer": "https://www.youtube.com/watch?v=xphC5_4HRMw"
+    },
+
+    {
+    "title": "Threads",
+    "category": "Apoca",
+    "year": "1984",
+    "poster": "threads.png",
+    "imdb": "https://www.imdb.com/title/tt0090163/",
+    "trailer": "https://www.youtube.com/watch?v=vgT4Y30DkaA"
+    },
+
+    {
+    "title": "Night of the Comet",
+    "category": "Apoca",
+    "year": "1984",
+    "poster": "nightofthecomet.png",
+    "imdb": "https://www.imdb.com/title/tt0087799/",
+    "trailer": "https://www.youtube.com/watch?v=YproiS5uAUU"
+    },
+
+    {
+    "title": "Fahrenheit 451",
+    "category": "Scifi",
+    "year": "1966",
+    "poster": "fahrenheit451.png",
+    "imdb": "https://www.imdb.com/title/tt0060390/",
+    "trailer": "https://www.youtube.com/watch?v=r6VUExA5UKA"
+    },
+
+    {
+    "title": "The Fifth Element",
+    "category": "Scifi",
+    "year": "1997",
+    "poster": "fifthelement.png",
+    "imdb": "https://www.imdb.com/title/tt0119116/",
+    "trailer": "https://www.youtube.com/watch?v=pqs9ycvKfD8"
+    },
+
+    {
+    "title": "Stargate",
+    "category": "Scifi",
+    "year": "1994",
+    "poster": "stargate.png",
+    "imdb": "https://www.imdb.com/title/tt0111282/",
+    "trailer": "https://www.youtube.com/watch?v=c3sgzrgpn8s"
+    },
+
+    {
+    "title": "Soylent Green",
+    "category": "Scifi",
+    "year": "1973",
+    "poster": "soylentgreen.png",
+    "imdb": "https://www.imdb.com/title/tt0070723/",
+    "trailer": "https://www.youtube.com/watch?v=N_jGOKYHxaQ"
+    },
+
+    {
+    "title": "Star Trek: the Motion Picture",
+    "category": "Scifi",
+    "year": "1979",
+    "poster": "startrek1.png",
+    "imdb": "https://www.imdb.com/title/tt0079945/",
+    "trailer": "https://www.youtube.com/watch?v=zrXvBaFFu80"
+    },
+
+    {
+    "title": "Star Trek IV: The Voyage Home",
+    "category": "SF Time Travel",
+    "year": "1986",
+    "poster": "startrek4.png",
+    "imdb": "https://www.imdb.com/title/tt0092007/",
+    "trailer": "https://www.youtube.com/watch?v=QOhoIBkOYf0"
+    },
+
+    {
+    "title": "Star Trek: First Contact",
+    "category": "SF Time Travel",
+    "year": "1996",
+    "poster": "startrekfirstcontact.png",
+    "imdb": "https://www.imdb.com/title/tt0117731/",
+    "trailer": "https://www.youtube.com/watch?v=B3NJ49VyjDs"
+    },
+
+    {
+    "title": "Predestination",
+    "category": "SF Time Travel",
+    "year": "2014",
+    "poster": "predestination.png",
+    "imdb": "https://www.imdb.com/title/tt2397535/",
+    "trailer": "https://www.youtube.com/watch?v=xxG-YfedrfU"
+    },
+
+    {
+    "title": "Time Lapse",
+    "category": "SF Time Travel",
+    "year": "2014",
+    "poster": "timelapse.png",
+    "imdb": "https://www.imdb.com/title/tt2669336/",
+    "trailer": "https://www.youtube.com/watch?v=_YhP-VfH81E"
+    },
+
+    {
+    "title": "Somewhere in Time",
+    "category": "SF Time Travel",
+    "year": "1980",
+    "poster": "somewhereintime.png",
+    "imdb": "https://www.imdb.com/title/tt0081534/",
+    "trailer": "https://www.youtube.com/watch?v=GdETuDURLfw"
+    },
+
+    {
+    "title": "The Time Machine",
+    "category": "SF Time Travel",
+    "year": "1960",
+    "poster": "timemachine.png",
+    "imdb": "https://www.imdb.com/title/tt0054387/",
+    "trailer": "https://www.youtube.com/watch?v=Gb1tGXeF1Rc"
+    },
+
+    {
+    "title": "The King and I",
+    "category": "Musicals",
+    "year": "1956",
+    "poster": "kingandi.png",
+    "imdb": "https://www.imdb.com/title/tt0049408/",
+    "trailer": "https://www.youtube.com/watch?v=YZ80o1SY71o"
+    },
+
+    {
+    "title": "Rocky Horror Picture Show",
+    "category": "Musicals",
+    "year": "1978",
+    "poster": "rhps.png",
+    "imdb": "https://www.imdb.com/title/tt0073629/",
+    "trailer": "https://www.youtube.com/watch?v=4plqh6obZW4"
+    },
+
+    {
+    "title": "Xanadu",
+    "category": "Musicals",
+    "year": "1980",
+    "poster": "xanadu.png",
+    "imdb": "https://www.imdb.com/title/tt0081777/",
+    "trailer": "https://www.youtube.com/watch?v=WNcUv1q2JAs"
+    },
+
+    {
+    "title": "A Chorus Line",
+    "category": "Musicals",
+    "year": "1986",
+    "poster": "chorusline.png",
+    "imdb": "https://www.imdb.com/title/tt0088915/",
+    "trailer": "https://www.youtube.com/watch?v=q6H97werl_A"
+    },
+
+    {
+    "title": "Grease",
+    "category": "Musicals",
+    "year": "1978",
+    "poster": "grease.png",
+    "imdb": "https://www.imdb.com/title/tt0077631/",
+    "trailer": "https://www.youtube.com/watch?v=THd96gHV7Tg"
+    },
+
+    {
+    "title": "Grease 2",
+    "category": "Musicals",
+    "year": "1982",
+    "poster": "grease2.png",
+    "imdb": "https://www.imdb.com/title/tt0084021/",
+    "trailer": "https://www.youtube.com/watch?v=WQTUEj-TqLo"
+    },
+
+    {
+    "title": "Repo! The Genetic Opera",
+    "category": "Musicals",
+    "year": "2008",
+    "poster": "repo.png",
+    "imdb": "https://www.imdb.com/title/tt0963194/",
+    "trailer": "https://www.youtube.com/watch?v=DvMDBGh2DLs"
+    },
+
+    {
+    "title": "The Garden of Words",
+    "category": "Anime",
+    "year": "2013",
+    "poster": "gardenofwords.png",
+    "imdb": "https://www.imdb.com/title/tt2591814/",
+    "trailer": "https://www.youtube.com/watch?v=FMabhvDoolc"
+    },
+
+    {
+    "title": "Howls Moving Castle",
+    "category": "Anime",
+    "year": "2004",
+    "poster": "howlscastle.png",
+    "imdb": "https://www.imdb.com/title/tt0347149/",
+    "trailer": "https://www.youtube.com/watch?v=DJeUGpcle8s"
+    },
+
+    {
+    "title": "Grave of the Fireflie",
+    "category": "Anime",
+    "year": "1988",
+    "poster": "gravefireflies.png",
+    "imdb": "https://www.imdb.com/title/tt0095327/",
+    "trailer": "https://www.youtube.com/watch?v=4vPeTSRd580"
+    },
+
+    {
+    "title": "When Marnie Was There",
+    "category": "Anime",
+    "year": "2014",
+    "poster": "whenmarnie.png",
+    "imdb": "https://www.imdb.com/title/tt3398268/",
+    "trailer": "https://www.youtube.com/watch?v=P-sixU3ZrXg"
+    },
+
+    {
+    "title": "The Year Without Santa Claus",
+    "category": "Family",
+    "year": "1974",
+    "poster": "yearwithoutsanta.png",
+    "imdb": "https://www.imdb.com/title/tt0072424/",
+    "trailer": ""
+    },
+
+    {
+    "title": "The Twelve Tasks of Asterix",
+    "category": "Family",
+    "year": "1976",
+    "poster": "12tasks.png",
+    "imdb": "https://www.imdb.com/title/tt0072901/",
+    "trailer": "https://www.youtube.com/watch?v=E4BY4k8mouE"
+    },
+
+    {
+    "title": "Annie",
+    "category": "Family",
+    "year": "1982",
+    "poster": "annie.png",
+    "imdb": "https://www.imdb.com/title/tt0083564/",
+    "trailer": "https://www.youtube.com/watch?v=I78xulb-l0s"
+    },
+
+    {
+    "title": "War Games",
+    "category": "Family",
+    "year": "1983",
+    "poster": "wargames.png",
+    "imdb": "https://www.imdb.com/title/tt0086567/",
+    "trailer": "https://www.youtube.com/watch?v=TQUsLAAZuhU"
+    },
+
+    {
+    "title": "Toy Soldiers",
+    "category": "Family",
+    "year": "1991",
+    "poster": "toysoldiers.png",
+    "imdb": "https://www.imdb.com/title/tt0103112/",
+    "trailer": "https://www.youtube.com/watch?v=BAIG5SRxPVA"
+    },
+
+    {
+    "title": "The Little Princess",
+    "category": "Family",
+    "year": "1939",
+    "poster": "littleprincess39.png",
+    "imdb": "https://www.imdb.com/title/tt0031580/",
+    "trailer": "https://www.youtube.com/watch?v=Khyp-Gzi4u4"
+    },
+
+    {
+    "title": "The Little Princess",
+    "category": "Family",
+    "year": "1995",
+    "poster": "littleprincess95.png",
+    "imdb": "https://www.imdb.com/title/tt0113670/",
+    "trailer": "https://www.youtube.com/watch?v=Q3WJrWZ_npg"
+    },
+
+    {
+    "title": "The Secret Garden",
+    "category": "Family",
+    "year": "1993",
+    "poster": "secretgarden.png",
+    "imdb": "https://www.imdb.com/title/tt0108071/",
+    "trailer": "https://www.youtube.com/watch?v=1zeqqhA5Z3A"
+    },
+
+    {
+    "title": "",
+    "category": "",
+    "year": "",
+    "poster": "",
+    "imdb": "",
+    "trailer": ""
+    }
+]
+

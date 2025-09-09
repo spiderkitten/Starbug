@@ -7,7 +7,7 @@ cssFile: movies.css
 
 <div class="textbox">
 <h3>A24 Movies</h3>
-<div style="float: left; width: 200px; margin: 5px; margin-right:15px;"><img src="/images/siteimgs/movies/a24.png" style="width: 200px; ">
+<div style="float: left; width: 200px; margin: 5px; margin-right:15px;"><img src="/images/movies/a24.png" style="width: 200px; ">
 <figcaption>A24 Logo</figcaption></div>
 
  <p>When most people think of A24 they think of their horror lineup. Midsommar, Hereditary, etc. They may even think of some of their bigger films like Everything Everywhere All At Once, Moonlight, and the upcoming (at time of writing) Civil War (2024). But A24 actually have so many more movies under their belt. Some are self produced, others they just distribute. But they all have a unique quality about them that makes them stand out compared to others.</p>
@@ -17,7 +17,7 @@ cssFile: movies.css
 
 <div class="textbox">
 <h3>My A24 Challenge</h3>
-<div style="float: right; width: 180px; margin: 5px; margin-right:15px;"><img src="/images/siteimgs/movies/watchingmovies.png" style="width: 180px; "></div>
+<div style="float: right; width: 180px; margin: 5px; margin-right:15px;"><img src="/images/movies/watchingmovies.png" style="width: 180px; "></div>
 <p>
             In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair few, but I pushed myself to watch any that I could legally access. Even movies I might not have chosen to watch normally. And I had a great time, watched a lot of really good movies (and a handful of ones I didn't like.) 
             
@@ -38,7 +38,7 @@ cssFile: movies.css
              </ul>
 </div>
 
-<p><strong>Recently seen:</strong> The Legend of Ochi (2025), Bring Her Back (2025), The Adderall Diaries (2016), Krisha (2016), American Honey (2016)</p>
+<p><strong>Recently seen:</strong> Sorry Baby, Highest 2 Lowest, Free Fire, The Lovers </p>
 
 
 
@@ -75,9 +75,9 @@ cssFile: movies.css
   <div></div><div></div><div>2025</div><div>Friendship</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Bring Her Back</div>
   <div></div><div></div><div>2025</div><div>Materialists</div>
-  <div></div><div></div><div>2025</div><div>Sorry Baby</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Sorry Baby</div>
   <div></div><div></div><div>2025</div><div>Eddington</div>
-  <div></div><div></div><div>2025</div><div>Highest 2 Lowest</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Highest 2 Lowest</div>
   <div></div><div></div><div>2025</div><div>Ne Zha 2</div>
   <div></div><div></div><div>2025</div><div>The Smashing Machine</div>
     <div></div><div></div><div>2025</div><div>Marty Supreme</div>
@@ -108,7 +108,7 @@ cssFile: movies.css
  <div></div><div></div><div>2024</div><div>Architecton</div>
 <div></div><div></div><div>2024</div><div>We Live in Time</div>
 <div>&#9733;</div><div>&#10003;</div><div>2024</div><div>Heretic</div>
-<div></div><div></div><div>2024</div><div>Y2K</div>
+<div></div><div>&#10003;</div><div>2024</div><div>Y2K</div>
 <div></div><div>&#10003;</div><div>2024</div><div>Babygirl</div>
 </div>
 
@@ -248,8 +248,8 @@ cssFile: movies.css
 
 <div></div><div>&#10003;</div><div>2017</div><div>Trespass Against Us</div>
 <div>&#9733;</div><div>&#10003;</div><div>2017</div><div>The Blackcoat's Daughter</div>
-<div></div><div></div><div>2017</div><div>Free Fire</div>
-<div></div><div></div><div>2017</div><div>The Lovers</div>
+<div></div><div>&#10003;</div><div>2017</div><div>Free Fire</div>
+<div></div><div>&#10003;</div><div>2017</div><div>The Lovers</div>
 <div></div><div></div><div>2017</div><div>The Exception</div>
 <div></div><div>&#10003;</div><div>2017</div><div>It Comes at Night</div>
 <div>&#9733;</div><div>&#10003;</div><div>2017</div><div>A Ghost Story</div>

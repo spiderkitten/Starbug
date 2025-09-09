@@ -1,5 +1,5 @@
 ---
-title: Friends Only Banners
+title: Favourite Characters
 layout: layout/base.njk
 cssFile: harem.css
 ---
@@ -10,21 +10,14 @@ cssFile: harem.css
 <div class="textbox">
 <div class="fcgallery">
 
+{%- for harem in harem %}
 <div class="character">
-    <img src="/images/harem/kbeckett.png">
-        <div class="charactertxt"><strong>Kate Beckett</strong><br>Castle</div>
+    <img src="/images/harem/{{- harem.image }}">
+        <div class="charactertxt"><strong>{{- harem.character }}</strong><br>{{- harem.franchise }}</div>
 
 </div>
-<div class="character">
-    <img src="/images/harem/misles.png">
-    <div class="charactertxt"><strong>Maura Isles</strong><br>Rizzoli & Isles</div>
+{%- endfor %}
+
 </div>
-<div class="character">
-    <img src="/images/harem/scarter.png">
-    <div class="charactertxt"><strong>Sam Carter</strong><br>Stargate SG1/Atlantis</div>
-</div>
-<div class="character">
-    <img src="/images/harem/kjaneway.png">
-    <div class="charactertxt"><strong>Kathryn Janeway</strong><br>Star Trek Voyager</div>
-</div>
-</div>
+ 
+

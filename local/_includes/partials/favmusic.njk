@@ -1,0 +1,20 @@
+<div class="album">
+<img src="/images/music/{{- favmusic.cover }}">
+
+<div class="albumtxt">
+      <div class="title">{{- favmusic.title }}</div>
+      <div class="artist">{{- favmusic.artist }}</div>
+      <div class="year">{{- favmusic.year }}</div>
+
+<div>
+        {%- if favmusic.youtube != "" %} 
+        <a href="{{ favmusic.youtube }}" target="_blank">
+          <img src="/images/siteimgs/youtube.png" class="icons" title="Listen on Youtube"></a>
+          {%- endif%} 
+          
+          {%- if favmusic.spotify != "" %} 
+          <a href="{{ favmusic.spotify }}" target="_blank"><img src="/images/siteimgs/spotify.png" class="icons" title="Listen on Spotify"></a> 
+          {%- endif %} 
+</div> 
+    </div><!--albumtxt-->
+  </div><!--album-->

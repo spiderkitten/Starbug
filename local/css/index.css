@@ -87,10 +87,9 @@ grid-area: frontpagebuttons;
   border-color: var(--pallette6);
   border-style: solid;
   border-width: 3px;
+  border-left-width: 10px;
   padding: 10px;
-  padding-top: 10px;
   border-radius: 10px;
-  margin: 5px auto 10px auto;
   font-size: smaller;
   }
 
@@ -98,17 +97,19 @@ grid-area: frontpagebuttons;
     border-color: var(--pallette8);
 }
 
-q{
-  font-style:italic;
-  padding: 0px;
+#quotes1::before{
+content: "“";
+float: left;
+  font-weight: bold;
+  font-size:50px; 
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 15px;
+  padding-right: 8px; 
+  padding-left: 3px; 
 }
 
 .quotebox #author {
   padding-right: 5px;
-}
-
-.author {
-  text-align:right;
 }
 
 .quotebox button {

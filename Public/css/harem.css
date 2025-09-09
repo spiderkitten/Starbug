@@ -23,6 +23,7 @@
     width: 100%;
     height: auto;
     border-radius: 15px 15px 15px 15px;
+    filter: opacity(80%) saturate(50%)  sepia(10%) ;
 }
 
 .charactertxt {

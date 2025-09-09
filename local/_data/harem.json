@@ -1,0 +1,44 @@
+[
+    {
+    "character": "Kate Beckett",
+    "franchise": "Castle",
+    "image": "kbeckett.png"
+
+    },
+
+    {
+        "character": "Marua Isles",
+        "franchise": "Rizzoli & Isles",
+        "image": "misles.png"
+    
+        },
+
+    {
+        "character": "Sam Carter",
+        "franchise": "Stargate SG1",
+        "image": "scarter.png"
+    
+        },
+
+    {
+        "character": "Kathryn Janeway",
+        "franchise": "Star Trek Voyager",
+        "image": "kjaneway.png"
+    
+        },
+
+    {
+        "character": "Kristen Bouchard",
+        "franchise": "Evil",
+        "image": "kbouchard.png"
+    
+        },
+
+    {
+        "character": "Jack O'Neill",
+        "franchise": "Stargate SG1",
+        "image": "joneill.png"
+    
+        }
+        
+]

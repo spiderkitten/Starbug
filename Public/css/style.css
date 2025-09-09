@@ -27,9 +27,10 @@ Don't redistribute the entire style sheet
   --pallette3: #222222;  /* almost black*/
   --pallette4: #ffffff;  /* white */
   --pallette5: #c800001e; /* transparent pale pink */
-  --pallette6: #588d5434; /* transparent pale green */ 
+  --pallette6: #588d5434; /* transparent pale green */  
   --pallette7: #bf1f344a; /* transparent pink */
   --pallette8: #fe9696;  /* dark pink */
+  --pallette9: #6aa466; /*   */
 
   /* Fonts & Font Sizes */ 
   --headerh1fontsize: 60px; /*Site Title*/
@@ -58,21 +59,22 @@ Don't redistribute the entire style sheet
   --extlinkcolour: brightness(0) saturate(100%) invert(57%) sepia(17%) saturate(1262%) hue-rotate(314deg) brightness(114%) contrast(83%);
 
   /* Images before headings on movie page*/
-  --imgmoviesbefore: url(../images/siteimgs/movies/movies.png) no-repeat;
-  --imgmovmoviesbefore: url(../images/siteimgs/movies/popcorn.png) no-repeat;
-  --imgmovjapanbefore: url(../images/siteimgs/movies/castle.png) no-repeat;
-  --imgmovwarbefore: url(../images/siteimgs/movies/war.png) no-repeat;
-  --imgmovausbefore: url(../images/siteimgs/movies/koala.png) no-repeat;
-  --imgmovweirdbefore: url(../images/siteimgs/movies/weird.png) no-repeat;
-  --imgmovhorrorbefore: url(../images/siteimgs/movies/bloody.png) no-repeat;
-  --imgmovfolkbefore: url(../images/siteimgs/movies/wreath.png) no-repeat;
-  --imgmovkoreanbefore: url(../images/siteimgs/movies/korea.png) no-repeat;
-  --imgmovapocabefore: url(../images/siteimgs/movies/apoca.png) no-repeat;
-  --imgmovscifibefore: url(../images/siteimgs/movies/scifi.png) no-repeat;
-  --imgmovtimebefore: url(../images/siteimgs/movies/time.png) no-repeat;
-  --imgmovmusicbefore: url(../images/siteimgs/movies/music.png) no-repeat;
-  --imgmovanimebefore: url(../images/siteimgs/movies/anime.png) no-repeat;
-  --imgmovfamilybefore: url(../images/siteimgs/movies/family.png) no-repeat;
+  --imgmoviesbefore: url(../images/movies/icons/movies.png) no-repeat;
+
+  --imgmovmoviesbefore: url(../images/movies/icons/popcorn.png) no-repeat;
+  --imgmovjapanbefore: url(../images/movies/icons/castle.png) no-repeat;
+  --imgmovwarbefore: url(../images/movies/icons/war.png) no-repeat;
+  --imgmovausbefore: url(../images/movies/icons/koala.png) no-repeat;
+  --imgmovweirdbefore: url(../images/movies/icons/weird.png) no-repeat;
+  --imgmovhorrorbefore: url(../images/movies/icons/bloody.png) no-repeat;
+  --imgmovfolkbefore: url(../images/movies/icons/wreath.png) no-repeat;
+  --imgmovkoreanbefore: url(../images/movies/icons/korea.png) no-repeat;
+  --imgmovapocabefore: url(../images/movies/icons/apoca.png) no-repeat;
+  --imgmovscifibefore: url(../images/movies/icons/scifi.png) no-repeat;
+  --imgmovtimebefore: url(../images/movies/icons/time.png) no-repeat;
+  --imgmovmusicbefore: url(../images/movies/icons/music.png) no-repeat;
+  --imgmovanimebefore: url(../images/movies/icons/anime.png) no-repeat;
+  --imgmovfamilybefore: url(../images/movies/icons/family.png) no-repeat;
 
     /* Images before headings on links page*/
   --imgwebbefore: url(../images/siteimgs/links/coding.png) no-repeat;
@@ -83,6 +85,8 @@ Don't redistribute the entire style sheet
   --usefulbefore: url(../images/siteimgs/links/useful.png) no-repeat;
   --booksbefore: url(../images/siteimgs/links/books.png) no-repeat;
 }
+
+html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
 
 /* FONTS */
 
@@ -480,8 +484,23 @@ void{
     border-color: var(--pallette2);
 }
 
+.textboxGreen {
+  background-color: var(--pallette6);
+  border-color: var(--pallette9);
+  border-style: solid;
+  border-width: 3px;
+  padding: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin: 5px auto 10px auto;
+  }
+
+  .textboxGreen:hover {
+    border-color: var(--pallette8);
+}
+
 /*  textbox headings */
-.textbox h2 {
+.textbox h2, .textboxGreen h2 {
 background-color: var(--pallette2);
 color: var(--pallette4);
 font-size: var(--h2fontsize);
@@ -489,7 +508,7 @@ border-radius: 10px;
 padding-left:10px;
 }
 
-.textbox h3 {
+.textbox h3, .textboxGreen h3 {
 background-color: var(--pallette8);
 color: var(--pallette4);
 font-size: var(--h3fontsize);
@@ -498,7 +517,7 @@ padding-left:10px;
 margin-bottom: 10px;
 }
 
-.textbox h4 {
+.textbox h4, .textboxGreen h4 {
   background-color: var(--pallette6);
   color: var(--pallette1);
   font-size: var(--h4fontsize);

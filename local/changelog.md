@@ -10,7 +10,9 @@ layout: layout/base.njk
 
 <div class="textbox">
    <h3>2025 Updates</h3>
-<p><strong>Early August 2025:</strong> updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator. </p>
+<p><strong>September 2025:</strong> Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page</p>
+
+<p><strong>Early August 2025:</strong> updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator. Added a page for my favourite characters in fandom section, added some stamps to the shinies page. Added a youtube section to the links page</p>
 <p><strong>Mid July 2025:</strong>
 Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
 </p>

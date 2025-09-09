@@ -1,0 +1,473 @@
+[
+    {
+    "title": "I Lost My Heart to a Starship Trooper",
+    "artist": "Sara Brightman and Hot Gossip",
+    "category": "All Time Favs",
+    "year": "1978",
+    "cover": "starshiptrooper.png",
+    "youtube": "https://www.youtube.com/watch?v=XQQ4yJDSWn4",
+    "spotify": "https://open.spotify.com/track/1JdMPaKI1Azx7VcgSe3QNV"
+    },
+
+    {
+        "title": "Life On Mars",
+        "artist": "David Bowie",
+        "category": "All Time Favs",
+        "year": "1978",
+        "cover": "db_lifeonmars.png",
+        "youtube": "https://www.youtube.com/watch?v=AZKcl4-tcuo",
+        "spotify": ""
+    },
+
+    {
+        "title": "Gloomy Sunday",
+        "artist": "Billie Holiday",
+        "category": "Pre WWII",
+        "year": "1933",
+        "cover": "bh_gloomysunday.png",
+        "youtube": "https://www.youtube.com/watch?v=5H7HGdkiV6o",
+        "spotify": "https://open.spotify.com/track/3Ygc3SDJwpw3e0BGeoQx1k"
+    }, 
+
+    {
+        "title": "I Don't Want to Set the World on Fire",
+        "artist": "The Ink Spots",
+        "category": "Pre WWII",
+        "year": "1941",
+        "cover": "is_settheworldonfire.png",
+        "youtube": "https://www.youtube.com/watch?v=TmIwm5RElRs",
+        "spotify": "https://open.spotify.com/track/7Ca88RFeeUu4Cn52sFxobX"
+        },
+    
+    {
+        "title": "Benny and The Jets",
+        "artist": "Elton John",
+        "category": "70s",
+        "year": "1973",
+        "cover": "ej_bennyjets.png",
+        "youtube": "https://www.youtube.com/watch?v=qT-vsQ41LxM",
+        "spotify": "https://open.spotify.com/track/6Ulcs1ZFV3yMQmQrSfixiM"
+    },
+
+    {
+        "title": "Wuthering Heights",
+        "artist": "Kate Bush",
+        "category": "70s",
+        "year": "1978",
+        "cover": "kb_wuthering.png",
+        "youtube": "https://www.youtube.com/watch?v=-1pMMIe4hb4",
+        "spotify": "https://open.spotify.com/track/5YSI1311X8t31PBjkBG4CZ"
+    },
+
+    {
+        "title": "Babushka",
+        "artist": "Kate Bush",
+        "category": "80s",
+        "year": "1980",
+        "cover": "kb_babushka.png",
+        "youtube": "https://www.youtube.com/watch?v=6xckBwPdo1c",
+        "spotify": "https://open.spotify.com/track/53Mz9H5UvWMQUXHZnaZYKQ"
+    },
+
+    {
+        "title": "The Safety Dance",
+        "artist": "Men Without Hats",
+        "category": "80s",
+        "year": "1982",
+        "cover": "safetydance.png",
+        "youtube": "https://www.youtube.com/watch?v=1p_BvaHsgGg",
+        "spotify": "https://open.spotify.com/track/4UB3TaEGEY9WoOpxYNMgy4"
+    },
+
+    {
+        "title": "Mickey",
+        "artist": "Tony Basil",
+        "category": "80s",
+        "year": "1982",
+        "cover": "tb_mickey.png",
+        "youtube": "https://www.youtube.com/watch?v=0aqLwHP4y6Q",
+        "spotify": "https://open.spotify.com/track/5b6v3PGTEXnOEh4hy9aPhS"
+    },
+
+    {
+        "title": "Dance Me to the End of Time",
+        "artist": "Leonard Cohen",
+        "category": "80s",
+        "year": "1984",
+        "cover": "lc_danceme.png",
+        "youtube": "https://www.youtube.com/watch?v=NGorjBVag0I",
+        "spotify": "https://open.spotify.com/track/3mFzIFFFmEXTQs6BDAK2ZZ"
+    },
+
+    {
+        "title": "Tonight We Fly",
+        "artist": "The Divine Comedy",
+        "category": "90s",
+        "year": "1994",
+        "cover": "tdc_tonightwefly.png",
+        "youtube": "https://www.youtube.com/watch?v=ypeegdF7GyM",
+        "spotify": "https://open.spotify.com/track/2DPWQEfEW4ptmAQfTbZE76"
+    },
+
+    {
+        "title": "Where the Wild Roses Grow",
+        "artist": "Nick Cave and the Bad Seeds and Kylie Minogue",
+        "category": "90s",
+        "year": "1995",
+        "cover": "nckm_wildroses.png",
+        "youtube": "https://www.youtube.com/watch?v=lDpnjE1LUvE",
+        "spotify": "https://open.spotify.com/track/1L8SrVwjhIRsUdM7TkQprW"
+    },
+
+    {
+        "title": "Return to Oz",
+        "artist": "Scissor Sisters",
+        "category": "2000s",
+        "year": "2004",
+        "cover": "ss_returntooz.png",
+        "youtube": "https://www.youtube.com/watch?v=1uLvInKofyU",
+        "spotify": "https://open.spotify.com/track/2ZKvMKqLhFhLaJNj2OJiTj"
+    },  
+
+    {
+        "title": "Computer Camp Love",
+        "artist": "Datarock",
+        "category": "2000s",
+        "year": "2005",
+        "cover": "dr_computercamp.png",
+        "youtube": "https://www.youtube.com/watch?v=140ea47ndME",
+        "spotify": "https://open.spotify.com/track/5SGFitKHO5tKkcU2Y2xKEY"
+    }, 
+
+    {
+        "title": "A Formidable Marmalade",
+        "artist": " Mikelangelo the Black Sea Gentlemen",
+        "category": "2000s",
+        "year": "2001",
+        "cover": "mbsg_formidable.png",
+        "youtube": "https://www.youtube.com/watch?v=P0kyigrkFk8",
+        "spotify": "https://open.spotify.com/track/58kZxYpe9SPKw8GluyUhyX"
+    }, 
+
+    {
+        "title": "Common People",
+        "artist": "William Shatner",
+        "category": "2000s",
+        "year": "2004",
+        "cover": "shatner_common.png",
+        "youtube": "https://www.youtube.com/watch?v=eDMz5RL-wvM",
+        "spotify": "https://open.spotify.com/track/6pT57VywIGw8eyKB22Gq63"
+    }, 
+
+    {
+        "title": "Frontier Psychiatrist",
+        "artist": "",
+        "category": "2000s",
+        "year": "2000",
+        "cover": "avalanches_frontier.png",
+        "youtube": "https://www.youtube.com/watch?v=zdj9pfloICI",
+        "spotify": "https://open.spotify.com/track/3mPJHVpCvzykoxmWnYdnFq"
+    }, 
+
+    {
+        "title": "No Vampires Remain in Romania",
+        "artist": "King Luan",
+        "category": "2010s",
+        "year": "2016",
+        "cover": "kl_novampires.png",
+        "youtube": "https://www.youtube.com/watch?v=p1g3iZPna9Q",
+        "spotify": "https://open.spotify.com/track/0vrY8GSxSO8SvcQiD6mMGy"
+    },
+
+    {
+        "title": "The Stars Are Out Tonight",
+        "artist": "David Bowie",
+        "category": "2010s",
+        "year": "2013",
+        "cover": "db_thestars.png",
+        "youtube": "https://www.youtube.com/watch?v=gH7dMBcg-gE",
+        "spotify": "https://open.spotify.com/track/1nRynODR7IrQMp54k3l24h"
+    },
+
+    {
+        "title": "Wolf",
+        "artist": "First Aid Kit",
+        "category": "2010s",
+        "year": "2012",
+        "cover": "wolf_firstaidkit.png",
+        "youtube": "https://www.youtube.com/watch?v=oILduYYv7PY",
+        "spotify": "https://open.spotify.com/track/64MZlAEryuE2KlLS2lWWFX"
+    },
+
+    {
+        "title": "Pub Feed",
+        "artist": "The Chat",
+        "category": "2020s",
+        "year": "2020",
+        "cover": "chats_pubfeed.png",
+        "youtube": "https://www.youtube.com/watch?v=1LGM82uPuvA",
+        "spotify": "https://open.spotify.com/track/0zWNKqet9eB1T8rXO1wccY"
+    },
+
+    {
+        "title": "Ich Bin Eine Vamp (German)",
+        "artist": "Ute Lemper",
+        "category": "musicals",
+        "year": "1988",
+        "cover": "utelemper_ichbineinvamp.png",
+        "youtube": "https://www.youtube.com/watch?v=uOZQ9nkbwls",
+        "spotify": "https://open.spotify.com/track/44ULJeRB10hmt8ht2JpcVp"
+    },
+
+    {
+        "title": "I Am A Vamp (English)",
+        "artist": "Ute Lemper",
+        "category": "musicals",
+        "year": "1988",
+        "cover": "utelemper_ichbineinvamp.png",
+        "youtube": "https://www.youtube.com/watch?v=VCtRNqucy6I",
+        "spotify": "https://open.spotify.com/track/2DDKglu5fRwAExhYYr7hkH"
+    },
+
+    {
+        "title": "Requiem II Dies Irae",
+        "artist": "Verdi",
+        "category": "classical",
+        "year": "1874",
+        "cover": "verdi_requium.png",
+        "youtube": "https://www.youtube.com/watch?v=X6cogix3cwQ",
+        "spotify": "https://open.spotify.com/track/18mjTyCpqUWuF1HedQZW4s"
+    },
+
+    {
+        "title": "Symphony No 7 in A Major, Op. 92 II Allegretto",
+        "artist": "Beethoven",
+        "category": "classical",
+        "year": "1812",
+        "cover": "beethoven_7.png",
+        "youtube": "https://www.youtube.com/watch?v=AjtiL4lmojc",
+        "spotify": "https://open.spotify.com/track/6338sagiRPpH6dOsT6yYw9"
+    },
+
+    {
+        "title": "Flood",
+        "artist": "They Might Be Giants",
+        "category": "albums",
+        "year": "1990",
+        "cover": "tmbg_flood.png",
+        "youtube": "https://youtube.com/playlist?list=PLC80P4gsPr-afJQ5fLffo3k1PL4Lmyxv_&si=E6C_jF4Cy14iwHk2",
+        "spotify": "https://open.spotify.com/album/7FwAtuhhWivxvK4aPgyyUD"
+    },
+
+    {
+        "title": "Miss World",
+        "artist": "Miss World",
+        "category": "albums",
+        "year": "1992",
+        "cover": "missworld.png",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mWleAAp2gqwO8E4huKQbBjutwDESYuoVM",
+        "spotify": "https://open.spotify.com/album/3DCxGwWnbZ2Gdqb5YdVbcR"
+    },
+
+    {
+        "title": "Casanova",
+        "artist": "The Divine Comedy",
+        "category": "albums",
+        "year": "1996",
+        "cover": "DivineComedy_Casanova.png",
+        "youtube": "https://youtube.com/playlist?list=OLAK5uy_k2Mp-kVnKo_uIbH6dhmCb97DlylF21MpA&si=BsrlQbN35MFPLYoc",
+        "spotify": "https://open.spotify.com/album/5zhKAcWDyjCIDk2yqxsHmV"
+    },
+
+    {
+        "title": "Good Stuff",
+        "artist": "The B-52s",
+        "category": "albums",
+        "year": "1992",
+        "cover": "b52s_GoodStuff.png",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lW-U_n0Ft4zzPKWsP7i9tg2wGRnEeyAFg",
+        "spotify": "https://open.spotify.com/album/2tC65uef7FBlSKhhGTzscE"
+    },
+
+    {
+        "title": "The B-52s",
+        "artist": "The B-52s",
+        "category": "albums",
+        "year": "1979",
+        "cover": "b52s.png",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lxA_KLcIK1bBrmyFTOm5oWoOIffv825JQ",
+        "spotify": "https://open.spotify.com/album/3eXETk1esvZPRluDCWH3GN"
+    },
+
+    {
+        "title": "Physical",
+        "artist": "Olivia Newton John",
+        "category": "albums",
+        "year": "1981",
+        "cover": "onj_physical.png",
+        "youtube": "https://www.youtube.com/playlist?list=PL1HH8zxceYTa18tn15TFqcN5X58HpYHpV",
+        "spotify": "https://open.spotify.com/album/6iEs6clt0QoAW4y0dzd3JH"
+    },
+
+    {
+        "title": "Rocky Horror Picture Show Soundtrack",
+        "artist": "Various",
+        "category": "albums",
+        "year": "1975",
+        "cover": "rhps.png",
+        "youtube": "https://www.youtube.com/playlist?list=PLOhhrxpnIVS5RU0CDvBUdKEfplM9MpQkZ",
+        "spotify": "https://open.spotify.com/album/4QviryaneolcRmDB57SLco"
+    },
+
+    {
+        "title": "Clunk (EP)",
+        "artist": "Frente",
+        "category": "albums",
+        "year": "1992",
+        "cover": "frente_clunk.png",
+        "youtube": "https://www.youtube.com/watch?v=AKIMuRDz98w",
+        "spotify": ""
+    },
+
+    {
+        "title": "Grease Soundtrack",
+        "artist": "Various",
+        "category": "albums",
+        "year": "1978",
+        "cover": "GreaseOST.png",
+        "youtube": "https://www.youtube.com/playlist?list=PL8Lpw39GxwbMEkdXCWe7xag-PgLAH1ouR",
+        "spotify": "https://open.spotify.com/album/5n47Dui0H3pGpZSOxITmoq"
+    },
+
+    {
+        "title": "Vienna",
+        "artist": "Ultravox",
+        "category": "80s",
+        "year": "1981",
+        "cover": "UV_Vienna.png",
+        "youtube": "https://www.youtube.com/watch?v=VVkHZz0WOqs",
+        "spotify": "https://open.spotify.com/track/2LXjhNee4iPRVemx9NSZQ3"
+    },
+
+    {
+        "title": "Perfect Day",
+        "artist": "Lou Reed",
+        "category": "70s",
+        "year": "1972",
+        "cover": "LR_Perfectday.png",
+        "youtube": "https://www.youtube.com/watch?v=9wxI4KK9ZYo",
+        "spotify": "https://open.spotify.com/track/4TOMI010Sd4ZAX4aZ5TS85"
+    },
+
+    {
+        "title": "White Rabbit",
+        "artist": "Jefferson Airplane",
+        "category": "60s",
+        "year": "1967",
+        "cover": "JA_whiterabbit.png",
+        "youtube": "https://www.youtube.com/watch?v=WANNqr-vcx0",
+        "spotify": "https://open.spotify.com/track/4vpeKl0vMGdAXpZiQB2Dtd"
+    },
+
+    {
+        "title": "Little Water Song",
+        "artist": "Ute Lemper",
+        "category": "2000s",
+        "year": "2000",
+        "cover": "UL_punishingkiss.png",
+        "youtube": "https://www.youtube.com/watch?v=oGqU0DhVO9Y",
+        "spotify": "https://open.spotify.com/track/3cZH3Rowm4z2VVaXCx5kJt"
+    },
+
+    {
+        "title": "The Case Continues",
+        "artist": "Ute Lemper",
+        "category": "2000s",
+        "year": "2000",
+        "cover": "UL_punishingkiss.png",
+        "youtube": "https://www.youtube.com/watch?v=f2gNV5l_seY",
+        "spotify": "https://open.spotify.com/track/6FXDTDDfmScY2aw1Re32oq"
+    },
+
+    {
+        "title": "The Ballad of Tom Jones",
+        "artist": "Space and Cerys",
+        "category": "90s",
+        "year": "1998",
+        "cover": "space_tomjones.png",
+        "youtube": "https://www.youtube.com/watch?v=-3S_anLBy5w",
+        "spotify": "https://open.spotify.com/track/03hqDHqrGHIC6U7fxdUp7P"
+    },
+
+    {
+        "title": "Lovefool",
+        "artist": "The Cardigans",
+        "category": "90s",
+        "year": "1996",
+        "cover": "cardigans_lovefool.png",
+        "youtube": "https://www.youtube.com/watch?v=NI6aOFI7hms",
+        "spotify": "https://open.spotify.com/track/7aQjPecQdIuNd1sz3KCDhD"
+    },
+
+    {
+        "title": "Lovelyhead",
+        "artist": "Goldfrapp",
+        "category": "2000s",
+        "year": "2000",
+        "cover": "Goldfrapp_Lovelyhead.png",
+        "youtube": "https://www.youtube.com/watch?v=KHM4PrHqNCo",
+        "spotify": "https://open.spotify.com/track/34m5VO0lMzldJPRli4MhHS"
+    },
+
+    {
+        "title": "Beautiful To Me",
+        "artist": "Little Birdy",
+        "category": "2000s",
+        "year": "2004",
+        "cover": "LB_beautiful.png",
+        "youtube": "https://www.youtube.com/watch?v=zVmyscySaW4",
+        "spotify": "https://open.spotify.com/track/2oDbNu0S9oaZoItnUT6vgO"
+    },
+
+    {
+        "title": "Little Bunny Foo Foo",
+        "artist": "Moldy Peaches",
+        "category": "2000s",
+        "year": "2001",
+        "cover": "MP_bunnyfoo.png",
+        "youtube": "https://www.youtube.com/watch?v=aPGdA2bPX90",
+        "spotify": "https://open.spotify.com/track/2t0uGJc5p7pZp1o0v4ubgT"
+    },
+
+    {
+        "title": "Lady Samantha",
+        "artist": "Three Dog Night",
+        "category": "60s",
+        "year": "1969",
+        "cover": "TDN_LadySam.png",
+        "youtube": "https://www.youtube.com/watch?v=fukEMl9_xZ0",
+        "spotify": "https://open.spotify.com/track/4BiV61Rsj8KZ0yK0nGe8wg"
+    },
+
+    {
+        "title": "Heart of Glass",
+        "artist": "Blondie",
+        "category": "70s",
+        "year": "1979",
+        "cover": "B_HeartGlass.png",
+        "youtube": "https://www.youtube.com/watch?v=WGU_4-5RaxU",
+        "spotify": "https://open.spotify.com/track/41AE8ODX2JETBCa6muhSLY"
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "category": "",
+        "year": "",
+        "cover": "",
+        "youtube": "",
+        "spotify": ""
+    }
+
+
+    ]
