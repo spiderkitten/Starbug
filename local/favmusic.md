@@ -8,7 +8,7 @@ cssFile: favmusic.css
 
 Some of my favourite music. Its mostly old stuff, sorry. I grew up in the 1970s/1980s so the songs of those eras are probably my main influence taste wise, but I generally like all kinds of music. 
 
-I've seperated it into Albums and Songs - Albums (at the bottom) are where I like the majority of the songs in the album, otherwise I've tried to sort some of the songs into eras/genres so its easier to look through. There should be clickable links to Youtube and Spotify so you can listen there. 
+I've seperated it into Albums and Songs - Albums (at the bottom) are where I like the majority of the songs in the album, otherwise I've tried to sort some of the songs into eras/genres so its easier to look through. There should be clickable links to Youtube and Spotify so you can listen there should you choose to. 
 
 **Note: This is a work in progress**
 

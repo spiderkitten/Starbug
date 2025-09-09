@@ -6,8 +6,9 @@ cssFile: movies.css
 
 
 <h2 id="imgmovies">Movies</h2>
-<p>There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs.</p>
+<p>There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs. </p>
 
+**Note: This is a work in progress**
 
 <div class="textbox">
 
