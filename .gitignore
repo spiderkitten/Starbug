@@ -25,11 +25,4 @@ test.js
 
 PublicBU/*
 common*
-
-local/_data/booksread.json
-local/books/books.json
-local/books/booksread.md
-Public/books/booksread.html
-
-local/images/bookcovers/*
-Public/images/bookcovers/*
+local/_data/links.json
