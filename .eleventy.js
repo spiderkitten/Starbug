@@ -9,16 +9,16 @@ module.exports = function (eleventyConfig) {
   // passthrough
 
 
-     eleventyConfig.addPassthroughCopy("local/css"); 
-     eleventyConfig.addPassthroughCopy("local/images");
-     eleventyConfig.addPassthroughCopy("local/js");
-     eleventyConfig.addPassthroughCopy("local/fonts");
-     eleventyConfig.addPassthroughCopy("local/ai.txt"); 
-     eleventyConfig.addPassthroughCopy("local/robots.txt");
-     
-     
-     eleventyConfig.addFilter('blogDate', blogDate) 
-     
+      eleventyConfig.addPassthroughCopy("local/css"); 
+      eleventyConfig.addPassthroughCopy("local/images");
+      eleventyConfig.addPassthroughCopy("local/js");
+      eleventyConfig.addPassthroughCopy("local/fonts");
+      eleventyConfig.addPassthroughCopy("local/ai.txt"); 
+      eleventyConfig.addPassthroughCopy("local/robots.txt");
+      
+      // blogDate pairs with function below
+      eleventyConfig.addFilter('blogDate', blogDate) 
+      
      // Next & Previous links on bottom of posts
     eleventyConfig.addCollection("posts", function(collection) {
       const coll = collection.getFilteredByTag("posts");
@@ -30,8 +30,6 @@ module.exports = function (eleventyConfig) {
           coll[i].data["prevPost"] = prevPost;
           coll[i].data["nextPost"] = nextPost;
       }
-
-       
   
       return coll;
   });

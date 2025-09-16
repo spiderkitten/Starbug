@@ -72,9 +72,9 @@ cssFile: movies.css
   <div></div><div>&#10003;</div><div>2025</div><div>Death of a Unicorn</div>
   <div>&#9733;</div><div>&#10003;</div><div>2025</div><div>Warfare</div>
   <div></div><div>&#10003;</div><div>2025</div><div>The Legend of Ochi</div>
-  <div></div><div></div><div>2025</div><div>Friendship</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Friendship</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Bring Her Back</div>
-  <div></div><div></div><div>2025</div><div>Materialists</div>
+  <div></div><div>&#10003;</div><div>2025</div><div>Materialists</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Sorry Baby</div>
   <div></div><div></div><div>2025</div><div>Eddington</div>
   <div></div><div>&#10003;</div><div>2025</div><div>Highest 2 Lowest</div>

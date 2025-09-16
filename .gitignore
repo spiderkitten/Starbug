@@ -26,3 +26,10 @@ test.js
 PublicBU/*
 common*
 local/_data/links.json
+
+local/Koriko/*  
+Public/Koriko/*
+
+local/newlinks.md 
+Public/newlinks.html
+local/_includes/partials/links.njk

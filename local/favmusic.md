@@ -113,7 +113,7 @@ I've seperated it into Albums and Songs - Albums (at the bottom) are where I lik
 
 <div class="textbox">
 
-### Albumbs 
+### Albums 
 <div class="albumgallery">
 {% for favmusic in favmusic %}
 {% if favmusic.category == "albums" %} 

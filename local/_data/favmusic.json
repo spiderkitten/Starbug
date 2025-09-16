@@ -460,6 +460,56 @@
     },
 
     {
+        "title": "All My Little Words",
+        "artist": "The Magnetic Fields",
+        "category": "90s",
+        "year": "1999",
+        "cover": "MF_allmylittle.png",
+        "youtube": "https://www.youtube.com/watch?v=eo8vW_0H_Kg",
+        "spotify": "https://open.spotify.com/track/3KvTZQPpzPw9UKxaGlJkBs"
+    },
+
+    {
+        "title": "Balled for Beezlebub",
+        "artist": "Graveyard Train",
+        "category": "2000s",
+        "year": "2009",
+        "cover": "GT_Ballad.png",
+        "youtube": "https://www.youtube.com/watch?v=Pj6Q0xRW5bQ",
+        "spotify": "https://open.spotify.com/track/5gp7p27TA3U5ynL45u9M79"
+    },
+
+    {
+        "title": "The Killing Moon",
+        "artist": "Echo & the Bunnymen",
+        "category": "All Time Favs",
+        "year": "1984",
+        "cover": "Echo_killingmoon.png",
+        "youtube": "https://www.youtube.com/watch?v=LWz0JC7afNQ",
+        "spotify": "https://open.spotify.com/track/0cOf4csnt4DeXSkFmBjULw"
+    },
+
+    {
+        "title": "Machine Gun Felatio",
+        "artist": "Rollercoaster",
+        "category": "2000s",
+        "year": "2002",
+        "cover": "MGF_rollercoaster.png",
+        "youtube": "https://www.youtube.com/watch?v=yhPFmWPeWuo",
+        "spotify": "https://open.spotify.com/track/2xf9nTxHbWa2qSjfqtUcXJ"
+    },
+
+    {
+        "title": "Music Sounds Better With You",
+        "artist": "Stardust",
+        "category": "90s",
+        "year": "1998",
+        "cover": "Stardust_MSBWY.png",
+        "youtube": "https://www.youtube.com/watch?v=FQlAEiCb8m0",
+        "spotify": "https://open.spotify.com/album/7Kusf5plZjl76X5ARWJbNO"
+    },
+
+    {
         "title": "",
         "artist": "",
         "category": "",

@@ -153,7 +153,7 @@
     },
     {
     "title": "The Loved Ones",
-    "category": "Aussie",
+    "category": "Aussie Horror",
     "year": "2009",
     "poster": "thelovedones.png",
     "imdb": "https://www.imdb.com/title/tt1316536/",
@@ -171,7 +171,7 @@
 
     {
     "title": "Undead",
-    "category": "Aussie",
+    "category": "Aussie Horror",
     "year": "2003",
     "poster": "undead.png",
     "imdb": "https://www.imdb.com/title/tt0339840/",
@@ -590,6 +590,24 @@
     "poster": "secretgarden.png",
     "imdb": "https://www.imdb.com/title/tt0108071/",
     "trailer": "https://www.youtube.com/watch?v=1zeqqhA5Z3A"
+    },
+
+    {
+    "title": "Cut",
+    "category": "Aussie Horror",
+    "year": "2000",
+    "poster": "cut.png",
+    "imdb": "https://www.imdb.com/title/tt0189456/",
+    "trailer": "https://www.youtube.com/watch?v=mCdVd_2Jvws"
+    },
+
+    {
+    "title": "Carnifex",
+    "category": "Aussie Horror",
+    "year": "2002",
+    "poster": "carnifex.png",
+    "imdb": "https://www.imdb.com/title/tt18252340/",
+    "trailer": "https://www.youtube.com/watch?v=SFOQ98Vuuqc"
     },
 
     {

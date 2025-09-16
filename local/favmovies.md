@@ -13,7 +13,7 @@ cssFile: movies.css
 <div class="textbox">
 
 <h3 id="imgmovmovies">General Movies</h3>
-
+<p>And by General I mean "not sure where to put these yet"</p>
 <div class="moviegallery">
 
 {%- for favmovies in favmovies %}
@@ -49,7 +49,6 @@ cssFile: movies.css
 
 <div class="textbox">
 <h3 id="imgmovaus">Australian Movies</h3>
-<p>This includes Australian Horror</p>
 <div class="moviegallery">
 {%- for favmovies in favmovies %}
 {%- if favmovies.category == "Aussie" %} 
@@ -93,6 +92,18 @@ cssFile: movies.css
 {%- endfor %}
 </div>
 </div>
+
+<div class="textbox">
+<h3 id="imgmovaus">Australian Horror</h3>
+<div class="moviegallery">
+{%- for favmovies in favmovies %}
+{%- if favmovies.category == "Aussie Horror" %} 
+  {%- include "partials/favmovies.njk" %}
+ {%- endif %}
+{%- endfor %}
+</div>
+</div>
+
 
 <div class="textbox">
 <h3 id="imgmovkorean">Korean Horror</h3>
