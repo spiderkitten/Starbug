@@ -315,7 +315,7 @@ h4 {
 
 strong {
   font-weight: bold;
-
+  color: var(--pallette8);
 }
 
 /* fun font styling */

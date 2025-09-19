@@ -15,7 +15,8 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addPassthroughCopy("local/fonts");
       eleventyConfig.addPassthroughCopy("local/ai.txt"); 
       eleventyConfig.addPassthroughCopy("local/robots.txt");
-      
+      eleventyConfig.addPassthroughCopy("local/beehappy/style.css");
+
       // blogDate pairs with function below
       eleventyConfig.addFilter('blogDate', blogDate) 
       
