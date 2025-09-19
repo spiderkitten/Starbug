@@ -3,9 +3,14 @@ title: Reference - Map, Skills, Characters (WIP)
 date: 2025-09-17
 tags:  
 ---
-<div class="back"><a href="index.html"><< Back</a></div> 
 
 <div class="textbox">
+
+## Reference
+
+### Notes
+<strong>OOC</strong>: this is where I will be adding stuff as I play. Nothing here yet as I am not up to this part of the game. 
+
 
 ### Map 
 
@@ -40,6 +45,7 @@ tags:
 
 #### Confidantes
 
-</div>
 
+</div>
+<div class="back"><a href="index.html"><< Back to the Index</a></div>
  

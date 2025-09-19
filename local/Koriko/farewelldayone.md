@@ -3,14 +3,10 @@ title: Departure - Farewell Day 1
 date: 2025-09-18
 tags:  
 ---
-<div class="back"><a href="index.html"><< Back</a></div> 
 
 <div class="textbox">
 
 ## Departure 
-
-
-<div class="textbox">
 
 #### Notes
 
@@ -55,6 +51,8 @@ Because you love helping people, even when we were little you always found a way
 
 Now, be off with you, I am sure you have packing to do and other people to visit. But pop back tommorow morning, I have some goodies to send you off with."
 
+</div>
+<div class="back"><a href="index.html"><< Back to the Index</a></div>
 
 
 

@@ -3,13 +3,12 @@ title: Intro to Koriko Solo Journalling TTRPG
 date: 2025-09-15
 tags:  
 ---
-<div class="back"><a href="index.html"><< Back</a></div> 
 
 <div class="textbox">
  
 <figure class="fancy">
     <img src="koriko.png" alt="">
-    <figcaption>Image of Koriko from <a href="https://mouseholepress.itch.io/koriko">https://mouseholepress.itch.io/koriko</a></figcaption>
+    <figcaption>Koriko image from <a href="https://mouseholepress.itch.io/koriko">https://mouseholepress.itch.io/koriko</a></figcaption>
   </figure>
 
 
@@ -36,8 +35,8 @@ First, some starting off info.
 
 And the TTRPG Pack of course. 
 
-<div class="back"><a href="index.html"><< Back to the Index</a></div>
+
 </div>
-  
+<div class="back"><a href="index.html"><< Back to the Index</a></div>  
  
 

@@ -3,8 +3,6 @@ title: Departure - Farewell Day 2
 date: 2025-09-20
 tags:  
 ---
-<div class="back"><a href="index.html"><< Back</a></div> 
-
 <div class="textbox">
 
 ## Departure 
@@ -38,6 +36,16 @@ long while. What mischief or comfort do you indulge in together?
 
 Soon. 
 
+<!-- 
+I spent the morning packing the last few things I needed to take with me, and getting Opal ready to travel. 
+
+I had one more stop to make before I left on my journey.
+
+On the way I stopped by May's place and she plied with me all kinds of treats. For the journey she made me thick sandwiches full of cheese and a variety of meats, and a couple of delicious tarts. She also gave me a few jars of her prized honey with a promise to send more. 
+
+
+-->
 
 
 </div>
+<div class="back"><a href="index.html"><< Back to the Index</a></div>

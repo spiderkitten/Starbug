@@ -3,7 +3,6 @@ title: Departure - About Me and My Story
 date: 2025-09-18
 tags:  
 ---
-<div class="back"><a href="index.html"><< Back</a></div> 
 
 <div class="textbox">
 
@@ -54,3 +53,4 @@ When I dream about my new home, I wake up with lingering memories
 of (a jumble of stalls spanning a creaking bridge) and (the restorative tang of
 freshly-brewed tea).
 </div>
+<div class="back"><a href="index.html"><< Back to the Index</a></div>
