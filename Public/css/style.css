@@ -360,11 +360,15 @@ void{
   ul  {
     list-style-type: none;
     padding:0px;
+
   }
 
   li {
     padding-bottom:5px;
     padding-left:30px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    list-style: none;
   }
   
   li a {
@@ -376,7 +380,26 @@ void{
 
   ol li {
     padding:0px;
+    list-style: decimal;
   }
+
+ul li{
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+}
+
+
+dt {
+margin-left: 0px;
+padding-left:20px;
+    background-image: var(--bullet);
+    background-repeat: no-repeat;
+}
+
+dd {
+margin-left: 0px;
+padding-left:20px
+}
 
   /* Stuff used on multiple pages */
 

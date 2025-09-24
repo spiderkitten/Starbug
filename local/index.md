@@ -25,8 +25,8 @@ script: randomquote.js
 <!-- Status Box -->
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
-<div><strong>Reading:</strong> fanfic!</div>
-<div><strong>Watching:</strong>The Tunnel</div>
+<div><strong>Reading:</strong> reading slump</div>
+<div><strong>Watching:</strong>The Amazing Race Canada</div>
 <div><strong>Listening to:</strong>the endless void</div>
 <div><strong>Playing:</strong>Modded Minecraft</div>
 </div>
@@ -81,18 +81,11 @@ script: randomquote.js
 
 <div id="recentupdates" class="textbox">
 <h3>Recent Updates</h3>
-<p><strong>September 2025:</strong> Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page</p>
+<p><strong>Mid September 2025:</strong> Added a solo TTRPG page, and a gaming journal for the Koriko Solo Journalling TTRPG, and for 5-min-machine. Redid my book log so it no longer relies on goodreads widgets. Added some seen movies to the A24 challenge page.</p>
+
+<p><strong>Early September 2025:</strong> Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page</p>
+
 <p><strong>Early August 2025:</strong> updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator.  Added a page for my favourite characters in fandom section, added some stamps to the shinies page.  Added a youtube section to the links page </p>
-<p><strong>Mid July 2025:</strong>
-Rearranged some pages and cleaned up my css a lot. also added a cook book! Only a few recipes for now and no images, but more to come! 
-</p>
-<p><strong>Early July 2025:</strong>
-Added a dyslexic theme that uses the Open Dyslexic font. I hope this works, feel free to let me know if its not right. 
-tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
-Moved the shinies page under "stuff" in the menu.  
-Added some links to the links page
-</p>
-<p><strong>June 2025:</strong>Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring</p>
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 

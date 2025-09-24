@@ -1,8 +1,10 @@
 ---
 title: Index (this page) 
+TTRPGtitle: Koriko Solo Journalling TTRPG (WIP)
+description: Journalling TTRPG about a witch spending a year away from home
 date: 2025-09-14
 tags: 
-- 'Solo TTRPG'
+- 'TTRPG'
 ---
 
 <div class="textbox">
@@ -18,7 +20,7 @@ This is my game journal for the Solo Journalling TTRPG Koriko. Please see the in
 
 Last updated: <strong>Sep 19th 2025</strong>
 
-### Post Index:
+### Journal Index:
 
 <ul>
 {%- for post in collections.koriko -%}

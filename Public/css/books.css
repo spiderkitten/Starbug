@@ -22,4 +22,96 @@
   }
 
   
+  /* ============= FAV MOVIES PAGE ========== */ 
   
+  p {
+    margin: 0px;
+    padding-top: 20px;
+  }
+  
+  p span {
+    display: block;
+  }
+  
+  .title{
+  font-weight: bold;
+  }
+  
+  .author {
+  text-transform: uppercase;
+  }
+
+  .series {
+  color: var(--pallette3);
+  }
+  
+  .author::before{
+    content: "=";
+  }
+  .author::after{
+    content: "=";
+  }
+
+  .bookgallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.book {
+    font-size: 12px;
+    background-color: var(--pallette5);
+    width: 20%;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: var(--pallette8);
+    box-sizing: border-box;
+}
+
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+    filter: opacity(80%) saturate(50%)  sepia(10%) ;
+}
+
+.rating {
+  height: 15px;
+  max-width: 88px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.icons {
+  max-width: 25px;
+  height: auto;
+  cursor:pointer;
+  padding-top: 5px;
+}
+
+heart {
+  color:red;
+}
+
+.booktxt {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: var(--pallette3);
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .movie { width: 40%; font-size: 15px; }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .movie { width: 75%; font-size: 15px; }
+        }
+

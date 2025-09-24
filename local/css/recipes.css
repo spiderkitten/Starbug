@@ -49,16 +49,6 @@
     background-color: var(--pallette7);
 }
 
-    ul  {
-    list-style-type: none;
-    }
-
-    ul li {
-    background-image: var(--bullet); 
-    background-repeat: no-repeat;
-    margin-left: 5px;
-    }
-
     .back a {
         background-color: var(--pallette1);
         color: var(--pallette4);
@@ -74,3 +64,4 @@
         text-align: left;
         font-size: 12px;
     }
+

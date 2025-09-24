@@ -6,26 +6,7 @@ cssFile: "books.css"
 
 {% include "partials/readingyears.njk" %}
 
-<h1>2024 Reads</h1>
-  <p>Below are all the books I read in 2024 (so far).</p>
-  <p>I think the ones I enjoyed the most are:</p>
-  <ul>
-    <li><strong>&#9733;</strong> The Spellshop by Sarah Beth Durst</li>
-    <li><strong>&#9733;</strong> The Anomoly by Michael Rutger</li>
-    <li><strong>&#9733;</strong> Bookshops & Bonedust by Travis Baldree</li>
-    <li><strong>&#9733;</strong> Signal Moon by Kate Quinn</li>
-    <li><strong>&#9733;</strong> Metranome by Tom Watson</li>
 
-  </ul>
-
-  <p>and I didn't really like:</p>
-
-  <ul>
-    <li><strong>✗</strong> Half Share by Nathan Lowell</li>
-    <li><strong>✗</strong> Midnight on Beacon Street by Emily Ruth Verona</li>
-    <li><strong>✗</strong> The Possession by Michael Rutger</li>
-    <li><strong>✗</strong> TAAQTUMI an anthology of Arctic Stories by Aviaq Johnston</li>
-  </ul>
 
 <div class="textbox">
 <h3>2024 Reads</h3>

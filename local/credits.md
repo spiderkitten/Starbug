@@ -46,16 +46,16 @@ Everything this site is made with.
 
 ### Images 
 <ul>
-  <li>Pixel gold star gif by <a href="https://eightbriitt.neocities.org/">Eightbritt</a></li>
- <li>Mushroom favicon and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
+ <li>Mushroom favicon, cursor and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
  <li>Cherry divider by whimsical</li>
- <br>
 <li>UFO on 404 page by Flaticon</li>
 <li>icons on Fav Movies page by flaticon</li>
-<br>
 <li>Les Vampires image on Vampire Resource Management page - ????</li>
-<li>Nick Cave's book of words  - </li>
+<li>Nick Cave's book of words - ???</li>
 <li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
+<li>Goodreads, Storygraph, IMDB, Spotify, and Youtube icons from their respective sites/li>
+<li>Book covers sourced from Goodreads and Amazon</li>
+<li>Star ratings from <a href="https://blanketfort.neocities.org/web-material">Blanket Fort</a></li>
 </ul>
 </div>
 

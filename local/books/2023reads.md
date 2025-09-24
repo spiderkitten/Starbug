@@ -6,69 +6,16 @@ cssFile: "books.css"
 
 {% include "partials/readingyears.njk" %}
 
-
-<h1>2023 Reads</h1>
-    <p>Below are all the books I read in 2023.</p>
-    <p>I think the ones I enjoyed the most are:</p>
-    <ul>
-      <li><strong>&#9733;</strong> A Psalm for the Wildbuilt / Prayer for the Gunshy by Becky Chambers</li>
-      <li><strong>&#9733;</strong> Kaiju Preservation Society by John Scalzi</li>
-      <li><strong>&#9733;</strong> Sourdough by Robin Sloan</li>
-      <li><strong>&#9733;</strong> Dead Silence by S.A. Barnes (although I thought the ending was predictable)</li>
-    </ul>
-
-    <p>and I didn't really like:</p>
-    <ul>
-      <li><strong>✗</strong> Whalefall by Daniel Kraus</li>
-      <li><strong>✗</strong> The Twyford Code by Janice Hollet</li>
-    </ul>
-
-
 <div class="textbox">
 <h3>2023 Reads</h3>
-    <div style=overflow:hidden; word-wrap:break-word;>
- 
-    <div class="gr_grid_book_container"><a title="The Thursday Murder Club" rel="nofollow" href="https://www.goodreads.com/book/show/55343854-the-thursday-murder-club"><img alt="The Thursday Murder Club" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600177058l/55343854._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Dead Silence" rel="nofollow" href="https://www.goodreads.com/book/show/58056838-dead-silence"><img alt="Dead Silence" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634062885l/58056838._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Record of a Spaceborn Few (Wayfarers, #3)" rel="nofollow" href="https://www.goodreads.com/book/show/35068827-record-of-a-spaceborn-few"><img alt="Record of a Spaceborn Few" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519921010l/35068827._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Kaiju Preservation Society" rel="nofollow" href="https://www.goodreads.com/book/show/57507332-the-kaiju-preservation-society"><img alt="The Kaiju Preservation Society" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624896489l/57507332._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="This is Going to Hurt: Secret Diaries of a Junior Doctor" rel="nofollow" href="https://www.goodreads.com/book/show/35510008-this-is-going-to-hurt"><img alt="This is Going to Hurt: Secret Diaries of a Junior Doctor" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498340278l/35510008._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="To Be Taught, If Fortunate" rel="nofollow" href="https://www.goodreads.com/book/show/43445841-to-be-taught-if-fortunate"><img alt="To Be Taught, If Fortunate" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552530357l/43445841._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Uzumaki" rel="nofollow" href="https://www.goodreads.com/book/show/41835338-uzumaki"><img alt="Uzumaki" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537013452l/41835338._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="A Psalm for the Wild-Built (Monk & Robot, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/55167243-a-psalm-for-the-wild-built"><img alt="A Psalm for the Wild-Built" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600789287l/55167243._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="A Prayer for the Crown-Shy (Monk & Robot, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/40864030-a-prayer-for-the-crown-shy"><img alt="A Prayer for the Crown-Shy" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1733422002l/40864030._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Scarecrow Returns (Shane Schofield, #4)" rel="nofollow" href="https://www.goodreads.com/book/show/11196702-scarecrow-returns"><img alt="Scarecrow Returns" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467445285l/11196702._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Cybernetic Tea Shop" rel="nofollow" href="https://www.goodreads.com/book/show/49984407-the-cybernetic-tea-shop"><img alt="The Cybernetic Tea Shop" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564610494l/49984407._SX98_SY160_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Jack West Jr and the Chinese Splashdown (Jack West Jr, #5.5)" rel="nofollow" href="https://www.goodreads.com/book/show/53828960-jack-west-jr-and-the-chinese-splashdown"><img alt="Jack West Jr and the Chinese Splashdown" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591312378l/53828960._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Every Heart a Doorway (Wayward Children, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/25533896-every-heart-a-doorway"><img alt="Every Heart a Doorway" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654409607l/25533896._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Tea Dragon Society (Tea Dragon, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/54555454-the-tea-dragon-society"><img alt="The Tea Dragon Society" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594917427l/54555454._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Mooncakes" rel="nofollow" href="https://www.goodreads.com/book/show/50072401-mooncakes"><img alt="Mooncakes" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564753031l/50072401._SX98_SY160_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Drift" rel="nofollow" href="https://www.goodreads.com/book/show/58042331-the-drift"><img alt="The Drift" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660104142l/58042331._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Down Among the Sticks and Bones (Wayward Children, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/31450908-down-among-the-sticks-and-bones"><img alt="Down Among the Sticks and Bones" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473685781l/31450908._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Beneath the Sugar Sky (Wayward Children, #3)" rel="nofollow" href="https://www.goodreads.com/book/show/27366528-beneath-the-sugar-sky"><img alt="Beneath the Sugar Sky" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494436031l/27366528._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Cheer Up: Love and Pompoms" rel="nofollow" href="https://www.goodreads.com/book/show/58555033-cheer-up"><img alt="Cheer Up: Love and Pompoms" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626277008l/58555033._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The House in the Cerulean Sea (Cerulean Chronicles, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea"><img alt="The House in the Cerulean Sea" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569514209l/45047384._SX98_.jpg" /></a></div>
+  <div class="bookgallery">
+    {%- for books in books -%}
+      {%- if books.readdate == "2023" -%} 
+        {%- include "partials/books.njk" -%}
+      {%- endif -%}
+    {%- endfor -%}
+    </div>
+</div>
 
-        <div class="gr_grid_book_container"><a title="Defekt (LitenVerse, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/53261640-defekt"><img alt="Defekt" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602685213l/53261640._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Breathless" rel="nofollow" href="https://www.goodreads.com/book/show/58981069-breathless"><img alt="Breathless" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644596793l/58981069._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Project Hail Mary" rel="nofollow" href="https://www.goodreads.com/book/show/57975321-project-hail-mary"><img alt="Project Hail Mary" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620428602l/57975321._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Sourdough" rel="nofollow" href="https://www.goodreads.com/book/show/30979257-sourdough"><img alt="Sourdough" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497845459l/30979257._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Lost in the Moment and Found (Wayward Children, #8)" rel="nofollow" href="https://www.goodreads.com/book/show/60784912-lost-in-the-moment-and-found"><img alt="Lost in the Moment and Found" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652284977l/60784912._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Skeleton Song (Wayward Children, #7.7)" rel="nofollow" href="https://www.goodreads.com/book/show/63068398-skeleton-song"><img alt="Skeleton Song" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1692751992l/63068398._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="In Mercy, Rain (Wayward Children, #7.5)" rel="nofollow" href="https://www.goodreads.com/book/show/62203768-in-mercy-rain"><img alt="In Mercy, Rain" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683772570l/62203768._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Where the Drowned Girls Go (Wayward Children, #7)" rel="nofollow" href="https://www.goodreads.com/book/show/57771419-where-the-drowned-girls-go"><img alt="Where the Drowned Girls Go" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620145315l/57771419._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Starter Villain" rel="nofollow" href="https://www.goodreads.com/book/show/62326571-starter-villain"><img alt="Starter Villain" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683564161l/62326571._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Can't Spell Treason Without Tea (Tomes & Tea, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/61753288-can-t-spell-treason-without-tea"><img alt="Can't Spell Treason Without Tea" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660715872l/61753288._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Luminous Dead" rel="nofollow" href="https://www.goodreads.com/book/show/39320153-the-luminous-dead"><img alt="The Luminous Dead" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536763515l/39320153._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Whalefall" rel="nofollow" href="https://www.goodreads.com/book/show/62918348-whalefall"><img alt="Whalefall" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1687708218l/62918348._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="A Wizard’s Guide to Defensive Baking" rel="nofollow" href="https://www.goodreads.com/book/show/54369251-a-wizard-s-guide-to-defensive-baking"><img alt="A Wizard’s Guide to Defensive Baking" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593743861l/54369251._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Twyford Code" rel="nofollow" href="https://www.goodreads.com/book/show/58451313-the-twyford-code"><img alt="The Twyford Code" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631281378l/58451313._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="A Killer’s Game (Daniela Vega, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/61311024-a-killer-s-game"><img alt="A Killer’s Game" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662312740l/61311024._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Across the Green Grass Fields (Wayward Children, #6)" rel="nofollow" href="https://www.goodreads.com/book/show/53205924-across-the-green-grass-fields"><img alt="Across the Green Grass Fields" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589982332l/53205924._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Come Tumbling Down (Wayward Children, #5)" rel="nofollow" href="https://www.goodreads.com/book/show/44804133-come-tumbling-down"><img alt="Come Tumbling Down" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556543247l/44804133._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="Juice Like Wounds (Wayward Children, #4.5)" rel="nofollow" href="https://www.goodreads.com/book/show/54661992-juice-like-wounds"><img alt="Juice Like Wounds" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601217106l/54661992._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="In an Absent Dream (Wayward Children, #4)" rel="nofollow" href="https://www.goodreads.com/book/show/38244358-in-an-absent-dream"><img alt="In an Absent Dream" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525436165l/38244358._SX98_.jpg" /></a></div>
-    <div class="gr_grid_book_container"><a title="The Future Library" rel="nofollow" href="https://www.goodreads.com/book/show/58578776-the-future-library"><img alt="The Future Library" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626883929l/58578776._SX98_.jpg" /></a></div>
-    
-    </div>
-    </div>
+</div>
+</div>

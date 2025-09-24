@@ -17,23 +17,22 @@ node_modules/
 package.json
 package-lock.json
 
+PublicBU/*
+common*
+
+# test pages
 
 test.html
 test.css
 test2.css
 test.js
 
-PublicBU/*
-common*
+# Other pages
+
 local/_data/links.json
-
-#local/Koriko/*  
-#Public/Koriko/*
-
 local/newlinks.md 
 Public/newlinks.html
 local/_includes/partials/links.njk
-local/beehappy/index.md
-local/beehappy/style.css
-Public/beehappy/index.html
-Public/beehappy/style.css
+
+local/TTRPGs/wildkin.md
+Public/TTRPGs/wildkin.html

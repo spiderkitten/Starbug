@@ -6,78 +6,18 @@ cssFile: "books.css"
 
 {% include "partials/readingyears.njk" %}
 
-
-  <h1>2022 Reads</h1>
-    <p>Below are all the books I read in 2022.</p>
-    <p>I think the ones I enjoyed the most are:</p>
-    <ul>
-      <li><strong>&#9733;</strong> Legends & Latters by Travis Baldree</li>
-      <li><strong>&#9733;</strong> From Below by Darcey Coates</li>
-      <li><strong>&#9733;</strong> Clowns Vs Spider by Jeff Strand</li>
-    </ul>
-
-  <p>and I didn't really like:</p>
-  <ul>
-      <li><strong>✗</strong> Dracula by Bram Stoker</li>
-      <li><strong>✗</strong> The Route of Ice & Salt</li>
-      <li><strong>✗</strong> The Summer Is Ended And We Are Not Yet Saved by Joey Comeau</li>
-    </ul>
-
 <div class="textbox">
 <h3>2022 Reads</h3>
-<!-- start widget -->
-<div style=overflow:hidden; word-wrap:break-word;>
+  <div class="bookgallery">
+    {%- for books in books -%}
+      {%- if books.readdate == "2022" -%} 
+        {%- include "partials/books.njk" -%}
+      {%- endif -%}
+    {%- endfor -%}
+    </div>
+</div>
 
-<div class="gr_grid_container">
 
-  <div class="gr_grid_book_container"><a title="Legends & Lattes (Legends & Lattes, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/61242426-legends-lattes"><img alt="Legends & Lattes" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654581271l/61242426._SX98_.jpg" /></a></div>
 
-<div class="gr_grid_book_container"><a title="The Wonderful Wizard of Oz" rel="nofollow" href="https://www.goodreads.com/book/show/9243349-the-wonderful-wizard-of-oz"><img alt="The Wonderful Wizard of Oz" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563580843l/9243349._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Dracula" rel="nofollow" href="https://www.goodreads.com/book/show/17614738-dracula"><img alt="Dracula" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410593996l/17614738._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Falcon (Nina Guerrera, #3)" rel="nofollow" href="https://www.goodreads.com/book/show/58530873-the-falcon"><img alt="The Falcon" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639847488l/58530873._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="A Different Dawn (Nina Guerrera, #2)" rel="nofollow" href="https://www.goodreads.com/book/show/55531410-a-different-dawn"><img alt="A Different Dawn" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615069152l/55531410._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Nice House on the Lake, Vol. 1" rel="nofollow" href="https://www.goodreads.com/book/show/60532177-the-nice-house-on-the-lake-vol-1"><img alt="The Nice House on the Lake, Vol. 1" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646164086l/60532177._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Cipher (Nina Guerrera, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/53966623-the-cipher"><img alt="The Cipher" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591927252l/53966623._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="From Below" rel="nofollow" href="https://www.goodreads.com/book/show/58926803-from-below"><img alt="From Below" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738876015l/58926803._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Summer Is Ended and We Are Not Yet Saved" rel="nofollow" href="https://www.goodreads.com/book/show/17331577-the-summer-is-ended-and-we-are-not-yet-saved"><img alt="The Summer Is Ended and We Are Not Yet Saved" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360785048l/17331577._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Hide" rel="nofollow" href="https://www.goodreads.com/book/show/56199880-hide"><img alt="Hide" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636572878l/56199880._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The One Impossible Labyrinth (Jack West Jr, #7)" rel="nofollow" href="https://www.goodreads.com/book/show/58285068-the-one-impossible-labyrinth"><img alt="The One Impossible Labyrinth" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623075801l/58285068._SX98_.jpg" /></a></div>
-
- <div class="gr_grid_book_container"><a title="The Two Lost Mountains (Jack West Jr, #6)" rel="nofollow" href="https://www.goodreads.com/book/show/55749741-the-two-lost-mountains"><img alt="The Two Lost Mountains" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603232224l/55749741._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Clowns Vs. Spiders" rel="nofollow" href="https://www.goodreads.com/book/show/51589846-clowns-vs-spiders"><img alt="Clowns Vs. Spiders" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568600061l/51589846._SX98_SY160_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Three Secret Cities (Jack West Jr., #5)" rel="nofollow" href="https://www.goodreads.com/book/show/38594646-the-three-secret-cities"><img alt="The Three Secret Cities" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518742891l/38594646._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="I Hate Fairyland (2015-2018) #10" rel="nofollow" href="https://www.goodreads.com/book/show/32704029-i-hate-fairyland-2015-2018-10"><img alt="I Hate Fairyland (2015-2018) #10" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476849856l/32704029._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Everything My Mother Taught Me" rel="nofollow" href="https://www.goodreads.com/book/show/48582002-everything-my-mother-taught-me"><img alt="Everything My Mother Taught Me" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572078751l/48582002._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Finna (LitenVerse, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/44081573-finna"><img alt="Finna" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563304090l/44081573._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Randomize" rel="nofollow" href="https://www.goodreads.com/book/show/49661162-randomize"><img alt="Randomize" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563467829l/49661162._SX98_SY160_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Last Conversation" rel="nofollow" href="https://www.goodreads.com/book/show/49674113-the-last-conversation"><img alt="The Last Conversation" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563468739l/49674113._SX98_SY160_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="You Have Arrived at Your Destination" rel="nofollow" href="https://www.goodreads.com/book/show/49665863-you-have-arrived-at-your-destination"><img alt="You Have Arrived at Your Destination" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563468097l/49665863._SX98_SY160_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Ark" rel="nofollow" href="https://www.goodreads.com/book/show/49680556-ark"><img alt="Ark" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563469282l/49680556._SX98_SY160_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="The Route of Ice and Salt" rel="nofollow" href="https://www.goodreads.com/book/show/50900650-the-route-of-ice-and-salt"><img alt="The Route of Ice and Salt" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602120858l/50900650._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Summer Frost" rel="nofollow" href="https://www.goodreads.com/book/show/49601221-summer-frost"><img alt="Summer Frost" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576920682l/49601221._SX98_.jpg" /></a></div>
-
-<div class="gr_grid_book_container"><a title="Emergency Skin" rel="nofollow" href="https://www.goodreads.com/book/show/49669410-emergency-skin"><img alt="Emergency Skin" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563468452l/49669410._SX98_SY160_.jpg" /></a></div>
-
-  
 </div>
 </div>
