@@ -3,12 +3,13 @@ title: Friends Only Banners
 layout: layout/base.njk
 ---
 
-<h1>Friends Only Banner Archive</h1>
+<h2>Friends Only Banner Archive</h2>
+<div class="textboxGreen">
 <p>This is a collection of all the Friends Only banners I have made over the years. They were made for use at sites like LiveJournal and Dreamwidth as images to let people know your journal locked to friends only</p>
 
 <p>These are all my own work. I made them.</p>
 
-<h2>Rules for Use</h2>
+<h3>Rules for Use</h3>
 <p>You are free to use these anywhere, with the following caveat:</p>
 <ul style="padding-left:20px;">
   <li><strong>&#9733;</strong> Do not claim you made them!</li>
@@ -16,7 +17,7 @@ layout: layout/base.njk
   <li><strong>&#9733;</strong> If possible, please credit with a link back. If not possible, then idk *shrug* lol</li>
 </ul>
 
-<h2 id="directory">Directory by Series / Topic</h2>
+<h3 id="directory">Directory by Series / Topic</h3>
 
 <div id="toc" style="padding:20px;"></div>
 
@@ -101,3 +102,4 @@ layout: layout/base.njk
     </div>
 
 -->
+</div>

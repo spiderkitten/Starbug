@@ -4,10 +4,11 @@ layout: layout/base.njk
 cssFile: fandom.css
 ---
 
-<h1>Mood Theme</h1>
+<h2>Mood Theme</h2>
+<div class="textboxGreen">
 <p>Mood Theme I made for use at livejournal, dreamwidth or any other site that supports it.</p>
 
-<h2>Rules for Use</h2>
+<h3>Rules for Use</h3>
 <p>You are free to use these anywhere, with the following caveat:</p>
 <ul>
   <li><strong>&#9733;</strong> Do not claim you made them!</li>
@@ -18,7 +19,7 @@ cssFile: fandom.css
 <p><strong>Dreamwidth:</strong> Custom Moods are a Premium Only feature. Zip file contains all the images, and the code to use on Dreamwidth's <a href="https://www.dreamwidth.org/admin/console/">admin console</a> or you can create the mood theme manually on the <a href="https://www.dreamwidth.org/manage/moodthemes">custom mood theme page</a>.</p>
 <p><strong>Livejournal:</strong> Custom Moods are not a premium feature. Unfortunately though, Livejournal no longer allows access to the admin console, you will need to add the moods manually on the <a href="https://www.livejournal.com/manage/moodthemes.bml">custom mood theme page</a>.</p>
 
-<h2 id="directory">Mood Themes</h2>
+<h3 id="directory">Mood Themes</h3>
 
 
 <div class="textbox">
@@ -33,3 +34,4 @@ cssFile: fandom.css
  
   <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
   </div>
+</div>

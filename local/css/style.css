@@ -292,10 +292,13 @@ h1{
 }
 
 h2{
+background-color: var(--pallette8);
     font-size: var(--h2fontsize);
-    color: var(--pallette1);
+    color: var(--pallette4);
     margin-top: 15px;
     margin-bottom: 5px;
+border-radius: 10px;
+padding-left:10px;
 }
 
 h3{

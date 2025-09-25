@@ -4,7 +4,9 @@ layout: layout/base.njk
 ---
 
 
-<h1>Book of Words</h1>
+<h2>Book of Words</h2>
+<div class="textbox">
+<h3>Info</h3>
 <p>Nick Cave of the band Nick Cave and the Bad Seeds kept a handwritten book of words in which he wrote down words he wanted to remember. Some photos of the book are available online to view, here is one of them:</p>
   
 <figure class="fancy"><img src="images/siteimgs/nickcavewords.jpg" alt="photograph of Nick Cave's Book of Words" >
@@ -14,7 +16,9 @@ layout: layout/base.njk
 
 <p>I'm including any word I like. Not all of them may appear in the dictionary. </p>
 
-<h2>A-K</h2>
+
+<h3>Lexicon</h3>
+<h4>A-K</h4>
 <div class="stripedlist">
 <div>Bimble</div><div>to walk at a leisurely pace</div>
 <div>Clowder</div><div>cluster of cats</div>
@@ -26,7 +30,7 @@ layout: layout/base.njk
 
 </div>
 
-<h2>L-Z</h2>
+<h4>L-Z</h4>
 <div class="stripedlist">
 <div>Librocubicularist</div> <div>someone who reads in bed</div>
 <div>Lubberwort</div><div>16th Century, meaning: lazy, stupid person</div>
@@ -39,4 +43,4 @@ layout: layout/base.njk
 <div>Wayfarer</div><div>Person who travels on foot</div>
 <div></div><div></div>
 </div>
-
+</div>
