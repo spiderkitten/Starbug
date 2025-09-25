@@ -11,7 +11,7 @@
     padding: 5px;
     overflow: hidden;
   }
-  
+  /* ============= Books PAGE ========== */   
   .indexstrip {
     background-color: var(--pallette6);
     color: var(--pallette);
@@ -20,9 +20,9 @@
     margin:auto;
     margin-bottom:20px;
   }
-
+ 
   
-  /* ============= FAV MOVIES PAGE ========== */ 
+
   
   p {
     margin: 0px;
@@ -108,10 +108,9 @@ heart {
 }
 
 @media screen and (max-width: 800px) {
-    .movie { width: 40%; font-size: 15px; }
+    .book { width: 40%; font-size: 15px; }
     }
     
-    @media screen and (max-width: 600px) {
-        .movie { width: 75%; font-size: 15px; }
-        }
-
+@media screen and (max-width: 600px) {
+    .boook { width: 75%; font-size: 15px; }
+    }

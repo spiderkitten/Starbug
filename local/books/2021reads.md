@@ -17,7 +17,8 @@ cssFile: "books.css"
       {%- endif -%}
     {%- endfor -%}
     </div>
-</div>
+  </div>
 
-</div>
-</div>
+
+
+ 
