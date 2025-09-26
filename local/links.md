@@ -72,7 +72,15 @@ script: freeze.js
 <a href="https://aywren.com/"><img src="images/neosites/aywrenbutton.png"></a>
 
  
+<h3>Sites I like</h3>
+ <!-- template: 
+<a href=""><img src="images/neosites"></a>
+ -->
+ <div style="display: inline-block;">
+<div><a href="https://petrapixel.neocities.org/"><img src="images/neosites/petrapixel.png" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a>  <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> <a href="https://nerdymug.com/"><img src="images/neosites/nerdymugbutton.png"></a> <a href="https://leyworthy.neocities.org/"><img src="images/neosites/juki.png"></a> <a href="https://its-priestess.neocities.org/"><img src="images/neosites/convent_button.png"></a> <a href="https://steponleaf.neocities.org/"><img src="images/neosites/steponleaf.png"></a> <a href="https://thegardenofmadeline.neocities.org/"><img src="images/neosites/gardenofmadeline_sitebutton.png"></a> <a href="https://gusbus.space/smallweb-subway/"><img src="images/neosites/smallway.png"></a> <a href="https://caehdus.neocities.org/"><img src="images/neosites/caehdus.png"></a>
 
+
+</div>
 
 
 <h3>Interesting Sites</a></h3>
@@ -103,23 +111,7 @@ script: freeze.js
  <div><a href="https://bugstamp.net/">Daniel's Bug Stamp Collection</a></div>
  <div class="description">A collection of postage stamps that feature bugs</div> 
 
-
- <h3>Sites with Cool Designs</h3>
- <p>At time of me visiting them, anyway</p>
-<div><a href="https://ellesho.me/page/"><img src="images/neosites/elles8831.png"></a></div>
- <div class="description"> </div> 
-
-
-
- <h3>Other Sites I like</h3>
- <!-- template: 
-<a href=""><img src="images/neosites"></a>
- -->
- <div style="display: inline-block;">
-<div><a href="https://petrapixel.neocities.org/"><img src="images/neosites/petrapixel.png" alt="petrapixel"></a> <a href="https://scumsuck.com/"><img src="images/neosites/scumsuck88x31.png"></a>  <a href="https://notprincehamlet.neocities.org/"><img src="images/neosites/nph.png"></a> <a href="https://myrrh.neocities.org/"> <img src="images/neosites/myrrh button 2.png"></a> <a href="https://nerdymug.com/"><img src="images/neosites/nerdymugbutton.png"></a> <a href="https://leyworthy.neocities.org/"><img src="images/neosites/juki.png"></a> <a href="https://its-priestess.neocities.org/"><img src="images/neosites/convent_button.png"></a> <a href="https://steponleaf.neocities.org/"><img src="images/neosites/steponleaf.png"></a> <a href="https://thegardenofmadeline.neocities.org/"><img src="images/neosites/gardenofmadeline_sitebutton.png"></a> <a href="https://gusbus.space/smallweb-subway/"><img src="images/neosites/smallway.png"></a>
-
-
-</div>
+ 
  </div>
 <div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>

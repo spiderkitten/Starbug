@@ -1,10 +1,10 @@
 ---
 title: Index (this page) 
-TTRPGtitle: Koriko Solo Journalling TTRPG (WIP)
+JournalRPGtitle: Koriko Solo Journalling TTRPG (WIP)
 description: Journalling TTRPG about a witch spending a year away from home
 date: 2025-09-14
 tags: 
-- 'TTRPG'
+- 'JournalRPG'
 ---
 
 <div class="textbox">
