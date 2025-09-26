@@ -10,23 +10,31 @@ Everything this site is made with.
 
 <div class="textbox">
 
-### Site Stuff
+### Coding Stuff
 
-- <a href="https://vscodium.com/">VSCodium</a> is the app I use to write my code. Its an open source binary of VSCode without Microsofts tracking. 
-- <a href="https://www.11ty.dev/">11ty Static Site Generator</a> to make static pages from my code 
-- <a href="https://neocities.org/">Neocities</a> for site hosting 
-- <a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Tutorial</a> by PetraPixel for deploying to Neocities 
-- <a href="https://www.goodreads.com/user/edit?tab=widgets">Goodreads Widgets</a> for anywhere you see book covers 
-- <a href="https://www.30secondsofcode.org/css/s/zebra-striped-list/">Striped list</a> by 30 seconds of code 
-- Freeze Gifs code by ???  
-- <a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents Snippet</a> generates from headings 
-- <a href="https://codepen.io/sadness97/pen/BaQbJQb">Seamless Marquee Codepen</a> by Sadgirl 
-- <a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a> - Guestbook 
+- <a href="https://vscodium.com/">VSCodium</a> code editor - open source binary of VSCode without Microsofts tracking. 
+- <a href="https://www.11ty.dev/">11ty Static Site Generator</a> to make static pages from pieces of my code 
+- <a href="https://neocities.org/">Neocities</a> hosting
+- <a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Petrapixel's deploying to Neocities guide</a>  
+
+### Code Snippets and Scripts 
+
+#### Site Wide
 - <a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon
-- <a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page</a> added using tutorial by Daniele 
+
+#### Index Page 
 - <a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a> 
-- <a href="https://github.com/lars-rooij/webmeji/tree/main">Webmeji on front page</a> by lars-rooj (<a href="https://kilkakon.com/shimeji/">original desktop shimeji</a>)  
- 
+- <a href="https://github.com/lars-rooij/webmeji/tree/main">Webmeji on front page</a> by lars-rooj (<a href="https://kilkakon.com/shimeji/">original shimeji</a>)  
+
+#### 100x100 page 
+- <a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents Snippet</a> (100x100 page)  
+
+#### Guestbook 
+- <a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a>  
+
+#### Credits Page
+- <a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page</a> tutorial by Daniele 
+
 
 </div>
 
@@ -47,11 +55,12 @@ Everything this site is made with.
 ### Images 
 <ul>
  <li>Mushroom favicon, cursor and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
- <li>Cherry divider by whimsical</li>
+ <li>Cherry divider by <a href="http://whimsical.heartette.net">whimsical</a></li>
+
 <li>UFO on 404 page by Flaticon</li>
 <li>icons on Fav Movies page by flaticon</li>
-<li>Les Vampires image on Vampire Resource Management page - ????</li>
-<li>Nick Cave's book of words - ???</li>
+<!--<li>Les Vampires image on Vampire Resource Management page - ????</li>-->
+<li>Nick Cave's book of words photo - ???</li>
 <li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
 <li>Goodreads, Storygraph, IMDB, Spotify, and Youtube icons from their respective sites/li>
 <li>Book covers sourced from Goodreads and Amazon</li>
