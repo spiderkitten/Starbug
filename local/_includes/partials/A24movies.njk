@@ -1,0 +1,24 @@
+
+
+<div>
+<strong>
+{%- if A24movies.disliked != "" -%}
+✗
+{%- endif %}
+{%- if A24movies.favourite != "" -%}
+&#9733;
+{%- endif %}
+
+</strong>
+</div>
+
+<div>
+<strong>
+{%- if A24movies.seen != "" -%}
+&#10003;
+{%- endif -%}
+</strong>
+</div>
+
+<div>{{A24movies.year}}</div>
+<div>{{A24movies.title}}</div>
