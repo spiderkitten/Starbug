@@ -66,6 +66,16 @@ margin-top: 15px;
           border-radius: 10px;
   }
 
+progress::-moz-progress-bar {
+    background-color:var(--pallette6);
+          border-radius: 10px;
+}
+  progress::-moz-progress-value {
+    background-color: var(--pallette8);
+          border-radius: 10px;
+  }
+
+
   /* ============= FAV MOVIES PAGE ========== */ 
   
   p {
