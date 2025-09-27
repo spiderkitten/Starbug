@@ -20,7 +20,7 @@ cssFile: movies.css
 <div style="float: right; width: 180px; margin: 5px; margin-right:15px;"><img src="/images/movies/watchingmovies.png" style="width: 180px; "></div>
  
 In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair few, but I pushed myself to watch any that I could legally access. Even movies I might not have chosen to watch normally. And I had a great time, watched a lot of really good movies (and a handful of ones I didn't like.)   
-         
+
 2023 has been and gone now but I'm still trying to watch every single A24 movie. Every time one becomes available to watch somehow, I watch it. Below is a list of all A24 movies and which ones I have seen and haven't seen.
  
 </div>
@@ -38,7 +38,13 @@ In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair
              </ul>
 </div>
 
-<p><strong>5 Most recently seen:</strong> Eddington, Obvious Child, The Front Room, Sorry Baby, Highest 2 Lowest</p>
+<p><strong>5 Most recently seen:</strong> The Exception, Eddington, Obvious Child, The Front Room, Sorry Baby</p>
+
+<div class="A24progress">
+<div>Total Seen:</div>
+<div><progress value="102"  max="182"></progress></div>
+<div>102/182</div>
+</div><!--progress-->
 
 </div>
 
