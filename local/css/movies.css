@@ -44,8 +44,8 @@
   text-align: center;
   margin-top: 15px;
   width: 80%;
-margin: auto;
-margin-top: 15px;
+  margin: auto;
+  margin-top: 15px;
   }
 
   progress[value] {
@@ -55,28 +55,28 @@ margin-top: 15px;
     width:70%;
     height: 15px;
     border-radius: 10px;
+background-color:var(--pallette6);
   }
 
   progress::-webkit-progress-bar {
     background-color:var(--pallette6);
-          border-radius: 10px;
+    border-radius: 10px;
   }
 
   progress::-webkit-progress-value {
     background-color: var(--pallette8);
-          border-radius: 10px;
+    border-radius: 10px;
   }
 
 
 progress::-moz-progress-bar {
     background-color:var(--pallette6);
-          border-radius: 10px;
+    border-radius: 10px;
 }
   progress::-moz-progress-value {
     background-color: var(--pallette8);
-          border-radius: 10px;
+    border-radius: 10px;
   }
-
 
   /* ============= FAV MOVIES PAGE ========== */ 
   
