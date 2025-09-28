@@ -43,7 +43,28 @@ After dinner she let me know what we'd be doing tommorow. After a really early s
 
 <strong>Card draw and prompt:</strong> 7 Spades - One of your animals give birth
 
+I am soooo tired. I'm definitely not used to waking up so early, thats going to take some time to get used to! 
 
+I woke this morning and we headed out to the cow shed to start the milking machines. There's not a lot of cows, just enough to make enough milk for us to use and to sell a little to a collective. It was kind of weird attaching all the milking devices but the cows didn't seem to mind. 
 
+We fed the chickens, and collected so many eggs. Aunt Em says we'll sell most of them at the market this weekend. Thats something to look forward to! 
+
+After that we headed inside for lunch. Aunt Em rustled up a feast for my first day. Thick bread with sliced meat and salad, some cheeses and slice fruit. Everything she made came from the farm in some way. That is kinda cool to be honest, not needing to rely on the store for food. 
+
+We were just finishing up when a horn sounded outside and Aunt Em said that would be the goats arriving. 
+
+We headed out to meet the truck and Aunt Em directed it over to the area where the goats would be living. There was a large grassy field that was fenced off, with a barn towards to the back. Aunt Em said that we'll be milking the goats regularly and the milk will be used to make soaps and lotions by people in town. 
+
+Most of the goats were girl goats. Which makes sense I guess if we are milking them, but there were a handful of male goats. Aunt Em said they are for breading. Some of the goats were already pregnant, and Aunt Em was telling me about the birthing process when one of the goats actually started giving birth! omg it was so exciting! And if I am honest, a little gross. haha. The goat slid out of the mother in a little pouch and then with my Aunts help, the pouch broke and the goat was born! But before anyone could blink another goat slid out. Twins! 
+
+Aunt Em said we don't name farm animals, which was dissapointing, but I understand the why. Don't want to get too attached to something that won't be staying. Still, I wish I could have named them, just this once.  
+
+The baby goats are doing fine, being looked after by their mother but in all the excitment we didn't get around to planning the Melon Farm, so thats on the agenda for tommmorow. 
+
+Its dinner time now, so I'll sign off for the day. But wow! what an exciting first day it was! 
+
+### [Day 2]
+
+Soon
 
 </div>

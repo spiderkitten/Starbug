@@ -38,12 +38,12 @@ In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair
              </ul>
 </div>
 
-<p><strong>5 Most recently seen:</strong> The Exception, Eddington, Obvious Child, The Front Room, Sorry Baby</p>
+<p><strong>5 Most recently seen:</strong> Aftersun, A Different Man, The Exception, Eddington, Obvious Child</p>
 
 <div class="A24progress">
 <div>Total Seen:</div>
-<div><progress value="102"  max="182"></progress></div>
-<div>102/182</div>
+<div><progress value="104"  max="182"></progress></div>
+<div>104/182</div>
 </div><!--progress-->
 
 </div>
