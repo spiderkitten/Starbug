@@ -109,10 +109,24 @@ cssFile: links.css
  <div class="description">A template for a simple image gallery</div> 
 
 
-      <div><a href="https://rarebit.neocities.org/">Rarebits Comic Template</a></div>
-      <div class="description"> A comic template for making a webcomic. Includes navigation and everything you need. If you need help to set it up, there's a really good tutorial: 
-      <br>
-      <a href="https://www.tumblr.com/oruguin/752875085457752065/small-rarebit-basics-to-start-your-webcomic-site">Part 1</a> | <a href="https://www.tumblr.com/oruguin/752875136669138944/small-rarebit-basics-to-start-your-webcomic-site"> Part 2</a> | <a href="https://www.tumblr.com/oruguin/752875175467466752/small-rarebit-basics-to-start-your-webcomic-site"> Part 3</a> </div>
+<div><a href="https://rarebit.neocities.org/">Rarebits Comic Template</a></div>
+<div class="description"> A comic template for making a webcomic. Includes navigation and everything you need. If you need help to set it up, there's a really good tutorial: 
+<br>
+<a href="https://www.tumblr.com/oruguin/752875085457752065/small-rarebit-basics-to-start-your-webcomic-site">Part 1</a> | <a href="https://www.tumblr.com/oruguin/752875136669138944/small-rarebit-basics-to-start-your-webcomic-site"> Part 2</a> | <a href="https://www.tumblr.com/oruguin/752875175467466752/small-rarebit-basics-to-start-your-webcomic-site"> Part 3</a> </div>
+
+#### 11ty Templates
+
+<p>11ty is a static site generator - on neocities its a great way to write your code but also include code on every page without having to update every page manually.</p>
+
+<div><a href="https://github.com/portfiend/eleventy-comic-template">Comic Template for 11ty</a></div>
+<div class="description">A comic template for 11ty. [<a href="https://portfiends-comic-template.neocities.org/">Demo</a>]</div>
+
+<div><a href="https://github.com/portfiend/eleventy-oc-directory-template">OC characters directory template for 11ty</a></div>
+<div class="description">11ty Template for an OC characters directory [<a href="https://portfiends-oc-template.neocities.org/">demo</a>]</div>
+
+<div><a href="https://strawberrystarter.neocities.org/">Strawberry Starter</a></div>
+<div class="description">A dark themed blog template for 11ty</div>
+
 
 </div>
 

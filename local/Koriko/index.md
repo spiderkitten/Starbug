@@ -4,7 +4,7 @@ JournalRPGtitle: Koriko Solo Journalling TTRPG (WIP)
 description: Journalling TTRPG about a witch spending a year away from home
 date: 2025-09-14
 tags: 
-- 'JournalRPG'
+- 'rpgWIP'
 ---
 
 <div class="textbox">

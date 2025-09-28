@@ -12,6 +12,7 @@ cssFile: "books.css"
 <h3>2025 Reads</h3>
 <p>Reading slump this year... started a bunch of books but haven't really finished any of them. </p> 
 
+
   <div class="bookgallery">
     {%- for books in books -%}
       {%- if books.readdate == "2025" -%} 

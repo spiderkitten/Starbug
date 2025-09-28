@@ -6,6 +6,7 @@ description: A Micro-micro rpg for one one player about being a machine that doe
 date: 2025-09-23
 tags:  
 - 'JournalRPG'
+
 ---
 
 <div class="textbox">

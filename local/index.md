@@ -9,6 +9,7 @@ script: randomquote.js
 
 <!-- Intro Section -->
 <div id="intro">
+ 
 <h2>Welcome</h2>
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <upsidedown>Australia</upsidedown>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more</p>
@@ -21,6 +22,9 @@ script: randomquote.js
 <div id="images">
 <img src="images/siteimgs/divider2b.gif"><img src="images/siteimgs/divider2b.gif" id="heartdivider2">
 </div>
+
+ 
+
 
 <!-- Status Box -->
 <div id="status" class="textbox">
