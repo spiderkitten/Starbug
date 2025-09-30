@@ -33,35 +33,41 @@ tags:
 
 <strong>Card Draw and Prompt:</strong> N/A 
 
-I arrived at Aunt Em's farm today. Driving up the dusty road towards the farmhouse I wondered about how my life was about to change. I haven't seen Aunt Em since I was a kid, but when my parents told me how she needed help on the farm, I knew what I had to do. For this summer, anyway. There's still college in the fall. And to be fair, I know nothing about farming or homesteading. So I'm not sure how much help I will actuall be. This will definitely be a learning experience. 
+So yesterday I got some terrible news and maybe some good news. 
 
-Aunt Em greeted me with a smile, a hug, and a plate of warm oat cookies and I knew we would get along. She showed me to my room, and after I unpacked she gave me a tour of the homestead. It wasn't a huge farm compared to others in the region but was cute and cozy with chickens, ducks, and a few crops. 
+A letter came from a solicitor letting me know that my Aunt passed away. This is distressing news to say the least, but largely because... 
 
-After dinner she let me know what we'd be doing tommorow. After a really early start (4am, yikes!) we'll be milking the cows, feeding the chickens and collecting the eggs, and taking delivery of some goats. We'll need to get them into their new pen and fed. Then we'll start planning the new crop we'll be planting. Melons! I'm kind of excited to get started and looking forward to tommorow. 
+I didn't know I had an Aunt. 
+
+Which is something to ponder later I guess. The letter went on to tell me that as her only living relative, I have inherited her estate, which includes: "Sunnybrook" - a small hobby farm, "Farmers Pick" - a small shop in town, and also various assorted other items. 
+
+I'm driving down to the farm tommorow to take posession and signed all the paperwork. I'll probably stay the weekend, to check the farm and shop out, see what there is and what I need to take care of right away, and head back on monday. 
+ 
 
 ### [Day 1]
 
 <strong>Card draw and prompt:</strong> 7 Spades - One of your animals give birth
 
-I am soooo tired. I'm definitely not used to waking up so early, thats going to take some time to get used to! 
+Today was both exciting and kinda scary! 
 
-I woke this morning and we headed out to the cow shed to start the milking machines. There's not a lot of cows, just enough to make enough milk for us to use and to sell a little to a collective. It was kind of weird attaching all the milking devices but the cows didn't seem to mind. 
+I arrived at the farm, met the solicitor and signed all the paperwork. Then he introduced me to Ryn, the farm manager, and left me in her capable hands. 
 
-We fed the chickens, and collected so many eggs. Aunt Em says we'll sell most of them at the market this weekend. Thats something to look forward to! 
+Yeah, I don't think Ryn likes me much. 
 
-After that we headed inside for lunch. Aunt Em rustled up a feast for my first day. Thick bread with sliced meat and salad, some cheeses and slice fruit. Everything she made came from the farm in some way. That is kinda cool to be honest, not needing to rely on the store for food. 
+It wasn't that she rude per se, she just didn't really have the patience for all my questions I guess. 
 
-We were just finishing up when a horn sounded outside and Aunt Em said that would be the goats arriving. 
+She drove me around the farm, showed me all the fields and the animals, and then took me back to the farmhouse for lunch. Turns out I employ a cook! Martha was bustling around the kitchen when we entered, and she took one look at me and said I needed to be fed, and before I could argue I had a full plate placed on the table in front of me. 
 
-We headed out to meet the truck and Aunt Em directed it over to the area where the goats would be living. There was a large grassy field that was fenced off, with a barn towards to the back. Aunt Em said that we'll be milking the goats regularly and the milk will be used to make soaps and lotions by people in town. 
+That was when Ryn's walkie squawcked. It was one of the farmhands, apparently one of the goats was giving birth! We headed out to the goat pen, and spent the rest of the day birthing twin goats. WOW. I've never seen a goat give birth. Or any animal give birth actually. It was so beautiful. But also a little gross lol 
 
-Most of the goats were girl goats. Which makes sense I guess if we are milking them, but there were a handful of male goats. Aunt Em said they are for breading. Some of the goats were already pregnant, and Aunt Em was telling me about the birthing process when one of the goats actually started giving birth! omg it was so exciting! And if I am honest, a little gross. haha. The goat slid out of the mother in a little pouch and then with my Aunts help, the pouch broke and the goat was born! But before anyone could blink another goat slid out. Twins! 
+I asked about naming them but Ryn just rolled her eyes and muttered something about city slickers. Apprently we don't name farm animals, which was dissapointing, but I guess I understand the why. Don't want to get too attached to something that won't be staying. Still, I wish I could have named them, just this once. 
 
-Aunt Em said we don't name farm animals, which was dissapointing, but I understand the why. Don't want to get too attached to something that won't be staying. Still, I wish I could have named them, just this once.  
+Anyway, I'm super tired after all the excitement so I'm going to bed soon. Ryn gave me my Aunt's room. Its a little weird being in here, but the other rooms are taken. Ryn lives in the farmhouse, Martha too. I'm only staying a few days, so its all good. 
 
-The baby goats are doing fine, being looked after by their mother but in all the excitment we didn't get around to planning the Melon Farm, so thats on the agenda for tommmorow. 
+I guess I'll have some more questions for Ryn tommorow about what happens going forward with my Aunt no longer running the farm. 
 
-Its dinner time now, so I'll sign off for the day. But wow! what an exciting first day it was! 
+But for tonight, time for bed. 
+
 
 ### [Day 2]
 
