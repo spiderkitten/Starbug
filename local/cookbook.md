@@ -6,13 +6,13 @@ layout: layout/base.njk
 
 ## Recipe Index
 
-I am a supremely lazy cook and hate spending time in the kitchen, so if a recipe has a ton of ingredients or a lot of steps I won't cook it. So these recipes are pretty simple/basic and mostly involve using a microwave or slow cooker. Toaster Oven occasionally.
+I am a supremely lazy cook and hate spending time in the kitchen, so if a recipe has a ton of fancy ingredients or a lot of complicated steps I won't cook it. So these recipes are pretty simple/basic and mostly involve using a microwave or slow cooker. Toaster Oven occasionally.
 
-Also this is not a professional recipe site, just my personal webspace, so there are no fancy features or plain text printable versions of these recipes. But on a positive note, there are no long winded stories, no sponsored content and nothing else to scroll past. Just the recipes.
+Also, most of them are pretty mild and maybe a bit bland. Even the spicy ones. If you like heat, these are not the recipes for you.
 
 <hr class="dashed">
 
-Note: Work in Progress
+Note: Work in Progress - also, some images are missing until I take photos
 
 <hr class="dashed">
 
@@ -62,6 +62,7 @@ Note: Work in Progress
 </ul>
 </div>
 -->
+
 
 <div class="textbox"> 
 

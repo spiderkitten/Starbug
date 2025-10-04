@@ -1,5 +1,5 @@
 ---
-recipetitle: Slow Cooker Bolognaise
+recipetitle: Lazy Slow Cooker Bolognaise
 recipephoto: 
 tags: 
 - 'meal'

@@ -50,10 +50,23 @@ const generateQuote = function() {
         quote1: "Hammond is insisting SG-1 needs a socio-political nerd to offset our overwhelming coolness.",
         quote2: "",
         author: "Jack O'Neill, Stargate SG1"
+    },
+    {
+        quote1: "Your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should",
+        quote2: "",
+        author: "Dr. Ian Malcolm, Jurrasic Park"
+    },
+    {
+        quote1: "Movies don't create psychos. Movies make psychos more creative!",
+        quote2: "",
+        author: "Billy, Scream"
+    },
+    {
+        quote1: "I ate his liver with some fava beans and a nice Chianti",
+        quote2: "",
+        author: "Hannibal Lector, Silence of the Lambs"
     }
 
-
-    
 
 /* template
 ,
