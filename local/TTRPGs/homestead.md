@@ -13,9 +13,9 @@ tags:
 ### Homestead
 
 #### notes 
-**Title:**  Life on the Homestead   
-**Source:** [Life on the Homestead](https://tsfatal.itch.io/life-on-the-homestead)    
-**Cost:** Name your own price    
+**Title:** [Life on the Homestead](https://tsfatal.itch.io/life-on-the-homestead)     
+**Cost:** Name your own price ($2 recommended)   
+**Time Needed** ongoing
 **Premise:**      
 "Take on the life of a homesteader and craft a story" 
 

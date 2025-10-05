@@ -14,9 +14,9 @@ tags:
 ### 5-min-machine
 
 #### notes 
-**Title:**  5-min-machine   
-**Source:** [https://dominoclub.itch.io/5-min-machine](https://dominoclub.itch.io/5-min-machine)    
+**Title:**  [5-min-machine (itch.io)](https://dominoclub.itch.io/5-min-machine)     
 **Cost:** Free!   
+**Time Needed** under 30 mins    
 **Premise:**      
 "you are a MACHINE. you are not SUPPOSED to have FEELINGS. you do your WORK, you print a LOG." 
 

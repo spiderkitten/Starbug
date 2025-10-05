@@ -25,7 +25,7 @@ First, some starting off info.
 **Title:**  Koriko: A Magical Year  
 **Source:**  https://mouseholepress.itch.io/koriko    
 **Cost:** US$18 for digital copy but there are usually free digital community copies available if you can't afford it. There is a physical version available but its sold out at time of me writing this.   
-
+**Time Needed** LONG
 **Premise:** "a bubbling cauldron of simple rules and writing prompts, stirred together to produce the story of a teenage witch spending a year away from home in an unfamiliar city called Koriko. The game’s primary inspiration is Kiki’s Delivery Service, both the Studio Ghibli film and the Eiko Kadono novel"
 
 **Requirements:**   
