@@ -39,6 +39,7 @@ script: "filter.js"
     {%- endfor -%}
 </div> 
 </div><!--books-->
+
 <noscript>This page requires Javascript, sorry. Don't have JS? check the static version of this page starting here:  
 https://starbug.neocities.org/books/2025reads
 </noscript>
