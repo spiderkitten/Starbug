@@ -30,9 +30,9 @@ script: randomquote.js
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
 <div><strong>Reading:</strong> a book, finally!</div>
-<div><strong>Watching:</strong>The Amazing Race Canada</div>
+<div><strong>Watching:</strong>The Amazing Race Australia</div>
 <div><strong>Listening to:</strong>the endless void</div>
-<div><strong>Playing:</strong>Modded Minecraft</div>
+<div><strong>Playing:</strong>Two Point Campus</div>
 </div>
 
 <!-- Webrings -->
