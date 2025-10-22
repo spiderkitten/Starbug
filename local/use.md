@@ -138,7 +138,6 @@ layout: layout/base.njk
 
 <li><a href="https://store.steampowered.com/">Steam</a> - Game store. Everyone uses this I think lol</li>
 
-<li><a href="https://getwhisky.app/">Whiskey</a> - Lets you run Windows games on Mac. <a href="https://www.winehq.org/">Wine</a> based</li>
 </ul>
 </div>
 

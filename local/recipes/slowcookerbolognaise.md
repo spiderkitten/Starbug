@@ -1,6 +1,6 @@
 ---
 recipetitle: Lazy Slow Cooker Bolognaise
-recipephoto: 
+recipephoto: placeholder.png
 tags: 
 - 'meal'
 - 'dinner'

@@ -1,0 +1,21 @@
+<div class="filterDivTVshows {{ favtvshows.category4 }} {{ favtvshows.category1}} {{ favtvshows.category2}} {{ favtvshows.category3}} {{ favtvshows.favourite }}"> 
+
+<div class="tvshow">
+    <img src="/images/tvshows/{{- favtvshows.poster }}">
+    <div class="tvshowtxt">
+        <div class="title">{{- favtvshows.title }}</div>
+        <div class="year">{{- favtvshows.yearstart }}-{{ favtvshows.yearend}}</div>
+        <div class="year"> {{- favtvshows.seasons }} Seasons</div>
+        <div class="year">{{ favtvshows.complete }}</div>
+    <div>
+        {%- if favtvshows.imdb != "" %} 
+        <a href="{{ favtvshows.imdb }}" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        {%- endif %} 
+        {%- if favtvshows.trailer != "" %} 
+        <a href="{{ favtvshows.trailer }}" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a>
+        {%- endif%} 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv --> 

@@ -6,6 +6,11 @@ layout: layout/base.njk
 <div class="back"><a href="/cookbook.html"><< Back</a></div> 
 
 <h2>{{ recipetitle }}</h2>
-<div class="recipephoto"><img src="/images/recipes/{{recipephoto}}"></div>
+<div class="recipephoto">
+<figure class="fancy">
+<img src="/images/recipes/{{recipephoto}}" width="75%">
+<figcaption>{{recipecaption}}</figcaption>
+</figure>
+</div>
 
 {{ content | safe}}

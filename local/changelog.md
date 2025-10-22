@@ -10,6 +10,8 @@ layout: layout/base.njk
 
 <div class="textbox">
    <h3>2025 Updates</h3>
+<p><strong>Mid October 2025:</strong> Added a commonplace book, changed the reading log, fav music and fav movie pages so they are filterable. Added a modal/popup for images on commonplace book page. Updated the site credits page and the sitemap.
+</p>
 <p><strong>Mid September 2025:</strong> Added a solo TTRPG page, and a gaming journal for the Koriko Solo Journalling TTRPG, and for 5-min-machine. Redid my book log so it no longer relies on goodreads widgets. Added some seen movies to the A24 challenge page.</p>
 
 <p><strong>September 2025:</strong> Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page</p>

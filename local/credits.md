@@ -21,19 +21,25 @@ Everything this site is made with.
 
 #### Site Wide
 - <a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon
+- <a href="https://www.w3schools.com/howto/howto_js_filter_elements.asp">W3's Element filtering tutorial</a> - used on the books, music, movie pages
+- <a href="https://www.30secondsofcode.org/css/s/zebra-striped-list-or-table/">Striped List tutorial</a> 
 
 #### Index Page 
 - <a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a> 
 - <a href="https://github.com/lars-rooij/webmeji/tree/main">Webmeji on front page</a> by lars-rooj (<a href="https://kilkakon.com/shimeji/">original shimeji</a>)  
 
 #### 100x100 page 
-- <a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents Snippet</a> (100x100 page)  
+- <a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents Snippet</a>  
+
+#### Commonplace Book 
+
+- <a href="https://stackoverflow.com/a/40701429">Code for image popups</a>
 
 #### Guestbook 
 - <a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a>  
 
 #### Credits Page
-- <a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page</a> tutorial by Daniele 
+- <a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page tutorial</a>  by Daniele 
 
 
 </div>
@@ -57,14 +63,18 @@ Everything this site is made with.
  <li>Mushroom favicon, cursor and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
  <li>Cherry divider by <a href="http://whimsical.heartette.net">whimsical</a></li>
 
-<li>UFO on 404 page by Flaticon</li>
-<li>icons on Fav Movies page by flaticon</li>
-<!--<li>Les Vampires image on Vampire Resource Management page - ????</li>-->
-<li>Nick Cave's book of words photo - ???</li>
-<li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
-<li>Goodreads, Storygraph, IMDB, Spotify, and Youtube icons from their respective sites/li>
-<li>Book covers sourced from Goodreads and Amazon</li>
+<li>UFO on 404 page by <a href="https://www.flaticon.com/free-sticker/ufo_7690954">Flaticon</a></li>
 <li>Star ratings from <a href="https://blanketfort.neocities.org/web-material">Blanket Fort</a></li>
+<li>Cat sticker on recipe placeholder image from <a href="https://www.flaticon.com/free-sticker/cooking_4743087">flatiron</a></li>
+<li>recipe placeholder image made by ME</li> 
+<!--<li>Les Vampires image on Vampire Resource Management page - ????</li>-->
+<li>Nick Cave's book of words photo - unknown</li>
+<li>Book covers sourced from Goodreads and Amazon</li>
+<li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
+<li>Goodreads, Storygraph, IMDB, Spotify, and Youtube icons from their respective sites</li>
+
+
+
 </ul>
 </div>
 

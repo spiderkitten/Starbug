@@ -1,16 +1,23 @@
 [
     {
     "title": "The Ghost and Mrs Muir",
-    "category": "General",
+    "category1": "Love Story",
+    "category2": "Haunting",
+    "category3": "",
+    "category4": "",
     "year": "1947",
     "poster": "ghostmrsmuir.png",
+    "favourite": "Favourite",
     "imdb": "https://www.imdb.com/title/tt0039420/",
     "trailer": "https://www.youtube.com/watch?v=n-X00-BoG9o"
     },
 
     {
     "title": "Duel",
-    "category": "General",
+    "category1": "Thriller",
+    "category2": "Road Movie",
+    "category3": "",
+    "category4": "",
     "year": "1971",
     "poster": "duel.png",
     "imdb": "https://www.imdb.com/title/tt0067023/",
@@ -19,7 +26,10 @@
 
     {
     "title": "Capricorn One",
-    "category": "General",
+    "category1": "Conspiracy",
+    "category2": "On the Run",
+    "category3": "",
+    "category4": "",
     "year": "1978",
     "poster": "capricornone.png",
     "imdb": "https://www.imdb.com/title/tt0077294/",
@@ -28,7 +38,10 @@
 
     {
     "title": "Tremors",
-    "category": "General",
+    "category1": "Horror",
+    "category2": "Creature Feature",
+    "category3": "Comedy",
+    "category4": "",
     "year": "1990",
     "poster": "tremors.png",
     "imdb": "https://www.imdb.com/title/tt0100814/",
@@ -37,7 +50,10 @@
 
     {
     "title": "Tank Girl",
-    "category": "General",
+    "category1": "Scifi",
+    "category2": "Apoca",
+    "category3": "Comedy",
+    "category4": "",
     "year": "1995",
     "poster": "tankgirl.png",
     "imdb": "https://www.imdb.com/title/tt0114614/",
@@ -46,7 +62,10 @@
 
     {
     "title": "Kamikaze Girls",
-    "category": "Japanese",
+    "category1": "Japanese",
+    "category2": "Friendship",
+    "category3": "",
+    "category4": "",
     "year": "2000",
     "poster": "kamikazegirls.png",
     "imdb": "https://www.imdb.com/title/tt0416220/",
@@ -55,7 +74,10 @@
 
     {
     "title": "Battle Royale",
-    "category": "Japanese",
+    "category1": "Japanese",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2000",
     "poster": "battleroyale.png",
     "imdb": "https://www.imdb.com/title/tt0266308/",
@@ -64,7 +86,10 @@
 
     {
     "title": "Empire of the Sun",
-    "category": "War",
+    "category1": "War",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1987",
     "poster": "empireofsun.png",
     "imdb": "https://www.imdb.com/title/tt0092965/",
@@ -73,7 +98,10 @@
 
     {
     "title": "The Great Escape",
-    "category": "War",
+    "category1": "War",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1963",
     "poster": "greatescape.png",
     "imdb": "https://www.imdb.com/title/tt0057115/",
@@ -82,7 +110,10 @@
 
     {
     "title": "Spider & Rose",
-    "category": "Aussie",
+    "category1": "Aussie",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1994",
     "poster": "spiderrose.png",
     "imdb": "https://www.imdb.com/title/tt0111260/",
@@ -91,7 +122,10 @@
 
     {
     "title": "Picnic At Hanging Rock",
-    "category": "Aussie",
+    "category1": "Aussie",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1975",
     "poster": "picnicHR.png",
     "imdb": "https://www.imdb.com/title/tt0073540/",
@@ -100,16 +134,23 @@
 
     {
     "title": "Lion",
-    "category": "Aussie",
+    "category1": "Aussie",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2016",
     "poster": "lion.png",
+    "favourite": "Favourite",
     "imdb": "https://www.imdb.com/title/tt3741834/",
     "trailer": "https://www.youtube.com/watch?v=-RNI9o06vqo"
     },
 
     {
     "title": "Cube",
-    "category": "Weird",
+    "category1": "Weird",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1997",
     "poster": "cube.png",
     "imdb": "https://www.imdb.com/title/tt0123755/",
@@ -118,7 +159,10 @@
     
     {
     "title": "The Skin I Live In",
-    "category": "Weird",
+    "category1": "Weird",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2011",
     "poster": "skinilivein.png",
     "imdb": "https://www.imdb.com/title/tt1189073/",
@@ -127,7 +171,10 @@
 
     {
     "title": "Being John Malkoviich",
-    "category": "Weird",
+    "category1": "Weird",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1999",
     "poster": "bjm.png",
     "imdb": "https://www.imdb.com/title/tt0120601/",
@@ -136,7 +183,10 @@
 
     {
     "title": "The Platform",
-    "category": "Weird",
+    "category1": "Weird",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2019",
     "poster": "theplatform.png",
     "imdb": "https://www.imdb.com/title/tt8228288/",
@@ -145,7 +195,10 @@
 
     {
     "title": "The City of Lost Children",
-    "category": "Weird",
+    "category1": "Weird",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1995",
     "poster": "citylostkids.png",
     "imdb": "https://www.imdb.com/title/tt0112682/",
@@ -153,7 +206,10 @@
     },
     {
     "title": "The Loved Ones",
-    "category": "Aussie Horror",
+    "category1": "Aussie Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2009",
     "poster": "thelovedones.png",
     "imdb": "https://www.imdb.com/title/tt1316536/",
@@ -162,7 +218,10 @@
 
     {
     "title": "The Village",
-    "category": "Horror",
+    "category1": "Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2004",
     "poster": "thevillage.png",
     "imdb": "https://www.imdb.com/title/tt0368447/",
@@ -171,7 +230,10 @@
 
     {
     "title": "Undead",
-    "category": "Aussie Horror",
+    "category1": "Aussie Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2003",
     "poster": "undead.png",
     "imdb": "https://www.imdb.com/title/tt0339840/",
@@ -180,7 +242,10 @@
 
     {
     "title": "Creep",
-    "category": "Horror",
+    "category1": "Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2014",
     "poster": "creep.png",
     "imdb": "https://www.imdb.com/title/tt2428170/",
@@ -189,7 +254,10 @@
 
     {
     "title": "Creep 2",
-    "category": "Horror",
+    "category1": "Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2017",
     "poster": "creep2.png",
     "imdb": "https://www.imdb.com/title/tt3654796/",
@@ -198,7 +266,10 @@
 
     {
     "title": "In Fabric",
-    "category": "Horror",
+    "category1": "Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2018",
     "poster": "infabric.png",
     "imdb": "https://www.imdb.com/title/tt7464188/",
@@ -207,7 +278,10 @@
 
     {
     "title": "Cam",
-    "category": "Horror",
+    "category1": "Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2018",
     "poster": "cam.png",
     "imdb": "https://www.imdb.com/title/tt8361028/",
@@ -216,7 +290,10 @@
 
     {
     "title": "Happy Death Day",
-    "category": "Horror",
+    "category1": "Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2017",
     "poster": "happydeathday.png",
     "imdb": "https://www.imdb.com/title/tt5308322/",
@@ -225,7 +302,10 @@
 
     {
     "title": "The Wickerman",
-    "category": "Folk Horror",
+    "category1": "Folk Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1973",
     "poster": "wickerman73.png",
     "imdb": "https://www.imdb.com/title/tt0070917/",
@@ -234,7 +314,10 @@
 
     {
     "title": "The Wickerman",
-    "category": "Folk Horror",
+    "category1": "Folk Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2006",
     "poster": "wickerman06.png",
     "imdb": "https://www.imdb.com/title/tt0450345/",
@@ -243,7 +326,10 @@
 
     {
     "title": "Midsommar",
-    "category": "Folk Horror",
+    "category1": "Folk Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2019",
     "poster": "midsommar.png",
     "imdb": "https://www.imdb.com/title/tt8772262/",
@@ -252,7 +338,10 @@
 
     {
     "title": "Hereditary",
-    "category": "Folk Horror",
+    "category1": "Folk Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2018",
     "poster": "hereditary.png",
     "imdb": "https://www.imdb.com/title/tt7784604/",
@@ -261,7 +350,10 @@
 
     {
     "title": "A Tale of Two Sisters",
-    "category": "Korean Horror",
+    "category1": "Korean Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2003",
     "poster": "taletwosisters.png",
     "imdb": "https://www.imdb.com/title/tt0365376/",
@@ -270,7 +362,10 @@
 
     {
     "title": "The Host",
-    "category": "Korean Horror",
+    "category1": "Korean Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2006",
     "poster": "thehost.png",
     "imdb": "https://www.imdb.com/title/tt0468492/",
@@ -279,7 +374,10 @@
 
     {
     "title": "Train to Busan",
-    "category": "Korean Horror",
+    "category1": "Korean Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2016",
     "poster": "traintobusan.png",
     "imdb": "https://www.imdb.com/title/tt5700672/",
@@ -288,7 +386,10 @@
 
     {
     "title": "#Alive",
-    "category": "Korean Horror",
+    "category1": "Korean Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2020",
     "poster": "alive.png",
     "imdb": "https://www.imdb.com/title/tt10620868/",
@@ -297,7 +398,10 @@
 
     {
     "title": "The Day After",
-    "category": "Apoca",
+    "category1": "Apoca",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1983",
     "poster": "dayafter.png",
     "imdb": "https://www.imdb.com/title/tt0085404/",
@@ -306,7 +410,10 @@
 
     {
     "title": "Threads",
-    "category": "Apoca",
+    "category1": "Apoca",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1984",
     "poster": "threads.png",
     "imdb": "https://www.imdb.com/title/tt0090163/",
@@ -315,7 +422,10 @@
 
     {
     "title": "Night of the Comet",
-    "category": "Apoca",
+    "category1": "Apoca",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1984",
     "poster": "nightofthecomet.png",
     "imdb": "https://www.imdb.com/title/tt0087799/",
@@ -324,7 +434,10 @@
 
     {
     "title": "Fahrenheit 451",
-    "category": "Scifi",
+    "category1": "Scifi",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1966",
     "poster": "fahrenheit451.png",
     "imdb": "https://www.imdb.com/title/tt0060390/",
@@ -333,7 +446,10 @@
 
     {
     "title": "The Fifth Element",
-    "category": "Scifi",
+    "category1": "Scifi",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1997",
     "poster": "fifthelement.png",
     "imdb": "https://www.imdb.com/title/tt0119116/",
@@ -342,7 +458,10 @@
 
     {
     "title": "Stargate",
-    "category": "Scifi",
+    "category1": "Scifi",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1994",
     "poster": "stargate.png",
     "imdb": "https://www.imdb.com/title/tt0111282/",
@@ -351,7 +470,10 @@
 
     {
     "title": "Soylent Green",
-    "category": "Scifi",
+    "category1": "Scifi",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1973",
     "poster": "soylentgreen.png",
     "imdb": "https://www.imdb.com/title/tt0070723/",
@@ -360,7 +482,10 @@
 
     {
     "title": "Star Trek: the Motion Picture",
-    "category": "Scifi",
+    "category1": "Scifi",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1979",
     "poster": "startrek1.png",
     "imdb": "https://www.imdb.com/title/tt0079945/",
@@ -369,7 +494,10 @@
 
     {
     "title": "Star Trek IV: The Voyage Home",
-    "category": "SF Time Travel",
+    "category1": "SF Time Travel",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1986",
     "poster": "startrek4.png",
     "imdb": "https://www.imdb.com/title/tt0092007/",
@@ -378,7 +506,10 @@
 
     {
     "title": "Star Trek: First Contact",
-    "category": "SF Time Travel",
+    "category1": "SF Time Travel",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1996",
     "poster": "startrekfirstcontact.png",
     "imdb": "https://www.imdb.com/title/tt0117731/",
@@ -387,7 +518,10 @@
 
     {
     "title": "Predestination",
-    "category": "SF Time Travel",
+    "category1": "SF Time Travel",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2014",
     "poster": "predestination.png",
     "imdb": "https://www.imdb.com/title/tt2397535/",
@@ -396,7 +530,10 @@
 
     {
     "title": "Time Lapse",
-    "category": "SF Time Travel",
+    "category1": "SF Time Travel",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2014",
     "poster": "timelapse.png",
     "imdb": "https://www.imdb.com/title/tt2669336/",
@@ -405,7 +542,10 @@
 
     {
     "title": "Somewhere in Time",
-    "category": "SF Time Travel",
+    "category1": "SF Time Travel",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1980",
     "poster": "somewhereintime.png",
     "imdb": "https://www.imdb.com/title/tt0081534/",
@@ -414,7 +554,10 @@
 
     {
     "title": "The Time Machine",
-    "category": "SF Time Travel",
+    "category1": "SF Time Travel",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1960",
     "poster": "timemachine.png",
     "imdb": "https://www.imdb.com/title/tt0054387/",
@@ -423,7 +566,10 @@
 
     {
     "title": "The King and I",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1956",
     "poster": "kingandi.png",
     "imdb": "https://www.imdb.com/title/tt0049408/",
@@ -432,16 +578,23 @@
 
     {
     "title": "Rocky Horror Picture Show",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1978",
     "poster": "rhps.png",
+    "favourite": "Favourite",
     "imdb": "https://www.imdb.com/title/tt0073629/",
     "trailer": "https://www.youtube.com/watch?v=4plqh6obZW4"
     },
 
     {
     "title": "Xanadu",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1980",
     "poster": "xanadu.png",
     "imdb": "https://www.imdb.com/title/tt0081777/",
@@ -450,7 +603,10 @@
 
     {
     "title": "A Chorus Line",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1986",
     "poster": "chorusline.png",
     "imdb": "https://www.imdb.com/title/tt0088915/",
@@ -459,7 +615,10 @@
 
     {
     "title": "Grease",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1978",
     "poster": "grease.png",
     "imdb": "https://www.imdb.com/title/tt0077631/",
@@ -468,7 +627,10 @@
 
     {
     "title": "Grease 2",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1982",
     "poster": "grease2.png",
     "imdb": "https://www.imdb.com/title/tt0084021/",
@@ -477,7 +639,10 @@
 
     {
     "title": "Repo! The Genetic Opera",
-    "category": "Musicals",
+    "category1": "Musicals",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2008",
     "poster": "repo.png",
     "imdb": "https://www.imdb.com/title/tt0963194/",
@@ -486,7 +651,10 @@
 
     {
     "title": "The Garden of Words",
-    "category": "Anime",
+    "category1": "Anime",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2013",
     "poster": "gardenofwords.png",
     "imdb": "https://www.imdb.com/title/tt2591814/",
@@ -495,7 +663,10 @@
 
     {
     "title": "Howls Moving Castle",
-    "category": "Anime",
+    "category1": "Anime",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2004",
     "poster": "howlscastle.png",
     "imdb": "https://www.imdb.com/title/tt0347149/",
@@ -504,7 +675,10 @@
 
     {
     "title": "Grave of the Fireflie",
-    "category": "Anime",
+    "category1": "Anime",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1988",
     "poster": "gravefireflies.png",
     "imdb": "https://www.imdb.com/title/tt0095327/",
@@ -513,7 +687,10 @@
 
     {
     "title": "When Marnie Was There",
-    "category": "Anime",
+    "category1": "Anime",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2014",
     "poster": "whenmarnie.png",
     "imdb": "https://www.imdb.com/title/tt3398268/",
@@ -522,7 +699,10 @@
 
     {
     "title": "The Year Without Santa Claus",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1974",
     "poster": "yearwithoutsanta.png",
     "imdb": "https://www.imdb.com/title/tt0072424/",
@@ -531,7 +711,10 @@
 
     {
     "title": "The Twelve Tasks of Asterix",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1976",
     "poster": "12tasks.png",
     "imdb": "https://www.imdb.com/title/tt0072901/",
@@ -540,7 +723,10 @@
 
     {
     "title": "Annie",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1982",
     "poster": "annie.png",
     "imdb": "https://www.imdb.com/title/tt0083564/",
@@ -549,7 +735,10 @@
 
     {
     "title": "War Games",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1983",
     "poster": "wargames.png",
     "imdb": "https://www.imdb.com/title/tt0086567/",
@@ -558,7 +747,10 @@
 
     {
     "title": "Toy Soldiers",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1991",
     "poster": "toysoldiers.png",
     "imdb": "https://www.imdb.com/title/tt0103112/",
@@ -567,7 +759,10 @@
 
     {
     "title": "The Little Princess",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1939",
     "poster": "littleprincess39.png",
     "imdb": "https://www.imdb.com/title/tt0031580/",
@@ -576,7 +771,10 @@
 
     {
     "title": "The Little Princess",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1995",
     "poster": "littleprincess95.png",
     "imdb": "https://www.imdb.com/title/tt0113670/",
@@ -585,7 +783,10 @@
 
     {
     "title": "The Secret Garden",
-    "category": "Family",
+    "category1": "Family",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "1993",
     "poster": "secretgarden.png",
     "imdb": "https://www.imdb.com/title/tt0108071/",
@@ -594,7 +795,10 @@
 
     {
     "title": "Cut",
-    "category": "Aussie Horror",
+    "category1": "Aussie Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2000",
     "poster": "cut.png",
     "imdb": "https://www.imdb.com/title/tt0189456/",
@@ -603,7 +807,10 @@
 
     {
     "title": "Carnifex",
-    "category": "Aussie Horror",
+    "category1": "Aussie Horror",
+    "category2": "",
+    "category3": "",
+    "category4": "",
     "year": "2002",
     "poster": "carnifex.png",
     "imdb": "https://www.imdb.com/title/tt18252340/",
@@ -611,12 +818,27 @@
     },
 
     {
-    "title": "",
-    "category": "",
-    "year": "",
-    "poster": "",
-    "imdb": "",
-    "trailer": ""
+    "title": "The Bad Seed",
+    "category1": "Thriller",
+    "category2": "Psycho Killers",
+    "category3": "",
+    "category4": "",
+    "year": "1956",
+    "poster": "thebadseed.png",
+    "imdb": "https://www.imdb.com/title/tt0048977/",
+    "trailer": "https://www.youtube.com/watch?v=3thexp_dotk"
+    },
+    {
+    "title": "The Call",
+    "category1": "Scifi",
+    "category2": "Korean Horror",
+    "category3": "Mystery",
+    "category4": "",
+    "year": "2020",
+    "poster": "thecall2020.png",
+    "imdb": "https://www.imdb.com/title/tt10530176/",
+    "trailer": "https://www.youtube.com/watch?v=hxkKeniT-0Q"
     }
+
 ]
 

@@ -113,13 +113,11 @@ progress::-moz-progress-bar {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
 }
 
 .movie {
     font-size: 12px;
     background-color: var(--pallette6);
-    width: 20%;
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
     border-style: none none solid none;
@@ -155,139 +153,21 @@ heart {
     padding-bottom: 0px;
 }
 
+.filterDivMovies {
+  display: none;
+  width:20%;
+}
+
+
 @media screen and (max-width: 800px) {
-    .movie { width: 40%; font-size: 15px; }
+    .filterDivMovies { width: 40%; font-size: 15px; }
     }
     
 @media screen and (max-width: 600px) {
-    .movie { width: 75%; font-size: 15px; }
+    .filterDivMovies { width: 75%; font-size: 15px; }
     #A24Progress{display: flex;}
     }
 
-
-
-  
-        #imgmovies:before {
-          background: var(--imgmoviesbefore);
-          padding: 5px 20px;
-          content: " ";
-        }
-      
-        #imgmovmovies:before {
-          background: var(--imgmovmoviesbefore);
-          padding: 5px 20px;
-          content: " ";
-        }
-      
-        #imgmovjapan:before {
-        background: var(--imgmovjapanbefore);
-        padding: 5px 20px;
-        content: " ";
-        }
-      
-        #imgmovwar:before {
-        background: var(--imgmovwarbefore);
-        padding: 5px 20px;
-        content: " ";
-        }
-      
-        #imgmovaus:before {
-        background: var(--imgmovausbefore);
-        padding: 5px 20px;
-        content: " ";
-        }
-      
-       #imgmovweird:before {
-        background: var(--imgmovweirdbefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovhorror:before {
-        background: var(--imgmovhorrorbefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovfolk:before {
-        background: var(--imgmovfolkbefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovkorean:before {
-        background: var(--imgmovkoreanbefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovapoca:before {
-        background: var(--imgmovapocabefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovscifi:before {
-        background: var(--imgmovscifibefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovtime:before {
-        background: var(--imgmovtimebefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovmusic:before {
-        background: var(--imgmovmusicbefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovanime:before {
-        background: var(--imgmovanimebefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-      
-       #imgmovfamily:before {
-        background: var(--imgmovfamilybefore);
-        padding: 5px 20px;
-        content: " ";
-       }
-
-
-
-
-
-
-  /*
-  .movielist {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 4px;
-    margin:auto;
-    background-color: var(--pallette6);
-    border-radius: 10px;
-    overflow: hidden;
-    padding:10px;
-    margin-bottom:30px;
-    max-width:80%;
-    }
-    
-    .movielist div:nth-child(2n+1),
-    .movielist div:nth-child(2n) {
-      background-color: var(--pallette6);
-      padding:3px;
-    }
-    
-    .movielist div:nth-child(4n+1),
-    .movielist div:nth-child(4n) {
-      background-color: var(--pallette6);
-    }
-
-*/
 
 
 

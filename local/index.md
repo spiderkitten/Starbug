@@ -29,10 +29,10 @@ script: randomquote.js
 <!-- Status Box -->
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
-<div><strong>Reading:</strong> a book, finally!</div>
+<div><strong>Reading:</strong>fanfic</div>
 <div><strong>Watching:</strong>The Amazing Race Australia</div>
 <div><strong>Listening to:</strong>the endless void</div>
-<div><strong>Playing:</strong>Two Point Campus</div>
+<div><strong>Playing:</strong>Terra Nil</div>
 </div>
 
 <!-- Webrings -->
@@ -85,11 +85,12 @@ script: randomquote.js
 
 <div id="recentupdates" class="textbox">
 <h3>Recent Updates</h3>
+<p><strong>Mid October 2025:</strong> Added a commonplace book, changed the reading log, fav music and fav movie pages so they are filterable. Added a modal/popup for images on commonplace book page. Updated the site credits page and the sitemap.
+</p>
 <p><strong>Mid September 2025:</strong> Added a solo TTRPG page, and a gaming journal for the Koriko Solo Journalling TTRPG, and for 5-min-machine. Redid my book log so it no longer relies on goodreads widgets. Added some seen movies to the A24 challenge page.</p>
 
 <p><strong>Early September 2025:</strong> Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page</p>
 
-<p><strong>Early August 2025:</strong> updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator.  Added a page for my favourite characters in fandom section, added some stamps to the shinies page.  Added a youtube section to the links page </p>
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
 

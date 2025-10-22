@@ -1,6 +1,7 @@
 ---
 recipetitle: Pesto Chicken Rolls
-recipephoto: 
+recipephoto: chickenpesto.png 
+recipecaption: chicken pesto on a sandwich thin with lettuce, roma tomato and smooth ricotta
 tags:  
 - 'meal'
 - 'lunch'
@@ -19,9 +20,12 @@ tags:
 <li>1/2 cup pesto (red or green)</li>
 <li>1 tbsp of greek yoghurt or smooth ricotta</li>
 <li>140g (half a small jar) or roast capsicum or sun dried tomato</li>
+
+Optional Ingredients: 
 <li>lettuce</li>
-<li>cheese slices</li>
-<li>bread rolls</li>
+<li>tomato</li>
+<li>smooth ricotta</li>
+<li>bread rolls, sliced bread or sandwich thins</li>
 </ul>
 </div>
 
@@ -33,7 +37,7 @@ tags:
 <li>drain, and pat dry (with paper towels) half the jar of roast capsicum or sun dried tomatoes</li>
 <li>In a bowl, mix your pesto and yoghurt (or ricotta) together until combined</li>
 <li>add the chicken and roast capsicum (sun dried tomato) to the mix and stir until well coated</li>
-<li>make up your rolls with lettuce and cheese (and anything else you want on it)</li>
+<li>make up your rolls with lettuce and anything else you want on it (or just make a salad)</li>
 <li>spoon some of the chicken mix onto the roll. The rest can be kep in the fridge in a container for a couple of days.</li>
 <li>Enjoy!</li>
 </ol>

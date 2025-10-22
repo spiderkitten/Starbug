@@ -1,6 +1,6 @@
 ---
 recipetitle: Lazy Slowcooker Spicy Beef
-recipephoto: 
+recipephoto: placeholder.png
 tags:  
 - 'meal'
 - 'dinner'

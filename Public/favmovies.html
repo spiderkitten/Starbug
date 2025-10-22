@@ -15,7 +15,6 @@
   
   <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
 
-                      
   <script src="/js/load.js"></script>
   <script src="/js/"></script>
 
@@ -65,6 +64,7 @@
         <a href="/shinies.html">Shinies</a>
         <a href="/cookbook.html">Cookbook</a>
         <a href="/lexicon.html">Lexicon</a>
+        <a href="/commonplace.html">Commonplace Book</a>
         <a href="/solottrpg.html">TTRPG Log</a>
       </div>
   </div>
@@ -74,11 +74,12 @@
   <div class="dropdown">
     <button>Books/Movies/Music</button>
     <div class="dropdown-content">
-        <a href="/books/2025reads.html">Booklog</a>
-        <a href="/books/cozyfantasy.html">Cozy Fantasy Recs</a>
+        <a href="/booklog.html">Reading Log</a>
+        <a href="/favmusic.html">Favourite Music</a>
+        <a href="/favtvshows.html">Favourite TV Shows</a>
         <a href="/favmovies.html">Favourite Movies</a> 
         <a href="/a24movies.html">A24 Movie Challenge</a>
-        <a href="/favmusic.html">Favourite Music</a>
+
     </div>
 </div>
 
@@ -127,885 +128,989 @@
   <main>
 <!-- Main Content Start-->
 
-  <h2 id="imgmovies">Movies</h2>
-<p>There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs. </p>
+  <div class="textbox">
+<h3 id="imgmovies">Movies</h2>
+There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs. 
 <p><strong>Note: This is a work in progress</strong></p>
+<div id="filterContainer">
+  <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
+  <!--<button class="navbutton" onclick="filterSelection('Favourite')">All Time Favs</button>
+haunting, thriller, Love Story, Road Movie, On the Run, Creature Feature, Comedy, Friendship, psycho killers, -->
+  <button class="navbutton" onclick="filterSelection('Thriller')">Thriller</button>
+  <button class="navbutton" onclick="filterSelection('Scifi')">Science Fiction</button>
+  <button class="navbutton" onclick="filterSelection('SF Time Travel')">Time Travel</button>
+  <button class="navbutton" onclick="filterSelection('Horror')">Horror</button>
+  <button class="navbutton" onclick="filterSelection('Folk Horror')">Folk Horror</button>
+  <button class="navbutton" onclick="filterSelection('Korean Horror')">Korean Horror</button>
+  <button class="navbutton" onclick="filterSelection('Aussie Horror')">Australian Horror</button>
+  <button class="navbutton" onclick="filterSelection('Aussie')">Australian</button>
+  <button class="navbutton" onclick="filterSelection('Japanese')">Japanese</button>
+  <button class="navbutton" onclick="filterSelection('Weird')">Mind Fucks</button>
+  <button class="navbutton" onclick="filterSelection('War')">War</button>
+  <button class="navbutton" onclick="filterSelection('Apoca')">(Post) Apocalypse</button>
+  <button class="navbutton" onclick="filterSelection('Musicals')">Musicals</button>
+  <button class="navbutton" onclick="filterSelection('Anime')">Anime</button>
+  <button class="navbutton" onclick="filterSelection('Family')">Family</button>
+</div>
+</div>
 <div class="textbox">
-<h3 id="imgmovmovies">General Movies</h3>
-<p>And by General I mean "not sure where to put these yet"</p>
-<div class="moviegallery"><div class="movie">
+<div class="moviegallery"><div class="filterDivMovies  Love Story Haunting  Favourite"> 
+<div class="movie">
     <img src="/images/movies/posters/ghostmrsmuir.png">
-<p><div class="movietxt">
-<div class="title">The Ghost and Mrs Muir</div>
-<div class="year">1947</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0039420/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=n-X00-BoG9o" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">The Ghost and Mrs Muir</div>
+        <div class="year">1947</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0039420/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=n-X00-BoG9o" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Thriller Road Movie  "> 
 <div class="movie">
-<img src="/images/movies/posters/duel.png"></p>
-<p><div class="movietxt">
-<div class="title">Duel</div>
-<div class="year">1971</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0067023/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=SutDTIhbQ2g" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/duel.png">
+    <div class="movietxt">
+        <div class="title">Duel</div>
+        <div class="year">1971</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0067023/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=SutDTIhbQ2g" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Conspiracy On the Run  "> 
 <div class="movie">
-<img src="/images/movies/posters/capricornone.png"></p>
-<p><div class="movietxt">
-<div class="title">Capricorn One</div>
-<div class="year">1978</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0077294/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=8QuOJwI0aVQ" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/capricornone.png">
+    <div class="movietxt">
+        <div class="title">Capricorn One</div>
+        <div class="year">1978</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0077294/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=8QuOJwI0aVQ" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror Creature Feature Comedy "> 
 <div class="movie">
-<img src="/images/movies/posters/tremors.png"></p>
-<p><div class="movietxt">
-<div class="title">Tremors</div>
-<div class="year">1990</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0100814/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=liJfZvXdiTE" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/tremors.png">
+    <div class="movietxt">
+        <div class="title">Tremors</div>
+        <div class="year">1990</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0100814/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=liJfZvXdiTE" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi Apoca Comedy "> 
 <div class="movie">
-<img src="/images/movies/posters/tankgirl.png"></p>
-<p><div class="movietxt">
-<div class="title">Tank Girl</div>
-<div class="year">1995</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0114614/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=rpxWdGkiGqg" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovjapan">Japanese Movies</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/tankgirl.png">
+    <div class="movietxt">
+        <div class="title">Tank Girl</div>
+        <div class="year">1995</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0114614/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=rpxWdGkiGqg" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Japanese Friendship  "> 
+<div class="movie">
     <img src="/images/movies/posters/kamikazegirls.png">
-<p><div class="movietxt">
-<div class="title">Kamikaze Girls</div>
-<div class="year">2000</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0416220/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=IF4T_K5ia-U" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">Kamikaze Girls</div>
+        <div class="year">2000</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0416220/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=IF4T_K5ia-U" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Japanese   "> 
 <div class="movie">
-<img src="/images/movies/posters/battleroyale.png"></p>
-<p><div class="movietxt">
-<div class="title">Battle Royale</div>
-<div class="year">2000</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0266308/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=N0p1t-dC7Ko" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovwar">War Movies</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/battleroyale.png">
+    <div class="movietxt">
+        <div class="title">Battle Royale</div>
+        <div class="year">2000</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0266308/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=N0p1t-dC7Ko" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  War   "> 
+<div class="movie">
     <img src="/images/movies/posters/empireofsun.png">
-<p><div class="movietxt">
-<div class="title">Empire of the Sun</div>
-<div class="year">1987</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0092965/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=i_WiDVA1kLY" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">Empire of the Sun</div>
+        <div class="year">1987</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0092965/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=i_WiDVA1kLY" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  War   "> 
 <div class="movie">
-<img src="/images/movies/posters/greatescape.png"></p>
-<p><div class="movietxt">
-<div class="title">The Great Escape</div>
-<div class="year">1963</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0057115/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=M2bEzJFVdQ4" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovaus">Australian Movies</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/greatescape.png">
+    <div class="movietxt">
+        <div class="title">The Great Escape</div>
+        <div class="year">1963</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0057115/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=M2bEzJFVdQ4" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie   "> 
+<div class="movie">
     <img src="/images/movies/posters/spiderrose.png">
-<p><div class="movietxt">
-<div class="title">Spider &amp; Rose</div>
-<div class="year">1994</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0111260/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=TG6XOh7pJWA" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">Spider & Rose</div>
+        <div class="year">1994</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0111260/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=TG6XOh7pJWA" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie   "> 
 <div class="movie">
-<img src="/images/movies/posters/picnicHR.png"></p>
-<p><div class="movietxt">
-<div class="title">Picnic At Hanging Rock</div>
-<div class="year">1975</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0073540/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=CFtQMzXZZQs" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/picnicHR.png">
+    <div class="movietxt">
+        <div class="title">Picnic At Hanging Rock</div>
+        <div class="year">1975</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0073540/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=CFtQMzXZZQs" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie   Favourite"> 
 <div class="movie">
-<img src="/images/movies/posters/lion.png"></p>
-<p><div class="movietxt">
-<div class="title">Lion</div>
-<div class="year">2016</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt3741834/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=-RNI9o06vqo" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovweird">Weird / Mind Fuck Movies</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/lion.png">
+    <div class="movietxt">
+        <div class="title">Lion</div>
+        <div class="year">2016</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt3741834/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=-RNI9o06vqo" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Weird   "> 
+<div class="movie">
     <img src="/images/movies/posters/cube.png">
-<p><div class="movietxt">
-<div class="title">Cube</div>
-<div class="year">1997</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0123755/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=Esjc0rPj3K4" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">Cube</div>
+        <div class="year">1997</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0123755/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=Esjc0rPj3K4" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Weird   "> 
 <div class="movie">
-<img src="/images/movies/posters/skinilivein.png"></p>
-<p><div class="movietxt">
-<div class="title">The Skin I Live In</div>
-<div class="year">2011</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt1189073/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=PavJUoZNT7g" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/skinilivein.png">
+    <div class="movietxt">
+        <div class="title">The Skin I Live In</div>
+        <div class="year">2011</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt1189073/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=PavJUoZNT7g" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Weird   "> 
 <div class="movie">
-<img src="/images/movies/posters/bjm.png"></p>
-<p><div class="movietxt">
-<div class="title">Being John Malkoviich</div>
-<div class="year">1999</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0120601/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=2UuRFr0GnHM" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/bjm.png">
+    <div class="movietxt">
+        <div class="title">Being John Malkoviich</div>
+        <div class="year">1999</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0120601/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=2UuRFr0GnHM" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Weird   "> 
 <div class="movie">
-<img src="/images/movies/posters/theplatform.png"></p>
-<p><div class="movietxt">
-<div class="title">The Platform</div>
-<div class="year">2019</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt8228288/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=RlfooqeZcdY" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/theplatform.png">
+    <div class="movietxt">
+        <div class="title">The Platform</div>
+        <div class="year">2019</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt8228288/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=RlfooqeZcdY" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Weird   "> 
 <div class="movie">
-<img src="/images/movies/posters/citylostkids.png"></p>
-<p><div class="movietxt">
-<div class="title">The City of Lost Children</div>
-<div class="year">1995</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0112682/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=U0HWDOzi2h0" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovhorror">Horror</h3>
-<p>Australian Horror is in the Australian Movies section</p>
-<div class="moviegallery"><div class="movie">
-    <img src="/images/movies/posters/thevillage.png">
-<p><div class="movietxt">
-<div class="title">The Village</div>
-<div class="year">2004</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0368447/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=sTGyhwvdY6k" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/citylostkids.png">
+    <div class="movietxt">
+        <div class="title">The City of Lost Children</div>
+        <div class="year">1995</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0112682/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=U0HWDOzi2h0" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/creep.png"></p>
-<p><div class="movietxt">
-<div class="title">Creep</div>
-<div class="year">2014</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt2428170/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=a1FmJHhWm8A" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/creep2.png"></p>
-<p><div class="movietxt">
-<div class="title">Creep 2</div>
-<div class="year">2017</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt3654796/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=838PE2pbzM4" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/infabric.png"></p>
-<p><div class="movietxt">
-<div class="title">In Fabric</div>
-<div class="year">2018</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt7464188/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=biHUTtV4K40" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/cam.png"></p>
-<p><div class="movietxt">
-<div class="title">Cam</div>
-<div class="year">2018</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt8361028/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=pN8xZ5WDonk" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/happydeathday.png"></p>
-<p><div class="movietxt">
-<div class="title">Happy Death Day</div>
-<div class="year">2017</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt5308322/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=1NTaDm3atkc" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovfolk">Folk Horror</h3>
-<div class="moviegallery"><div class="movie">
-    <img src="/images/movies/posters/wickerman73.png">
-<p><div class="movietxt">
-<div class="title">The Wickerman</div>
-<div class="year">1973</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0070917/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=MXq-NuS24fg" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/wickerman06.png"></p>
-<p><div class="movietxt">
-<div class="title">The Wickerman</div>
-<div class="year">2006</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0450345/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=_DtW7j6DK9k" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/midsommar.png"></p>
-<p><div class="movietxt">
-<div class="title">Midsommar</div>
-<div class="year">2019</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt8772262/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=1Vnghdsjmd0" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
-<div class="movie">
-<img src="/images/movies/posters/hereditary.png"></p>
-<p><div class="movietxt">
-<div class="title">Hereditary</div>
-<div class="year">2018</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt7784604/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=V6wWKNij_1M" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovaus">Australian Horror</h3>
-<div class="moviegallery"><div class="movie">
     <img src="/images/movies/posters/thelovedones.png">
-<p><div class="movietxt">
-<div class="title">The Loved Ones</div>
-<div class="year">2009</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt1316536/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=Xci4h83W3jY" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">The Loved Ones</div>
+        <div class="year">2009</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt1316536/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=Xci4h83W3jY" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/undead.png"></p>
-<p><div class="movietxt">
-<div class="title">Undead</div>
-<div class="year">2003</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0339840/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=YzL7kgGMvBY" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/thevillage.png">
+    <div class="movietxt">
+        <div class="title">The Village</div>
+        <div class="year">2004</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0368447/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=sTGyhwvdY6k" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/cut.png"></p>
-<p><div class="movietxt">
-<div class="title">Cut</div>
-<div class="year">2000</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0189456/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=mCdVd_2Jvws" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/undead.png">
+    <div class="movietxt">
+        <div class="title">Undead</div>
+        <div class="year">2003</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0339840/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=YzL7kgGMvBY" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/carnifex.png"></p>
-<p><div class="movietxt">
-<div class="title">Carnifex</div>
-<div class="year">2002</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt18252340/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=SFOQ98Vuuqc" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovkorean">Korean Horror</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/creep.png">
+    <div class="movietxt">
+        <div class="title">Creep</div>
+        <div class="year">2014</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt2428170/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=a1FmJHhWm8A" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/creep2.png">
+    <div class="movietxt">
+        <div class="title">Creep 2</div>
+        <div class="year">2017</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt3654796/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=838PE2pbzM4" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/infabric.png">
+    <div class="movietxt">
+        <div class="title">In Fabric</div>
+        <div class="year">2018</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt7464188/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=biHUTtV4K40" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/cam.png">
+    <div class="movietxt">
+        <div class="title">Cam</div>
+        <div class="year">2018</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt8361028/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=pN8xZ5WDonk" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/happydeathday.png">
+    <div class="movietxt">
+        <div class="title">Happy Death Day</div>
+        <div class="year">2017</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt5308322/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=1NTaDm3atkc" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Folk Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/wickerman73.png">
+    <div class="movietxt">
+        <div class="title">The Wickerman</div>
+        <div class="year">1973</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0070917/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=MXq-NuS24fg" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Folk Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/wickerman06.png">
+    <div class="movietxt">
+        <div class="title">The Wickerman</div>
+        <div class="year">2006</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0450345/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=_DtW7j6DK9k" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Folk Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/midsommar.png">
+    <div class="movietxt">
+        <div class="title">Midsommar</div>
+        <div class="year">2019</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt8772262/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=1Vnghdsjmd0" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Folk Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/hereditary.png">
+    <div class="movietxt">
+        <div class="title">Hereditary</div>
+        <div class="year">2018</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt7784604/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=V6wWKNij_1M" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Korean Horror   "> 
+<div class="movie">
     <img src="/images/movies/posters/taletwosisters.png">
-<p><div class="movietxt">
-<div class="title">A Tale of Two Sisters</div>
-<div class="year">2003</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0365376/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=4YmCIp4qlGg" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">A Tale of Two Sisters</div>
+        <div class="year">2003</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0365376/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=4YmCIp4qlGg" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Korean Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/thehost.png"></p>
-<p><div class="movietxt">
-<div class="title">The Host</div>
-<div class="year">2006</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0468492/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=xrLY0wO06l4" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/thehost.png">
+    <div class="movietxt">
+        <div class="title">The Host</div>
+        <div class="year">2006</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0468492/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=xrLY0wO06l4" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Korean Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/traintobusan.png"></p>
-<p><div class="movietxt">
-<div class="title">Train to Busan</div>
-<div class="year">2016</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt5700672/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=9rTKsTIq9J0" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/traintobusan.png">
+    <div class="movietxt">
+        <div class="title">Train to Busan</div>
+        <div class="year">2016</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt5700672/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=9rTKsTIq9J0" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Korean Horror   "> 
 <div class="movie">
-<img src="/images/movies/posters/alive.png"></p>
-<p><div class="movietxt">
-<div class="title">#Alive</div>
-<div class="year">2020</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt10620868/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=jQ8CCg1tOqc" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovapoca">(Post) Apocalypse Horror</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/alive.png">
+    <div class="movietxt">
+        <div class="title">#Alive</div>
+        <div class="year">2020</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt10620868/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=jQ8CCg1tOqc" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Apoca   "> 
+<div class="movie">
     <img src="/images/movies/posters/dayafter.png">
-<p><div class="movietxt">
-<div class="title">The Day After</div>
-<div class="year">1983</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0085404/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=xphC5_4HRMw" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">The Day After</div>
+        <div class="year">1983</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0085404/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=xphC5_4HRMw" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Apoca   "> 
 <div class="movie">
-<img src="/images/movies/posters/threads.png"></p>
-<p><div class="movietxt">
-<div class="title">Threads</div>
-<div class="year">1984</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0090163/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=vgT4Y30DkaA" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/threads.png">
+    <div class="movietxt">
+        <div class="title">Threads</div>
+        <div class="year">1984</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0090163/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=vgT4Y30DkaA" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Apoca   "> 
 <div class="movie">
-<img src="/images/movies/posters/nightofthecomet.png"></p>
-<p><div class="movietxt">
-<div class="title">Night of the Comet</div>
-<div class="year">1984</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0087799/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=YproiS5uAUU" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovscifi">Science Fiction</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/nightofthecomet.png">
+    <div class="movietxt">
+        <div class="title">Night of the Comet</div>
+        <div class="year">1984</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0087799/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=YproiS5uAUU" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi   "> 
+<div class="movie">
     <img src="/images/movies/posters/fahrenheit451.png">
-<p><div class="movietxt">
-<div class="title">Fahrenheit 451</div>
-<div class="year">1966</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0060390/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=r6VUExA5UKA" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">Fahrenheit 451</div>
+        <div class="year">1966</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0060390/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=r6VUExA5UKA" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi   "> 
 <div class="movie">
-<img src="/images/movies/posters/fifthelement.png"></p>
-<p><div class="movietxt">
-<div class="title">The Fifth Element</div>
-<div class="year">1997</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0119116/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=pqs9ycvKfD8" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/fifthelement.png">
+    <div class="movietxt">
+        <div class="title">The Fifth Element</div>
+        <div class="year">1997</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0119116/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=pqs9ycvKfD8" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi   "> 
 <div class="movie">
-<img src="/images/movies/posters/stargate.png"></p>
-<p><div class="movietxt">
-<div class="title">Stargate</div>
-<div class="year">1994</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0111282/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=c3sgzrgpn8s" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/stargate.png">
+    <div class="movietxt">
+        <div class="title">Stargate</div>
+        <div class="year">1994</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0111282/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=c3sgzrgpn8s" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi   "> 
 <div class="movie">
-<img src="/images/movies/posters/soylentgreen.png"></p>
-<p><div class="movietxt">
-<div class="title">Soylent Green</div>
-<div class="year">1973</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0070723/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=N_jGOKYHxaQ" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/soylentgreen.png">
+    <div class="movietxt">
+        <div class="title">Soylent Green</div>
+        <div class="year">1973</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0070723/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=N_jGOKYHxaQ" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi   "> 
 <div class="movie">
-<img src="/images/movies/posters/startrek1.png"></p>
-<p><div class="movietxt">
-<div class="title">Star Trek: the Motion Picture</div>
-<div class="year">1979</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0079945/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=zrXvBaFFu80" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovtime">Science Fiction - Time Travel</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/startrek1.png">
+    <div class="movietxt">
+        <div class="title">Star Trek: the Motion Picture</div>
+        <div class="year">1979</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0079945/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=zrXvBaFFu80" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  SF Time Travel   "> 
+<div class="movie">
     <img src="/images/movies/posters/startrek4.png">
-<p><div class="movietxt">
-<div class="title">Star Trek IV: The Voyage Home</div>
-<div class="year">1986</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0092007/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=QOhoIBkOYf0" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">Star Trek IV: The Voyage Home</div>
+        <div class="year">1986</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0092007/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=QOhoIBkOYf0" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  SF Time Travel   "> 
 <div class="movie">
-<img src="/images/movies/posters/startrekfirstcontact.png"></p>
-<p><div class="movietxt">
-<div class="title">Star Trek: First Contact</div>
-<div class="year">1996</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0117731/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=B3NJ49VyjDs" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/startrekfirstcontact.png">
+    <div class="movietxt">
+        <div class="title">Star Trek: First Contact</div>
+        <div class="year">1996</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0117731/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=B3NJ49VyjDs" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  SF Time Travel   "> 
 <div class="movie">
-<img src="/images/movies/posters/predestination.png"></p>
-<p><div class="movietxt">
-<div class="title">Predestination</div>
-<div class="year">2014</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt2397535/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=xxG-YfedrfU" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/predestination.png">
+    <div class="movietxt">
+        <div class="title">Predestination</div>
+        <div class="year">2014</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt2397535/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=xxG-YfedrfU" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  SF Time Travel   "> 
 <div class="movie">
-<img src="/images/movies/posters/timelapse.png"></p>
-<p><div class="movietxt">
-<div class="title">Time Lapse</div>
-<div class="year">2014</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt2669336/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=_YhP-VfH81E" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/timelapse.png">
+    <div class="movietxt">
+        <div class="title">Time Lapse</div>
+        <div class="year">2014</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt2669336/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=_YhP-VfH81E" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  SF Time Travel   "> 
 <div class="movie">
-<img src="/images/movies/posters/somewhereintime.png"></p>
-<p><div class="movietxt">
-<div class="title">Somewhere in Time</div>
-<div class="year">1980</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0081534/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=GdETuDURLfw" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/somewhereintime.png">
+    <div class="movietxt">
+        <div class="title">Somewhere in Time</div>
+        <div class="year">1980</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0081534/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=GdETuDURLfw" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  SF Time Travel   "> 
 <div class="movie">
-<img src="/images/movies/posters/timemachine.png"></p>
-<p><div class="movietxt">
-<div class="title">The Time Machine</div>
-<div class="year">1960</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0054387/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=Gb1tGXeF1Rc" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovmusic">Musicals</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/timemachine.png">
+    <div class="movietxt">
+        <div class="title">The Time Machine</div>
+        <div class="year">1960</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0054387/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=Gb1tGXeF1Rc" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   "> 
+<div class="movie">
     <img src="/images/movies/posters/kingandi.png">
-<p><div class="movietxt">
-<div class="title">The King and I</div>
-<div class="year">1956</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0049408/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=YZ80o1SY71o" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">The King and I</div>
+        <div class="year">1956</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0049408/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=YZ80o1SY71o" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   Favourite"> 
 <div class="movie">
-<img src="/images/movies/posters/rhps.png"></p>
-<p><div class="movietxt">
-<div class="title">Rocky Horror Picture Show</div>
-<div class="year">1978</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0073629/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=4plqh6obZW4" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/rhps.png">
+    <div class="movietxt">
+        <div class="title">Rocky Horror Picture Show</div>
+        <div class="year">1978</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0073629/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=4plqh6obZW4" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   "> 
 <div class="movie">
-<img src="/images/movies/posters/xanadu.png"></p>
-<p><div class="movietxt">
-<div class="title">Xanadu</div>
-<div class="year">1980</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0081777/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=WNcUv1q2JAs" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/xanadu.png">
+    <div class="movietxt">
+        <div class="title">Xanadu</div>
+        <div class="year">1980</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0081777/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=WNcUv1q2JAs" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   "> 
 <div class="movie">
-<img src="/images/movies/posters/chorusline.png"></p>
-<p><div class="movietxt">
-<div class="title">A Chorus Line</div>
-<div class="year">1986</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0088915/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=q6H97werl_A" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/chorusline.png">
+    <div class="movietxt">
+        <div class="title">A Chorus Line</div>
+        <div class="year">1986</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0088915/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=q6H97werl_A" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   "> 
 <div class="movie">
-<img src="/images/movies/posters/grease.png"></p>
-<p><div class="movietxt">
-<div class="title">Grease</div>
-<div class="year">1978</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0077631/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=THd96gHV7Tg" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/grease.png">
+    <div class="movietxt">
+        <div class="title">Grease</div>
+        <div class="year">1978</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0077631/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=THd96gHV7Tg" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   "> 
 <div class="movie">
-<img src="/images/movies/posters/grease2.png"></p>
-<p><div class="movietxt">
-<div class="title">Grease 2</div>
-<div class="year">1982</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0084021/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=WQTUEj-TqLo" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/grease2.png">
+    <div class="movietxt">
+        <div class="title">Grease 2</div>
+        <div class="year">1982</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0084021/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=WQTUEj-TqLo" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Musicals   "> 
 <div class="movie">
-<img src="/images/movies/posters/repo.png"></p>
-<p><div class="movietxt">
-<div class="title">Repo! The Genetic Opera</div>
-<div class="year">2008</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0963194/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=DvMDBGh2DLs" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovanime">Anime</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/repo.png">
+    <div class="movietxt">
+        <div class="title">Repo! The Genetic Opera</div>
+        <div class="year">2008</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0963194/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=DvMDBGh2DLs" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Anime   "> 
+<div class="movie">
     <img src="/images/movies/posters/gardenofwords.png">
-<p><div class="movietxt">
-<div class="title">The Garden of Words</div>
-<div class="year">2013</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt2591814/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=FMabhvDoolc" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">The Garden of Words</div>
+        <div class="year">2013</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt2591814/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=FMabhvDoolc" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Anime   "> 
 <div class="movie">
-<img src="/images/movies/posters/howlscastle.png"></p>
-<p><div class="movietxt">
-<div class="title">Howls Moving Castle</div>
-<div class="year">2004</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0347149/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=DJeUGpcle8s" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/howlscastle.png">
+    <div class="movietxt">
+        <div class="title">Howls Moving Castle</div>
+        <div class="year">2004</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0347149/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=DJeUGpcle8s" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Anime   "> 
 <div class="movie">
-<img src="/images/movies/posters/gravefireflies.png"></p>
-<p><div class="movietxt">
-<div class="title">Grave of the Fireflie</div>
-<div class="year">1988</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0095327/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=4vPeTSRd580" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/gravefireflies.png">
+    <div class="movietxt">
+        <div class="title">Grave of the Fireflie</div>
+        <div class="year">1988</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0095327/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=4vPeTSRd580" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Anime   "> 
 <div class="movie">
-<img src="/images/movies/posters/whenmarnie.png"></p>
-<p><div class="movietxt">
-<div class="title">When Marnie Was There</div>
-<div class="year">2014</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt3398268/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=P-sixU3ZrXg" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
-</div>
-</div>
-<div class="textbox">
-<h3 id="imgmovfamily">Family Movies</h3>
-<div class="moviegallery"><div class="movie">
+    <img src="/images/movies/posters/whenmarnie.png">
+    <div class="movietxt">
+        <div class="title">When Marnie Was There</div>
+        <div class="year">2014</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt3398268/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=P-sixU3ZrXg" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
+<div class="movie">
     <img src="/images/movies/posters/yearwithoutsanta.png">
-<p><div class="movietxt">
-<div class="title">The Year Without Santa Claus</div>
-<div class="year">1974</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0072424/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <div class="movietxt">
+        <div class="title">The Year Without Santa Claus</div>
+        <div class="year">1974</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0072424/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/12tasks.png"></p>
-<p><div class="movietxt">
-<div class="title">The Twelve Tasks of Asterix</div>
-<div class="year">1976</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0072901/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=E4BY4k8mouE" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/12tasks.png">
+    <div class="movietxt">
+        <div class="title">The Twelve Tasks of Asterix</div>
+        <div class="year">1976</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0072901/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=E4BY4k8mouE" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/annie.png"></p>
-<p><div class="movietxt">
-<div class="title">Annie</div>
-<div class="year">1982</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0083564/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=I78xulb-l0s" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/annie.png">
+    <div class="movietxt">
+        <div class="title">Annie</div>
+        <div class="year">1982</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0083564/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=I78xulb-l0s" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/wargames.png"></p>
-<p><div class="movietxt">
-<div class="title">War Games</div>
-<div class="year">1983</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0086567/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=TQUsLAAZuhU" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/wargames.png">
+    <div class="movietxt">
+        <div class="title">War Games</div>
+        <div class="year">1983</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0086567/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=TQUsLAAZuhU" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/toysoldiers.png"></p>
-<p><div class="movietxt">
-<div class="title">Toy Soldiers</div>
-<div class="year">1991</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0103112/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=BAIG5SRxPVA" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/toysoldiers.png">
+    <div class="movietxt">
+        <div class="title">Toy Soldiers</div>
+        <div class="year">1991</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0103112/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=BAIG5SRxPVA" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/littleprincess39.png"></p>
-<p><div class="movietxt">
-<div class="title">The Little Princess</div>
-<div class="year">1939</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0031580/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=Khyp-Gzi4u4" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/littleprincess39.png">
+    <div class="movietxt">
+        <div class="title">The Little Princess</div>
+        <div class="year">1939</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0031580/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=Khyp-Gzi4u4" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/littleprincess95.png"></p>
-<p><div class="movietxt">
-<div class="title">The Little Princess</div>
-<div class="year">1995</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0113670/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=Q3WJrWZ_npg" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album-->
+    <img src="/images/movies/posters/littleprincess95.png">
+    <div class="movietxt">
+        <div class="title">The Little Princess</div>
+        <div class="year">1995</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0113670/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=Q3WJrWZ_npg" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Family   "> 
 <div class="movie">
-<img src="/images/movies/posters/secretgarden.png"></p>
-<p><div class="movietxt">
-<div class="title">The Secret Garden</div>
-<div class="year">1993</div></p>
-<p><div>
-<a href="https://www.imdb.com/title/tt0108071/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a>
-<a href="https://www.youtube.com/watch?v=1zeqqhA5Z3A" target="_blank">
-<img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a></p>
-<p></div>
-</div><!--albumtxt-->
-</div><!--album--></p>
+    <img src="/images/movies/posters/secretgarden.png">
+    <div class="movietxt">
+        <div class="title">The Secret Garden</div>
+        <div class="year">1993</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0108071/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=1zeqqhA5Z3A" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/cut.png">
+    <div class="movietxt">
+        <div class="title">Cut</div>
+        <div class="year">2000</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0189456/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=mCdVd_2Jvws" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Aussie Horror   "> 
+<div class="movie">
+    <img src="/images/movies/posters/carnifex.png">
+    <div class="movietxt">
+        <div class="title">Carnifex</div>
+        <div class="year">2002</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt18252340/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=SFOQ98Vuuqc" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Thriller Psycho Killers  "> 
+<div class="movie">
+    <img src="/images/movies/posters/thebadseed.png">
+    <div class="movietxt">
+        <div class="title">The Bad Seed</div>
+        <div class="year">1956</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0048977/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=3thexp_dotk" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv --><div class="filterDivMovies  Scifi Korean Horror Mystery "> 
+<div class="movie">
+    <img src="/images/movies/posters/thecall2020.png">
+    <div class="movietxt">
+        <div class="title">The Call</div>
+        <div class="year">2020</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt10530176/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+        <a href="https://www.youtube.com/watch?v=hxkKeniT-0Q" target="_blank">
+        <img src="/images/siteimgs/youtube.png" class="icons" title="View trailer on Youtube"></a> 
+    </div> 
+        </div><!--albumtxt-->
+    </div><!--album-->
+    </div><!-- filterdiv -->
 </div>
+<p><noscript>This page requires Javascript, sorry. </noscript></p>
+</div> <!-- textbox -->
 </div>
+<!-- Filter Script 
+Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
+-->
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDivMovies");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("filterContainer");
+var btns = btnContainer.getElementsByClassName("navbutton");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
 
 <!-- Main Content End-->

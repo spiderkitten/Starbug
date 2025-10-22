@@ -1,0 +1,96 @@
+[
+    {"category":"list",
+    "title": "5 fav flowers",
+    "image": "",
+    "youtube": "",
+    "quote": "",
+    "list": "<ul><li>Dandelions</li><li>Violets</li><li>Wattle</li><li>Pansy</li><li>Hydrangea</li></ul>"
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "frost.jpg",
+    "youtube": "",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "munch.jpg",
+    "youtube": "",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"youtube",
+    "title": "",
+    "image": "",
+    "youtube": "<iframe width=\"100%\" src=\"https://www.youtube-nocookie.com/embed/Mq_wZE93ZAY?si=tYWfzlHZmkn19c8i\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "caption":"Comedy / Australian / A hilarious tale about buying a bookshelf from the online classifieds",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "mrsmuir1.jpg",
+    "youtube": "",
+    "caption":"\"It's hard to explain. You can be much more alone with other people than you are by yourself.\" ~ Mrs Muir, Ghost and Mrs Muir (movie)",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "squad.jpg",
+    "youtube": "",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"youtube",
+    "title": "",
+    "image": "",
+    "youtube": "<iframe width=\"100%\" src=\"https://www.youtube-nocookie.com/embed/STU9x7OxUy4?si=nFmKcij3k017VJoz\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "caption": "Short Film / Comedy / Confessions, two nuns contemplate how they may die",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "playwithdolls.png",
+    "youtube": "",
+    "caption": "",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "bowties.jpg",
+    "youtube": "",
+    "caption": "",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "poohbear.jpg",
+    "youtube": "",
+    "caption": "",
+    "quote": "",
+    "list": ""
+    },
+    {
+    "category":"image",
+    "title": "",
+    "image": "forgedsword.jpg",
+    "youtube": "",
+    "caption": "",
+    "quote": "",
+    "list": ""
+    }
+]

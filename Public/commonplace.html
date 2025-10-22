@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="pinterest" content="nopin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noimageindex">
+  <meta name="robots" content="noarchive">
+
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/commonplace.css" rel="stylesheet" type="text/css" media="all"> 
+  
+  <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
+
+  <script src="/js/load.js"></script>
+  <script src="/js/"></script>
+
+
+<!-- Theme Switch Code -->
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
+  <title>SPACE CADET | Commonplace Book</title>
+</head>
+
+<body>
+  <page-container>
+  <header>
+    <h1>SPACE CADET</h1>
+    <tag-line>Just a girl floating through space...</tag-line>
+  </header>
+
+
+  
+
+  <nav class="topnav">
+
+    <a href="/index.html" class="navbutton">Home</a> 
+  
+    <div class="dropdown">
+      <button>Stuff</button>
+      <div class="dropdown-content">
+
+        <a href="/shinies.html">Shinies</a>
+        <a href="/cookbook.html">Cookbook</a>
+        <a href="/lexicon.html">Lexicon</a>
+        <a href="/commonplace.html">Commonplace Book</a>
+        <a href="/solottrpg.html">TTRPG Log</a>
+      </div>
+  </div>
+
+<!--<a href="/posts.html" class="navbutton">Articles</a>-->
+
+  <div class="dropdown">
+    <button>Books/Movies/Music</button>
+    <div class="dropdown-content">
+        <a href="/booklog.html">Reading Log</a>
+        <a href="/favmusic.html">Favourite Music</a>
+        <a href="/favtvshows.html">Favourite TV Shows</a>
+        <a href="/favmovies.html">Favourite Movies</a> 
+        <a href="/a24movies.html">A24 Movie Challenge</a>
+
+    </div>
+</div>
+
+  <div class="dropdown">
+    <button>Fandom</button>
+    <div class="dropdown-content">
+      <a href="/fandom/harem.html">Favourite Characters</a>     
+      <a href="/fandom/100x100.html">100x100 User Pics</a>
+      <a href="/fandom/friendsonly.html">Friends Only Banners</a>
+      <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a>
+    </div>
+  </div>
+
+    <div class="dropdown">
+      <button>About</button>
+      <div class="dropdown-content">
+        <a href="/use.html">/Use</a>  
+        <a href="/credits.html">Site Credits</a> 
+        <a href="/changelog.html">Changelog</a>
+        <a href="/sitemap.html">Sitemap</a>
+        <a href="https://neocities.org/site/starbug">Neocities Profile</a>             
+        </div>
+    </div>
+
+  <a href="/links.html" class="navbutton">Links</a> 
+
+      <a href="/guestbook.html" class="navbutton">Guestbook</a>
+
+<div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+  <a href="#" onclick="setTheme('/css/style.css')">Default (Red)</a>
+  <a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a>
+  <a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia</a>
+</div>
+</div>
+
+
+</nav>
+
+
+
+    
+
+  <main>
+<!-- Main Content Start-->
+
+  <div class="textbox">
+<h3>Commonplace Book</h3>
+<p><noscript>This page requires Javascript, sorry.</noscript></p>
+<div class="container">
+<div class="item">
+<h3>Intro</h3>
+<p>This is my Commonplace Book, just a place for me to dump tiny snippets of knowledge, things I want to remember, or just random things I come across that I enjoy. KInda like my own personal pinterest page. Not much here right now! WIP.</p>
+<div id="filterContainer">
+  <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
+  <button class="navbutton" onclick="filterSelection('youtube')">Youtube</button>
+  <button class="navbutton" onclick="filterSelection('list')">Lists</button>
+  <button class="navbutton" onclick="filterSelection('image')">Images</button>
+</div> 
+<p><noscript>This page requires Javascript, sorry.
+</noscript></p>
+</div>
+<!-- ================= --><div class="filterDivCommonplace list"> 
+<p><div class="item"><h3>5 fav flowers</h3><ul><li>Dandelions</li><li>Violets</li><li>Wattle</li><li>Pansy</li><li>Hydrangea</li></ul>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/frost.jpg" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/munch.jpg" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace youtube">
+<div class="item">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/Mq_wZE93ZAY?si=tYWfzlHZmkn19c8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<quote>Comedy / Australian / A hilarious tale about buying a bookshelf from the online classifieds</quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/mrsmuir1.jpg" id="myImg">
+<quote>&quot;It's hard to explain. You can be much more alone with other people than you are by yourself.&quot; ~ Mrs Muir, Ghost and Mrs Muir (movie)</quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/squad.jpg" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace youtube">
+<div class="item">
+<iframe width="100%" src="https://www.youtube-nocookie.com/embed/STU9x7OxUy4?si=nFmKcij3k017VJoz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<quote>Short Film / Comedy / Confessions, two nuns contemplate how they may die</quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/playwithdolls.png" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/bowties.jpg" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/poohbear.jpg" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --><div class="filterDivCommonplace image">
+<div class="item">
+<img class="modal_image" src="images/commplace/forgedsword.jpg" id="myImg">
+<quote></quote>
+</div> <!-- item -->
+</div><!-- filterdiv --></div><!-- container --></p>
+<!-- The Modal 
+code from: https://stackoverflow.com/a/40701429
+-->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a cap
+var img = document.getElementsByClassName('modal_image');
+for(var i=0; i<img.length; i++){
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img[i].addEventListener('click',function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+})
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+</script>
+<!-- Filter Script 
+Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
+-->
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDivCommonplace");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("filterContainer");
+var btns = btnContainer.getElementsByClassName("navbutton");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+<!-- Main Content End-->
+  </main>
+
+<!-- Footer -->
+<footer>
+<div class="footer">
+    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025</div> 
+    <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
+</div>
+</footer>
+
+</page-container>
+</body>
+</html> 

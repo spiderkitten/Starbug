@@ -3,18 +3,16 @@ p {
   padding: 10px;
 }
 
-.albumgallery {
+.recordgallery {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
 }
 
-.album {
+.record{
     font-size: 12px;
     background-color: var(--pallette5);
-    width: 20%;
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
     border-style: none none solid none;
@@ -23,14 +21,14 @@ p {
     box-sizing: border-box;
 }
 
-.album img {
+.record img {
     width: 100%;
     height: auto;
     border-radius: 15px 15px 15px 15px;
     filter: opacity(80%) saturate(50%)  sepia(10%) ;
 }
 
-.albumtxt {
+.recordtxt {
     box-sizing: border-box;
     padding: 5px;
     text-align: center;
@@ -64,14 +62,20 @@ text-transform: uppercase;
 }
 
 
-
+.filterDivMusic {
+  display: none;
+  width:20%;
+}
 
 
 
 @media screen and (max-width: 800px) {
-    .album { width: 40%; font-size: 15px; }
+    .filterDivMusic { width: 45%; font-size: 15px; }
     }
     
-    @media screen and (max-width: 600px) {
-        .album { width: 75%; font-size: 15px; }
-        }
+@media screen and (max-width: 600px) {
+    .filterDivMusic { width: 75%; font-size: 15px; }
+    }
+
+
+

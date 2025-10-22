@@ -1,0 +1,92 @@
+
+
+  /* ============= FAV TVSHOWS PAGE ========== */ 
+
+    p {
+    margin: 0px;
+    padding-top: 20px;
+    }
+
+    p span {
+    display: block;
+    }
+
+    .title{
+    font-weight: bold;
+    }
+
+    .artist {
+    text-transform: uppercase;
+    }
+
+    .year {
+    letter-spacing: 2px;
+    }
+
+    .year::before{
+    content: "=";
+    }
+    .year::after{
+    content: "=";
+    }
+
+    .tvshowgallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+.tvshow {
+    font-size: 12px;
+    background-color: var(--pallette5);
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: var(--pallette7);
+    box-sizing: border-box;
+}
+
+
+.tvshow img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+    filter: opacity(80%) saturate(50%)  sepia(10%) ;
+}
+
+    .tvshowtxt {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: var(--pallette3);
+    padding-bottom: 0px;
+    }
+
+    .icons {
+    max-width: 25px;
+    height: auto;
+    cursor:pointer;
+    padding-top: 5px;
+    }
+
+    heart {
+    color:red;
+    }
+
+    .filterDivTVshows {
+    display: none;
+    width:20%;
+    }
+
+
+@media screen and (max-width: 800px) {
+    .filterDivTVshows { width: 40%; font-size: 15px; }
+    }
+    
+@media screen and (max-width: 600px) {
+    .filterDivTVshows { width: 75%; font-size: 15px; }
+    }
+
+

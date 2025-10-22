@@ -1,7 +1,14 @@
-<div class="album">
+
+
+<div class="filterDivMusic {{ favmusic.category }} {{ favmusic.country }} {{ favmusic.favourite }} {{ favmusic.album}}"> 
+
+<div class="record">
+{%- if favmusic.album == "album" %} 
+<div style="text-align: center;">ALBUM</div> 
+{%- endif%} 
 <img src="/images/music/{{- favmusic.cover }}">
 
-<div class="albumtxt">
+<div class="recordtxt">
       <div class="title">{{- favmusic.title }}</div>
       <div class="artist">{{- favmusic.artist }}</div>
       <div class="year">{{- favmusic.year }}</div>
@@ -15,6 +22,7 @@
           {%- if favmusic.spotify != "" %} 
           <a href="{{ favmusic.spotify }}" target="_blank"><img src="/images/siteimgs/spotify.png" class="icons" title="Listen on Spotify"></a> 
           {%- endif %} 
-</div> 
-    </div><!--albumtxt-->
-  </div><!--album-->
+</div>
+    </div><!--recordtxt-->
+  </div><!--record-->
+</div><!-- filterdiv-->

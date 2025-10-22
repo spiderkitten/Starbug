@@ -31,11 +31,11 @@ In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair
              <p>Movies are divided into years but are otherwise <i>mostly</i> in release order (reverse). This list does not include documentaries unless I really wanted to see them. The list also does not include any movie post 2025 for now. </p>
 
 <div style="display: table; margin:auto;">
-             <ul>
-             <li><strong>&#10003;</strong> Movies I have seen</li>
-             <li><strong>&#9733;</strong> Movies I really liked</li>
-             <li><strong>✗</strong> Movies I disliked</li>
-             </ul>
+           
+            <li><strong>&#10003;</strong> Movies I have seen</li>
+            <li><strong>&#9733;</strong> Movies I really liked</li>
+            <li><strong>✗</strong> Movies I disliked</li>
+            
 </div>
 
 <p><strong>5 Most recently seen:</strong> Aftersun, A Different Man, The Exception, Eddington, Obvious Child</p>
