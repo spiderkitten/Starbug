@@ -1,0 +1,70 @@
+/* ==============================
+CSS by Starbug  
+https://starbug.neocities.org  
+
+Style Name: Blue Picnic Dyslexia
+
+ ============================== */
+@import url('bluestyle.css'); 
+
+:root {
+    --fonttitle: opendyslexic;
+    --titletextshadow: 4px 4px 4px #000000;
+    --fonttagline: opendyslexic;
+    --fontsizetagline:14px;
+    --fontmain: 'opendyslexic';
+    --fontsizemain:14px;
+    --fontheadings: opendyslexic;
+    --fontstrong: opendyslexic-bold;
+
+    --headerh1fontsize: 40px;
+    --h1fontsize: 32px;
+    --h2fontsize: 20px;
+    --h3fontsize: 18px;
+    --h4fontsize: 16px;
+}
+
+
+
+    @font-face{
+        font-family: opendyslexic;
+        src: url(../fonts/OpenDyslexic-Regular.otf);
+        }
+
+    @font-face{
+        font-family: opendyslexic-italic;
+        src: url(../fonts/OpenDyslexic-Italic.otf);
+        }        
+
+    @font-face{
+        font-family: opendyslexic-bold;
+        src: url(../fonts/OpenDyslexic-Bold.otf);
+        }  
+
+    @font-face{
+        font-family: opendyslexic-bolditalic;
+        src: url(../fonts/OpenDyslexic-Bold-Italic.otf);
+        }  
+
+    strong {
+        font-weight: bold;
+        font-family: var(--fontstrong)
+    }
+
+    h1{
+        font-size: var(--h1fontsize);
+        color: var(--pallette1);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    header h1 {
+        color: var(--pallette8);
+        font-family:var(--fonttitle);
+        text-shadow: var(--titletextshadow);
+        text-align: center;
+        font-size: var(--headerh1fontsize);
+        letter-spacing: 5px;
+        margin: 0;
+        text-transform: uppercase;
+    }
