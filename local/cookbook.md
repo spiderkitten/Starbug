@@ -12,7 +12,7 @@ Also, most of them are pretty mild and maybe a bit bland. Even the spicy ones. I
 
 <hr class="dashed">
 
-Note: Work in Progress - also, some images are missing until I take photos
+Note: Work in Progress
 
 <hr class="dashed">
 

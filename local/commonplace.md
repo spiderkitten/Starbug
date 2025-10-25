@@ -21,7 +21,12 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
   <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
   <button class="navbutton" onclick="filterSelection('youtube')">Youtube</button>
   <button class="navbutton" onclick="filterSelection('list')">Lists</button>
-  <button class="navbutton" onclick="filterSelection('image')">Images</button>
+  <button class="navbutton" onclick="filterSelection('imagequote')">Image Quotes</button>
+  <button class="navbutton" onclick="filterSelection('quotes')">Quotes</button>
+  <button class="navbutton" onclick="filterSelection('fandom')">Fandom</button>
+  <button class="navbutton" onclick="filterSelection('nefarious')">Nefarious</button>
+  <button class="navbutton" onclick="filterSelection('nerdy')">Nerdy</button>
+  <button class="navbutton" onclick="filterSelection('misc')">Misc</button></button>
 </div> 
 
 <noscript>This page requires Javascript, sorry. 

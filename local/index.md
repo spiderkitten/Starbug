@@ -20,7 +20,7 @@ script: randomquote.js
 </div>
 
 <div id="images">
-<img src="images/siteimgs/divider2b.gif"><img src="images/siteimgs/divider2b.gif" id="heartdivider2">
+<img src="images/siteimgs/divider2b.gif" alt=""><img src="images/siteimgs/divider2b.gif" alt="" id="heartdivider2">
 </div>
 
  
@@ -77,7 +77,7 @@ script: randomquote.js
 <h3>Link Me</h3>
 <div class="linkme">
 <p>Want to link to me? Here's a button:</p>
-   <img src="images/siteimgs/starbug88x31button.png" alt="small pink rectangular image with a yellow star and the word Starbug in white">
+   <img src="images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site">
  <p>please upload the button to your own webspace!</p>
 </div>
 </div>

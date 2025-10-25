@@ -1,8 +1,8 @@
 
-<div class="filterDivBooks {{ books.readdate }} {{ books.novella }} {{ books.genre1 }} {{ books.genre2 }} {{ books.genre3 }} {{ books.genre4 }} {{ books.genre5 }} {{ books.genre6 }} {{ books.cozy }} {{ books.rating }}"> 
+<div class="filterDivBooks {{ books.readdate }} {{ books.novella }} {{ books.genre1 }} {{ books.genre2 }} {{ books.genre3 }} {{ books.genre4 }} {{ books.genre5 }} {{ books.genre6 }} {{ books.cozy }} {{ books.rating }} {{ books.shortstories }}"> 
 
 <div class="book">
-        <img src="/images/books/covers/{{- books.cover }}">
+        <img src="/images/books/covers/{{- books.cover }}" alt="{{ books.title }} by {{ books.author }}" title="{{ books.title }} by {{ books.author }}">
 
 <div class="booktxt"> 
 
@@ -12,20 +12,20 @@
         <div class="series">{{- books.series -}}&nbsp;#{{- books.seriesnumber -}}</div>
         {%- endif -%} 
 </div>
- <div>
+<!--<div>
         {%- if books.rating != "" %} 
         <div class="rating"><img src="/images/books/ratings/{{ books.rating }}star.gif"></div>
         {%- endif %} 
-</div> 
+</div> -->
 
 <div>
         {%- if books.goodreads != "" %} 
-        <a href="{{- books.goodreads }}" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads"></a> 
+        <a href="{{- books.goodreads }}" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a> 
         {%- endif %} 
 
         {%- if books.storygraph != "" -%} 
         <a href="{{- books.storygraph }}" target="_blank">
-        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph"></a>
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a>
         {%- endif -%} 
 </div>
 

@@ -7,18 +7,20 @@
     "list": "<ul><li>Dandelions</li><li>Violets</li><li>Wattle</li><li>Pansy</li><li>Hydrangea</li></ul>"
     },
     {
-    "category":"image",
+    "category":"imagequote",
     "title": "",
     "image": "frost.jpg",
     "youtube": "",
+    "caption": "Stopping by Woods on a Snowy Evening by Robert Frost (1874-1963)",
     "quote": "",
     "list": ""
     },
     {
-    "category":"image",
+    "category":"imagequote",
     "title": "",
     "image": "munch.jpg",
     "youtube": "",
+    "caption": "Edvard Munch",
     "quote": "",
     "list": ""
     },
@@ -32,7 +34,7 @@
     "list": ""
     },
     {
-    "category":"image",
+    "category":"imagequote",
     "title": "",
     "image": "mrsmuir1.jpg",
     "youtube": "",
@@ -41,7 +43,7 @@
     "list": ""
     },
     {
-    "category":"image",
+    "category":"misc",
     "title": "",
     "image": "squad.jpg",
     "youtube": "",
@@ -58,7 +60,7 @@
     "list": ""
     },
     {
-    "category":"image",
+    "category":"nefarious",
     "title": "",
     "image": "playwithdolls.png",
     "youtube": "",
@@ -67,7 +69,7 @@
     "list": ""
     },
     {
-    "category":"image",
+    "category":"fandom",
     "title": "",
     "image": "bowties.jpg",
     "youtube": "",
@@ -76,7 +78,7 @@
     "list": ""
     },
     {
-    "category":"image",
+    "category":"nefarious",
     "title": "",
     "image": "poohbear.jpg",
     "youtube": "",
@@ -85,7 +87,7 @@
     "list": ""
     },
     {
-    "category":"image",
+    "category":"nerdy",
     "title": "",
     "image": "forgedsword.jpg",
     "youtube": "",

@@ -10,7 +10,7 @@ cssFile: "books.css"
 
 ### Reading Log
 
-A log of things I have read. So far going back to 2021, but I have records going back to 2010, so will be adding those over time. 
+A log of things I have read. So far going back to 2020, but I have records going back to 2010, so will be adding those over time. 
 
 The keyword filters are a work in progress and subject to change. 
 
@@ -21,13 +21,16 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('2023')">2023</button>
   <button class="navbutton" onclick="filterSelection('2022')">2022</button>
   <button class="navbutton" onclick="filterSelection('2021')">2021</button>
+  <button class="navbutton" onclick="filterSelection('2020')">2020</button>
 
-  <button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button>
+<!--<button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button>
   <button class="navbutton" onclick="filterSelection('four')"><img src="/images/books/ratings/fourstar.gif"></button>
   <button class="navbutton" onclick="filterSelection('three')"><img src="/images/books/ratings/threestar.gif"></button>
   <button class="navbutton" onclick="filterSelection('two')"><img src="/images/books/ratings/twostar.gif"></button>
-  <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>
+  <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>-->
 
+<details> 
+<summary>Click for Genres and Tags</summary>
   <button class="navbutton" onclick="filterSelection('horror')">Horror</button>
   <button class="navbutton" onclick="filterSelection('scifi')">Sci-Fi</button>
   <button class="navbutton" onclick="filterSelection('mystery')">Mystery</button>
@@ -35,22 +38,26 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('humour')">Humour</button>
   <button class="navbutton" onclick="filterSelection('LGBTQ')">LGBTQ</button>
   <button class="navbutton" onclick="filterSelection('novella')">Novella</button>
-  <button class="navbutton" onclick="filterSelection('cozy')">Cozy</button>
+  <button class="navbutton" onclick="filterSelection('short stories')">Short Stories</button>
   <button class="navbutton" onclick="filterSelection('comic')">Comic</button>
-  <button class="navbutton" onclick="filterSelection('slasher')">Slasher</button>
-  <button class="navbutton" onclick="filterSelection('found family')">Found Family</button>
-  <button class="navbutton" onclick="filterSelection('theme park')">Theme Parks</button>
   <button class="navbutton" onclick="filterSelection('adventure')">Adventure</button>
   <button class="navbutton" onclick="filterSelection('historical')">Historical</button>
  <button class="navbutton" onclick="filterSelection('thriller')">Thriller</button>
+
+  <button class="navbutton" onclick="filterSelection('cozy')">Cozy</button>
+  <button class="navbutton" onclick="filterSelection('slasher')">Slasher</button>
+  <button class="navbutton" onclick="filterSelection('found family')">Found Family</button>
+  <button class="navbutton" onclick="filterSelection('theme park')">Theme Parks</button>
   <button class="navbutton" onclick="filterSelection('space')">Space</button>
   <button class="navbutton" onclick="filterSelection('oldies')">Oldies</button>
   <button class="navbutton" onclick="filterSelection('books about books')">Books about Books</button>
   <button class="navbutton" onclick="filterSelection('summer camp')">Summer Camp</button>
   <button class="navbutton" onclick="filterSelection('underwater')">Underwater</button>
+</summary>
+</details>
 
-<!-- ai, heist,  dinosaurs, non-fiction, medical, graphic novel, japanese, hopepunk,  military, mythology, dragons, graphic novel, magical realism, urban fantasy, boarding school, tea and coffee, baking, survival, short stories, indigenous, cult, dystopian, animals, urban fantasy, witches,   
-
+<!-- 
+ai, heist,  dinosaurs, non-fiction, medical, graphic novel, japanese, hopepunk,  military, mythology, dragons, graphic novel, magical realism, urban fantasy, boarding school, tea and coffee, baking, survival, short stories, indigenous, cult, dystopian, animals, urban fantasy, witches, fairies, magic, urban fantasy, alternative history, western, TOR,    
   <button class="navbutton" onclick="filterSelection('classic')">Classic</button>
   <button class="navbutton" onclick="filterSelection('solarpunk')">Solarpunk</button>
   <button class="navbutton" onclick="filterSelection('apocalypse')">Apocalypse</button>
@@ -59,9 +66,8 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('ikea')">Ikea</button>
   <button class="navbutton" onclick="filterSelection('clowns')">Clowns</button>
   <button class="navbutton" onclick="filterSelection('female detective')">Female Detective</button>
-  <button class="navbutton" onclick="filterSelection('spooky')">Spooky</button>
+  <button class="navbutton" onclick="filterSelection('spooky')">Spooky</button> 
 -->
-
 </div>
 </div>
 <div class="textbox">
@@ -72,11 +78,9 @@ The keyword filters are a work in progress and subject to change.
     {%- endfor -%}
 </div>
 </div>
-<noscript>This page requires Javascript, sorry. Don't have JS? check the static version of this page starting here:  
-[https://starbug.neocities.org/books/2025reads.html](https://starbug.neocities.org/books/2025reads.html)
-</noscript> 
+<noscript>This page requires Javascript, sorry.</noscript> 
 </div><!-- textbox -->
-
+ 
 <!-- Filter Script 
 Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 -->

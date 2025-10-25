@@ -2,14 +2,14 @@
 
   /* ============= Books PAGE ========== */  
 
-  .indexstrip { /* used on static book pages */
+  /*.indexstrip { 
     background-color: var(--pallette6);
     color: var(--pallette);
     border-radius: 10px;
     padding: 5px;
     margin:auto;
     margin-bottom:20px;
-  }
+  }*/
   
 
   
@@ -48,7 +48,7 @@
     align-items: flex-start;
     width: 100%;
 }
-
+ 
 
 .book {
     font-size: 12px;
@@ -99,6 +99,23 @@ heart {
 .filterDivBooks {
   display: none;
   width:20%;
+}
+
+.filterDivBooks2 {
+  width:20%;
+}
+
+details {
+margin-top: 10px;
+
+
+}
+
+summary{
+    background-color: var(--pallette8);
+    color: var(--pallette4);
+    border-radius: 10px;
+padding: 10px;
 }
 
 @media screen and (max-width: 800px) {

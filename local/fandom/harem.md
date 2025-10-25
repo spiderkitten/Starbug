@@ -4,17 +4,23 @@ layout: layout/base.njk
 cssFile: harem.css
 ---
 
-<h2>Favourite Characters</h2>
-
-
 <div class="textbox">
+
+<h3>Favourite Characters</h3>
+
+Characters I love! Character name / Actor Name / and where they are from. 
+
+ 
 <div class="fcgallery">
 
 {%- for harem in harem %}
 <div class="character">
     <img src="/images/harem/{{- harem.image }}">
-        <div class="charactertxt"><strong>{{- harem.character }}</strong><br>{{- harem.franchise }}</div>
-
+<div class="charactertxt">
+    <div><strong>{{- harem.character }}</strong></div>
+    <div> {{- harem.actor }} </div>
+    <div>{{- harem.franchise }}</div>
+</div>
 </div>
 {%- endfor %}
 
