@@ -18,21 +18,21 @@ This is where you will find all the little collectables I have found around the 
     <small>(requires javacript)</small>
   </div>
 
-<!---
+<!--
 template: <a href=""><img src=""></a>
---->
+-->
 
-<!-- Adoptables-->
+<!--Adoptables-->
 <div class="textbox">
 
 ### Adoptables 
 
-  <a href="https://www.lejlart.com/apple.html"><img src="images/adoptables/lacroixhydrangea.png"></a> <a href="https://turtlewitch.neocities.org/rescues.html"><img src="images/adoptables/fluffsace.png"></a> 
-  <a href="https://blanketfort.neocities.org/adoptables"><img src="images/adoptables/mail bear.png"></a>
-  <a href="https://mooncandy.toys/adopt"><img src="images/adoptables/tina-alien-cat-3.png"></a>
-  <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/nicky.png"></a>
-  <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/pxl_LegendofLuoXiaohei.png"></a>
-  <a href="https://thegardenofmadeline.neocities.org/pages/adopts"><img src="images/adoptables/may12023.png" width="60px"></a>
+  <a href="https://www.lejlart.com/apple.html"><img src="images/adoptables/lacroixhydrangea.png" alt="hydrangea in a bottle" title="Appledust Adoptable - Blue Hydrangea"></a> <a href="https://turtlewitch.neocities.org/rescues.html"><img src="images/adoptables/fluffsace.png" alt="rainbow fluff ball with a smiley face" title="Turtlewitch Adoptable - Rainbow Fluffball"></a> 
+  <a href="https://blanketfort.neocities.org/adoptables"><img src="images/adoptables/mail bear.png" alt="bear dressed as a postman" title="Blanketfort Adoptable - Mail Bear"></a>
+  <a href="https://mooncandy.toys/adopt"><img src="images/adoptables/tina-alien-cat-3.png" alt="alien cat" title="Mooncandy Adoptable - Alien Cat"></a>
+  <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/nicky.png" alt="detective in trenchcoat" title="Newlambda Adoptable - Nicky"></a>
+  <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/pxl_LegendofLuoXiaohei.png" alt="wide eyed cat in a basket" title="Newlambdia Adoptable - Cat"></a>
+  <a href="https://thegardenofmadeline.neocities.org/pages/adopts"><img src="images/adoptables/may12023.png" width="60px" alt="bee carrying a package" title="The Garden of Madeline Adoptable - Bee"></a>
 </div>
 
 <!-- Blinkies -->
@@ -41,20 +41,20 @@ template: <a href=""><img src=""></a>
 
 ### Blinkies 
 
-  <img src="images/blinkies/lando.png"> 
-  <img src="images/blinkies/bats.png"> 
-  <img src="images/blinkies/game.png"> 
-  <img src="images/blinkies/click.png">
-  <a href="https://blinki.es/tv/rocky-and-bullwinkle.html"><img src="images/blinkies/rocky-and-bullwinkle.png"></a>
-  <a href="https://blinki.es/movie/grease-is-the-word.html"><img src="images/blinkies/grease-is-the-word.png"></a>
-  <a href="https://blinki.es/movie/tremors.html"><img src="images/blinkies/tremors.png"></a>
-  <a href="https://shishka.neocities.org/shishka/blinkies"><img src="images/blinkies/blinkie-i-block.png"></a> 
-  <a href="https://web.archive.org/web/20091027123659/http://geocities.com/jrwrfulton/images/gingerbreadluv.gif"><img src="images/blinkies/gingerbreadluv.png"></a> 
-  <a href="https://web.archive.org/web/20091027032116/http://geocities.com/dustydriveway/autumn_2.gif"><img src="images/blinkies/autumn_2.png"></a>
-  <img src="images/blinkies/aishas.png">
-  <img src="images/blinkies/iloveglitter.png"> 
-  <img src="images/blinkies/ilovelighthouses.png"> 
-  <img src="images/blinkies/ilovepizza.png">
+  <img src="images/blinkies/lando.png" alt="law & order blinkie" title="Law & Order"> 
+  <img src="images/blinkies/bats.png"  alt="Bats! Bats! Bats! blinkie" title="Bats! Bats! Bats!"> 
+  <img src="images/blinkies/game.png"  alt="Pacman Blinkie" title="Pacman"> 
+  <img src="images/blinkies/click.png"  alt="I Right Click blinkie" title="I Right Click!">
+  <a href="https://blinki.es/tv/rocky-and-bullwinkle.html"><img src="images/blinkies/rocky-and-bullwinkle.png"  alt="Rocky & Bullwinkle blinkie" title="Rocky and Bullwinkle"></a>
+  <a href="https://blinki.es/movie/grease-is-the-word.html"><img src="images/blinkies/grease-is-the-word.png"  alt="Grease the movie blinkie" title="Grease is the word"></a>
+  <a href="https://blinki.es/movie/tremors.html"><img src="images/blinkies/tremors.png"  alt="Tremors blinkie" title="Tremors"></a>
+  <a href="https://shishka.neocities.org/shishka/blinkies"><img src="images/blinkies/blinkie-i-block.png"  alt="I Block Ads blinkie" title="I Block Ads"></a> 
+  <a href="https://web.archive.org/web/20091027123659/http://geocities.com/jrwrfulton/images/gingerbreadluv.gif"><img src="images/blinkies/gingerbreadluv.png"  alt="I love Gingerbread blinkie" title="I Luv Gingerbread"></a> 
+  <a href="https://web.archive.org/web/20091027032116/http://geocities.com/dustydriveway/autumn_2.gif"><img src="images/blinkies/autumn_2.png"  alt="I Love Autumn blinkie" title="I Heart Autumn"></a>
+  <img src="images/blinkies/aishas.png"  alt="Neopets Aisha blinkie" title="I Heart Aishas">
+  <img src="images/blinkies/iloveglitter.png"  alt="I love glitter blinkie" title="I heart glitter"> 
+  <img src="images/blinkies/ilovelighthouses.png"  alt="I love lighthouses blinkie" title="I heart Lighthouses"> 
+  <img src="images/blinkies/ilovepizza.png"  alt="I love pizza blinkie" title="I Heart Pizza">
 </div>
 
 
@@ -63,15 +63,15 @@ template: <a href=""><img src=""></a>
 
 ### >Buttons 
 
-  <img src="images/buttons/macmade-wht.png"> <img src="images/buttons/myownwebsite.png"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.png" width="88px" height="32"> <img src="images/buttons/neocities_button.png"> <img src="images/buttons/roly-saynotoweb3.png"> <img src="images/buttons/startrek.png"> <a href="https://moonpr1sm.com/random/30plusclub"><img src="images/buttons/30plusclub.png"></a>
+  <img src="images/buttons/macmade-wht.png"  alt="Made With a Mac button" title="Made with a Mac"> <img src="images/buttons/myownwebsite.png"  alt="I Made My OWn Website button" title="I Made My Own Website"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.png" width="88px" height="32"  alt="Produced by a Human not by AI button" title="Produced by a Human not by AI"> <img src="images/buttons/neocities_button.png"  alt="Neocities button" title="Neocities"> <img src="images/buttons/roly-saynotoweb3.png"  alt="Say No to Web3 button" title="Say No to Web3"> <img src="images/buttons/startrek.png"  alt="Boldy Go Star Trek button" title="Boldy Go!"> <a href="https://moonpr1sm.com/random/30plusclub"><img src="images/buttons/30plusclub.png"  alt="30 plus club" title="30+ Club"></a>
 </div>
 
 <!-- Cliques -->
 <div class="textbox">
 
 ### Cliques 
-  <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcspace.png"></a>
-  <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcppm.png"></a>
+  <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcspace.png"  alt="Space clique button" title="Space"></a>
+  <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcppm.png"  alt="Peppermint Clique button" title="Peppermint"></a>
 </div>
 
 <!-- Stamps -->
@@ -79,15 +79,15 @@ template: <a href=""><img src=""></a>
 <div class="textbox">
 
 ### Stamps 
-  <a href="https://www.deviantart.com/wotawota/art/I-Love-Postcards-735447421"><img src="images/stamps/iheartpostcards.png"></a>
-  <a href="https://www.deviantart.com/oceanstamps/art/Amanita-muscaria-stamp-512931703"><img src="images/stamps/amanitamuscaria.png"></a>
-  <a href="https://www.deviantart.com/pai-thagoras/art/I-Love-Cheese-Sandwiches-244180282"><img src="images/stamps/cheesesandwich.png"></a>
-  <a href="https://www.deviantart.com/cfryant/art/Hello-my-name-is-65969527"><img src="images/stamps/hellomynameis.png"></a>
-  <a href="https://www.deviantart.com/sharkfold/art/Studio-Ghibli-Fan-45074936"><img src="images/stamps/ghiblifan.png"></a>
-  <a href="https://www.deviantart.com/loneantarcticwolf/art/I-Love-My-Companion-Cube-69586805"><img src="images/stamps/i_love_my_companion_cube_by_loneantarcticwolf.png"></a> <a href="https://www.deviantart.com/kezzi-rose/art/Marshmallow-Stamp-80164985"><img src="images/stamps/torturemarsh.png"></a> <a href="https://www.deviantart.com/mc2lane-adopts/art/F2U-Tea-Lover-Stamp-671358048"><img src="images/stamps/tea.png"></a> <a href="https://www.deviantart.com/thecandycoating/art/Sparkle-Waterfall-Stamp-636610709"><img src="images/stamps/sparkle_waterfall.png"></a> <a href="https://www.deviantart.com/sideshow-coholic/art/SSC-stamp-282538561"><img src="images/stamps/strawshort.png"></a> <a href="https://www.deviantart.com/clefairykid/art/The-Sims-Loading-196991324"><img src="images/stamps/sims.png"></a> <a href="https://www.deviantart.com/jam-fairy/art/I-Heart-Rainbows-94877007"><img src="images/stamps/i_heart_rainbows_by_jam_fairy.png"></a>
-<a href="https://www.deviantart.com/anime-dragon-tamer/gallery/31309401/stamps"><img src="images/stamps/rainbowgradient.png"></a> <a href="https://www.deviantart.com/demire/art/minimal-FireAlpaca-stamp-390483089"><img src="images/stamps/firealpaca.png"></a> <a href="https://www.deviantart.com/twomakesaparty/art/Scooby-Doo-Stamp-364802673"><img src="images/stamps/scooby.png"></a> <a href="https://www.deviantart.com/sonira-stamps/art/Explaining-Stamp-151139115"><img src="images/stamps/badexplaining.png"></a> <a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/tf2stamp.png"></a> 
-<a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/pyro1.png"></a>
-<a href="https://www.deviantart.com/supasoldier/gallery/7819602/stamps"><img src="images/stamps/tf2red.png"></a> <a href="https://www.deviantart.com/aaestheticc/art/rainbow-01-732813715"><img src="images/stamps/rbow.png"></a> <a href="https://www.deviantart.com/estecka/art/Nyan-Stamp-289447160"><img src="images/stamps/catnyancat.png"></a> <a href="https://www.deviantart.com/bigblueghost/art/Black-Cat-Stamp-568425829"><img src="images/stamps/blackcateyes.png"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/ilovestamps.png"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/portal1.png"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/believe.png"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/horror.png"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/rockmusic.png"></a>
+  <a href="https://www.deviantart.com/wotawota/art/I-Love-Postcards-735447421"><img src="images/stamps/iheartpostcards.png"  alt="I love Postcards Stamp" title="I Heart Postcards"></a>
+  <a href="https://www.deviantart.com/oceanstamps/art/Amanita-muscaria-stamp-512931703"><img src="images/stamps/amanitamuscaria.png"  alt="Amanita Muscaria Mushroom stamp" title="Amanita Muscaria"></a>
+  <a href="https://www.deviantart.com/pai-thagoras/art/I-Love-Cheese-Sandwiches-244180282"><img src="images/stamps/cheesesandwich.png"  alt="I love Cheese Sandwiches stamp" title="I Heart Chese Sandwiches"></a>
+  <a href="https://www.deviantart.com/cfryant/art/Hello-my-name-is-65969527"><img src="images/stamps/hellomynameis.png"  alt="Hello My Name is Inigo Montoya. You Killed My Father. Prepare to Die. stamp" title="Hello. My Name is Inigo Montoya."></a>
+  <a href="https://www.deviantart.com/sharkfold/art/Studio-Ghibli-Fan-45074936"><img src="images/stamps/ghiblifan.png"  alt="Fan of Studio Ghibli stamp" title="Fan of Studio Ghibli"></a>
+  <a href="https://www.deviantart.com/loneantarcticwolf/art/I-Love-My-Companion-Cube-69586805"><img src="images/stamps/i_love_my_companion_cube_by_loneantarcticwolf.png"  alt="I love my weighted companion cube stamp" title="I love my weighted companion cube"></a> <a href="https://www.deviantart.com/kezzi-rose/art/Marshmallow-Stamp-80164985"><img src="images/stamps/torturemarsh.png"  alt="I torture helpless marchmallows stamp" title="I torture helpless marshmallows!"></a> <a href="https://www.deviantart.com/mc2lane-adopts/art/F2U-Tea-Lover-Stamp-671358048"><img src="images/stamps/tea.png"  alt="Tea Lover stamp" title="Tea Lover"></a> <a href="https://www.deviantart.com/thecandycoating/art/Sparkle-Waterfall-Stamp-636610709"><img src="images/stamps/sparkle_waterfall.png"  alt="star glitter stamp" title="Glitter"></a> <a href="https://www.deviantart.com/sideshow-coholic/art/SSC-stamp-282538561"><img src="images/stamps/strawshort.png"  alt="Strawberry Shortcake character stamp" title="Strawberry Shortcake"></a> <a href="https://www.deviantart.com/clefairykid/art/The-Sims-Loading-196991324"><img src="images/stamps/sims.png"  alt="The Sims reticulating splines stamp" title="Reticulating Splines"></a> <a href="https://www.deviantart.com/jam-fairy/art/I-Heart-Rainbows-94877007"><img src="images/stamps/i_heart_rainbows_by_jam_fairy.png"  alt="I love rainbows stamp" title="I heart Rainbows"></a>
+<a href="https://www.deviantart.com/anime-dragon-tamer/gallery/31309401/stamps"><img src="images/stamps/rainbowgradient.png"  alt="Rainbow gradients are awesome stamp" title="Rainbow Gradients are Awesome!"></a> <a href="https://www.deviantart.com/demire/art/minimal-FireAlpaca-stamp-390483089"><img src="images/stamps/firealpaca.png"  alt="Fire Alpaca paint program stamp" title="Fire Alpaca"></a> <a href="https://www.deviantart.com/twomakesaparty/art/Scooby-Doo-Stamp-364802673"><img src="images/stamps/scooby.png"  alt="Scooby Doo Where are You stamp" title="Scooby Doo Where Are You?"></a> <a href="https://www.deviantart.com/sonira-stamps/art/Explaining-Stamp-151139115"><img src="images/stamps/badexplaining.png"  alt="I'm bad at explaining things stamp" title="I'm bad at explaining things"></a> <a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/tf2stamp.png"  alt="Team Fortress 2 stamp" title="Team Fortress 2"></a> 
+<a href="https://www.deviantart.com/stamps-by-mephie"><img src="images/stamps/pyro1.png"  alt="Team Fortress 2 Pyro stamp" title="Mmmmph Mmmmph Mmmmph"></a>
+<a href="https://www.deviantart.com/supasoldier/gallery/7819602/stamps"><img src="images/stamps/tf2red.png"  alt="Team Fortress 2 Red Team stamp" title="Team Red"></a> <a href="https://www.deviantart.com/aaestheticc/art/rainbow-01-732813715"><img src="images/stamps/rbow.png"  alt="Rainbow Heart stamp" title="Rainbow Heart"></a> <a href="https://www.deviantart.com/estecka/art/Nyan-Stamp-289447160"><img src="images/stamps/catnyancat.png"  alt="Nyan Cat stamp" title="Nyan Cat"></a> <a href="https://www.deviantart.com/bigblueghost/art/Black-Cat-Stamp-568425829"><img src="images/stamps/blackcateyes.png"  alt="Black Cat Green Eyes stamp" title="Black Cat Green Eyes"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/ilovestamps.png"  alt="I love Stamps stamp" title="I heart Stamps"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/portal1.png"  alt="Portal Stamp" title="Portal"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/believe.png"  alt="I Want to Believe X-Files poster Stamp" title="I Want to Believe"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/horror.png"  alt="Horror Fan Stamp" title="Horror Fan"></a> <a href="https://pixelsafari.neocities.org/stamps/"><img src="images/stamps/rockmusic.png"  alt="I love Rock Music stamp" title="I heart Rock Music"></a>
 
 </div>
 </div><!-- closing tag for freeze div -->
@@ -96,22 +96,22 @@ template: <a href=""><img src=""></a>
 <div class="textbox">
 
 ### Fanlists 
-  <a href="http://rhythm-emotion.net/bumblebees/index.php"><img src="images/fanlists/bumble50501.png" title="Bumblebee Fan"></a>
-  <a href="https://kelli.altervista.org/bees/index.php"><img src="images/fanlists/bees42a7f0.png" Title="Beeeeees! Fan"></a>
-  <a href="http://contradiction.altervista.org/cheesecake/index.php"><img src="images/fanlists/cheesecake.png"></a> 
-  <a href="http://fanderful.altervista.org/pineapple/index.php"><img src="images/fanlists/pineapple.png"></a> 
-  <a href="https://fans.thislove.nu/html/"><img src="images/fanlists/html50x50_002.png" title="HTML Fan"></a>
-  <a href="https://fan.enamour.nu/web/"><img src="images/fanlists/webdesign.png"></a>
-  <a href="https://10-31.net/fans/rhps/index.php"><img src="images/fanlists/rhps100x50_1.png"></a>
-  <a href="https://theatregirl.net/grease"><img src="images/fanlists/grease50x50.png"></a>
-  <a href="https://10-31.net/megan/grease2/index.php"><img src="images/fanlists/grease2.png"></a>
-  <a href="http://silent.am/wickerman/index.php"><img src="images/fanlists/wickerman73.png"></a>
-  <a href="https://moudoku.com/stargate/index.php"><img src="images/fanlists/sg50x50x01.png"></a>
-  <a href="https://www.purifiedfiction.com/repothegeneticopera/"><img src="images/fanlists/repo100x50-3.gif"></a>
+  <a href="http://rhythm-emotion.net/bumblebees/index.php"><img src="images/fanlists/bumble50501.png" alt="Bumblebee fanlist icon" title="Bumblebee Fan"></a>
+  <a href="https://kelli.altervista.org/bees/index.php"><img src="images/fanlists/bees42a7f0.png" alt="Bees fanlist icon" Title="Beeeeees! Fan"></a>
+  <a href="http://contradiction.altervista.org/cheesecake/index.php"><img src="images/fanlists/cheesecake.png"  alt="cheesecake fanlist icon" title="Cheesecake"></a> 
+  <a href="http://fanderful.altervista.org/pineapple/index.php"><img src="images/fanlists/pineapple.png"  alt="Pineapple fanlist icon" title="Pineapple"></a> 
+  <a href="https://fans.thislove.nu/html/"><img src="images/fanlists/html50x50_002.png" alt="html fanlist icon" title="HTML Fan"></a>
+  <a href="https://fan.enamour.nu/web/"><img src="images/fanlists/webdesign.png"  alt="web design fanlist icon" title="Web Design"></a>
+  <a href="https://10-31.net/fans/rhps/index.php"><img src="images/fanlists/rhps100x50_1.png"  alt="Rocky Horror Picture Show fanlist icon" title="Rocky Horror"></a>
+  <a href="https://theatregirl.net/grease"><img src="images/fanlists/grease50x50.png"  alt="Grease fanlist icon" title="Grease"></a>
+  <a href="https://10-31.net/megan/grease2/index.php"><img src="images/fanlists/grease2.png"  alt="Grease 2 fanlisting icon" title="Grease 2"></a>
+  <a href="http://silent.am/wickerman/index.php"><img src="images/fanlists/wickerman73.png"  alt="Wickerman fanlisting icon" title="The Wickerman"></a>
+  <a href="https://moudoku.com/stargate/index.php"><img src="images/fanlists/sg50x50x01.png"  alt="Stargate Fanlisting icon" title="Stargate Daniel Jackson"></a>
+  <a href="https://www.purifiedfiction.com/repothegeneticopera/"><img src="images/fanlists/repo100x50-3.gif"  alt="repo the genetic opera fanlist icon" title="repo the genetic opera"></a>
 
-  <a href="http://into-a-dream.com.ar/wwstv/"><img src="images/fanlists/wwdits200x40_06.png"></a>
+  <a href="http://into-a-dream.com.ar/wwstv/"><img src="images/fanlists/wwdits200x40_06.png"  alt="What we do in the shadows fanlist icon" title="What We Do in the Shadows"></a>
 
-  <a href="https://theatregirl.net/cats/index.php"><img src="images/fanlists/cats31x88-1.gif" title="Cats Fan"></a>
+  <a href="https://theatregirl.net/cats/index.php"><img src="images/fanlists/cats31x88-1.gif" alt="cat fanlisting icon" title="Cats Fan"></a>
 </div>
 
 <div class="textbox">
