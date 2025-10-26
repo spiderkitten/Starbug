@@ -26,12 +26,12 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
   <button class="navbutton" onclick="filterSelection('fandom')">Fandom</button>
   <button class="navbutton" onclick="filterSelection('nefarious')">Nefarious</button>
   <button class="navbutton" onclick="filterSelection('nerdy')">Nerdy</button>
-  <button class="navbutton" onclick="filterSelection('misc')">Misc</button></button>
+  <button class="navbutton" onclick="filterSelection('misc')">Misc</button> 
 </div> 
 
 <noscript>This page requires Javascript, sorry. 
 </noscript> 
-</div>
+</div><!-- item -->
 
 <!-- ================= -->
 
@@ -47,7 +47,7 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
         {{- commonplace.list -}}
         {%- endif -%} 
         {%- if commonplace.image != "" %} 
-        <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg"> 
+        <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}"> 
         <quote>{{ commonplace.caption }}</quote>
         {%- endif %} 
 
@@ -55,7 +55,7 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
         <quote>{{ commonplace.quote }}</quote>
         {%- endif %} 
     </div> <!-- item -->
-     </div><!-- filterdiv -->
+  </div><!-- filterdiv -->
 {%- endfor -%}
 </div><!-- container -->
 
@@ -144,3 +144,5 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+
+</div> <!-- text box -->
