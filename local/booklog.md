@@ -4,8 +4,6 @@ layout: layout/base.njk
 cssFile: "books.css"
 ---
 
-
-
 <div class="textbox">
 
 ### Reading Log
