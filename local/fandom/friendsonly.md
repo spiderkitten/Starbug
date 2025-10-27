@@ -87,8 +87,8 @@ You are free to use these anywhere, with the following caveat:
     </details>
 <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
     </div>
-<!-- Template
 
+<!-- Template
   <div class="textbox">
     <h3 id=""></h3>
     <p></p>
@@ -98,4 +98,4 @@ You are free to use these anywhere, with the following caveat:
     </details>
     <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
     </div>
-</div>
+</div>-->
