@@ -32,7 +32,7 @@
     "category":"youtube",
     "title": "",
     "image": "",
-    "youtube": "<iframe style=\"width:100%; border: none;\" src=\"https://www.youtube-nocookie.com/embed/Mq_wZE93ZAY?si=tYWfzlHZmkn19c8i\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "youtube": "<iframe style=\"width:100%; border: none;\" src=\"https://www.youtube-nocookie.com/embed/Mq_wZE93ZAY?si=tYWfzlHZmkn19c8i\" title=\"YouTube video player\"  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "caption":"Comedy / Australian / A hilarious tale about buying a bookshelf from the online classifieds",
     "quote": "",
     "list": ""
@@ -62,7 +62,7 @@
     "category":"youtube",
     "title": "",
     "image": "",
-    "youtube": "<iframe style=\"width:100%; border: none;\" src=\"https://www.youtube-nocookie.com/embed/STU9x7OxUy4?si=nFmKcij3k017VJoz\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "youtube": "<iframe style=\"width:100%; border: none;\" src=\"https://www.youtube-nocookie.com/embed/STU9x7OxUy4?si=nFmKcij3k017VJoz\" title=\"YouTube video player\"  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
     "caption": "Short Film / Comedy / Confessions, two nuns contemplate how they may die",
     "quote": "",
     "list": ""

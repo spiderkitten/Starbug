@@ -29,32 +29,29 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
   <button class="navbutton" onclick="filterSelection('misc')">Misc</button> 
 </div> 
 
-<noscript>This page requires Javascript, sorry. 
-</noscript> 
+<noscript>This page requires Javascript, sorry.</noscript> 
 </div><!-- item -->
-
-<!-- ================= -->
 
 {%- for commonplace in commonplace -%}
  <div class="filterDivCommonplace {{ commonplace.category }}"> 
     <div class="item">
-        {%- if commonplace.youtube != "" %}
-        {{ commonplace.youtube }}
-        <quote>{{ commonplace.caption}}</quote>
-        {%- endif %}
-        {%- if commonplace.list != "" -%}
-        <h3>{{ commonplace.title }}</h3>
-        {{- commonplace.list -}}
-        {%- endif -%} 
-        {%- if commonplace.image != "" %} 
-        <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}"> 
-        <quote>{{ commonplace.caption }}</quote>
-        {%- endif %} 
+      {%- if commonplace.youtube != "" %}
+      {{ commonplace.youtube }}
+      <quote>{{ commonplace.caption}}</quote>
+      {%- endif %}
+      {%- if commonplace.list != "" -%}
+      <h3>{{ commonplace.title }}</h3>
+      {{- commonplace.list -}}
+      {%- endif -%} 
+      {%- if commonplace.image != "" %} 
+      <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}"> 
+      <quote>{{ commonplace.caption }}</quote>
+      {%- endif %} 
 
-        {%- if commonplace.quote != "" %} 
-        <quote>{{ commonplace.quote }}</quote>
-        {%- endif %} 
-    </div> <!-- item -->
+      {%- if commonplace.quote != "" %} 
+      <quote>{{ commonplace.quote }}</quote>
+      {%- endif %} 
+    </div>
   </div><!-- filterdiv -->
 {%- endfor -%}
 </div><!-- container -->
@@ -65,7 +62,7 @@ code from: https://stackoverflow.com/a/40701429
 -->
 <div id="myModal" class="modal">
   <span class="close">×</span>
-  <img class="modal-content" id="img01">
+  <img class="modal-content" id="img01" alt="">
   <div id="caption"></div>
 </div>
 
