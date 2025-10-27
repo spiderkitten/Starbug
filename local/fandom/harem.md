@@ -15,7 +15,7 @@ Characters I love! Character name / Actor Name / and where they are from.
 
 {%- for harem in harem %}
 <div class="character">
-    <img src="/images/harem/{{- harem.image }}">
+    <img src="/images/harem/{{- harem.image }}" alt="image of {{ harem.character}}">
 <div class="charactertxt">
     <div><strong>{{- harem.character }}</strong></div>
     <div> {{- harem.actor }} </div>
@@ -26,4 +26,4 @@ Characters I love! Character name / Actor Name / and where they are from.
 
 </div>
  
-
+</div>

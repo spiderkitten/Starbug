@@ -7,8 +7,7 @@ cssFile: movies.css
 
 <div class="textbox">
 <h3>A24 Movies</h3>
-<div style="float: left; width: 200px; margin: 5px; margin-right:15px;"><img src="/images/movies/a24.png" style="width: 200px; ">
-<figcaption>A24 Logo</figcaption></div>
+<div style="float: left; width: 200px; margin: 5px; margin-right:15px;"><img src="/images/movies/a24.png" alt="A24 logo" style="width: 200px; "></div>
 
  <p>When most people think of A24 they think of their horror lineup. Midsommar, Hereditary, etc. They may even think of some of their bigger films like Everything Everywhere All At Once, Moonlight, and the upcoming (at time of writing) Civil War (2024). But A24 actually have so many more movies under their belt. Some are self produced, others they just distribute. But they all have a unique quality about them that makes them stand out compared to others.</p>
 
@@ -17,7 +16,7 @@ cssFile: movies.css
 
 <div class="textbox">
 <h3>My A24 Challenge</h3>
-<div style="float: right; width: 180px; margin: 5px; margin-right:15px;"><img src="/images/movies/watchingmovies.png" style="width: 180px; "></div>
+<div style="float: right; width: 180px; margin: 5px; margin-right:15px;"><img src="/images/movies/watchingmovies.png" alt="ilustration of woman watching something on her laptop" style="width: 180px; "></div>
  
 In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair few, but I pushed myself to watch any that I could legally access. Even movies I might not have chosen to watch normally. And I had a great time, watched a lot of really good movies (and a handful of ones I didn't like.)   
 
@@ -31,11 +30,11 @@ In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair
              <p>Movies are divided into years but are otherwise <i>mostly</i> in release order (reverse). This list does not include documentaries unless I really wanted to see them. The list also does not include any movie post 2025 for now. </p>
 
 <div style="display: table; margin:auto;">
-           
-            <li><strong>&#10003;</strong> Movies I have seen</li>
-            <li><strong>&#9733;</strong> Movies I really liked</li>
-            <li><strong>✗</strong> Movies I disliked</li>
-            
+<ul>     
+  <li><strong>&#10003;</strong> Movies I have seen</li>
+  <li><strong>&#9733;</strong> Movies I really liked</li>
+  <li><strong>✗</strong> Movies I disliked</li> 
+</ul>       
 </div>
 
 <p><strong>5 Most recently seen:</strong> Aftersun, A Different Man, The Exception, Eddington, Obvious Child</p>
