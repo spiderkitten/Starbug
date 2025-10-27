@@ -80,10 +80,7 @@ layout: layout/base.njk
 
 <ul>
   <li><a href="https://chromewebstore.google.com/detail/water-reminder/kbcogmlnjaoecibenadekhkeelgdpmnb">Water Reminder</a> - configurable alarm to remind me to drink water every X minutes. Useful for other reminders too.</li>
-
-<ul>
 <li><a href="https://chromewebstore.google.com/detail/save-image-as-png/nkokmeaibnajheohncaamjggkanfbphi?hl=en">Save Image As PNG</a> - save an image as a png instead of WebP</li>
-</ul>
 </ul>
 </div>
 
