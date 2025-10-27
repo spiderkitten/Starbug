@@ -50,7 +50,6 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('books about books')">Books about Books</button>
   <button class="navbutton" onclick="filterSelection('summer camp')">Summer Camp</button>
   <button class="navbutton" onclick="filterSelection('underwater')">Underwater</button>
-</summary>
 </details>
 
 <!-- 
@@ -73,7 +72,6 @@ ai, heist,  dinosaurs, non-fiction, medical, graphic novel, japanese, hopepunk, 
     {%- for books in books -%}
         {%- include "partials/books.njk" -%}
     {%- endfor -%}
-</div>
 </div>
 <noscript>This page requires Javascript, sorry.</noscript> 
 </div><!-- textbox -->
