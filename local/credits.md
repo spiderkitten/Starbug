@@ -51,8 +51,8 @@ Everything this site is made with.
  Some fonts may be theme specific, or from previous layouts 
  
 <ul>
-<li>Font: <span style="font-family: cherryswash";>CherrySwash</span> by <a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>   
-<li>Font: <span style="font-family: lato";>Lato</span> from <a href="https://www.fontsquirrel.com/">FontSquirrel</a> </li>
+<li>Font: <span style="font-family: cherryswash;">CherrySwash</span> by <a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>   
+<li>Font: <span style="font-family: lato;">Lato</span> from <a href="https://www.fontsquirrel.com/">FontSquirrel</a> </li>
 </ul> 
 </div>
 

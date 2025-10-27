@@ -23,10 +23,7 @@ Rearranged some pages and cleaned up my css a lot. also added a cook book! Only 
 
 <p><strong>Early July 2025: </strong>
 Added a dyslexic theme. I hope this works, feel free to let me know if its not right. 
-tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. 
-Moved the shinies page under "stuff" in the menu.  
-Added some links to the links page
-</p>
+tidied up my code a little bit. Started making my site a little more accessible. LOTS of work still to go. Moved the shinies page under "stuff" in the menu. Added some links to the links page</p>
 
 <p><strong>June 2025:</strong>
 Updated the links page with some new sites in most categories! check them out! Also joined the TF2 webring. 
@@ -53,10 +50,7 @@ Updated the links page with some new sites in most categories! check them out! A
           <strong>19 August 2024:</strong> New layout! changed the guestbook to atabook, added a page about Vampire Resource Management, fixed a bunch of things.
         </p>
 
-      <p>
-        <strong>24 July 2024:</strong> Finished my A24 (movie stuff) page. Updated the 'What I use (about) page. Updated
-        the links page. Added a Cozy Fantasy/Sci-Fi page (book stuff).
-      </p>
+      <p><strong>24 July 2024:</strong> Finished my A24 (movie stuff) page. Updated the 'What I use (about) page. Updated the links page. Added a Cozy Fantasy/Sci-Fi page (book stuff).</p>
 
       <p>
         <strong>13 June 2024:</strong> Completely redid the site so it looks prettier. Added a gingham background (css)
@@ -73,8 +67,6 @@ Updated the links page with some new sites in most categories! check them out! A
       </p>
       <p>
         <strong>14 May 2024</strong>: So I guess this is a big update because I
-        redid the entire site. IT'S <rainbow-text>BRAND SPANKING NEW, BABY</rainbow-text>. Heck yeah. I'm
-        still working on some pages, so there may some dead links in the menu.
-      </p>
+        redid the entire site. IT'S <rainbow-text>BRAND SPANKING NEW, BABY</rainbow-text>. Heck yeah. I'm still working on some pages, so there may some dead links in the menu.</p>
 </div>
 </div>
