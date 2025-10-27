@@ -5,7 +5,7 @@ cssFile: fandom.css
 ---
 
 <h2>Mood Theme</h2>
-<div class="textboxGreen">
+<div class="textbox">
 <p>Mood Theme I made for use at livejournal, dreamwidth or any other site that supports it.</p>
 
 <h3>Rules for Use</h3>
@@ -29,9 +29,9 @@ cssFile: fandom.css
   <p><a href="https://files.catbox.moe/cu35bs.zip">Download Zip</a></p>
   <details> 
     <summary>Example Moods</summary>
-    <img src="/images/moodtheme/bunnymood.png" width="90%">
+    <img src="/images/moodtheme/bunnymood.png" alt="image with example mood theme" style="width: 90%">
   </details>
  
-  <div align="right"><a href="#directory">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
   </div>
 </div>

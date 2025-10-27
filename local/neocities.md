@@ -32,7 +32,7 @@ If you want to create your own personal site on Neocities these are some resourc
 
 ### Writing Code 
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 -->
 
@@ -46,7 +46,7 @@ If you want to create your own personal site on Neocities these are some resourc
 <div><a href="https://nekoweb.org/">Nekoweb</a></div>
 <div class="description"> Free host similar to Neocities</div>
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
 <div class="textbox" id="neocities">
@@ -62,7 +62,7 @@ If you want to create your own personal site on Neocities these are some resourc
 <div><a href="https://github.com/dawnvoid/neocities-profile-viewer">Neocities Profile Viewer</a></div>
 <div class="description">bookmarklet that makes it easy to find and view people's Neocities Profiles</div>
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
 <div class="textbox" id="tutorials">
@@ -80,7 +80,7 @@ Almost every personal site has links to general places to learn HTML etc so I'm 
 <div><a href="https://solaria.neocities.org/guides/borderimage/">using images as borders tutorial</a></div>
 <div class="description">how to use images for decorative borders using CSS</div>
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
 <div class="textbox" id="templates">
@@ -105,7 +105,7 @@ Some useful templates made by lovely people that are free to use for your site
 
 See below in the 11ty section for templates 
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
 
@@ -113,7 +113,7 @@ See below in the 11ty section for templates
 
 ### Buttons/Stamps etc   
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
       
       
@@ -200,18 +200,15 @@ a unique way to exchange links is by creating and collecting tiny pixel art! Sim
 <div><a href="https://onlywonder.net/pixel-clubs/armoury/">The Armoury</a></div>
 <div class="description">for armour and weaponry - armour template available</div>
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 
 </div>
 
 
 <div class="textbox" id="help">
 <h3>Getting Help</h3>
-
-
       <div><a href="https://32bit.cafe/">32bit Cafe</a></div>
       <div class="description">Resources and community based around the small web. Discourse forum where participants can get help, do challenges and more. Resource page with a lot of good resources for making websites.</div>
-
 <div><a href="https://forum.melonland.net/">Melonland Forum</a></div>
 <div class="description">retro stylf forum for small web, web design and more. Closed on Mondays (for real)</div>
 
@@ -222,7 +219,7 @@ a unique way to exchange links is by creating and collecting tiny pixel art! Sim
 <div class="description">Discord server for the Neocities Subreddit. A lot more active than the subreddit. Link is a discord invite link, it should last forever, but if for some reason it stops working please let me know in my guestbook and I will update it. 
 </div>
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
 
@@ -270,5 +267,5 @@ There is a little bit of a learning curve, as they involve using the Command Lin
 <div><a href="https://github.com/tencurse/ao3-11ty-starter">AO3 11ty Starter</a></div>
 <div class="description">A starter template for a fanfic archive [<a href="https://serendure.neocities.org/">demo</a>]</div> 
 
-<div align="right"><a href="#top">top <i class="arrow up"></i></a></div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
