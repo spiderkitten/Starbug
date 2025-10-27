@@ -8,8 +8,8 @@ script: randomquote.js
 <div class="frontgrid">
 
 <!-- Intro Section -->
-<div id="intro">
  
+<div id="intro">
 <h2>Welcome</h2>
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <span class="upsidedown">Australia</span>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more</p>
@@ -22,9 +22,6 @@ script: randomquote.js
 <div id="images">
 <img src="images/siteimgs/divider2b.gif" alt=""><img src="images/siteimgs/divider2b.gif" alt="" id="heartdivider2">
 </div>
-
- 
-
 
 <!-- Status Box -->
 <div id="status" class="textbox">
@@ -54,8 +51,6 @@ script: randomquote.js
 <img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
 </div>
 
-
-
 </div>
 
 <!-- Quotes -->
@@ -81,7 +76,7 @@ script: randomquote.js
  <p>please upload the button to your own webspace!</p>
 </div>
 </div>
-
+ 
 
 <div id="recentupdates" class="textbox">
 <h3>Recent Updates</h3>
@@ -95,9 +90,11 @@ script: randomquote.js
 </div>
 
 <div id="frontpagebuttons">
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
  <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>--> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 </div>
-
+ 
 
 </div> <!-- end flexbox-->
 
