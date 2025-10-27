@@ -52,12 +52,10 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
       {%- if commonplace.quote != "" %}
       <q>{{ commonplace.quote }}</q>
       {%- endif %}
-    </div>
-  </div><!-- filterdiv -->
+</div>
+</div><!-- filterdiv -->
 {%- endfor -%}
 </div><!-- container -->
-
-
 <!-- The Modal 
 code from: https://stackoverflow.com/a/40701429
 -->
@@ -66,10 +64,6 @@ code from: https://stackoverflow.com/a/40701429
   <img class="modal-content" id="img01" alt="">
   <div id="caption"></div>
 </div>
-
-
-
-
 
 <script>
 // Get the modal
