@@ -15,16 +15,12 @@ layout: layout/base.njk
 <p>All the things I use to make this website!</p>
 
    <ul>
-      <li><a href="http://www.neocities.com">Neocities</a> - where this site is hosted. Its free, although there is a premium option. The uptime is amazing, and its perfectly suitable for a small personal page. Highly recommend!</li>
-
-      <li><a href="https://vscodium.com/">VSCodium</a> - what I use to write my code. Its a binary of Microsoft's VSCode - for all intents and purposes its the same app, just without the tracking/telemetry that Microsoft adds. </li>
-
-      <li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions">Github Actions</a>, <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull Requests</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server">Live Preview</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> - extensions for VS Code. Live preview lets you see your page within VSCode, Live Server serves the page in your browser, and the github ones help with deploying to neocities.</li>
-
-      <li><a href="https://github.com">Github</a> - I deploy my site to Github and then it automatically deploys to neocities</li>
-
-      <li><a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Deploy to Neocities</a> - tutorial on how to deploy to neocities from vscode</li>
-      </ul>
+    <li><a href="http://www.neocities.com">Neocities</a> - where this site is hosted. Its free, although there is a premium option. The uptime is amazing, and its perfectly suitable for a small personal page. Highly recommend!</li>
+    <li><a href="https://vscodium.com/">VSCodium</a> - what I use to write my code. Its a binary of Microsoft's VSCode - for all intents and purposes its the same app, just without the tracking/telemetry that Microsoft adds.</li>
+    <li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions">Github Actions</a>, <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull Requests</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server">Live Preview</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> - extensions for VS Code. Live preview lets you see your page within VSCode, Live Server serves the page in your browser, and the github ones help with deploying to neocities.</li>
+    <li><a href="https://github.com">Github</a> - I deploy my site to Github and then it automatically deploys to neocities</li>
+    <li><a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Deploy to Neocities</a> - tutorial on how to deploy to neocities from vscode</li>
+    </ul>
 </div>
 
 

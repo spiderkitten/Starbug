@@ -19,34 +19,28 @@ This is an index of any Solo TTRPG game journals I have posted to my site. I'm s
 
 #### Complete Solo Journal RPGs
 
-<dl >
- 
+<dl>
 {%- for post in collections.JournalRPG -%}
-<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a></li>
-<dd style="padding-bottom: 20px;">{{ post.data.description}}</li>
+<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a> 
+<dd style="padding-bottom: 20px;">{{ post.data.description}}
 {% endfor %}
 </dl>
 
 #### Complete Solo RPGs
 
-<dl >
+<dl>
 {%- for post in collections.SoloRPG -%}
-<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a></li>
-<dd style="padding-bottom: 20px;">{{ post.data.description}}</li>
+<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a> 
+<dd style="padding-bottom: 20px;">{{ post.data.description}} 
 {% endfor %}
 </dl>
 
 #### In Progress
 
-<dl >
+<dl>
  {%- for post in collections.rpgWIP -%}
-<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a></li>
-<dd style="padding-bottom: 20px;">{{ post.data.description}}</li>
+<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a> 
+<dd style="padding-bottom: 20px;">{{ post.data.description}} 
  {% endfor %}
- 
 </dl>
-
-
-
-
 </div>

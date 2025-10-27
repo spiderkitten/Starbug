@@ -38,7 +38,7 @@ tags:
 #### Mini Fic
 Felix got home from the park and noticed a small white envelope on the doorstep. Closing his umbrella, he shook it out, then carefully checked the envelope for the sender and noticed it was from his best friend Robbie, who was currently away at summer camp. Excitedly he tore open the envelope. Inside was a simple card that read, "You are Invited to attend Family Day at Burrow Summer Camp" Big fat drops of rain landed on the card but Felix barely noticed, he was going to visit his friend! he could hardly wait! 
 
-<div style="text-align: center; margin:15px;"><img src="/images/siteimgs/divider2b.gif"><img src="/images/siteimgs/divider2b.gif" id="heartdivider2"></div>
+<div style="text-align: center; margin:15px;"><img src="/images/siteimgs/divider2b.gif" alt=""><img src="/images/siteimgs/divider2b.gif" id="heartdivider2" alt=""></div>
 
 #### How Many Letters Left in Bag: 
 Two
@@ -58,7 +58,7 @@ Barry closed the door to his garden shed. He'd spent all day working in his gard
 "The gardens here are spectacular! Not as lovely as yours though, Barry. Can't wait to get back and show you all the photos! Love, your sister Bonnie."
 
 
-<div style="text-align: center; margin: 15px;"><img src="/images/siteimgs/divider2b.gif"><img src="/images/siteimgs/divider2b.gif" id="heartdivider2"></div>
+<div style="text-align: center; margin:15px;"><img src="/images/siteimgs/divider2b.gif" alt=""><img src="/images/siteimgs/divider2b.gif" id="heartdivider2" alt=""></div>
 
 #### How Many Letters Left in Bag: 
 One
@@ -84,7 +84,7 @@ I nodded and smiled. Glenda was due any day now, I'm sure the practice was helpf
 
 "Anyway, you should head home before the storm really gets bad!" They waved as they headed back to their pool. I waved back and checked my bag to see who the next person to deliver to was. 
 
-<div style="text-align: center; padding-bottom:5px;"><img src="/images/siteimgs/divider2b.gif"><img src="/images/siteimgs/divider2b.gif" id="heartdivider2"></div>
+<div style="text-align: center; margin:15px;"><img src="/images/siteimgs/divider2b.gif" alt=""><img src="/images/siteimgs/divider2b.gif" id="heartdivider2" alt=""></div>
 
 #### How Many Letters Left in Bag: 
 None!
