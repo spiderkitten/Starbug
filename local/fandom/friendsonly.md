@@ -5,7 +5,7 @@ layout: layout/base.njk
 
 ## Friends Only Banner Archive
 
-<div class="textboxGreen">
+<div class="textbox">
 
 This is a collection of all the Friends Only banners I have made over the years. They were made for use at sites like LiveJournal and Dreamwidth as images to let people know your journal locked to friends only 
 
