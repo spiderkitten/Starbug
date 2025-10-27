@@ -45,7 +45,9 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
       {%- endif -%} 
       {%- if commonplace.image != "" %} 
       <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}"> 
-      <q>{{ commonplace.caption }}</q>
+        {%- if commonplace.caption != "" %}
+        <q>{{ commonplace.caption }}</q>
+        {% endif %}
       {%- endif %} 
 
       {%- if commonplace.quote != "" %} 

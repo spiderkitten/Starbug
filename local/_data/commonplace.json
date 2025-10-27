@@ -22,9 +22,9 @@
     "title": "",
     "image": "munch.jpg",
     "alttext": "quote from Edvard Munch",
-    "titletext": "Edvard Munch quote",
+    "titletext": "quote from Edvard Munch",
     "youtube": "",
-    "caption": "Edvard Munch",
+    "caption": "",
     "quote": "",
     "list": ""
     },
@@ -44,7 +44,7 @@
     "alttext": "image of mrs muir from The Ghost and Mrs Muir",
     "titletext": "Mrs Muir, the Ghost and Mrs Muir",
     "youtube": "",
-    "caption":"\"It's hard to explain. You can be much more alone with other people than you are by yourself.\" ~ Mrs Muir, Ghost and Mrs Muir (movie)",
+    "caption": "It's hard to explain. You can be much more alone with other people than you are by yourself. ~ Mrs Muir, Ghost and Mrs Muir (movie)",
     "quote": "",
     "list": ""
     },
@@ -55,6 +55,7 @@
     "alttext": "text reading Forever dissapointed that a group of squids isn't called a squad",
     "titletext": "",
     "youtube": "",
+    "caption": "",
     "quote": "",
     "list": ""
     },
