@@ -134,7 +134,7 @@ layout: layout/base.njk
 </ul>
 </div>
 
-<!----ios Apps------>
+<!-- ios Apps -->
 <div class="textbox">
 <h3>ios Apps</h3>
 <p>Just some apps I have on my phone/ipad.</p>
