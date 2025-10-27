@@ -49,7 +49,7 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
       {%- endif %} 
 
       {%- if commonplace.quote != "" %} 
-      <quote>{{ commonplace.quote }}</quote>
+      <q>{{ commonplace.quote }}</q>
       {%- endif %} 
     </div>
   </div><!-- filterdiv -->
