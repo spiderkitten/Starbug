@@ -78,7 +78,7 @@ You are free to use these anywhere, with the following caveat:
         </div>
 
   <div class="textbox">
-    <h3 id="foassorted">Stargate SG1</h3>
+    <h3 id="stargate">Stargate SG1</h3>
     <p></p>
     <details>
     <summary> (2) Friends Only Banners</summary>
@@ -98,6 +98,4 @@ You are free to use these anywhere, with the following caveat:
     </details>
     <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
     </div>
-
--->
 </div>
