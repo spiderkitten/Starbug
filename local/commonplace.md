@@ -42,17 +42,16 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
       {%- if commonplace.list != "" -%}
       <h3>{{ commonplace.title }}</h3>
       {{- commonplace.list -}}
-      {%- endif -%} 
-      {%- if commonplace.image != "" %} 
-      <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}"> 
+      {%- endif -%}
+      {%- if commonplace.image != "" %}
+      <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}">
         {%- if commonplace.caption != "" %}
         <q>{{ commonplace.caption }}</q>
         {% endif %}
-      {%- endif %} 
-
-      {%- if commonplace.quote != "" %} 
+      {%- endif %}
+      {%- if commonplace.quote != "" %}
       <q>{{ commonplace.quote }}</q>
-      {%- endif %} 
+      {%- endif %}
     </div>
   </div><!-- filterdiv -->
 {%- endfor -%}
