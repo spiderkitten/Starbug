@@ -41,8 +41,6 @@ Some of my favourite music. Its mostly old stuff, sorry. I grew up in the 1970s/
 {%- endfor %}
 </div>
 
-</div>
-
  
 <noscript>This page requires Javascript, sorry</noscript> 
 </div> <!-- textbox -->

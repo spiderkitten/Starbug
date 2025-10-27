@@ -40,8 +40,7 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('comic')">Comic</button>
   <button class="navbutton" onclick="filterSelection('adventure')">Adventure</button>
   <button class="navbutton" onclick="filterSelection('historical')">Historical</button>
- <button class="navbutton" onclick="filterSelection('thriller')">Thriller</button>
-
+  <button class="navbutton" onclick="filterSelection('thriller')">Thriller</button>
   <button class="navbutton" onclick="filterSelection('cozy')">Cozy</button>
   <button class="navbutton" onclick="filterSelection('slasher')">Slasher</button>
   <button class="navbutton" onclick="filterSelection('found family')">Found Family</button>
