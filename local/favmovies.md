@@ -5,7 +5,7 @@ cssFile: movies.css
 ---
 <div class="textbox">
 
-<h3 id="imgmovies">Movies</h2>
+<h3 id="imgmovies">Movies</h3>
 There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs. 
 
 **Note: This is a work in progress**
@@ -44,7 +44,6 @@ haunting, thriller, Love Story, Road Movie, On the Run, Creature Feature, Comedy
 <noscript>This page requires Javascript, sorry. </noscript> 
 </div> <!-- textbox -->
 
-</div>
 <!-- Filter Script 
 Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 -->
