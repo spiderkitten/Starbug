@@ -37,7 +37,7 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
     <div class="item">
       {%- if commonplace.youtube != "" %}
       {{ commonplace.youtube }}
-      <quote>{{ commonplace.caption}}</quote>
+      <q>{{ commonplace.caption}}</q>
       {%- endif %}
       {%- if commonplace.list != "" -%}
       <h3>{{ commonplace.title }}</h3>
@@ -45,7 +45,7 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
       {%- endif -%} 
       {%- if commonplace.image != "" %} 
       <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}"> 
-      <quote>{{ commonplace.caption }}</quote>
+      <q>{{ commonplace.caption }}</q>
       {%- endif %} 
 
       {%- if commonplace.quote != "" %} 
