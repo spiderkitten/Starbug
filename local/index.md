@@ -83,7 +83,7 @@ script: randomquote.js
 <h3>Recent Updates</h3>
 <p>Should be my most recent updates: </p>
 
-{%- include "partials/indexchangelog.nkj" %}
+{%- include "partials/indexchangelog.njk" %}
 
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
