@@ -28,8 +28,16 @@ Some of my favourite music. Its mostly old stuff, sorry. I grew up in the 1970s/
   <button class="navbutton" onclick="filterSelection('2010s')">2010s</button>
   <button class="navbutton" onclick="filterSelection('2020s')">2020s</button>
   <button class="navbutton" onclick="filterSelection('musicals')">Musicals</button>
+  <button class="navbutton" onclick="filterSelection('murder ballads')">Murder Ballads</button>
+  <button class="navbutton" onclick="filterSelection('folk')">Folk</button>
+  <button class="navbutton" onclick="filterSelection('disco')">Disco</button>
+  <button class="navbutton" onclick="filterSelection('glam rock')">Glam Rock</button>
+  <button class="navbutton" onclick="filterSelection('comedy')">Comedy</button>
   <button class="navbutton" onclick="filterSelection('australia')">Australian</button>
   <button class="navbutton" onclick="filterSelection('album')">Albums</button>
+
+
+
 </div>
 
 </div>

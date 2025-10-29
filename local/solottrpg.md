@@ -15,7 +15,7 @@ This is an index of any Solo TTRPG game journals I have posted to my site. I'm s
 
 ### Solo Journalling RPGs
 
-<p>Journalling RPGs lean heavily into being more like creative writing prompts within a universe, rather then an adventure game.</p>
+Journalling RPGs lean heavily into being more like creative writing prompts within a universe, rather then an adventure game.
 
 #### Complete Solo Journal RPGs
 

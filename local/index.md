@@ -79,12 +79,10 @@ script: randomquote.js
  
 
 <div id="recentupdates" class="textbox">
-<h3>Recent Updates</h3>
-<p><strong>Mid October 2025:</strong> Added a commonplace book, changed the reading log, fav music and fav movie pages so they are filterable. Added a modal/popup for images on commonplace book page. Updated the site credits page and the sitemap.
-</p>
-<p><strong>Mid September 2025:</strong> Added a solo TTRPG page, and a gaming journal for the Koriko Solo Journalling TTRPG, and for 5-min-machine. Redid my book log so it no longer relies on goodreads widgets. Added some seen movies to the A24 challenge page.</p>
 
-<p><strong>Early September 2025:</strong> Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page</p>
+<h3>Recent Updates</h3>
+
+{%- include "partials/indexchangelog.njk" %}
 
 <p><a href="changelog.html">Previous Updates</a></p>
 </div>
@@ -92,7 +90,7 @@ script: randomquote.js
 <div id="frontpagebuttons">
 <a href="https://jigsaw.w3.org/css-validator/check/referer">
 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
- <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <!--<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/buttons/vcss.gif" title="Web Validated" alt="" /></a>--> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 </div>
  
 

@@ -1,0 +1,4 @@
+
+{%- for changelog in changelog reversed  -%}
+<div class="changelog"><p><strong>{{ changelog.date | blogDate }}:</strong> - {{ changelog.update }}</div></p> 
+{%- endfor -%}
