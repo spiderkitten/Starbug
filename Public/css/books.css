@@ -11,8 +11,6 @@
     margin-bottom:20px;
   }*/
   
-
-  
   p {
     margin: 0px;
     padding-top: 20px;
@@ -22,25 +20,6 @@
     display: block;
   }
   
-  .title{
-  font-weight: bold;
-  }
-  
-  .author {
-  text-transform: uppercase;
-  }
-
-  .series {
-  color: var(--pallette3);
-  }
-  
-  .author::before{
-    content: "=";
-  }
-  .author::after{
-    content: "=";
-  }
-
   .bookgallery {
     display: flex;
     flex-flow: row wrap;
@@ -48,7 +27,6 @@
     align-items: flex-start;
     width: 100%;
 }
- 
 
 .book {
     font-size: 12px;
@@ -69,6 +47,63 @@
     filter: opacity(80%) saturate(50%)  sepia(10%) ;
 }
 
+.booktxt {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: var(--pallette3);
+    padding-bottom: 0px;
+}
+
+
+.filterDivBooks {
+  display: none;
+  width:25%;
+}
+
+.filterDivBooks2 {
+  width:25%;
+}
+
+
+
+heart {
+  color:red;
+}
+
+details {
+margin-top: 10px;
+}
+
+summary{
+    background-color: var(--pallette8);
+    color: var(--pallette4);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+  .title {
+  color: var(--pallette3);
+  }
+
+  .author {
+  text-transform: uppercase;
+  margin-top: 5px;
+margin-bottom: 5px;
+  }
+  .author::before{
+    content: "=";
+  }
+  .author::after{
+    content: "=";
+  }
+
+  .series {
+  color: var(--pallette3);
+
+  }
+
+
 .rating {
   height: 15px;
   max-width: 88px;
@@ -84,44 +119,10 @@
   padding-top: 5px;
 }
 
-heart {
-  color:red;
-}
-
-.booktxt {
-    box-sizing: border-box;
-    padding: 5px;
-    text-align: center;
-    color: var(--pallette3);
-    padding-bottom: 0px;
-}
-
-.filterDivBooks {
-  display: none;
-  width:20%;
-}
-
-.filterDivBooks2 {
-  width:20%;
-}
-
-details {
-margin-top: 10px;
-
-
-}
-
-summary{
-    background-color: var(--pallette8);
-    color: var(--pallette4);
-    border-radius: 10px;
-padding: 10px;
-}
-
 @media screen and (max-width: 800px) {
-    .filterDivBooks { width: 40%; font-size: 15px; }
+    .filterDivBooks { width: 50%; font-size: 15px; }  
     }
     
 @media screen and (max-width: 600px) {
-    .filterDivBooks  { width: 75%; font-size: 15px; }
+    .filterDivBooks  { width: 90%; font-size: 15px; }
     }

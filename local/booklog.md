@@ -8,9 +8,9 @@ cssFile: "books.css"
 
 ### Reading Log
 
-A log of things I have read. So far going back to 2020, but I have records going back to 2010, so will be adding those over time. 
+A log of things I have read. I almost didn't add ratings, because I find them so subjective, and to be honest, I do actually use a browser addon to block ratings on goodreads, because I don't want to be influenced by ratings - I want to read a book and make my own decision about it. But the stars do look pretty lol and some people like ratings so here we are. 
 
-The keyword filters are a work in progress and subject to change. 
+Note that there are a lot of three star rated books. I suggest just checking the other ratings. 
 
 <div id="filterContainer">
   <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
@@ -20,12 +20,15 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('2022')">2022</button>
   <button class="navbutton" onclick="filterSelection('2021')">2021</button>
   <button class="navbutton" onclick="filterSelection('2020')">2020</button>
+  <button class="navbutton" onclick="filterSelection('2019')">2019</button>
+  <button class="navbutton" onclick="filterSelection('2018')">2018</button>
+  <button class="navbutton" onclick="filterSelection('2017')">2017</button>
 
-<!--<button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button>
+ <button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button>
   <button class="navbutton" onclick="filterSelection('four')"><img src="/images/books/ratings/fourstar.gif"></button>
   <button class="navbutton" onclick="filterSelection('three')"><img src="/images/books/ratings/threestar.gif"></button>
   <button class="navbutton" onclick="filterSelection('two')"><img src="/images/books/ratings/twostar.gif"></button>
-  <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>-->
+  <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>
 
 <details> 
 <summary>Click for Genres and Tags</summary>
@@ -33,6 +36,7 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('scifi')">Sci-Fi</button>
   <button class="navbutton" onclick="filterSelection('mystery')">Mystery</button>
   <button class="navbutton" onclick="filterSelection('fantasy')">Fantasy</button>
+  <button class="navbutton" onclick="filterSelection('classic')">Classic</button>
   <button class="navbutton" onclick="filterSelection('humour')">Humour</button>
   <button class="navbutton" onclick="filterSelection('LGBTQ')">LGBTQ</button>
   <button class="navbutton" onclick="filterSelection('novella')">Novella</button>
@@ -50,15 +54,30 @@ The keyword filters are a work in progress and subject to change.
   <button class="navbutton" onclick="filterSelection('books about books')">Books about Books</button>
   <button class="navbutton" onclick="filterSelection('summer camp')">Summer Camp</button>
   <button class="navbutton" onclick="filterSelection('underwater')">Underwater</button>
+  <button class="navbutton" onclick="filterSelection('robots')">Robots</button>
+  <button class="navbutton" onclick="filterSelection('heist')">Heist</button>
+
+
+
 </details>
 
 <!-- 
-ai, heist,  dinosaurs, non-fiction, medical, graphic novel, japanese, hopepunk,  military, mythology, dragons, graphic novel, magical realism, urban fantasy, boarding school, tea and coffee, baking, survival, short stories, indigenous, cult, dystopian, animals, urban fantasy, witches, fairies, magic, urban fantasy, alternative history, western, TOR,    
-  <button class="navbutton" onclick="filterSelection('classic')">Classic</button>
-  <button class="navbutton" onclick="filterSelection('solarpunk')">Solarpunk</button>
+ai, ,  dinosaurs, non-fiction, medical, graphic novel, japanese, hopepunk,  military, mythology, dragons,  boarding school, tea and coffee, baking, survival, indigenous, cult, dystopian, animals, witches, fairies, magic,  alternative history, western,  sea, epistolary, time travel, steampunk, superheroes,  
+
+magical realism, urban fantasy,
+
+  <button class="navbutton" onclick="filterSelection('tor')">TOR (publisher)</button>
+  <button class="navbutton" onclick="filterSelection('')"></button>
+  <button class="navbutton" onclick="filterSelection('')"></button>
+  <button class="navbutton" onclick="filterSelection('')"></button>
+  <button class="navbutton" onclick="filterSelection('')"></button>
+
+
+
   <button class="navbutton" onclick="filterSelection('apocalypse')">Apocalypse</button>
+  <button class="navbutton" onclick="filterSelection('solarpunk')">Solarpunk</button>
+
   <button class="navbutton" onclick="filterSelection('vampires')">Vampires</button>
-  <button class="navbutton" onclick="filterSelection('robots')">Robots</button>
   <button class="navbutton" onclick="filterSelection('ikea')">Ikea</button>
   <button class="navbutton" onclick="filterSelection('clowns')">Clowns</button>
   <button class="navbutton" onclick="filterSelection('female detective')">Female Detective</button>

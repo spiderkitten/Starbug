@@ -8,15 +8,17 @@
 
 
 <div>
+        <div class="title">{{- books.title }}</div>
+        <div class="author"> {{- books.author }}</div>       
         {%- if books.series != "" -%} 
         <div class="series">{{- books.series -}}&nbsp;#{{- books.seriesnumber -}}</div>
         {%- endif -%} 
 </div>
-<!--<div>
+<div>
         {%- if books.rating != "" %} 
         <div class="rating"><img src="/images/books/ratings/{{ books.rating }}star.gif"></div>
         {%- endif %} 
-</div> -->
+</div> 
 
 <div>
         {%- if books.goodreads != "" %} 
