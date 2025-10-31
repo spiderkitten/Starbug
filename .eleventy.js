@@ -14,11 +14,16 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addPassthroughCopy("local/ai.txt"); 
       eleventyConfig.addPassthroughCopy("local/robots.txt");
       eleventyConfig.addPassthroughCopy("local/beehappy/style.css");
+    eleventyConfig.addPassthroughCopy("local/posts/tags/");
 
 // allow the use of limit to limit items displayed 
 eleventyConfig.addFilter("limit", function (arr, limit) {  return arr.slice(0, limit);});
 
 
+    // Return the length of a collection for tag clouds (thank you Claus!!)
+    eleventyConfig.addFilter('length', (collection) => {
+        return collection[1].length;
+    });
 
       // blogDate pairs with function below
       eleventyConfig.addFilter('blogDate', blogDate) 

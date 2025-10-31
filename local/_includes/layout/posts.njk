@@ -1,59 +1,21 @@
 ---
-title: Vampire Resource Management
 layout: layout/base.njk
 ---
-
-
-<h2>{{ title }}</h2>
+<div class="textbox">
+<!-- title and date -->
+<h3>{{ title }}</h3>
 <time>{{ date | blogDate }}</time> 
-<!-- Tags -->
+
 <div>
-Tags: {% set comma = joiner() %}
-            {% for tag in tags -%}
-                {% if tag !== 'posts' %}<a href="/posts/tags/{{ tag | slugify }}.html">{{ tag }}</a>{%- if not loop.last %}, 
-                {% endif %}
-            {% endif %}
-        {%- endfor %}
+
+<!-- TAGS -->
+Tags: 
 </div>
 
+</div><!-- text box -->
 
-<!-- Content -->
 
-{{ content | safe}}
+<div class="textbox">
+<!-- content -->
+{{ content | safe }}
 
-<!-- Scroll to top button  -->
-<button onclick="topFunction()" class="navbutton" style="margin-left: auto; display: block;" title="Go to top">Top</button>
-
-<script>
-    let topbutton = document.getElementById("topBtn");
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        topbutton.style.display = "block";
-            } else {
-        topbutton.style.display = "none";
-        }
-    }
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
- </script>
-
-<!-- Next / Previous navigation -->
-<div style="text-align: center;">
-    <nav id="nextprev">
-
-        {% if prevPost.url %}
-        <a href="{{ prevPost.url }}">« {{prevPost.data.title}}</a> |
-        {% endif %}
-
-        {% if nextPost.url %}
-        <a  href="{{ nextPost.url }}"> {{nextPost.data.title}} »</a> |
-        {% endif %}
-
-        <a href="../posts.html">All Posts</a>
-
-       
-    </nav>
-</div>

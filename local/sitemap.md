@@ -31,22 +31,16 @@ cssFile: index.css
             - <a href="TTRPGs/Koriko/farewelldayone.html">Farewell Day 1</a>
             - <a href="TTRPGs/Koriko/farewelldaytwo.html">Farewell Day 2</a> 
             - <a href="TTRPGs/Koriko/goodbye.html">Goodbye</a>
-        - <a href="TTRPGs/homestead.html">Life on the Homestead</a>
-<!-- - Posts
-        - First Post
-        - <a href="posts/vampire_rm.html">Vampire Resource Management</a> - *can Vampires wipe out humanity?* -->
-- Books/Movies/Music 
+        - <a href="TTRPGs/homestead.html">Life on the Homestead</a>  
+<!-- - Blog Posts  
+        - First Post  
+        - <a href="posts/vampire_rm.html">Vampire Resource Management</a> - *can Vampires wipe out humanity?*  -->
+- Books/Movies/Music
     - <a href="booklog.html">Reading log</a> (dynamic) 
-    - Reading log (static version)
-        - <a href="books/2025reads.html">2025 Reads</a>
-        - <a href="books/2024reads.html">2024 Reads</a>
-        - <a href="books/2023reads.html">2023 Reads</a>
-        - <a href="books/2022reads.html">2022 Reads</a>
-        - <a href="books/2021reads.html">2021 Reads</a>
-        - <a href="books/cozyfantasy.html">Cozy Fantasy Recs</a>
+    - <a href="favmusic.html">Favourite Music</a>
+    - <a href="favtvshows.html">Favourite TV Shows</a>
     - <a href="favmovies.html">Favourite Movies</a>
     - <a href="a24movies.html">A24 Challenge </a> - *I'm watching all A24 Movies*
-    - <a href="favmusic.html">Favourite Music</a>
 - Fandom 
     - <a href="fandom/harem.html">Favourite Characters</a>
     - <a href="fandom/100x100.html">100x100 userpics</a> 
