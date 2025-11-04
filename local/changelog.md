@@ -13,7 +13,7 @@ Just a way to look back on all the updates I have made. Should be every major up
 
     {%- for changelog in changelog reversed -%}
 
-    <div class="changelog"><p><strong>{{ changelog.date}}:</strong> - {{ changelog.update }}</div></p>
+    <div class="changelog"><p><strong><time>{{ changelog.date }}</time>:</strong> - {{ changelog.update }}</div></p>
     {%- endfor -%}
 
 </div>
