@@ -1,9 +1,8 @@
 ---
-recipetitle: Microwave Porridge
+title: Microwave Porridge
 recipephoto: porridge.png
 recipecaption: Bowl of porridge with seedy peanut butter stirred through
-tags: 
-- 'breakfast'
+
 ---
 
 <!--Ingredients List-->

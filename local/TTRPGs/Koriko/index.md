@@ -4,10 +4,12 @@ JournalRPGtitle: Koriko Solo Journalling TTRPG (WIP)
 description: Journalling TTRPG about a witch spending a year away from home
 date: 2025-09-14
 tags: 
-- 'rpgWIP'
+- JournalRPG_WIP
+
 ---
 
 <div class="textbox">
+
 <figure class="fancy">
     <img src="koriko.png" alt="">
     <figcaption>Koriko image from <a href="https://mouseholepress.itch.io/koriko">https://mouseholepress.itch.io/koriko</a></figcaption>

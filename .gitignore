@@ -19,24 +19,37 @@ package-lock.json
 
 PublicBU/*
 
-# test pages
 
+# test pages
 test.html
 test.css
 test2.css
 test.js
-
-# Other pages
-
-local/_data/links.json
-local/newlinks.md 
-Public/newlinks.html
-local/_includes/partials/links.njk
-
-local/TTRPGs/wildkin.md
-Public/TTRPGs/wildkin.html
-Public/TTRPGs/descendintodisaster.html
-local/TTRPGs/descendintodisaster.md
-
 local/test.md
 Public/test.html 
+
+# Other pages
+Public/posts/tags/all.html
+
+
+Public/posts/tags/recipe.html
+Public/posts/tags/journalrpg-wip.html
+Public/posts/tags/journalrpg.html
+Public/posts/tags/koriko.html
+local/posts/first-post.md
+local/posts/free-sewing-patterns.md
+local/posts/posts.json
+local/posts/vampire_rm.md
+Public/posts/first-post.html
+Public/posts/free-sewing-patterns.html
+Public/posts/vampire_rm.html
+Public/posts/tags/free-stuff.html
+Public/posts/tags/news.html
+Public/posts/tags/posts.html
+Public/posts/tags/rpgwip.html
+Public/posts/tags/science.html
+Public/posts/tags/sewing.html
+Public/posts/tags/solorpg.html
+Public/posts/tags/vampires.html
+local/tag.njk
+local/_includes/layout/tag_pages.njk

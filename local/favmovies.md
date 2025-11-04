@@ -2,6 +2,7 @@
 title: Favourite Movies
 layout: layout/base.njk
 cssFile: movies.css
+eleventyExcludeFromCollections: true
 ---
 <div class="textbox">
 

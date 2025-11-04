@@ -2,6 +2,7 @@
 title: Mood Themes
 layout: layout/base.njk
 cssFile: fandom.css
+eleventyExcludeFromCollections: true
 ---
 
 <h2>Mood Theme</h2>

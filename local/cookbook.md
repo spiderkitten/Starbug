@@ -1,6 +1,7 @@
 ---
 title: CookBook
 layout: layout/base.njk
+
 ---
 
 
@@ -16,12 +17,12 @@ Note: Work in Progress
 
 <hr class="dashed">
 
-<!-- 
-<div class="textbox"> 
+
+<!--<div class="textbox"> 
 <h3>Breakfast</h3>
 <ul>
 {% for post in collections.breakfast %}
-<li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
+<li><a href="{{post.url}}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -30,7 +31,7 @@ Note: Work in Progress
 <h3>Lunch</h3>
 <ul>
 {% for post in collections.lunch %}
-<li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
+<li><a href="{{post.url}}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -39,7 +40,7 @@ Note: Work in Progress
 <h3>Snacks</h3>
 <ul>
 {% for post in collections.snack %}
-<li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
+<li><a href="{{post.url}}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -57,11 +58,11 @@ Note: Work in Progress
 <h3>Meals</h3>
 <ul>
 {% for post in collections.meal %}
-<li><a href="{{post.url}}">{{ post.data.recipetitle }}</a></li>
+<li><a href="{{post.url}}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ul>
-</div>
--->
+</div>-->
+
 
 
 <div class="textbox"> 
@@ -70,6 +71,6 @@ Note: Work in Progress
 
 <ul>
 {% for post in collections.recipe %}
-<li><a href="{{post.url}}"> {{ post.data.recipetitle}}</a></li>
+<li><a href="{{post.url}}"> {{ post.data.title}}</a></li>
 {% endfor %}
 </ul></div>

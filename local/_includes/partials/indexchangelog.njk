@@ -2,5 +2,5 @@
 {%- assign changes = changelog | reverse | limit: 3 -%}
 {%- for change in changes -%}
 
-<div class="changelog"><p><strong>{{ change.date | blogDate }}:</strong> - {{ change.update }}</div></p> 
+<div class="changelog"><p><strong>{{ change.date }}:</strong> - {{ change.update }}</div></p> 
 {%- endfor -%}

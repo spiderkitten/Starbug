@@ -2,6 +2,7 @@
 title: Favourite TV Shows
 layout: layout/base.njk
 cssFile: tvshows.css
+eleventyExcludeFromCollections: true
 ---
 <div class="textbox">
 

@@ -1,7 +1,7 @@
 ---
 title: Reference - Map, Skills, Characters (WIP)
 date: 2025-09-17
-tags:  
+
 ---
 
 <div class="textbox">

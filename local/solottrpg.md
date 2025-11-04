@@ -1,7 +1,7 @@
 ---
 title: Solo TTRPG Game Journal
 layout: layout/base.njk
-
+eleventyExcludeFromCollections: true
 ---
 
 <div class="textbox">
@@ -38,7 +38,7 @@ Journalling RPGs lean heavily into being more like creative writing prompts with
 #### In Progress
 
 <dl>
- {%- for post in collections.rpgWIP -%}
+ {%- for post in collections.JournalRPG_WIP -%}
 <dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a> 
 <dd style="padding-bottom: 20px;">{{ post.data.description}} 
  {% endfor %}

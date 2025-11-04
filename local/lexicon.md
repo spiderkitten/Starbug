@@ -1,6 +1,7 @@
 ---
 title: Book of Words
 layout: layout/base.njk
+eleventyExcludeFromCollections: true
 ---
 
 

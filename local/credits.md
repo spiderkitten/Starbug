@@ -1,6 +1,7 @@
 ---
 title: Credits
 layout: layout/base.njk
+eleventyExcludeFromCollections: true
 ---
 
 

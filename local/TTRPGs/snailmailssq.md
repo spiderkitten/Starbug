@@ -4,8 +4,8 @@ title: Snail Mail A Sunday Side Quest
 JournalRPGtitle: Snail Mail A Sunday Side Quest Micro-TTRPG
 description: You're a Snail and you need to deliver your mail 
 date: 2025-10-05
-tags:  
-- 'SoloRPG'
+tags: 
+- SoloRPG
 ---
 
 <div class="textbox">

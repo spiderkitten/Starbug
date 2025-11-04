@@ -4,8 +4,8 @@ title: Life on the Homestead
 JournalRPGtitle: Life on the Homestead (WIP)
 description: Take on the life of a homesteader 
 date: 2025-09-27
-tags:  
-- 'rpgWIP'
+tags: 
+- JournalRPG_WIP
 ---
 
 <div class="textbox">

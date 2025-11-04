@@ -1,11 +1,7 @@
 ---
-recipetitle: Pesto Chicken Rolls
+title: Pesto Chicken Rolls
 recipephoto: chickenpesto.png 
 recipecaption: chicken pesto on a sandwich thin with lettuce, roma tomato and smooth ricotta
-tags:  
-- 'meal'
-- 'lunch'
-- 'chicken'
 
 ---
 

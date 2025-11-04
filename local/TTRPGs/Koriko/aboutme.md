@@ -1,7 +1,7 @@
 ---
 title: Departure - About Me and My Story
 date: 2025-09-18
-tags:  
+
 ---
 
 <div class="textbox">

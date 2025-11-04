@@ -1,6 +1,7 @@
 ---
 title: Friends Only Banners
 layout: layout/base.njk
+eleventyExcludeFromCollections: true
 ---
 
 ## Friends Only Banner Archive

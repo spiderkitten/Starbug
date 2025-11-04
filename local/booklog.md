@@ -2,6 +2,7 @@
 title: Book Log
 layout: layout/base.njk
 cssFile: "books.css"
+eleventyExcludeFromCollections: true
 ---
 
 <div class="textbox">

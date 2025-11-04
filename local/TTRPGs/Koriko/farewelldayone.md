@@ -1,7 +1,7 @@
 ---
 title: Departure - Farewell Day 1
 date: 2025-09-18
-tags:  
+
 ---
 
 <div class="textbox">

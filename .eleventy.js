@@ -1,9 +1,21 @@
+
+// Tells Eleventy to look for the Luxon plugin
+const { DateTime } = require('luxon');
+
+
+
+
+
+// Module Exports starts here
+
 module.exports = function (eleventyConfig) {
+
   // This makes the eleventy command quieter (with less detail)
   eleventyConfig.setQuietMode(true);
 
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
+
 
 
   // passthrough
@@ -13,21 +25,47 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addPassthroughCopy("local/fonts");
       eleventyConfig.addPassthroughCopy("local/ai.txt"); 
       eleventyConfig.addPassthroughCopy("local/robots.txt");
-      eleventyConfig.addPassthroughCopy("local/beehappy/style.css");
-    eleventyConfig.addPassthroughCopy("local/posts/tags/");
-
-// allow the use of limit to limit items displayed 
-eleventyConfig.addFilter("limit", function (arr, limit) {  return arr.slice(0, limit);});
+      eleventyConfig.addPassthroughCopy("local/posts/tags/");
+      eleventyConfig.addPassthroughCopy("local/TTRPGs/Koriko/*.png");
 
 
-    // Return the length of a collection for tag clouds (thank you Claus!!)
-    eleventyConfig.addFilter('length', (collection) => {
-        return collection[1].length;
-    });
+// FILTERS 
 
-      // blogDate pairs with function below
-      eleventyConfig.addFilter('blogDate', blogDate) 
-      
+    // allow the use of limit to limit items displayed 
+    eleventyConfig.addFilter("limit", function (arr, limit) {  return arr.slice(0, limit);});
+
+
+
+eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "DDD");
+	});
+
+	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('dd-LLL-yyyy');
+	});
+
+
+// COLLECTIONS 
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addCollection("recipes", function (collectionApi) {
+    return collectionApi
+      .getAllSorted()
+      .filter((item) => item.url && item.inputPath.startsWith("./recipes"));
+  });
+};
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addCollection("TTRPGs", function (collectionApi) {
+    return collectionApi
+      .getAllSorted()
+      .filter((item) => item.url && item.inputPath.startsWith("./TTRPGs"));
+  });
+};
+
+
      // Next & Previous links on bottom of posts
     eleventyConfig.addCollection("posts", function(collection) {
       const coll = collection.getFilteredByTag("posts");
@@ -43,6 +81,10 @@ eleventyConfig.addFilter("limit", function (arr, limit) {  return arr.slice(0, l
       return coll;
   });
 
+
+
+//  DIRECTORIES 
+
   return {
     passthroughFileCopy: true,
     dir: {
@@ -51,20 +93,5 @@ eleventyConfig.addFilter("limit", function (arr, limit) {  return arr.slice(0, l
       includes: "_includes"
     },
   };
-  
-  // function to set date to format: January 1st, 2024
-  // pairs with above code: eleventyConfig.addFilter('blogDate', blogDate)
-  function blogDate(input) {
-    return `${new Date(input).toLocaleString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    })}`;
-  }
 
-
-
-
-
-
-};
+  };

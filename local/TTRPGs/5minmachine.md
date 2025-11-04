@@ -4,9 +4,8 @@ title: 5 Min Machine
 JournalRPGtitle: 5-min-machine
 description: A Micro-micro rpg for one one player about being a machine that does things and writes logs
 date: 2025-09-23
-tags:  
-- 'JournalRPG'
-
+tags: 
+- JournalRPG
 ---
 
 <div class="textbox">

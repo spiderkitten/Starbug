@@ -1,6 +1,7 @@
 ---
 title: 404 Not Found
 layout: layout/base.njk
+eleventyExcludeFromCollections: true
 ---
 
 <h2>Temporal Anomoly 404</h2>

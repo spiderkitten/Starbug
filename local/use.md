@@ -1,6 +1,7 @@
 ---
 title: Use
 layout: layout/base.njk
+eleventyExcludeFromCollections: true
 ---
 
 <!-- Intro -->

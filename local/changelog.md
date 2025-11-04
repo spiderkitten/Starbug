@@ -1,7 +1,7 @@
 ---
 title: Changelog
 layout: layout/base.njk
-
+eleventyExcludeFromCollections: true
 
 ---
 
@@ -12,7 +12,8 @@ layout: layout/base.njk
 Just a way to look back on all the updates I have made. Should be every major update. Unless I forget. 
 
     {%- for changelog in changelog reversed -%}
-    <div class="changelog"><p><strong>{{ changelog.date | blogDate }}:</strong> - {{ changelog.update }}</div></p>
+
+    <div class="changelog"><p><strong>{{ changelog.date}}:</strong> - {{ changelog.update }}</div></p>
     {%- endfor -%}
 
 </div>

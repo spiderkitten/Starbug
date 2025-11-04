@@ -2,6 +2,7 @@
 title: Commonplace Book
 layout: layout/base.njk
 cssFile: commonplace.css
+eleventyExcludeFromCollections: true
 ---
 
 <div class="textbox">

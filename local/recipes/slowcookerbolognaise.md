@@ -1,10 +1,7 @@
 ---
-recipetitle: Lazy Slow Cooker Bolognaise
+title: Lazy Slow Cooker Bolognaise
 recipephoto: placeholder.png
-tags: 
-- 'meal'
-- 'dinner'
-- 'beef'
+
 ---
 
 

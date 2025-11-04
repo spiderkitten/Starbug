@@ -1,7 +1,7 @@
 ---
 title: Departure - Goodbye
 date: 2025-09-21
-tags:  
+
 ---
 
 <div class="textbox">

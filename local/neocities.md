@@ -2,6 +2,7 @@
 title: Neocities
 layout: layout/base.njk
 cssFile: links.css
+eleventyExcludeFromCollections: true
 ---
 
 ## Site Making Resources 

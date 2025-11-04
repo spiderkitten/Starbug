@@ -1,9 +1,6 @@
 ---
-recipetitle: Easy Apple Turnovers
+title: Easy Apple Turnovers
 recipephoto: placeholder.png
-tags:  
-- 'snack'
-- 'dessert'
 
 ---
 

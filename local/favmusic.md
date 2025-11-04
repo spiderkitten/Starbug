@@ -2,6 +2,7 @@
 title: Favourite Music
 layout: layout/base.njk
 cssFile: favmusic.css
+eleventyExcludeFromCollections: true
 ---
 
 <div class="textbox">

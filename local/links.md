@@ -3,6 +3,7 @@ title: Links
 layout: layout/base.njk
 cssFile: "links.css"
 script: freeze.js
+eleventyExcludeFromCollections: true
 ---
 
 <h2>Links</h2>

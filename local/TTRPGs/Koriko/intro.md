@@ -1,8 +1,9 @@
 ---
 title: Intro to Koriko Solo Journalling TTRPG
 date: 2025-09-15
-tags:  
+
 ---
+
 
 <div class="textbox">
  

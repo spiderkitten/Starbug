@@ -1,7 +1,7 @@
 ---
 title: Guest Book
 layout: layout/base.njk
-
+eleventyExcludeFromCollections: true
 ---
 
 <div class="textbox">

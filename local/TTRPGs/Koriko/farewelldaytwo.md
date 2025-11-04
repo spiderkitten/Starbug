@@ -1,8 +1,9 @@
 ---
 title: Departure - Farewell Day 2
 date: 2025-09-20
-tags:  
+
 ---
+
 <div class="textbox">
 
 ## Departure 

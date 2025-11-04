@@ -1,10 +1,8 @@
 ---
-recipetitle: Seedy Peanut Butter
+title: Seedy Peanut Butter
 recipephoto: seedypnutbutter.png
 recipecaption: Container of Seedy Peanut Butter
-tags:  
-- 'Misc'
-- ''
+
 
 ---
 

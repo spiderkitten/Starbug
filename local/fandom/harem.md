@@ -2,6 +2,7 @@
 title: Favourite Characters
 layout: layout/base.njk
 cssFile: harem.css
+eleventyExcludeFromCollections: true
 ---
 
 <div class="textbox">
