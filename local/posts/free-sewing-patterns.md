@@ -3,11 +3,14 @@ title: Free Sewing Patterns
 date: 2025-11-02
 lastmod: 2025-11-11
 description: free sewing patterns!
+eleventyExcludeFromCollections: true
 ---
 
 ### Sewing is expensive, am I right?
 
-so here are some free patterns to make various things, from plushies to bags to clothing and other items. I'll be updating this list over time. 
+here are some free patterns from all over the internet to make various things, from plushies to bags to clothing and other items. None of them are my own patterns, although I do have some I may share at some point. 
+
+I'll be updating this list over time. 
 
 
 #### Plush Toys 

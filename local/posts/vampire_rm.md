@@ -1,7 +1,7 @@
 ---
 title: Vampire Resource Management
 date: 2024-02-02
-lastmod: 
+lastmod:
 description: how long it would take for vampires to wipe out humans
 ---
 
