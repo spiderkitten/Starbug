@@ -23,16 +23,16 @@ eleventyExcludeFromCollections: true
 
 
 <div id="images">
-<img src="images/siteimgs/divider2b.gif" alt=""><img src="images/siteimgs/divider2b.gif" alt="" id="heartdivider2">
+<hr class="divider">
 </div>
 
 <!-- Status Box -->
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
 <div><strong>Reading:</strong>fanfic</div>
-<div><strong>Watching:</strong>The Amazing Race Australia</div>
+<div><strong>Watching:</strong>The Amazing Race</div>
 <div><strong>Listening to:</strong>the endless void</div>
-<div><strong>Playing:</strong>Terra Nil</div>
+<div><strong>Playing:</strong>Gas Station Simulator</div>
 </div>
 
 <!-- Webrings -->

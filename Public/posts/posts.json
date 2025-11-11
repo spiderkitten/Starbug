@@ -1,5 +1,0 @@
-{
-	"layout": "layout/posts.njk",
-    "cssFile": "posts.css",
-    "tags": "posts" 
-}

@@ -1,9 +1,20 @@
 
-// Tells Eleventy to look for the Luxon plugin
-const { DateTime } = require('luxon');
+const { DateTime } = require('luxon'); // luxon plugin
+const markdownIt = require("markdown-it"); // markdown-it plugin
+const markdownItFootnote = require("markdown-it-footnote"); // mardown-it-footnotes plugin 
+
+const md = new markdownIt({
+    html: true, // Enables HTML tags (the default in 11ty but not markdown-it)
+    typographer: true, // Automatically converts "" and '' into curly quotations and apostrophes
+});
 
 
-// Module Exports starts here
+module.exports.config = {
+    markdownTemplateEngine: 'njk',
+};
+
+
+// Module.Exports starts here
 
 module.exports = function (eleventyConfig) {
 
@@ -13,8 +24,6 @@ module.exports = function (eleventyConfig) {
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
 
-
-
   // passthrough
       eleventyConfig.addPassthroughCopy("local/css"); 
       eleventyConfig.addPassthroughCopy("local/images");
@@ -22,7 +31,6 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addPassthroughCopy("local/fonts");
       eleventyConfig.addPassthroughCopy("local/ai.txt"); 
       eleventyConfig.addPassthroughCopy("local/robots.txt");
-      eleventyConfig.addPassthroughCopy("local/posts/tags/");
       eleventyConfig.addPassthroughCopy("local/TTRPGs/Koriko/*.png");
 
 
@@ -31,14 +39,12 @@ module.exports = function (eleventyConfig) {
     // allow the use of limit to limit items displayed 
     eleventyConfig.addFilter("limit", function (arr, limit) {  return arr.slice(0, limit);});
 
-
-
-eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    // Luxon dates
+    eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "DDD");
 	});
-
-	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('dd-LLL-yyyy');
 	});
@@ -46,24 +52,28 @@ eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 
 // COLLECTIONS 
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addCollection("recipes", function (collectionApi) {
-    return collectionApi
-      .getAllSorted()
-      .filter((item) => item.url && item.inputPath.startsWith("./recipes"));
-  });
-};
+    module.exports = function (eleventyConfig) {
+      eleventyConfig.addCollection("recipes", function (collectionApi) {
+        return collectionApi
+          .getAllSorted()
+          .filter((item) => item.url && item.inputPath.startsWith("./recipes"));
+      });
+    };
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addCollection("TTRPGs", function (collectionApi) {
-    return collectionApi
-      .getAllSorted()
-      .filter((item) => item.url && item.inputPath.startsWith("./TTRPGs"));
-  });
-};
+    module.exports = function (eleventyConfig) {
+      eleventyConfig.addCollection("TTRPGs", function (collectionApi) {
+        return collectionApi
+          .getAllSorted()
+          .filter((item) => item.url && item.inputPath.startsWith("./TTRPGs"));
+      });
+    };
+
+ 
 
 
-     // Next & Previous links on bottom of posts
+// OTHER STUFF
+
+    // Next & Previous links on bottom of posts
     eleventyConfig.addCollection("posts", function(collection) {
       const coll = collection.getFilteredByTag("posts");
   
@@ -78,9 +88,28 @@ module.exports = function (eleventyConfig) {
       return coll;
   });
 
+    // markdown-it options
+      let options = {
+        html: true,
+        typographer: true
+      };
+      eleventyConfig.setLibrary("md", markdownIt(options));
+      eleventyConfig.setLibrary("md", md);
+
+      eleventyConfig.amendLibrary("md", function (md) {
+        md.set({ typographer: true });
+      });
+
+    // Markdownit footnotes 
+    let markdownLib = markdownIt({
+        html: true,
+        breaks: true,
+        linkify: true
+    }).use(markdownItFootnote);
+    eleventyConfig.setLibrary("md", markdownLib);
 
 
-//  DIRECTORIES 
+//  DIRECTORIES
 
   return {
     passthroughFileCopy: true,
@@ -90,7 +119,6 @@ module.exports = function (eleventyConfig) {
       includes: "_includes"
     },
   };
-
 
 
   };

@@ -4,17 +4,11 @@ layout: layout/base.njk
 <div class="textbox">
 <!-- title and date -->
 <h3>{{ title }}</h3>
-<strong><time>{{ date | readableDate }}</time></strong>
-<div>
 
-<!-- TAGS -->
-Tags: 
-
-{% for tag in tags %}
-<a href="tags/{{tag | slugify}}.html">{{tag}}</a>{%- if not loop.last %}, {% endif %}  
-{% endfor %}
-
-</div>
+<div><strong>{{ date | readableDate }}</strong></div>   
+{%- if lastmod -%}
+<div>Updated: <strong>{{ lastmod | readableDate }}</div></strong>
+{% endif %}
 
 </div><!-- text box -->
 
@@ -34,3 +28,7 @@ Tags:
 </div>
 {%- endif %}
 {%- endif %}
+
+<div class="textbox">
+	{%- include "partials/commentbox.njk" %}
+</div>

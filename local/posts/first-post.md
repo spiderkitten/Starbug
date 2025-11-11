@@ -1,9 +1,9 @@
 ---
 title: First Post
 date: 2024-01-01
-description: This is the first post on my brand new cool blog!
-tags:  
-- news
+lastmod: 
+description: this is my first post!
+
 ---
 
 <h3>Where I start writing things I guess</h3>

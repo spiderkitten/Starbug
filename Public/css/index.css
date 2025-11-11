@@ -12,13 +12,13 @@
       }
       
       .linkme {
-        background-color: var(--pallette6);
-        border-color: var(--pallette6);
-border-width: 3px;
-border-style: solid;
-border-radius: 10px;
-text-align: center;
-margin-top: 5px;
+      background-color: var(--pallette6);
+      border-color: var(--pallette6);
+      border-width: 3px;
+      border-style: solid;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 5px;
       }
 
 
@@ -161,3 +161,5 @@ font-size: var(--fontstatus)
 }
 
 /* ===== */
+
+

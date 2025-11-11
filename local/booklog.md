@@ -25,11 +25,7 @@ Note that there are a lot of three star rated books. I suggest just checking the
   <button class="navbutton" onclick="filterSelection('2018')">2018</button>
   <button class="navbutton" onclick="filterSelection('2017')">2017</button>
 
- <button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button>
-  <button class="navbutton" onclick="filterSelection('four')"><img src="/images/books/ratings/fourstar.gif"></button>
-  <button class="navbutton" onclick="filterSelection('three')"><img src="/images/books/ratings/threestar.gif"></button>
-  <button class="navbutton" onclick="filterSelection('two')"><img src="/images/books/ratings/twostar.gif"></button>
-  <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>
+ <button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button> <button class="navbutton" onclick="filterSelection('four')"><img src="/images/books/ratings/fourstar.gif"></button> <button class="navbutton" onclick="filterSelection('three')"><img src="/images/books/ratings/threestar.gif"></button> <button class="navbutton" onclick="filterSelection('two')"><img src="/images/books/ratings/twostar.gif"></button> <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>
 
 <details> 
 <summary>Click for Genres and Tags</summary>
