@@ -1,5 +1,5 @@
 
-{%- assign changes = changelog | reverse | limit: 3 -%}
+{%- set changes = changelog | reverse | limit(3) -%}
 {%- for change in changes -%}
 
 <div class="changelog"><p><strong>{{ change.date }}:</strong> - {{ change.update }}</div></p> 

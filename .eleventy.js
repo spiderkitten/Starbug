@@ -1,17 +1,6 @@
 
 const { DateTime } = require('luxon'); // luxon plugin
-const markdownIt = require("markdown-it"); // markdown-it plugin
-const markdownItFootnote = require("markdown-it-footnote"); // mardown-it-footnotes plugin 
 
-const md = new markdownIt({
-    html: true, // Enables HTML tags (the default in 11ty but not markdown-it)
-    typographer: true, // Automatically converts "" and '' into curly quotations and apostrophes
-});
-
-
-module.exports.config = {
-    markdownTemplateEngine: 'njk',
-};
 
 
 // Module.Exports starts here
@@ -50,6 +39,103 @@ module.exports = function (eleventyConfig) {
 	});
 
 
+
+
+// FANFIC FILTERS
+
+  eleventyConfig.addFilter("toUTC", function (value) {
+    return new Date(value).toLocaleDateString("en-CA", {
+      timeZone: "UTC",
+      month: "short",
+      day: "2-digit",
+      year: "numeric",
+    });
+  });
+
+  eleventyConfig.addFilter("formatNum", function (value) {
+    return new Intl.NumberFormat("en-CA").format(value);
+  });
+
+  eleventyConfig.addCollection("works", function (collection) {
+    return collection.getFilteredByTag("works").reverse();
+  });
+
+  eleventyConfig.addCollection("postsByTag", function (collection) {
+    const tagsSet = new Set();
+    collection.getAll().forEach((item) => {
+      if ("tags" in item.data) {
+        item.data.tags.forEach((tag) => tagsSet.add(tag));
+      }
+    });
+    return Array.from(tagsSet);
+  });
+
+  eleventyConfig.addCollection("postsByFandom", function (collection) {
+    const tagsSet = new Set();
+    collection.getAll().forEach((item) => {
+      if ("fandom" in item.data) {
+        item.data.fandom.forEach((tag) => tagsSet.add(tag));
+      }
+    });
+    return Array.from(tagsSet);
+  });
+
+  eleventyConfig.addFilter("find", function find(collection = [], slug = "") {
+    return collection.filter((work) => work.data.title === slug);
+  });
+
+  eleventyConfig.addFilter("filterByTag", function (collection = [], tag = " ") {
+      return collection.filter((work) => work.data.tags.includes(tag));
+    }
+  );
+
+  eleventyConfig.addFilter("filterByFandom", function (collection = [], fandom ="") {
+    return collection.filter((work) => work.data.fandom.includes(fandom));
+  })
+
+  // Return all the tags used in a collection
+  eleventyConfig.addFilter("getAllTags", (collection) => {
+    let tagSet = new Set();
+    for (let item of collection) {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    }
+    return Array.from(tagSet);
+  });
+
+  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+    return (tags || []).filter(
+      (tag) => ["all", "works", "post", "posts"].indexOf(tag) === -1
+    );
+  });
+
+  eleventyConfig.addFilter("getAllFandoms", (collection) => {
+    let fandomSet = new Set();
+    for (let item of collection) {
+      (item.data.fandom || []).forEach((fandom) => fandomSet.add(fandom));
+    }
+
+    return Array.from(fandomSet);
+  });
+
+  eleventyConfig.addFilter("getWorkId", function (url) {
+    const workId = url.match(/\/works\/(\d+)/);
+    return workId[1];
+  });
+
+
+// END FANFIC FILTERS
+
+
+
+
+
+
+
+
+
+
+
+
 // COLLECTIONS 
 
     module.exports = function (eleventyConfig) {
@@ -68,11 +154,6 @@ module.exports = function (eleventyConfig) {
       });
     };
 
- 
-
-
-// OTHER STUFF
-
     // Next & Previous links on bottom of posts
     eleventyConfig.addCollection("posts", function(collection) {
       const coll = collection.getFilteredByTag("posts");
@@ -88,30 +169,16 @@ module.exports = function (eleventyConfig) {
       return coll;
   });
 
-    // markdown-it options
-      let options = {
-        html: true,
-        typographer: true
-      };
-      eleventyConfig.setLibrary("md", markdownIt(options));
-      eleventyConfig.setLibrary("md", md);
 
-      eleventyConfig.amendLibrary("md", function (md) {
-        md.set({ typographer: true });
-      });
+// PLUGIN OPTIONS 
 
-    // Markdownit footnotes 
-    let markdownLib = markdownIt({
-        html: true,
-        breaks: true,
-        linkify: true
-    }).use(markdownItFootnote);
-    eleventyConfig.setLibrary("md", markdownLib);
+
 
 
 //  DIRECTORIES
 
   return {
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true,
     dir: {
       input: "local",

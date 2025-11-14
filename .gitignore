@@ -30,3 +30,11 @@ Public/test.html
 
 # Other pages
 
+Public/fanfic/index.html
+Public/fanfic/ladyjustice.html
+Public/fanfic/Castle/ladyjustice.html
+local/_includes/partials/ficlist.njk
+
+local/fanfic/fanfic.json
+local/fanfic/index.md
+local/fanfic/ladyjustice.md
