@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 
  ### Changelog  
 
-Just a way to look back on all the updates I have made. Should be every major update. Unless I forget^[I always forget]. 
+Just a way to look back on all the updates I have made. 
 
     {%- for changelog in changelog | reverse -%}
 

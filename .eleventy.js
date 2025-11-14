@@ -1,8 +1,6 @@
 
 const { DateTime } = require('luxon'); // luxon plugin
 
-
-
 // Module.Exports starts here
 
 module.exports = function (eleventyConfig) {
