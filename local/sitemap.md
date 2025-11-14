@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
         - <a href="recipes/seedypnutbutter.html">Seedy Peanut Butter</a>
         - <a href="recipes/slowcookerbolognaise.html">Slow Cooker Bolognaise Sauce</a>
     - <a href="lexicon.html">Lexicon</a> - *My favourites words*
-    - <a href="commonplace.html">Commonplace Book</a> - random snippets 
+   <!-- - <a href="commonplace.html">Commonplace Book</a> - random snippets -->
     - <a href="solottrpg.md">Solo TTRPG Log</a> - *Index of TTRPG pages*
         - <a href="TTRPGs/5minmachine.html">5-Min-Machine</a>
         - <a href="TTRPGs/snailmailssq.html">Snail Mail Sunday</a>
