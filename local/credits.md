@@ -11,6 +11,7 @@ Everything this site is made with.
 
 <div class="textbox">
 
+
 ### Coding Stuff
 
 - <a href="https://vscodium.com/">VSCodium</a> code editor - open source binary of VSCode without Microsofts tracking. 
@@ -18,12 +19,30 @@ Everything this site is made with.
 - <a href="https://neocities.org/">Neocities</a> hosting
 - <a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Petrapixel's deploying to Neocities guide</a>  
 
+#### VSCodium Extensions
+
+- <a href="https://open-vsx.org/extension/oderwat/indent-rainbow">Indent Rainbow</a> - clearly see the indent level
+- <a href="https://open-vsx.org/extension/formulahendry/auto-close-tag">Auto Close Tag</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server">Live Preview</a> Live preview lets you see your page within VSCode(ium)
+- <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> Live Server serves the page in your browser 
+- <a href="https://marketplace.visualstudio.com/items?itemName=ginfuru.better-nunjucks">Better Nunjucks</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions">Github Actions</a> and <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull Requests</a> for deploying site  
+- <a href="https://github.com">Github</a> site gets pushed to github before it goes to neocities 
+
+#### 11ty Plugins
+- <a href="https://github.com/markdown-it/markdown-it">Markdown-it</a> - adds some markdown features
+- <a href="https://github.com/markdown-it/markdown-it-footnote">Markdown-it-footnote</a> - easy footnotes
+- <a href="https://github.com/markdown-it/markdown-it-emoji">markdown-it-emoji</a> - emojis! :rainbow: :cat: :fire:
+- <a href="https://github.com/moment/luxon/">luxon</a> - for date stuff 
+- <a href="https://gfscott.com/embed-everything/">Embed Everything 11ty Plugin</a> - easily embed things (youtube etc)
+
 ### Code Snippets and Scripts 
 
 #### Site Wide
 - <a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon
 - <a href="https://www.w3schools.com/howto/howto_js_filter_elements.asp">W3's Element filtering tutorial</a> - used on the books, music, movie pages
 - <a href="https://www.30secondsofcode.org/css/s/zebra-striped-list-or-table/">Striped List tutorial</a> 
+
 
 #### Index Page 
 - <a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a> 
@@ -36,7 +55,7 @@ Everything this site is made with.
 
 - <a href="https://stackoverflow.com/a/40701429">Code for image popups</a>
 
-#### Guestbook 
+#### Guestbook / Comments 
 - <a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a>  
 
 #### Credits Page

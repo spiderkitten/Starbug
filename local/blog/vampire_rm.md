@@ -3,6 +3,9 @@ title: Vampire Resource Management
 date: 2024-02-02
 lastmod:
 description: how long it would take for vampires to wipe out humans
+tags:
+  - Nerdgasm
+  - Science
 ---
 
 <p>As a long time horror fan, I've often wondered, what would happen if vampires turned everyone into vampires and there was no one left to feed on? or what if they just ran out of people to drain? </p>

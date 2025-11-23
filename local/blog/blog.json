@@ -1,0 +1,5 @@
+{
+	"layout": "layout/blog.njk",
+    "cssFile2": "gbook.css",
+    "tags": "blog"
+}

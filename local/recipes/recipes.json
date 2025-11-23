@@ -1,5 +1,5 @@
 {
 	"layout": "layout/recipes.njk",
     "cssFile": "recipes.css",
-    "tags": "recipe" 
+    "tags": "recipe"
 }

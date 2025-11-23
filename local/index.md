@@ -28,11 +28,8 @@ eleventyExcludeFromCollections: true
 
 <!-- Status Box -->
 <div id="status" class="textbox">
-<h3>Status/Currently</h3>
-<div><strong>Reading:</strong>fanfic</div>
-<div><strong>Watching:</strong>The Amazing Race</div>
-<div><strong>Listening to:</strong>the endless void</div>
-<div><strong>Playing:</strong>Gas Station Simulator</div>
+<h3>Soon</h3>
+
 </div>
 
 <!-- Webrings -->

@@ -10,23 +10,6 @@ eleventyExcludeFromCollections: true
 
 So this is just a page where I'm going to talk about what I use to get things done. Broken down into neat little sections, hopefully. Inspired by the /use movement I guess!   
 
-<!-- Website Stuff -->
-
-<div class="textbox">
-
-### Website 
-
-All the things I use to make this website! 
-
-  - <a href="http://www.neocities.com">Neocities</a> - where this site is hosted. Its free, although there is a premium option. The uptime is amazing, and its perfectly suitable for a small personal page. Highly recommend!
-  - <a href="https://vscodium.com/">VSCodium</a> - what I use to write my code. Its a binary of Microsoft's VSCode - for all intents and purposes its the same app, just without the tracking/telemetry that Microsoft adds. 
-  - <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions">Github Actions</a>, <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull Requests</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server">Live Preview</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> - extensions for VS Code. Live preview lets you see your page within VSCode, Live Server serves the page in your browser, and the github ones help with deploying to neocities. 
-  - <a href="https://github.com">Github</a> - I deploy my site to Github and then it automatically deploys to neocities 
-  - <a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Deploy to Neocities</a> - tutorial on how to deploy to neocities from vscode 
-
-</div>
-
-
 <!-- Browser Extensions -->
 
 <div class="textbox">
@@ -127,6 +110,8 @@ Just some apps I have on my phone/ipad.
 - <a href="https://www.goodnotes.com">Goodnotes 6</a> - note taking app.
 - <a href="https://libbyapp.com">libby</a> - app lets you read books for free - all you need is a library card and for your local library to be signed up
 - <a href="https://procreate.com">Procreate</a> - paint program, good for art etc
+- <a href="https://www.toogoodtogo.com">Too Good To Go</a> - find local bakeries, cafes and restaurants who sell discounted "surprise bags" of leftover food items at the end of the day. 
+- <a href="https://www.bakersdelight.com.au/dough-getters/">Baker's Delight Dough Getters App</a> - Australian bakery app - get $5 off for every $55 you spend, promo deals, and a free scone on your birthday 
 
 </div>
 

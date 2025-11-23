@@ -12,7 +12,8 @@
     "poster": "castle.png",
     "favourite": "favourite",
     "imdb": "https://www.imdb.com/title/tt1219024/",
-    "trailer": ""
+    "trailer": "",
+        "info": "test"
     },
     {
     "title": "Star Trek Voyager",
@@ -27,7 +28,8 @@
     "poster": "stvoyager.png",
     "favourite": "favourite",
     "imdb": "https://www.imdb.com/title/tt0112178/",
-    "trailer": ""
+    "trailer": "",
+        "info": ""
     },
     {
     "title": "Stargate SG1",
@@ -42,7 +44,8 @@
     "poster": "stargatesg1.png",
     "favourite": "favourite",
     "imdb": "https://www.imdb.com/title/tt0118480/",
-    "trailer": ""
+    "trailer": "",
+        "info": ""
     },
     {
     "title": "Monkey",

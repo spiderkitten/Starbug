@@ -1,4 +1,4 @@
-.container { /* Masonry container */
+ .container { 
 
     -moz-column-count: 3;
     -webkit-column-count: 3;
@@ -10,7 +10,9 @@
 
     margin: 0px;
     padding: 0;
-}
+} 
+
+ 
 
 .item {
     display: inline-block;
@@ -21,6 +23,7 @@
     padding: 10px;
     margin: 0 0 10px;
     width: 100%;
+ 
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;

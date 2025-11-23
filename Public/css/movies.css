@@ -159,6 +159,32 @@ heart {
 }
 
 
+
+  .movie > .movie-info {
+      display: none;
+      background: var(--pallette4);
+      padding: 8px;
+      border: 1px solid var(--pallette7);
+      width: 256px;
+      border-width: 2px;
+      border-radius: 10px;
+  }
+
+  .movie:hover {
+      z-index: 1;
+      scale: 1.1;
+      position: relative;
+  }
+  .movie:hover > .movie-info {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 136px;
+  }
+
+
+
+
 @media screen and (max-width: 800px) {
     .filterDivMovies { width: 40%; font-size: 15px; }
     }

@@ -20,27 +20,6 @@
   <script src="/js/"></script>
 
 
-<!-- Theme Switch Code -->
-  <script>
-    const defaultTheme = "css/style.css";
-    // Check if `theme` is set
-    if (localStorage.getItem("theme") === null) {
-      // Set to default theme
-      localStorage.setItem("theme", defaultTheme);
-    }
-    // Load theme CSS
-    document.head.insertAdjacentHTML(
-      'beforeend',
-      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
-    // Theme switcher
-    function setTheme(themeFile) {
-      // Set theme to new theme
-      localStorage.setItem('theme', themeFile);
-      // Refresh the page
-      location.reload();
-    }
-  </script>
-
   <title>SPACE CADET | Credits</title>
 </head>
 
@@ -52,28 +31,33 @@
   </header>
 
 
-  
-  <nav class="topnav">
+   <nav class="topnav">
 
     <a href="/index.html" class="navbutton">Home</a> 
-  
-    <div class="dropdown">
-      <button>Stuff</button>
-      <div class="dropdown-content">
-        <a href="/use.html">/Use</a>  
-        <a href="/shinies.html">Shinies</a>
-        <a href="/cookbook.html">Cookbook</a>
-        <a href="/lexicon.html">Lexicon</a>
-        <!--<a href="/commonplace.html">Commonplace Book</a>-->
-        <a href="/solottrpg.html">TTRPG Log</a>
-        <!--<a href="/posts/index.html">Posts</a>-->
-      </div>
-  </div>
+    <a href="/shinies.html" class="navbutton">Shinies</a>
+    <a href="/booklog.html" class="navbutton">Reading Log</a>
+    <a href="/cookbook.html" class="navbutton">Cookbook</a>
+
+
+    <a href="/sitemap.html" class="navbutton">Sitemap</a>
+    <a href="/guestbook.html" class="navbutton">Guestbook</a>
+
+
+
+
+<!--
+<a href="/use.html" class="navbutton">/Use</a> 
+<a href="/commonplace.html" class="navbutton">Commonplace Book</a>  
+<a href="/posts/index.html" class="navbutton">Posts</a> 
+<a href="/links.html" class="navbutton">Links</a>
+
+        <a href="/lexicon.html" class="navbutton">Lexicon</a>
+        <a href="/solottrpg.html" class="navbutton">TTRPG Log</a>
 
   <div class="dropdown">
     <button>Books/Movies/Music</button>
     <div class="dropdown-content">
-        <a href="/booklog.html">Reading Log</a>
+
         <a href="/favmusic.html">Favourite Music</a>
         <a href="/favtvshows.html">Favourite TV Shows</a>
         <a href="/favmovies.html">Favourite Movies</a> 
@@ -91,39 +75,12 @@
       <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a>
     </div>
   </div>
+-->
 
-  <!--<a href="/links.html" class="navbutton">Links</a>-->
-
-    <div class="dropdown">
-      <button>Site</button>
-      <div class="dropdown-content">
-        <a href="/credits.html">Site Credits</a> 
-        <a href="/changelog.html">Changelog</a>
-        <a href="https://neocities.org/site/starbug">Neocities Profile</a>             
-        </div>
-    </div>
-
-
-      <a href="/sitemap.html" class="navbutton">Sitemap</a>
-      <a href="/guestbook.html" class="navbutton">Guestbook</a>
-
-<div class="dropdown">
-<button>Theme Switch</button>
-
-<div class="dropdown-content">
-  <a href="#" onclick="setTheme('/css/style.css')">Red (default)</a>
-  <a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a>
-  <a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a>  
-  <a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a>
-
-</div>
-</div>
 
 
 </nav>
-
-
-
+ 
     
 
   <main>
@@ -139,6 +96,24 @@
 <li><a href="https://www.11ty.dev/">11ty Static Site Generator</a> to make static pages from pieces of my code</li>
 <li><a href="https://neocities.org/">Neocities</a> hosting</li>
 <li><a href="https://petrapixel.neocities.org/blog/neocities-automatic-deployment">Petrapixel's deploying to Neocities guide</a></li>
+</ul>
+<h4>VSCodium Extensions</h4>
+<ul>
+<li><a href="https://open-vsx.org/extension/oderwat/indent-rainbow">Indent Rainbow</a> - clearly see the indent level</li>
+<li><a href="https://open-vsx.org/extension/formulahendry/auto-close-tag">Auto Close Tag</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server">Live Preview</a> Live preview lets you see your page within VSCode(ium)</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> Live Server serves the page in your browser</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ginfuru.better-nunjucks">Better Nunjucks</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions">Github Actions</a> and <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">Github Pull Requests</a> for deploying site</li>
+<li><a href="https://github.com">Github</a> site gets pushed to github before it goes to neocities</li>
+</ul>
+<h4>11ty Plugins</h4>
+<ul>
+<li><a href="https://github.com/markdown-it/markdown-it">Markdown-it</a> - adds some markdown features</li>
+<li><a href="https://github.com/markdown-it/markdown-it-footnote">Markdown-it-footnote</a> - easy footnotes</li>
+<li><a href="https://github.com/markdown-it/markdown-it-emoji">markdown-it-emoji</a> - emojis! 🌈 🐱 🔥</li>
+<li><a href="https://github.com/moment/luxon/">luxon</a> - for date stuff</li>
+<li><a href="https://gfscott.com/embed-everything/">Embed Everything 11ty Plugin</a> - easily embed things (youtube etc)</li>
 </ul>
 <h3>Code Snippets and Scripts</h3>
 <h4>Site Wide</h4>
@@ -160,7 +135,7 @@
 <ul>
 <li><a href="https://stackoverflow.com/a/40701429">Code for image popups</a></li>
 </ul>
-<h4>Guestbook</h4>
+<h4>Guestbook / Comments</h4>
 <ul>
 <li><a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a></li>
 </ul>
@@ -234,7 +209,7 @@ https://daniele63.com/coding_tricks#visitorCounterDiv
 <!-- Footer -->
 <footer>
 <div class="footer">
-    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025</div> 
+    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a></div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
 </div>
 </footer>

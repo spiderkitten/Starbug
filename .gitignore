@@ -30,11 +30,23 @@ Public/test.html
 
 # Other pages
 
+Public/posts/tags/all.html
+Public/posts/tags/blog.html
+Public/posts/tags/fanfic.html
+Public/posts/tags/journalrpg-wip.html
+Public/posts/tags/journalrpg.html
+Public/posts/tags/koriko.html
+Public/posts/tags/nerdgasm.html
+Public/posts/tags/posts.html
+Public/posts/tags/recipe.html
+Public/posts/tags/science.html
+Public/posts/tags/solorpg.html
 Public/fanfic/index.html
-Public/fanfic/ladyjustice.html
 Public/fanfic/Castle/ladyjustice.html
-local/_includes/partials/ficlist.njk
-
+Public/fanfic/StargateSG1/starshiptrooper.html
+Public/fanfic/StargateSG1/wedding.html
 local/fanfic/fanfic.json
 local/fanfic/index.md
-local/fanfic/ladyjustice.md
+local/fanfic/Castle/ladyjustice.md
+local/fanfic/StargateSG1/starshiptrooper.md
+local/fanfic/StargateSG1/wedding.md

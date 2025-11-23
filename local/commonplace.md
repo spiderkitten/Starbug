@@ -18,6 +18,7 @@ eleventyExcludeFromCollections: true
 
 This is my Commonplace Book, just a place for me to dump tiny snippets of knowledge, things I want to remember, or just random things I come across that I enjoy. KInda like my own personal pinterest page. Not much here right now! WIP.
 
+
 <div id="filterContainer">
   <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
   <button class="navbutton" onclick="filterSelection('youtube')">Youtube</button>
@@ -37,12 +38,14 @@ This is my Commonplace Book, just a place for me to dump tiny snippets of knowle
  <div class="filterDivCommonplace {{ commonplace.category }}"> 
     <div class="item">
       {%- if commonplace.youtube != "" %}
-      {{ commonplace.youtube }}
+
+      {{ commonplace.youtube | safe }}
+
       <q>{{ commonplace.caption}}</q>
       {%- endif %}
       {%- if commonplace.list != "" -%}
       <h3>{{ commonplace.title }}</h3>
-      {{- commonplace.list -}}
+      {{- commonplace.list | safe -}}
       {%- endif -%}
       {%- if commonplace.image != "" %}
       <img class="modal_image" src="images/commplace/{{ commonplace.image }}" id="myImg" alt="{{ commonplace.alttext }}" title="{{ commonplace.titletext }}">

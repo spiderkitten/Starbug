@@ -13,8 +13,11 @@ A log of things I have read. I almost didn't add ratings, because I find them so
 
 Note that there are a lot of three star rated books. I suggest just checking the other ratings. 
 
+My Favourite reads ever are listed under favs. 
+
 <div id="filterContainer">
   <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
+  <button class="navbutton" onclick="filterSelection('favourite')">Favs</button>
   <button class="navbutton" onclick="filterSelection('2025')">2025</button>
   <button class="navbutton" onclick="filterSelection('2024')">2024</button>
   <button class="navbutton" onclick="filterSelection('2023')">2023</button>
@@ -24,6 +27,8 @@ Note that there are a lot of three star rated books. I suggest just checking the
   <button class="navbutton" onclick="filterSelection('2019')">2019</button>
   <button class="navbutton" onclick="filterSelection('2018')">2018</button>
   <button class="navbutton" onclick="filterSelection('2017')">2017</button>
+  <button class="navbutton" onclick="filterSelection('2016')">2016</button>
+  <button class="navbutton" onclick="filterSelection('pre2009')">Pre 2009</button>
 
  <button class="navbutton" onclick="filterSelection('five')"><img src="/images/books/ratings/fivestar.gif"></button> <button class="navbutton" onclick="filterSelection('four')"><img src="/images/books/ratings/fourstar.gif"></button> <button class="navbutton" onclick="filterSelection('three')"><img src="/images/books/ratings/threestar.gif"></button> <button class="navbutton" onclick="filterSelection('two')"><img src="/images/books/ratings/twostar.gif"></button> <button class="navbutton" onclick="filterSelection('one')"><img src="/images/books/ratings/onestar.gif"></button>
 
@@ -90,7 +95,8 @@ magical realism, urban fantasy,
     {%- endfor -%}
 </div>
 <noscript>This page requires Javascript, sorry.</noscript> 
-</div><!-- textbox -->
+</div>
+<!-- textbox -->
  
 <!-- Filter Script 
 Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements

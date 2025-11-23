@@ -1,7 +1,6 @@
 ---
 title: Easy Apple Turnovers
 recipephoto: placeholder.png
-
 ---
 
 <!--Ingredients List-->

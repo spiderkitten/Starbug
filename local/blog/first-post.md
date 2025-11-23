@@ -3,7 +3,8 @@ title: First Post
 date: 2024-01-01
 lastmod: 
 description: this is my first post!
-
+tags: 
+- News
 ---
 
 <h3>Where I start writing things I guess</h3>
