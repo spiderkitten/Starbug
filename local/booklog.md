@@ -87,6 +87,10 @@ magical realism, urban fantasy,
 -->
 </div>
 </div>
+
+
+
+
 <div class="textbox">
 
 <div class="bookgallery">
@@ -96,8 +100,9 @@ magical realism, urban fantasy,
 </div>
 <noscript>This page requires Javascript, sorry.</noscript> 
 </div>
-<!-- textbox -->
- 
+
+
+
 <!-- Filter Script 
 Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 -->
