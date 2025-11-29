@@ -77,6 +77,11 @@
     {
         "date": "28 October 2025",
         "update": "Added a commonplace book, changed the reading log, fav music and fav movie pages so they are filterable. Added a modal/popup for images on commonplace book page. Updated the site credits page and the sitemap. Added a few song to favourite music. Added 2019, 2018 and 2017 to my reading log. Also worked on validating my code and I think I was successful!"
+    },
+
+    {
+        "date": "29 November 2025",
+        "update": "Changed the nav menu to a sidebar, as the top menu with hover dropdowns wasn't at all accessible and it was bothering me. Not sure I like the sidebar, it feels like the page is a bit crowded with it, but for now it will do. Also removed a few pages that I wasn't happy with to redo them. Am planning to redo the colour scheme as the contrast isn't strong enough, not sure what colours to do though!"
     }
         
 ]

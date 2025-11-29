@@ -65,6 +65,7 @@ local/fanfic/index.md
 local/fanfic/Castle/ladyjustice.md
 local/fanfic/StargateSG1/starshiptrooper.md
 local/fanfic/StargateSG1/wedding.md
+
 Public/OLDindex.html
 
 
@@ -84,3 +85,8 @@ local/blog/first-post.md
 local/blog/index.md
 local/blog/tags.md
 local/blog/vampire_rm.md
+local/_includes/layout/baseNEW.njk
+
+local/css/styleNEW.css
+Public/css/style copy.css
+Public/css/styleNEW.css

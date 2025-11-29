@@ -11,8 +11,8 @@
 
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
   <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/{{ cssFile }}" rel="stylesheet" type="text/css" media="all"> 
-    <link href="/css/{{ cssFile2 }}" rel="stylesheet" type="text/css" media="all"> 
+ <link href="/css/{{ cssFile }}" rel="stylesheet" type="text/css" media="all"> 
+    <link href="/css/{{ cssFile2 }}" rel="stylesheet" type="text/css" media="all">
 
   <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
 
@@ -20,9 +20,9 @@
   <script src="/js/{{ script }}"></script>
 
 
-<!-- Theme Switch Code -->
+<!--Theme Switch Code -->
   <script>
-    const defaultTheme = "css/style.css";
+    const defaultTheme = "css/styleNEW.css";
     // Check if `theme` is set
     if (localStorage.getItem("theme") === null) {
       // Set to default theme
@@ -45,27 +45,29 @@
 </head>
 
 <body>
-  <page-container>
+
   <header>
     <h1>SPACE CADET</h1>
     <tag-line>Just a girl floating through space...</tag-line>
   </header>
 
+<!-- Sidebar Nav Starts -->
+<menu>
+{% include "partials/sidenav.njk" %} 
+</menu>
+<!-- Sidebar Nav ENDS -->
 
-  {% include "partials/topnav.njk" %}
-
-  <main>
-<!-- Main Content Start-->
+<!-- Main Conent Start -->
+<main>
 {% block content %}
-
   {{ content | safe }}
-
 {% endblock %}
-<!-- Main Content End-->
-  </main>
+</main> 
+<!-- Main Content END -->
 
 <!-- Footer -->
-{% include "partials/footer.njk" %}
-</page-container>
+{% include "partials/footer.njk" %} 
+<!-- Footer END -->
+
 </body>
 </html> 

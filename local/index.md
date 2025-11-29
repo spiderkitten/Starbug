@@ -30,9 +30,8 @@ eleventyExcludeFromCollections: true
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
 <div><strong>Reading:</strong>fanfic</div>
-<div><strong>Watching:</strong>The Amazing Race</div>
-<div><strong>Listening to:</strong>the endless void</div>
-<div><strong>Playing:</strong>Gas Station Simulator</div>
+<div><strong>Watching:</strong></div>
+<div><strong>Playing:</strong>Minecraft</div>
 </div>
 
 <!-- Webrings -->

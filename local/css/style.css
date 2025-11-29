@@ -104,13 +104,12 @@ html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
 body {
   display: grid;
   grid-template-areas:
-    'header'
-    'topnav'
-    'main'
-    'footer';
+    'header header'
+    'menu main'
+    'footer footer';
 
-  grid-template-columns: 100%;
-  grid-template-rows: 150px 90px 1fr 70px;
+  grid-template-columns: 310px 1fr;
+  grid-template-rows: 150px 1fr 70px;
   padding-bottom: 10px;
   margin: 0;
   background: var(--background-color);
@@ -122,7 +121,7 @@ body {
 }
 
 page-container {
-  width:85%;
+  width:90%;
   margin: auto;
   max-width: 1000px;
 }
@@ -137,25 +136,29 @@ header { /* Site Title Area */
   border-radius: 10px;
 }
 
-.topnav { /* Main Menu Navigation */
-  grid-area: topnav;
+menu { /* Main Menu Navigation */
+  grid-area: menu;
   background: var(--pallette4);
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
+  padding: 20px;
+  padding-top: 5px;
   border-style: solid;
   border-color: var(--pallette5);
   padding: 5px;
-  margin: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+  border-top: var(--pallette6) solid 15px;
+  border-bottom: var(--pallette6) solid 15px;
 }
 
 
 main { 
   grid-area: main;
   background: var(--pallette4);
-  margin: 20px;
-  margin-top: 14px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 20px;
@@ -164,7 +167,7 @@ main {
   border-bottom: var(--pallette6) solid 15px;
 }
 
-.footer {
+footer {
 grid-area:footer;
 background: var(--pallette4);
 color: var(--pallette3);
@@ -200,6 +203,10 @@ tag-line {
 }
 
 /* ===== Main Menu =====*/ 
+
+.menu-buttons {
+margin-bottom:20px;
+}
 
 .topnav a:hover { 
   text-decoration: none;
@@ -623,20 +630,20 @@ margin: 0px;
     body {
 
       grid-template-areas:
-        'header'
-        'topnav'     
+        'header'  
         'main'
+        'menu'
         'footer';
         grid-template-columns: 100%;
-        grid-template-rows: 150px 120px 1fr 100px;
+        grid-template-rows: 150px 1fr 1fr 100px;
     }
 
-    .header h1 {
-      color: var(--pallette2);
+    header h1 {
+      color: var(--pallette8);
       font-family:var(--fonttitle);
       text-shadow: var(--titletextshadow);
       text-align: center;
-      font-size: 60px;
+      font-size: 50px;
       letter-spacing: 5px;
       margin: 0;
       text-transform: uppercase;
@@ -663,20 +670,20 @@ column-gap: 10px;
   
   body {
       grid-template-areas:
-        'header'
-        'topnav'     
+        'header'   
         'main'
+        'menu'
         'footer';
         grid-template-columns: 100%;
-        grid-template-rows: 150px 180px 1fr 100px;
+        grid-template-rows: 150px 1fr 1fr 100px;
     }
   
-    .header h1 {
-      color: var(--pallette2);
+    header h1 {
+      color: var(--pallette8);
       font-family:var(--fonttitle);
       text-shadow: var(--titletextshadow);
       text-align: center;
-      font-size: 50px;
+      font-size: 45px;
       letter-spacing: 5px;
       margin: 0;
       text-transform: uppercase;
