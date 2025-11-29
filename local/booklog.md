@@ -99,10 +99,8 @@ magical realism, urban fantasy,
     {%- endfor -%}
 </div>
 <noscript>This page requires Javascript, sorry.</noscript> 
-</div>
-
-
-
+</div><!-- textbox -->
+ 
 <!-- Filter Script 
 Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 -->

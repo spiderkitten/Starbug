@@ -20,6 +20,27 @@
   <script src="/js/"></script>
 
 
+<!-- Theme Switch Code -->
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>SPACE CADET | Book Log</title>
 </head>
 
@@ -31,33 +52,28 @@
   </header>
 
 
-   <nav class="topnav">
+  
+  <nav class="topnav">
 
     <a href="/index.html" class="navbutton">Home</a> 
-    <a href="/shinies.html" class="navbutton">Shinies</a>
-    <a href="/booklog.html" class="navbutton">Reading Log</a>
-    <a href="/cookbook.html" class="navbutton">Cookbook</a>
-
-
-    <a href="/sitemap.html" class="navbutton">Sitemap</a>
-    <a href="/guestbook.html" class="navbutton">Guestbook</a>
-
-
-
-
-<!--
-<a href="/use.html" class="navbutton">/Use</a> 
-<a href="/commonplace.html" class="navbutton">Commonplace Book</a>  
-<a href="/posts/index.html" class="navbutton">Posts</a> 
-<a href="/links.html" class="navbutton">Links</a>
-
-        <a href="/lexicon.html" class="navbutton">Lexicon</a>
-        <a href="/solottrpg.html" class="navbutton">TTRPG Log</a>
+  
+    <div class="dropdown">
+      <button>Stuff</button>
+      <div class="dropdown-content">
+        <a href="/use.html">/Use</a>  
+        <a href="/shinies.html">Shinies</a>
+        <a href="/cookbook.html">Cookbook</a>
+        <a href="/lexicon.html">Lexicon</a>
+        <!--<a href="/commonplace.html">Commonplace Book</a>-->
+        <a href="/solottrpg.html">TTRPG Log</a>
+        <!--<a href="/posts/index.html">Posts</a>-->
+      </div>
+  </div>
 
   <div class="dropdown">
     <button>Books/Movies/Music</button>
     <div class="dropdown-content">
-
+        <a href="/booklog.html">Reading Log</a>
         <a href="/favmusic.html">Favourite Music</a>
         <a href="/favtvshows.html">Favourite TV Shows</a>
         <a href="/favmovies.html">Favourite Movies</a> 
@@ -75,12 +91,26 @@
       <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a>
     </div>
   </div>
--->
 
+  <!--<a href="/links.html" class="navbutton">Links</a>-->
+      <a href="/sitemap.html" class="navbutton">Sitemap</a>
+      <a href="/guestbook.html" class="navbutton">Guestbook</a>
 
+<div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+  <a href="#" onclick="setTheme('/css/style.css')">Red (default)</a>
+  <a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a>
+  <a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a>  
+  <a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a>
+
+</div>
+</div>
 
 </nav>
- 
+
+
     
 
   <main>
@@ -159,7 +189,8 @@ magical realism, urban fantasy,
 </div>
 </div>
 <div class="textbox">
-<div class="bookgallery"><div class="filterDivBooks 2021 novella humour books about books      three "> 
+<div class="bookgallery">
+<div class="filterDivBooks 2021 novella humour books about books      three "> 
 <div class="book">
         <img src="/images/books/covers/ab_uncommonreader.png" alt="book cover for The Uncommon Reader by Alan Bennett" title="The Uncommon Reader by Alan Bennett">
 <div class="booktxt"> 
@@ -895,7 +926,7 @@ magical realism, urban fantasy,
 </div><!--booktxt-->
 </div><!--book-->
 </div> 
-<div class="filterDivBooks 2023  Fantasy LGBTQ     cozy two "> 
+<div class="filterDivBooks 2023  fantasy LGBTQ     cozy two "> 
 <div class="book">
         <img src="/images/books/covers/tjk_housecerulean.png" alt="book cover for The House in the Cerulean Sea by T. J. Klune" title="The House in the Cerulean Sea by T. J. Klune">
 <div class="booktxt"> 
@@ -2810,7 +2841,7 @@ magical realism, urban fantasy,
 </div><!--booktxt-->
 </div><!--book-->
 </div> 
-<div class="filterDivBooks   fantasy urban fantasy magical realism steampunk mystery   three "> 
+<div class="filterDivBooks 2018  fantasy urban fantasy magical realism steampunk mystery   three "> 
 <div class="book">
         <img src="/images/books/covers/gc_maskedcity.png" alt="book cover for The Masked City by Genevieve Cogman" title="The Masked City by Genevieve Cogman">
 <div class="booktxt"> 
@@ -3018,9 +3049,369 @@ magical realism, urban fantasy,
 </div><!--booktxt-->
 </div><!--book-->
 </div> 
+<div class="filterDivBooks pre2009 novella dystopia        "> 
+<div class="book">
+        <img src="/images/books/covers/sk_thelongwalk.png" alt="book cover for The Long Walk by Richard Bachman" title="The Long Walk by Richard Bachman">
+<div class="booktxt"> 
+<div>
+        <div class="title">The Long Walk</div>
+        <div class="author">Richard Bachman</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/9014.The_Long_Walk" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/521d2943-83fc-4f29-9f66-3167224fe042" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  scifi adventure aliens      "> 
+<div class="book">
+        <img src="/images/books/covers/ec_armada.png" alt="book cover for Armada by Ernest Cline" title="Armada by Ernest Cline">
+<div class="booktxt"> 
+<div>
+        <div class="title">Armada</div>
+        <div class="author">Ernest Cline</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/25016389-armada" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/6674761c-c1fb-48f9-839e-6e92201eb761" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  urban fantasy humour vampires      "> 
+<div class="book">
+        <img src="/images/books/covers/dh_fredvampire1.png" alt="book cover for The Utterly Uninteresting and Unadventurous Tales of Free, The Vampire Accountant by Drew Hayes" title="The Utterly Uninteresting and Unadventurous Tales of Free, The Vampire Accountant by Drew Hayes">
+<div class="booktxt"> 
+<div>
+        <div class="title">The Utterly Uninteresting and Unadventurous Tales of Free, The Vampire Accountant</div>
+        <div class="author">Drew Hayes</div><div class="series">Fred the Vampire Accountant&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/22838963-the-utterly-uninteresting-and-unadventurous-tales-of-fred-the-vampire-a" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/7b38b304-fc99-48f8-b094-7864e6a5b616" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  scifi space aliens      "> 
+<div class="book">
+        <img src="/images/books/covers/hh_beacon23.png" alt="book cover for Beacon 23 by Hugh Howey" title="Beacon 23 by Hugh Howey">
+<div class="booktxt"> 
+<div>
+        <div class="title">Beacon 23</div>
+        <div class="author">Hugh Howey</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/34203183-beacon-23" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/79161474-83a2-419d-b24a-7f8f43519f70" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  fantasy horror       "> 
+<div class="book">
+        <img src="/images/books/covers/ch_alice.png" alt="book cover for Alice by Christina Henry" title="Alice by Christina Henry">
+<div class="booktxt"> 
+<div>
+        <div class="title">Alice</div>
+        <div class="author">Christina Henry</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/30231057-alice" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/8efc4855-fadb-4877-823e-c10cbadd5f10" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  dystopia        "> 
+<div class="book">
+        <img src="/images/books/covers/hh_shellcollector.png" alt="book cover for The Shell Collector by Hugh Howey" title="The Shell Collector by Hugh Howey">
+<div class="booktxt"> 
+<div>
+        <div class="title">The Shell Collector</div>
+        <div class="author">Hugh Howey</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/34203207-the-shell-collector" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/fdfe872b-7239-4915-b22f-effb9046f873" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic fantasy humour     5 "> 
+<div class="book">
+        <img src="/images/books/covers/sy_ihatefairylandv1.png" alt="book cover for I Hate Fairyland Volume 1 by Skottie Young" title="I Hate Fairyland Volume 1 by Skottie Young">
+<div class="booktxt"> 
+<div>
+        <div class="title">I Hate Fairyland Volume 1</div>
+        <div class="author">Skottie Young</div><div class="series">I hate Fairyland&nbsp;#</div></div>
+<div> 
+        <div class="rating"><img src="/images/books/ratings/5star.gif"></div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/30685055-i-hate-fairyland-vol-1" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/d4fe3f90-309b-4bab-b926-f5f4774897d1" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic scifi      4 "> 
+<div class="book">
+        <img src="/images/books/covers/bkv_papergirlsv1.png" alt="book cover for Paper Girls V1 by Brian K Vaughan" title="Paper Girls V1 by Brian K Vaughan">
+<div class="booktxt"> 
+<div>
+        <div class="title">Paper Girls V1</div>
+        <div class="author">Brian K Vaughan</div><div class="series">Paper Girls&nbsp;#1</div></div>
+<div> 
+        <div class="rating"><img src="/images/books/ratings/4star.gif"></div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/52403948-paper-girls-vol-1" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/180869b9-970d-467e-a8e6-d79f94cf0032" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  mystery        "> 
+<div class="book">
+        <img src="/images/books/covers/km_reconamelia.png" alt="book cover for Reconstructing Amelia by Kimberly McCreight" title="Reconstructing Amelia by Kimberly McCreight">
+<div class="booktxt"> 
+<div>
+        <div class="title">Reconstructing Amelia</div>
+        <div class="author">Kimberly McCreight</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/17859082-reconstructing-amelia" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/89b6d38e-b8dd-4d00-9a79-203ca8f3f5c2" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  fantasy urban fantasy steampunk      "> 
+<div class="book">
+        <img src="/images/books/covers/gc_invisiblelibrary.png" alt="book cover for The Invisible Library by Genevieve Cogman" title="The Invisible Library by Genevieve Cogman">
+<div class="booktxt"> 
+<div>
+        <div class="title">The Invisible Library</div>
+        <div class="author">Genevieve Cogman</div><div class="series">The Invsible Library&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/28186438-the-invisible-library" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/05bdc3c6-cb0a-4c6f-8cc0-0e8509971f07" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic fantasy humour      "> 
+<div class="book">
+        <img src="/images/books/covers/kjw_ratqueens3.png" alt="book cover for Rat Queens V3: Demons by Kurtis J Wiebe" title="Rat Queens V3: Demons by Kurtis J Wiebe">
+<div class="booktxt"> 
+<div>
+        <div class="title">Rat Queens V3: Demons</div>
+        <div class="author">Kurtis J Wiebe</div><div class="series">Rat Queens&nbsp;#3</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/30685051-demons" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/7a570300-a589-4e7a-b81a-1c6944a976b4" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic humour adventure summer camp magical realism    "> 
+<div class="book">
+        <img src="/images/books/covers/nds_lumberjanesv3.png" alt="book cover for Lumberjanes V3 A Terrible Plan by N.D. Stevenson" title="Lumberjanes V3 A Terrible Plan by N.D. Stevenson">
+<div class="booktxt"> 
+<div>
+        <div class="title">Lumberjanes V3 A Terrible Plan</div>
+        <div class="author">N.D. Stevenson</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/29356040-lumberjanes-vol-3" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/fa837927-dc3e-41d4-9509-ea20ff3c7a47" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic superheroes urban fantasy      "> 
+<div class="book">
+        <img src="/images/books/covers/jh_faith.png" alt="book cover for Faith Vol 1 by Jody Houser" title="Faith Vol 1 by Jody Houser">
+<div class="booktxt"> 
+<div>
+        <div class="title">Faith Vol 1</div>
+        <div class="author">Jody Houser</div><div class="series">Faith&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/31347100-faith-vol-1" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/8a7f7ba6-0c8c-41e4-aded-dba67d797c75" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic humour adventure summer camp magical realism    "> 
+<div class="book">
+        <img src="/images/books/covers/nds_lumberjanesv4.png" alt="book cover for Lumberjanes Vol 4 by N.D. Stevenson" title="Lumberjanes Vol 4 by N.D. Stevenson">
+<div class="booktxt"> 
+<div>
+        <div class="title">Lumberjanes Vol 4</div>
+        <div class="author">N.D. Stevenson</div><div class="series">LumberJanes (Volumes)&nbsp;#4</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/33638064-lumberjanes-vol-4" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/512dc82c-7f63-4fa5-8652-150effbf81eb" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic superheroes       "> 
+<div class="book">
+        <img src="/images/books/covers/kl_hellcatv1.png" alt="book cover for Patsy Walker AKA Hellcat! Vol 1 by Kate Leth" title="Patsy Walker AKA Hellcat! Vol 1 by Kate Leth">
+<div class="booktxt"> 
+<div>
+        <div class="title">Patsy Walker AKA Hellcat! Vol 1</div>
+        <div class="author">Kate Leth</div><div class="series">Patsy Walker AKA Hellcat!&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/44819902-patsy-walker-a-k-a-hellcat-volume-1" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/b41a3676-2e6a-465a-ace9-cedf24232641" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic superheroes       "> 
+<div class="book">
+        <img src="/images/books/covers/rn_squirrelgirlV1.png" alt="book cover for Unbeatable Squirrel Girl Vol 1 by Ryan North" title="Unbeatable Squirrel Girl Vol 1 by Ryan North">
+<div class="booktxt"> 
+<div>
+        <div class="title">Unbeatable Squirrel Girl Vol 1</div>
+        <div class="author">Ryan North</div><div class="series">Unbeatable Squirrel Girl (2015 Volumes)&nbsp;#1</div></div>
+<div> 
+</div> 
+<div></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic humour adventure summer camp magical realism    "> 
+<div class="book">
+        <img src="/images/books/covers/nds_lumberjanesv5.png" alt="book cover for Lumberjanes Vol 5 by N.D. Stevenson" title="Lumberjanes Vol 5 by N.D. Stevenson">
+<div class="booktxt"> 
+<div>
+        <div class="title">Lumberjanes Vol 5</div>
+        <div class="author">N.D. Stevenson</div><div class="series">LumberJanes (Volumes)&nbsp;#5</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/28953803-lumberjanes-vol-5" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/195975a4-0c0f-43de-94ee-dbc267f37f91" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic romance       "> 
+<div class="book">
+        <img src="/images/books/covers/mf_sexcriminalsV3.png" alt="book cover for Sex Criminals Vol 3 by Matt Fraction" title="Sex Criminals Vol 3 by Matt Fraction">
+<div class="booktxt"> 
+<div>
+        <div class="title">Sex Criminals Vol 3</div>
+        <div class="author">Matt Fraction</div><div class="series">Sex Criminals (Volumes)&nbsp;#3</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/34680581-sex-criminals-vol-3" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/980b4b41-87ee-4049-a5f5-1911d9846b3c" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic mystery       "> 
+<div class="book">
+        <img src="/images/books/covers/jmd_scoobyapoca.png" alt="book cover for Scooby Apocalypse (2016) by " title="Scooby Apocalypse (2016) by ">
+<div class="booktxt"> 
+<div>
+        <div class="title">Scooby Apocalypse (2016)</div>
+        <div class="author"></div><div class="series">Scooby Apocalypse&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/30286986-scooby-apocalypse-2016--1-scooby-apocalypse" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/be932504-7bb2-40a0-8889-3b2726fbf5b7" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  LGBTQ romance       "> 
+<div class="book">
+        <img src="/images/books/covers/rw_scavengers.png" alt="book cover for Scavengers by Rosalyn Wraight" title="Scavengers by Rosalyn Wraight">
+<div class="booktxt"> 
+<div>
+        <div class="title">Scavengers</div>
+        <div class="author">Rosalyn Wraight</div><div class="series">Lesbian Adventure Club&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/10857104-scavengers" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/3343b098-f9b8-4a2a-86c3-816919a223ef" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic comic       "> 
+<div class="book">
+        <img src="/images/books/covers/ja_giantdaysv1.png" alt="book cover for Giant Days Vol 1 by John Allison" title="Giant Days Vol 1 by John Allison">
+<div class="booktxt"> 
+<div>
+        <div class="title">Giant Days Vol 1</div>
+        <div class="author">John Allison</div><div class="series">Giant Days&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/27910503-giant-days-vol-1" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/d56d1a0f-fb85-43f9-9574-2d4839fda8d6" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  scifi LGBTQ space      "> 
+<div class="book">
+        <img src="/images/books/covers/bc_longway.png" alt="book cover for The Long Way to a Small, Angry Planet by Becky Chambers" title="The Long Way to a Small, Angry Planet by Becky Chambers">
+<div class="booktxt"> 
+<div>
+        <div class="title">The Long Way to a Small, Angry Planet</div>
+        <div class="author">Becky Chambers</div><div class="series">Wayfarers&nbsp;#1</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/26042767-the-long-way-to-a-small-angry-planet" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/9a95c81f-7a91-4087-971c-5ff14d5403dd" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016  comic fantasy humour      "> 
+<div class="book">
+        <img src="/images/books/covers/sy_ihatefairylandv2.png" alt="book cover for I Hate Fairyland Vol 2 by Skottie Young" title="I Hate Fairyland Vol 2 by Skottie Young">
+<div class="booktxt"> 
+<div>
+        <div class="title">I Hate Fairyland Vol 2</div>
+        <div class="author">Skottie Young</div><div class="series">I Hate Fairyland&nbsp;#2</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/33283500-i-hate-fairyland-vol-2" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/92f64ac3-6b0d-473c-85a2-fd0055142f57" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
+<div class="filterDivBooks 2016   fairytale       "> 
+<div class="book">
+        <img src="/images/books/covers/ng_sleeperspindle.png" alt="book cover for The Sleeper and the Spindle by Neil Gaiman" title="The Sleeper and the Spindle by Neil Gaiman">
+<div class="booktxt"> 
+<div>
+        <div class="title">The Sleeper and the Spindle</div>
+        <div class="author">Neil Gaiman</div></div>
+<div> 
+</div> 
+<div> 
+        <a href="https://www.goodreads.com/book/show/23301545-the-sleeper-and-the-spindle" target="_blank"><img src="/images/siteimgs/goodreads.png" class="icons" title="View on GoodReads" alt="goodreads logo"></a><a href="https://app.thestorygraph.com/books/26511c95-7fb4-410b-b878-b018fa4210a5" target="_blank">
+        <img src="/images/siteimgs/storygraph.png" class="icons" title="View on Storygraph" alt="the storygraph logo"></a></div>
+</div><!--booktxt-->
+</div><!--book-->
+</div> 
 </div>
 <noscript>This page requires Javascript, sorry.</noscript> 
-</div>
+</div><!-- textbox -->
 <!-- Filter Script 
 Tutorial for filter: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 -->
@@ -3073,7 +3464,7 @@ for (var i = 0; i < btns.length; i++) {
 <!-- Footer -->
 <footer>
 <div class="footer">
-    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a></div> 
+    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
 </div>
 </footer>

@@ -20,6 +20,27 @@
   <script src="/js/"></script>
 
 
+<!-- Theme Switch Code -->
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>SPACE CADET | Sitemap</title>
 </head>
 
@@ -31,33 +52,28 @@
   </header>
 
 
-   <nav class="topnav">
+  
+  <nav class="topnav">
 
     <a href="/index.html" class="navbutton">Home</a> 
-    <a href="/shinies.html" class="navbutton">Shinies</a>
-    <a href="/booklog.html" class="navbutton">Reading Log</a>
-    <a href="/cookbook.html" class="navbutton">Cookbook</a>
-
-
-    <a href="/sitemap.html" class="navbutton">Sitemap</a>
-    <a href="/guestbook.html" class="navbutton">Guestbook</a>
-
-
-
-
-<!--
-<a href="/use.html" class="navbutton">/Use</a> 
-<a href="/commonplace.html" class="navbutton">Commonplace Book</a>  
-<a href="/posts/index.html" class="navbutton">Posts</a> 
-<a href="/links.html" class="navbutton">Links</a>
-
-        <a href="/lexicon.html" class="navbutton">Lexicon</a>
-        <a href="/solottrpg.html" class="navbutton">TTRPG Log</a>
+  
+    <div class="dropdown">
+      <button>Stuff</button>
+      <div class="dropdown-content">
+        <a href="/use.html">/Use</a>  
+        <a href="/shinies.html">Shinies</a>
+        <a href="/cookbook.html">Cookbook</a>
+        <a href="/lexicon.html">Lexicon</a>
+        <!--<a href="/commonplace.html">Commonplace Book</a>-->
+        <a href="/solottrpg.html">TTRPG Log</a>
+        <!--<a href="/posts/index.html">Posts</a>-->
+      </div>
+  </div>
 
   <div class="dropdown">
     <button>Books/Movies/Music</button>
     <div class="dropdown-content">
-
+        <a href="/booklog.html">Reading Log</a>
         <a href="/favmusic.html">Favourite Music</a>
         <a href="/favtvshows.html">Favourite TV Shows</a>
         <a href="/favmovies.html">Favourite Movies</a> 
@@ -75,12 +91,26 @@
       <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a>
     </div>
   </div>
--->
 
+  <!--<a href="/links.html" class="navbutton">Links</a>-->
+      <a href="/sitemap.html" class="navbutton">Sitemap</a>
+      <a href="/guestbook.html" class="navbutton">Guestbook</a>
 
+<div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+  <a href="#" onclick="setTheme('/css/style.css')">Red (default)</a>
+  <a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a>
+  <a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a>  
+  <a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a>
+
+</div>
+</div>
 
 </nav>
- 
+
+
     
 
   <main>
@@ -175,7 +205,7 @@
 <!-- Footer -->
 <footer>
 <div class="footer">
-    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a></div> 
+    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
 </div>
 </footer>

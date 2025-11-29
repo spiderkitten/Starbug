@@ -17,7 +17,4 @@ Just a way to look back on all the updates I have made. I'll add every main upda
     
     {%- endfor -%}
 
-</div>
-
-[^1]: I nearly always forget lol 
- 
+</div> 

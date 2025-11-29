@@ -1,11 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="pinterest" content="nopin">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noimageindex">
+  <meta name="robots" content="noarchive">
+
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/index.css" rel="stylesheet" type="text/css" media="all"> 
+    <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
+
+  <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
+
+  <script src="/js/load.js"></script>
+  <script src="/js/randomquote.js"></script>
+
+
+<!-- Theme Switch Code -->
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
+  <title>SPACE CADET | Index</title>
 </head>
+
 <body>
-  Under Maintenance ... something broke ... back soonishly!
+  <page-container>
+  <header>
+    <h1>SPACE CADET</h1>
+    <tag-line>Just a girl floating through space...</tag-line>
+  </header>
+
+
+  
+  <nav class="topnav">
+
+    <a href="/index.html" class="navbutton">Home</a> 
+  
+    <div class="dropdown">
+      <button>Stuff</button>
+      <div class="dropdown-content">
+        <a href="/use.html">/Use</a>  
+        <a href="/shinies.html">Shinies</a>
+        <a href="/cookbook.html">Cookbook</a>
+        <a href="/lexicon.html">Lexicon</a>
+        <!--<a href="/commonplace.html">Commonplace Book</a>-->
+        <a href="/solottrpg.html">TTRPG Log</a>
+        <!--<a href="/posts/index.html">Posts</a>-->
+      </div>
+  </div>
+
+  <div class="dropdown">
+    <button>Books/Movies/Music</button>
+    <div class="dropdown-content">
+        <a href="/booklog.html">Reading Log</a>
+        <a href="/favmusic.html">Favourite Music</a>
+        <a href="/favtvshows.html">Favourite TV Shows</a>
+        <a href="/favmovies.html">Favourite Movies</a> 
+        <a href="/a24movies.html">A24 Movie Challenge</a>
+
+    </div>
+</div>  
+
+  <div class="dropdown">
+    <button>Fandom</button>
+    <div class="dropdown-content">
+      <a href="/fandom/harem.html">Favourite Characters</a>     
+      <a href="/fandom/100x100.html">100x100 User Pics</a>
+      <a href="/fandom/friendsonly.html">Friends Only Banners</a>
+      <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a>
+    </div>
+  </div>
+
+  <!--<a href="/links.html" class="navbutton">Links</a>-->
+      <a href="/sitemap.html" class="navbutton">Sitemap</a>
+      <a href="/guestbook.html" class="navbutton">Guestbook</a>
+
+<div class="dropdown">
+<button>Theme Switch</button>
+
+<div class="dropdown-content">
+  <a href="#" onclick="setTheme('/css/style.css')">Red (default)</a>
+  <a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a>
+  <a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a>  
+  <a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a>
+
+</div>
+</div>
+
+</nav>
+
+
+    
+
+  <main>
+<!-- Main Content Start-->
+
+
+  <div class="frontgrid">
+<!-- Intro Section -->
+<div id="intro">
+<h2>Welcome</h2>
+<p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <span class="upsidedown">Australia</span>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
+<p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more. </p>
+<p>I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://trakt.tv/users/spiderkitten">Trakt</a></p>
+<p>Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to sign my guestbook before you leave!</p>
+</div>
+<div id="images">
+<hr class="divider">
+</div>
+<!-- Status Box -->
+<div id="status" class="textbox">
+<h3>Status/Currently</h3>
+<div><strong>Reading:</strong>fanfic</div>
+<div><strong>Watching:</strong>The Amazing Race</div>
+<div><strong>Listening to:</strong>the endless void</div>
+<div><strong>Playing:</strong>Gas Station Simulator</div>
+</div>
+<!-- Webrings -->
+<div id="webrings" class="textbox">
+<h3>Rings and Things</h3>
+<!-- TF2 Webring -->
+<div id='fortring'>
+  <script src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
+  <script src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
+</div>
+<!--No AI Webring-->
+<div style="text-align: center;">
+<map name="noaimini2">
+<area href="https://baccyflap.com/noai" target="_blank" shape="rect" coords="5,3,83,14" alt="no ai webring" title="no ai webring">
+<area href="https://baccyflap.com/noai/?prv&s=spc" target="_top" shape="rect" coords="5,16,16,26" alt="previous" title="previous">
+<area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="38,16,51,27" alt="random" title="random">
+<area href="https://baccyflap.com/noai/?nxt&s=spc" target="_top" shape="rect" coords="72,16,83,26" alt="next" title="next">
+</map>
+<img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
+</div>
+</div>
+<!-- Quotes -->
+<div id="randomquote" class="textbox">
+<h3>Random Quote</h3>
+<div id="quote" class="quotebox">
+<p><span id="quotes1"></span>
+<br>
+<span id="quotes2"></span></p>
+<div style="text-align: right;">-- <span id="author"></span> </div>
+<button id="generate">refresh</button>
+</div>
+</div>
+<!-- -->
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Here's a button:</p>
+   <img src="images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site">
+ <p>please upload the button to your own webspace!</p>
+</div>
+</div>
+<div id="recentupdates" class="textbox">
+<h3>Recent Updates</h3><div class="changelog"><p><strong>28 October 2025:</strong> - Added a commonplace book, changed the reading log, fav music and fav movie pages so they are filterable. Added a modal/popup for images on commonplace book page. Updated the site credits page and the sitemap. Added a few song to favourite music. Added 2019, 2018 and 2017 to my reading log. Also worked on validating my code and I think I was successful!</div></p><div class="changelog"><p><strong>8 September 2025:</strong> - Added some seen movies to A24 challenge, added a favourite music page, added a favourite movies page. Added a solo TTRPG page, and a gaming journal for the Koriko Solo Journalling TTRPG, and for 5-min-machine. Redid my book log so it no longer relies on goodreads widgets. Added some seen movies to the A24 challenge page.</div></p><div class="changelog"><p><strong>8 August 2025:</strong> - updated my A24 list with some movies I saw and made it look better. Added a Webmeji to the front page. Added some new quotes to the generator. Added a page for my favourite characters in fandom section, added some stamps to the shinies page. Added a youtube section to the links page</div></p>
+<p><a href="changelog.html">Previous Updates</a></p>
+</div>
+<div id="frontpagebuttons">
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
+</div>
+</div> <!-- end flexbox-->
+<div style="clear:both"></div>
+<script src="/js/webmeji.js"></script>
+
+
+
+<!-- Main Content End-->
+  </main>
+
+<!-- Footer -->
+<footer>
+<div class="footer">
+    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
+    <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
+</div>
+</footer>
+
+</page-container>
 </body>
-</html>
+</html> 

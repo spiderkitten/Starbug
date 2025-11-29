@@ -20,6 +20,27 @@
   <script src="/js/{{ script }}"></script>
 
 
+<!-- Theme Switch Code -->
+  <script>
+    const defaultTheme = "css/style.css";
+    // Check if `theme` is set
+    if (localStorage.getItem("theme") === null) {
+      // Set to default theme
+      localStorage.setItem("theme", defaultTheme);
+    }
+    // Load theme CSS
+    document.head.insertAdjacentHTML(
+      'beforeend',
+      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
+    // Theme switcher
+    function setTheme(themeFile) {
+      // Set theme to new theme
+      localStorage.setItem('theme', themeFile);
+      // Refresh the page
+      location.reload();
+    }
+  </script>
+
   <title>SPACE CADET | {{ title }}</title>
 </head>
 
