@@ -43,7 +43,6 @@ Public/posts/tags/recipe.html
 Public/posts/tags/science.html
 Public/posts/tags/solorpg.html
 
-
 local/posts/first-post.md
 local/posts/index.njk
 local/posts/posts.json
@@ -55,6 +54,7 @@ Public/posts/free-sewing-patterns.html
 Public/posts/index.html
 Public/posts/tags.html
 Public/posts/vampire_rm.html
+
 
 Public/fanfic/index.html
 Public/fanfic/Castle/ladyjustice.html

@@ -78,7 +78,7 @@ html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
 /* FONTS */
 
 @font-face{
-  font-family: lato-thin;
+  font-family: lato-thin; /* used for site title */
     src: url(../fonts/Lato-Thin.ttf) format("truetype");
 }
 
@@ -88,7 +88,7 @@ html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
 }
 
 @font-face{
-  font-family: CherrySwash;
+  font-family: CherrySwash; /* used for headings https://www.fontsquirrel.com/fonts/cherry-swash or https://fonts.google.com/specimen/Cherry+Swash */
     src: url(../fonts/CherrySwash-Regular.otf) format("opentype");
 }
 
@@ -105,7 +105,7 @@ body {
   display: grid;
   grid-template-areas:
     'header header'
-    'menu main'
+    'nav main'
     'footer footer';
 
   grid-template-columns: 310px 1fr;
@@ -136,8 +136,8 @@ header { /* Site Title Area */
   border-radius: 10px;
 }
 
-menu { /* Main Menu Navigation */
-  grid-area: menu;
+nav { /* Main Menu Navigation */
+  grid-area: nav;
   background: var(--pallette4);
   margin-left: 20px;
   margin-top: 10px;
@@ -528,11 +528,12 @@ padding-left:20px
 
 /*  textbox headings */
 .textbox h2, .textboxGreen h2 {
-background-color: var(--pallette2);
+background-color: var(--pallette8);
 color: var(--pallette4);
 font-size: var(--h2fontsize);
 border-radius: 10px;
 padding-left:10px;
+margin-bottom: 10px;
 }
 
 .textbox h3, .textboxGreen h3 {

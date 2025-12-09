@@ -9,11 +9,9 @@ eleventyExcludeFromCollections: true
 
 ### Reading Log
 
-A log of things I have read. I almost didn't add ratings, because I find them so subjective, and to be honest, I do actually use a browser addon to block ratings on goodreads, because I don't want to be influenced by ratings - I want to read a book and make my own decision about it. But the stars do look pretty lol and some people like ratings so here we are. 
+A log of things I have read. I almost didn't add ratings, because I find them so subjective, and to be honest, I do actually use a browser addon to block ratings on goodreads, because I don't want to be influenced by ratings - I want to read a book and make my own decision about it. But the stars do look pretty lol and some people like ratings so here we are. Note that there are a lot of three star rated books. I suggest just checking the other ratings. 
 
-Note that there are a lot of three star rated books. I suggest just checking the other ratings. 
-
-My Favourite reads ever are listed under favs. 
+<strong>Note:</strong> I am aware the book covers are quite large on larger screens. I'll fix it eventually, sorry lol 
 
 <div id="filterContainer">
   <button class="navbutton active" onclick="filterSelection('all')"> Show all</button>
