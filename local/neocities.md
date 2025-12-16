@@ -16,7 +16,8 @@ If you want to create your own personal site on Neocities these are some resourc
     <a href="#neocities">!Neocities Specific Info!</a>
     <a href="#tutorials">Coding Tutorials</a> 
     <a href="#templates">Templates</a>  
-    <!--<a href="#buttons">Buttons/Stamps etc</a>-->    
+    <!--<a href="#buttons">Buttons/Stamps etc</a>-->   
+      <a href="#ideas">Site Ideas</a>
     <a href="#pixclubs">Pixel Clubs</a>  
     <a href="#help">Getting Help</a>  
     <a href="#advanced">SSGs and 11ty</a>     
@@ -116,7 +117,23 @@ See below in the 11ty section for templates
 
 <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>-->
-      
+
+<div class="textbox" id="ideas">
+
+### Site Ideas
+
+Not sure what to put on your site? here are some links with ideas
+
+<div><a href="https://32bit.cafe/websiteideas/">32 bit Cafe Site Ideas</a></div>
+<div class="description">List of things you can add to your site</div> 
+
+<div><a href="https://www.pixietails.club/guides:personal_site_content">Site Ideas</a></div>
+<div class="description">short list of ideas</div>
+
+
+
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
+</div>
       
 
 <div class="textbox">

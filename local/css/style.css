@@ -633,7 +633,7 @@ margin: 0px;
       grid-template-areas:
         'header'  
         'main'
-        'menu'
+        'nav'
         'footer';
         grid-template-columns: 100%;
         grid-template-rows: 150px 1fr 1fr 100px;
@@ -673,7 +673,7 @@ column-gap: 10px;
       grid-template-areas:
         'header'   
         'main'
-        'menu'
+        'nav'
         'footer';
         grid-template-columns: 100%;
         grid-template-rows: 150px 1fr 1fr 100px;

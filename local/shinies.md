@@ -118,9 +118,21 @@ template: <a href=""><img src=""></a>
 
 <div class="textbox">
 
+### Doggo
+
+<div style="text-align:center;">
+<iframe src="https://ginacities.com/doggy/?embed=1&dog=mini_poodle&variant=1&room=leaf" width="324" height="324" style="border:0; aspect-ratio: 1 / 1;" allow="gamepad *"></iframe>
+
+[Give A Dog A Home](https://ginacities.itch.io/give-a-dog-a-home)
+
+</div>
+
 ### Mosscap 
   <div style="text-align:center;">
   <!--10 coins-->
   <iframe width="350" height="330" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" style="border: none; overflow: hidden;" ></iframe>
 </div>
+
+
+
 </div>
