@@ -4,9 +4,11 @@ layout: layout/base.njk
 cssFile: movies.css
 eleventyExcludeFromCollections: true
 ---
+
+## Favourite Movies 
+
 <div class="textbox">
 
-<h3 id="imgmovies">Movies</h3>
 There are sooooo many movies I love. I tried to make a list just for my own reference really, but also in case anyone wants some movie recs. 
 
 **Note: This is a work in progress**

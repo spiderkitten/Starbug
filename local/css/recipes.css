@@ -1,7 +1,7 @@
 
-    h2{
+#recipetitle h2 {
         font-size: 32px;
-        color: var(--pallette1);
+        color: var(--pallette4);
         margin-top: 15px;
         margin-bottom: 5px;
         text-align: center;

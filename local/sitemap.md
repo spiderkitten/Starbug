@@ -7,10 +7,13 @@ eleventyExcludeFromCollections: true
 
 ## Sitemap
 
-<a href=""></a>
+<div class="textbox">
 
 - <a href="index.html">Home</a>
+- <a href="sitemap.html">Sitemap</a> this page
+- <a href="guestbook.html">Guestbook</a>
 - Stuff
+    - <a href="use.html">/use</a>
     - <a href="shinies.html">Shinies</a> - *blinkies, buttons and other collectables*
     - <a href="cookbook.html">Cookbook</a> - *index of recipes*
         - <a href="recipes/appleturnovers.html">Easy Apple Turnovers</a>
@@ -20,6 +23,7 @@ eleventyExcludeFromCollections: true
         - <a href="recipes/seedypnutbutter.html">Seedy Peanut Butter</a>
         - <a href="recipes/slowcookerbolognaise.html">Slow Cooker Bolognaise Sauce</a>
     - <a href="lexicon.html">Lexicon</a> - *My favourites words*
+    - <a href="/posts/index.html">Blog</a>
    <!-- - <a href="commonplace.html">Commonplace Book</a> - random snippets -->
     - <a href="solottrpg.md">Solo TTRPG Log</a> - *Index of TTRPG pages*
         - <a href="TTRPGs/5minmachine.html">5-Min-Machine</a>
@@ -33,26 +37,24 @@ eleventyExcludeFromCollections: true
             - <a href="TTRPGs/Koriko/farewelldaytwo.html">Farewell Day 2</a> 
             - <a href="TTRPGs/Koriko/goodbye.html">Goodbye</a>
         - <a href="TTRPGs/homestead.html">Life on the Homestead</a>  
-<!-- - Blog Posts  
-        - First Post  
-        - <a href="posts/vampire_rm.html">Vampire Resource Management</a> - *can Vampires wipe out humanity?*  -->
-- Books/Movies/Music
-    - <a href="booklog.html">Reading log</a> (dynamic) 
+- Books/Movies
+    - <a href="booklog.html">Reading log</a> 
+    - <a href="a24movies.html">A24 Challenge </a> - *I'm watching all A24 Movies*
+- Favourites
     - <a href="favmusic.html">Favourite Music</a>
     - <a href="favtvshows.html">Favourite TV Shows</a>
     - <a href="favmovies.html">Favourite Movies</a>
-    - <a href="a24movies.html">A24 Challenge </a> - *I'm watching all A24 Movies*
-- Fandom 
     - <a href="fandom/harem.html">Favourite Characters</a>
+- For You 
     - <a href="fandom/100x100.html">100x100 userpics</a> 
     - <a href="fandom/100x100SG.html">100x100 Stargate userpics</a>
     - <a href="fandom/friendsonly.html">LJ/DW Friends Only Banners</a>
     - <a href="fandom/moodthemes.html">LJ/DW Mood Themes</a>
-- About
-    - <a href="use.html">/use</a>
+- Other
+    - <a href="links.html">Links</a>
+    - <a href="neocities.html">Site Making Links</a>
     - <a href="credits.html">Site Credits</a> 
     - <a href="changelog.html">Changelog</a>
-    - <a href="sitemap.html">Sitemap</a> this page
-- <a href="links.html">Links</a>
-    - <a href="neocities.html">Site Making Links</a>
-- <a href="guestbook.html">Guestbook</a>
+
+</div>
+

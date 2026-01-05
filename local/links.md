@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <h2>Links</h2>
-<p>Just a collection of sites I wanted to share. </p> 
+<p>Just a collection of sites I wanted to share.</p> 
 
 <hr class="dashed">
 <div class="linkmenu" id="top">

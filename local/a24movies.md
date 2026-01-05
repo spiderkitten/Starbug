@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 
 
 <div class="textbox">
-<h3>A24 Movies</h3>
+<h2>A24 Movies</h2>
 <div style="float: left; width: 200px; margin: 5px; margin-right:15px;"><img src="/images/movies/a24.png" alt="A24 logo" style="width: 200px; "></div>
 
  <p>When most people think of A24 they think of their horror lineup. Midsommar, Hereditary, etc. They may even think of some of their bigger films like Everything Everywhere All At Once, Moonlight, and the upcoming (at time of writing) Civil War (2024). But A24 actually have so many more movies under their belt. Some are self produced, others they just distribute. But they all have a unique quality about them that makes them stand out compared to others.</p>

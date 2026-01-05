@@ -4,9 +4,11 @@ layout: layout/base.njk
 cssFile: tvshows.css
 eleventyExcludeFromCollections: true
 ---
+
+## Favourite TV Shows
+
 <div class="textbox">
 
-<h3>TV Shows</h3>
 Just some TV Shows I love and recommend. 
 
 **Note: This is a work in progress**

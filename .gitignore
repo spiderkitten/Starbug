@@ -30,7 +30,6 @@ Public/test.html
 
 # Other pages
 
-
 Public/posts/tags/all.html
 Public/posts/tags/blog.html
 Public/posts/tags/fanfic.html
@@ -43,50 +42,7 @@ Public/posts/tags/recipe.html
 Public/posts/tags/science.html
 Public/posts/tags/solorpg.html
 
-local/posts/first-post.md
-local/posts/index.njk
-local/posts/posts.json
 local/posts/tags.md
-local/posts/vampire_rm.md
-
-Public/posts/first-post.html
-Public/posts/free-sewing-patterns.html
-Public/posts/index.html
 Public/posts/tags.html
-Public/posts/vampire_rm.html
 
 
-Public/fanfic/index.html
-Public/fanfic/Castle/ladyjustice.html
-Public/fanfic/StargateSG1/starshiptrooper.html
-Public/fanfic/StargateSG1/wedding.html
-local/fanfic/fanfic.json
-local/fanfic/index.md
-local/fanfic/Castle/ladyjustice.md
-local/fanfic/StargateSG1/starshiptrooper.md
-local/fanfic/StargateSG1/wedding.md
-
-Public/OLDindex.html
-
-
-
-Public/blog/first-post.html
-Public/blog/index.html
-Public/blog/vampire_rm.html
-Public/blog/tags/free-stuff.html
-Public/blog/tags/koriko.html
-Public/blog/tags/nerdgasm.html
-Public/blog/tags/news.html
-Public/blog/tags/science.html
-Public/blog/tags/sewing.html
-
-local/blog/blog.json
-local/blog/first-post.md
-local/blog/index.md
-local/blog/tags.md
-local/blog/vampire_rm.md
-local/_includes/layout/baseNEW.njk
-
-local/css/styleNEW.css
-Public/css/style copy.css
-Public/css/styleNEW.css

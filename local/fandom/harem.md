@@ -5,9 +5,10 @@ cssFile: harem.css
 eleventyExcludeFromCollections: true
 ---
 
+## Favourite Characters
+
 <div class="textbox">
 
-<h3>Favourite Characters</h3>
 
 Characters I love! Character name / Actor Name / and where they are from. 
 

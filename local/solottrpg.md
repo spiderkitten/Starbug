@@ -3,10 +3,9 @@ title: Solo TTRPG Game Journal
 layout: layout/base.njk
 eleventyExcludeFromCollections: true
 ---
+## Solo TTRPG Game Journal
 
 <div class="textbox">
-
-### Solo TTRPG Game Journal
 
 #### Notes 
 
@@ -26,6 +25,19 @@ Journalling RPGs lean heavily into being more like creative writing prompts with
 {% endfor %}
 </dl>
 
+#### In Progress
+
+<dl>
+ {%- for post in collections.JournalRPG_WIP -%}
+<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a> 
+<dd style="padding-bottom: 20px;">{{ post.data.description}} 
+ {% endfor %}
+</dl>
+
+
+
+### Solo RPGs
+
 #### Complete Solo RPGs
 
 <dl>
@@ -35,12 +47,5 @@ Journalling RPGs lean heavily into being more like creative writing prompts with
 {% endfor %}
 </dl>
 
-#### In Progress
 
-<dl>
- {%- for post in collections.JournalRPG_WIP -%}
-<dt><a href="{{post.url}}"> {{ post.data.JournalRPGtitle}}</a> 
-<dd style="padding-bottom: 20px;">{{ post.data.description}} 
- {% endfor %}
-</dl>
 </div>

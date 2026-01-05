@@ -1,8 +1,17 @@
 ---
 layout: layout/base.njk
 ---
-
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<div style="text-align: center;">
+	{%- if previousPost %} ← <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a> {% endif %} | <a href="/posts/index.html">All Posts</a> |  {%- if nextPost %} <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> → {% endif %}
+</div>
+{%- endif %}
+{%- endif %}
 <div class="textbox">
+
 <!-- title and date -->
 <h3>{{ title }}</h3>
 
@@ -10,6 +19,7 @@ layout: layout/base.njk
 {%- if lastmod -%}
 <div>Updated: <strong>{{ lastmod | readableDate }}</div></strong>
 {% endif %}
+
 
 </div><!-- text box -->
 

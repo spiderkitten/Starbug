@@ -130,7 +130,8 @@ Not sure what to put on your site? here are some links with ideas
 <div><a href="https://www.pixietails.club/guides:personal_site_content">Site Ideas</a></div>
 <div class="description">short list of ideas</div>
 
-
+<div><a href="https://jamesg.blog/2024/02/19/personal-website-ideas"> 100 things you can do on your personal website</a></div>
+<div class="description">a list of ideas for things you can do with your site</div>
 
 <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
