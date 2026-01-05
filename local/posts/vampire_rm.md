@@ -25,7 +25,7 @@ description: how long it would take for vampires to wipe out humans
   </figure>
  
 
-<p>I'm going to copy paste the important part of the <a href-"https://www.futilitycloset.com/2020/10/18/resource-management/">Futility Closet article</a>, in case the page ever goes missing because I love this! There's also some links to the papers mentioned at the bottom, and some links to other related papers that are available to read if anyone wants to check them out</p>
+<p>I'm going to copy paste the important part of the <a href="https://www.futilitycloset.com/2020/10/18/resource-management/">Futility Closet article</a>, in case the page ever goes missing because I love this! There's also some links to the papers mentioned at the bottom, and some links to other related papers that are available to read if anyone wants to check them out</p>
 
 <div class="textbox" style="margin-bottom: 5px;">
 <p style="font-style:italic">In 2006 physicists Costas Efthimiou and Sohang Gandhi worked out that if the first vampires had turned up in 1600, if they’d needed to feed only once a month, and if the world population at that time had been 536,870,911 (as estimated), then <a href="https://cds.cern.ch/record/977097/files/0608059.pdf">the vampire population would have increased geometrically</a> and the last human would have succumbed in June 1602, after a bloodbath of only two and half years.</p>
