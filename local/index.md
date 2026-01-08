@@ -29,9 +29,9 @@ eleventyExcludeFromCollections: true
 <!-- Status Box -->
 <div id="status" class="textbox">
 <h3>Status/Currently</h3>
-<div><strong>Reading:</strong>fanfic</div>
-<div><strong>Watching:</strong></div>
-<div><strong>Playing:</strong>Minecraft</div>
+<div><strong>Reading:</strong>Brigands & Breadknives by Travid Baldree</div>
+<div><strong>Watching:</strong>Patience S2</div>
+<div><strong>Playing:</strong>Astroneer & TF2</div>
 </div>
 
 <!-- Webrings -->

@@ -16,7 +16,7 @@ If you want to create your own personal site on Neocities these are some resourc
     <a href="#neocities">!Neocities Specific Info!</a>
     <a href="#tutorials">Coding Tutorials</a> 
     <a href="#templates">Templates</a>  
-    <!--<a href="#buttons">Buttons/Stamps etc</a>-->   
+    <a href="#buttons">Buttons/Stamps etc</a>  
       <a href="#ideas">Site Ideas</a>
     <a href="#pixclubs">Pixel Clubs</a>  
     <a href="#help">Getting Help</a>  
@@ -111,12 +111,15 @@ See below in the 11ty section for templates
 </div>
 
 
-<!--<div class="textbox" id="buttons">
+ <div class="textbox" id="buttons">
 
 ### Buttons/Stamps etc   
 
+<div><a href="https://ritual.sh/resources/button-generator/">Ritual.sh 88x31 Button Creator</a></div>
+<div class="description">Super easy animated button maker!</div> 
+
 <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
-</div>-->
+</div> 
 
 <div class="textbox" id="ideas">
 
