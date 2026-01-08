@@ -73,8 +73,12 @@ eleventyExcludeFromCollections: true
 <div id="linkme" class="textbox">
 <h3>Link Me</h3>
 <div class="linkme">
-<p>Want to link to me? Here's a button:</p>
-   <img src="images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site">
+<p>Want to link to me? Pick a button:</p>
+
+<div><img src="images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
+<div><img src="images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
+<div><img src="images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
+
  <p>please upload the button to your own webspace!</p>
 </div>
 </div>

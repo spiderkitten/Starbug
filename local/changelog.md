@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 
  ### Changelog  
 
-Just a way to look back on all the updates I have made. I'll add every main update. Unless I forget.^[I nearly always forget lol] 
+Just a way to look back on all the updates I have made. I'll add every main update. Unless I forget.
 
     {%- for changelog in changelog | reverse -%}
 
