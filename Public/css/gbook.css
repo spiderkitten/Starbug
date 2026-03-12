@@ -75,7 +75,7 @@ https://content-security-policy.neocities.org/
     background-attachment: fixed;
     font-family: 'Courier New';
     font-size: 16px;
-    color: var(--pallette2);
+    color: var(--colour2);
 }
 
 #c_widget button, #c_widget input[type=submit] {
@@ -84,27 +84,27 @@ https://content-security-policy.neocities.org/
     text-decoration: none;
 	text-align: center;
     text-transform: uppercase;
-    background-color: var(--pallette8);
-    color: var(--pallette4);
-    border: 1px solid var(--pallette4);
+    background-color: var(--colour8);
+    color: var(--colour4);
+    border: 1px solid var(--colour4);
     border-radius: 10px;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
-    color: var(--pallette4);
-    border: 1px solid var(--pallette1);
+    color: var(--colour4);
+    border: 1px solid var(--colour1);
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
 #c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
     color: var(--palette2);
-    border: 1px solid var(--pallette4);
+    border: 1px solid var(--colour4);
 }
 
 /* Input section */
 #c_inputDiv {
     margin-bottom: 15px;
     padding: 10px;
-    background-color: var(--pallette5);
-    border: 2px dotted var(--pallette8);
+    background-color: var(--colour5);
+    border: 2px dotted var(--colour8);
     border-radius: 10px;
 }
 
@@ -116,8 +116,8 @@ https://content-security-policy.neocities.org/
     font-style: italic;
     font-weight: bold;
     text-align: left;
-    background-color: var(--pallette5);
-    color: var(--pallette2);
+    background-color: var(--colour5);
+    color: var(--colour2);
 }
 
 .c-inputWrapper {
@@ -127,11 +127,11 @@ https://content-security-policy.neocities.org/
 }
 .c-input {
     padding: 4px;
-    color: var(--pallette3);
-    border: 1px solid var(--pallette7);
+    color: var(--colour3);
+    border: 1px solid var(--colour7);
 	outline: none;
 }
-.c-input:focus {border: 1px solid var(--pallette1)}
+.c-input:focus {border: 1px solid var(--colour1)}
 
 .c-textInput {
     width: calc(100% - 10px);
@@ -144,7 +144,7 @@ https://content-security-policy.neocities.org/
     margin-right: 0;
 }
 #c_replyingText {
-    color: var(--pallette4);
+    color: var(--colour4);
     text-align: right;
 }
 
@@ -152,8 +152,8 @@ https://content-security-policy.neocities.org/
 .c-comment {
     margin-bottom: 15px;
     padding: 10px;
-    border: 2px solid var(--pallette4);
-    background-color: var(--pallette6); 
+    border: 2px solid var(--colour4);
+    background-color: var(--colour6); 
     border-radius: 10px;
 }
 .c-reply {
@@ -163,8 +163,8 @@ https://content-security-policy.neocities.org/
     margin-left: auto;
     margin-right: 0;
     padding: 10px;
-    border: 2px dotted var(--pallette4);
-    background-color: var(--pallette6); 
+    border: 2px dotted var(--colour4);
+    background-color: var(--colour6); 
     border-radius: 10px;
 }
 .c-reply:last-child {margin-bottom: 0;}
@@ -172,7 +172,7 @@ https://content-security-policy.neocities.org/
     margin: -10px;
     margin-top: 10px;
     padding: 10px;
-    background-color: var(--pallette6);
+    background-color: var(--colour6);
 }
 
 .c-name {
@@ -181,14 +181,14 @@ https://content-security-policy.neocities.org/
     margin-right: 10px;
 
     font-weight: bold;
-    color: var(--pallette2)
+    color: var(--colour2)
 }
 .c-site {
     text-transform: uppercase;
     text-decoration: none;
-    color:var(--pallette1);
+    color:var(--colour1);
 }
-.c-site:hover {color: var(--pallette4)}
+.c-site:hover {color: var(--colour4)}
 .c-timestamp {
     float: right;
     opacity: 75%;
@@ -201,8 +201,8 @@ https://content-security-policy.neocities.org/
     font-family: Verdana;
     font-size: 14px;
     text-align: justify;
-    color: var(--pallette4);
-    background-color: var(--pallette6);
+    color: var(--colour4);
+    background-color: var(--colour6);
 }
 
 /* Pagination */

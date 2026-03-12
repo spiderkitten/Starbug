@@ -1,0 +1,111 @@
+p {
+  margin: 0px;
+  padding: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item{
+    font-size: 12px;
+    background-color: var(--colour5);
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: var(--colour8);
+    box-sizing: border-box;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+    filter: opacity(80%) saturate(50%)  sepia(10%) ;
+}
+
+.itemtxt {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: var(--colour3)
+}
+
+.filterDiv {
+  display: none; 
+  width:25%;
+
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  background-color: var(--colour8);
+  color: var(--colour4);
+  font-size:16px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: var(--fontmain);
+  cursor: pointer;
+  border: 0px;
+  margin-bottom: 3px;
+}
+
+.btn:hover {
+      background-color: var(--colour1); 
+      color: var(--colour4); 
+  } 
+
+.btn.active {
+  background-color: var(--colour9);
+  color: white;
+}
+
+.title {
+font-weight: bold;
+}
+
+.year {
+  letter-spacing: 2px;
+}
+
+.year::before{
+  content: "=";
+}
+.year::after{
+  content: "=";
+}
+
+.item .icons {
+  max-width: 30px;
+  height: auto;
+  cursor:pointer;
+  padding-top: 5px;
+}
+
+.artist {
+text-transform: uppercase;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .filterDiv { width: 45%; font-size: 15px; }
+    }
+    
+@media screen and (max-width: 600px) {
+    .filterDiv { width: 75%; font-size: 15px; }
+    }
+
+
+
+ 
+  

@@ -1,40 +1,82 @@
 ---
-title: Index
 layout: layout/base.njk
-cssFile: index.css
 script: randomquote.js
+title: Just a girl floating through space
+description: 
 eleventyExcludeFromCollections: true
 ---
 
-<div class="frontgrid">
-
-<!-- Intro Section -->
- 
-<div id="intro">
 <h2>Welcome</h2>
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <span class="upsidedown">Australia</span>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more. </p>
 
-
 <p>I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://trakt.tv/users/spiderkitten">Trakt</a></p>
 
 <p>Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to sign my guestbook before you leave!</p>
+
+<!-- grid to align quotes and rings-->
+
+<!-- RECENT Stutter -->
+<div id="stutter" class="textbox">
+
+## Latest Stutter
+<div class="bullets"> 
+<div id="recentPostList">
+  <ul>
+  {% assign top_stutter = stutter | reverse %}
+  {%- for stutter in top_stutter limit:1 -%}
+    <li><a href="{{ stutter.date }}"> {{ stutter.content }}</a></li>
+  {% endfor %}
+
+</div><!--recentPostList-->
+</div><!--bullets-->
+</div><!--stutter-->
+
+
+<!-- Quotes -->
+<div id="randomquote" class="textbox">
+<h3>Random Quote</h3>
+<div  id="quote" class="quotebox">
+
+<span id="quotes1"></span> 
+<br>
+<span id="quotes2"></span>
+<div style="text-align: right;">-- <span id="author"></span> </div>
+<button id="generate">refresh</button>
+</div><!--quote-->
+</div><!--randomquote-->
+
+
+<!--
+## Recent Blog Posts
+
+<div id="recentPostList">
+  <ul>
+  {% assign top_posts = collections.posts | reverse %}
+  {%- for post in top_posts limit:4 -%}
+    <li><a href="{{ post.url }}"> {{ post.data.title }}</a></li>
+  {% endfor %}
+
 </div>
-
-
-<div id="images">
-<hr class="divider">
 </div>
+--> 
 
-<!-- Status Box -->
-<div id="status" class="textbox">
-<h3>Status/Currently</h3>
-<div><strong>Reading:</strong>Brigands & Breadknives by Travid Baldree</div>
-<div><strong>Watching:</strong>Patience S2</div>
-<div><strong>Playing:</strong>Astroneer & TF2</div>
-</div>
+<div id="changelog" class="textbox">
 
-<!-- Webrings -->
+### Most Recent Site Change
+ 
+<div> 
+{%- assign changes = changelog | reverse -%}
+{%- for changes in changes limit:1  -%}
+<p><strong> {{ changes.date }}:</strong> {{ changes.update }}</p>
+  {%- endfor -%}
+
+<a href="changelog.html">Full Changelog</a>
+</div><!-- -->
+</div><!--changelog-->
+
+
+<!-- WEBRINGS -->
 <div id="webrings" class="textbox">
 <h3>Rings and Things</h3>
 <!-- TF2 Webring -->
@@ -51,69 +93,13 @@ eleventyExcludeFromCollections: true
 <area href="https://baccyflap.com/noai/?nxt&s=spc" target="_top" shape="rect" coords="72,16,83,26" alt="next" title="next">
 </map>
 <img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
-</div>
+</div><!--NO AI webring-->
+</div><!--textbox-->
 
-</div>
-
-<!-- Quotes -->
-<div id="randomquote" class="textbox">
-<h3>Random Quote</h3>
-<div id="quote" class="quotebox">
-
-<span id="quotes1"></span> 
-<br>
-<span id="quotes2"></span>
-<div style="text-align: right;">-- <span id="author"></span> </div>
-<button id="generate">refresh</button>
-</div>
-</div>
-
-<!-- -->
-
-<div id="linkme" class="textbox">
-<h3>Link Me</h3>
-<div class="linkme">
-<p>Want to link to me? Pick a button:</p>
-
-<div><img src="images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
-<div><img src="images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
-<div><img src="images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
-
- <p>please upload the button to your own webspace!</p>
-</div>
-</div>
- 
-
-<div id="recentupdates" class="textbox">
-
-<h3>Recent Updates</h3>
-
-{%- include "partials/indexchangelog.njk" %}
-
-<p><a href="changelog.html">Previous Updates</a></p>
-</div>
+<!-- buttons -->
 
 <div id="frontpagebuttons">
-<a href="https://jigsaw.w3.org/css-validator/check/referer">
-<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
- <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
-</div>
- 
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a>  <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
 
-</div> <!-- end flexbox-->
-
-
-
-
-<div style="clear:both"></div>
-
-<script src="/js/webmeji.js"></script>
-
-
-
-
-
-
-
-
+</div><!--buttons-->
 

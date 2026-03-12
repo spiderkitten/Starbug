@@ -4,27 +4,35 @@ layout: layout/base.njk
 eleventyExcludeFromCollections: true
 ---
 
+<div class="textbox">
+
 ## Friends Only Banner Archive
+</div>
 
 <div class="textbox">
 
+### Info 
 This is a collection of all the Friends Only banners I have made over the years. They were made for use at sites like LiveJournal and Dreamwidth as images to let people know your journal locked to friends only 
 
 These are all my own work. I made them. 
 
-### Rules for Use 
+Although I did make them 20 years or so ago, so keep that in mind in regards to quality lol 
+
+#### Rules for Use 
 
 You are free to use these anywhere, with the following caveat: 
 
-<ul style="padding-left:20px;">
-  <li><strong>&#9733;</strong> Do not claim you made them!</li>
-  <li><strong>&#9733;</strong> Save to your own computer, no hotlinking! </li>
-  <li><strong>&#9733;</strong> If possible, please credit with a link back. If not possible, then idk *shrug* lol</li>
+<div class="starlist">
+<ul>
+  <li>Do not claim you made them!</li>
+  <li>Save to your own computer, no hotlinking! </li>
+  <li>If possible, please credit with a link back. If not possible, then idk *shrug* lol</li>
 </ul>
+</div>
 
 <h3 id="directory">Directory by Series / Topic</h3>
 
-<div id="toc" style="padding:20px;"></div>
+
 
 <div class="textbox">
   <h3 id="foassorted">Assorted</h3>

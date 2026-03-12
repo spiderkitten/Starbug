@@ -1,9 +1,9 @@
 ---
-title: Credits
 layout: layout/base.njk
+title: Credits
 eleventyExcludeFromCollections: true
 ---
-
+<div class="bullets">
 
 ## Site Credits
 
@@ -11,6 +11,83 @@ Everything this site is made with.
 
 <div class="textbox">
 
+### Code Snippets and Scripts 
+
+#### Site Wide
+- <a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon
+- <a href="https://www.w3schools.com/howto/howto_js_filter_elements.asp">W3's Element filtering tutorial</a> - used on the books, music, movie pages  
+- <a href="https://stackoverflow.com/a/65614267 ">active selection button code</a> - used on the books, music, movie pages (the w3 version didn't work)   
+- <a href="https://www.30secondsofcode.org/css/s/zebra-striped-list-or-table/">Striped List tutorial</a>  
+- <a href="https://solaria.neocities.org/guides/gifpausetut">Freeze Gifs (stop animations) code</a> by Solaria
+
+#### Index Page 
+ - <a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a> 
+
+<!--
+
+- <a href="https://github.com/lars-rooij/webmeji/tree/main">Webmeji on front page</a> by lars-rooj (<a href="https://kilkakon.com/shimeji/">original shimeji</a>)  -->
+
+#### A24 Page 
+- <a href="">Progress Bar tutorial</a> - w3schools tutorial for using the \<progress\> tag 
+
+#### 100x100 page 
+- <a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents</a> Snippet
+
+
+#### TF2 Freeze Cams  
+
+- <a href="https://www.w3schools.com/css/css3_images_modal.asp">CSS Responsive Modal Images</a> tutorial for an image gallery with modals
+<!--
+#### Commonplace Book 
+
+- <a href="https://stackoverflow.com/a/40701429">Code for image popups</a>
+-->
+
+#### Guestbook / Comments 
+- <a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a>  
+
+
+#### Credits Page
+- Counter on Credits page <a href="https://daniele63.com/coding_tricks#visitorCounterDiv">tutorial</a>  by Daniele 
+
+
+</div>
+
+<div class="textbox">
+
+### Fonts and Text 
+
+<ul>
+<li>Font: Courier New</li>
+<li>Font: <span style="font-family: cherryswash;">CherrySwash</span> by <a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>   
+<li>Font: <span style="font-family: lato;">Lato</span> from <a href="https://www.fontsquirrel.com/">FontSquirrel</a> </li>
+<li>Font: <span style="font-family: lato-thin;">Lato Thin</span> from <a href="https://www.fontsquirrel.com/">FontSquirrel</a> </li>
+</ul> 
+</div>
+
+<div class="textbox">
+
+### Images 
+<ul>
+ <li>Mushroom favicon, cursor and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li> 
+<li>Some link buttons made with <a href="https://ritual.sh/resources/button-generator/">Ritual.sh 88x31 Button Creator</a></li>
+<li>UFO on 404 page by <a href="https://www.flaticon.com/free-sticker/ufo_7690954">Flaticon</a></li>
+<li>Cat sticker on recipe placeholder image from <a href="https://www.flaticon.com/free-sticker/cooking_4743087">flatiron</a></li>
+<li>recipe placeholder image made by ME</li> 
+<li>Les Vampires image on Vampire Resource Management page - ????</li> 
+<li>Nick Cave's book of words photo - unknown</li>
+<li>Book covers sourced from Goodreads and Amazon</li>
+<li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
+<li>Goodreads, Storygraph, IMDB, Spotify, and Youtube icons from their respective sites</li>
+
+<!-- 
+ <li>Cherry divider by <a href="http://whimsical.heartette.net">whimsical</a></li>
+<li>Star ratings from <a href="https://blanketfort.neocities.org/web-material">Blanket Fort</a></li>
+-->
+</ul>
+</div>
+
+<div class="textbox"> 
 
 ### Coding Stuff
 
@@ -36,69 +113,15 @@ Everything this site is made with.
 - <a href="https://github.com/moment/luxon/">luxon</a> - for date stuff 
 - <a href="https://gfscott.com/embed-everything/">Embed Everything 11ty Plugin</a> - easily embed things (youtube etc)
 
-### Code Snippets and Scripts 
-
-#### Site Wide
-- <a href="https://codepen.io/heydon/pen/pgBBdR">CSS only, automated, and accessible external link icon</a>code by Heydon
-- <a href="https://www.w3schools.com/howto/howto_js_filter_elements.asp">W3's Element filtering tutorial</a> - used on the books, music, movie pages
-- <a href="https://www.30secondsofcode.org/css/s/zebra-striped-list-or-table/">Striped List tutorial</a> 
-
-
-#### Index Page 
-- <a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a> 
-- <a href="https://github.com/lars-rooij/webmeji/tree/main">Webmeji on front page</a> by lars-rooj (<a href="https://kilkakon.com/shimeji/">original shimeji</a>)  
-
-#### 100x100 page 
-- <a href="https://blog.markdowntools.com/posts/add-table-of-contents-to-markdown-using-javascript">Automatic Table of Contents Snippet</a>  
-
-#### Commonplace Book 
-
-- <a href="https://stackoverflow.com/a/40701429">Code for image popups</a>
-
-#### Guestbook / Comments 
-- <a href="https://virtualobserver.moe/ayano/comment-widget">ayano's neocities comment widget</a>  
-
-#### Credits Page
-- <a href="https://daniele63.com/coding_tricks#visitorCounterDiv">Counter on Credits page tutorial</a>  by Daniele 
-
-
-</div>
-
-<div class="textbox">
-
-### Fonts and Text 
-
- Some fonts may be theme specific, or from previous layouts 
- 
-<ul>
-<li>Font: <span style="font-family: cherryswash;">CherrySwash</span> by <a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>   
-<li>Font: <span style="font-family: lato;">Lato</span> from <a href="https://www.fontsquirrel.com/">FontSquirrel</a> </li>
-</ul> 
-</div>
-
-<div class="textbox">
-
-### Images 
-<ul>
- <li>Mushroom favicon, cursor and bullets by <a href="http://whimsical.heartette.net">whimsical</a></li>  
- <li>Cherry divider by <a href="http://whimsical.heartette.net">whimsical</a></li>
-
-<li>UFO on 404 page by <a href="https://www.flaticon.com/free-sticker/ufo_7690954">Flaticon</a></li>
-<li>Star ratings from <a href="https://blanketfort.neocities.org/web-material">Blanket Fort</a></li>
-<li>Cat sticker on recipe placeholder image from <a href="https://www.flaticon.com/free-sticker/cooking_4743087">flatiron</a></li>
-<li>recipe placeholder image made by ME</li> 
-<!--<li>Les Vampires image on Vampire Resource Management page - ????</li>-->
-<li>Nick Cave's book of words photo - unknown</li>
-<li>Book covers sourced from Goodreads and Amazon</li>
-<li>A24 Logo on A24 page is unsurprisingly owned by A24</li>
-<li>Goodreads, Storygraph, IMDB, Spotify, and Youtube icons from their respective sites</li>
-
-
-
-</ul>
+<!-- 
+eleventy-plugin-rss  
+eleventy-plugin-readingtime
+-->
 </div>
 
  <p style="text-align: center;">And a huge thankyou to the  <span id="visitorCounter"></span> people who <rainbow-text>volunteered</rainbow-text> to be ritually sacrificed so that this site could be created. I <span style="color:red;">&#9829;</span> you.</p>
+
+</div><!--bullets-->
 
 <!--
 counter tutorial

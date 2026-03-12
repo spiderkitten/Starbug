@@ -1,76 +1,51 @@
-/* ==============================
-CSS by Starbug  
-https://starbug.neocities.org  
-
-Style Name: Picnic 
-
-Feel free to copy sections of my code to create your own style, no credit necessary. 
-
-But please don't rip off my entire style sheet 
-Don't claim the style sheet as your own 
-Don't redistribute the entire style sheet   
-
-/*====================================================================*/ 
-
-/* Variables - cosmetic things that can be changed  */
-
 :root {
 
-  /* gingham background */
-  --background-color: linear-gradient(90deg, #c8000080 50%, transparent 0), linear-gradient(#c8000080 50%, transparent 0 );
-  --background-size:30px 30px;
+    /* gingham background */
+    --background-color: linear-gradient(90deg, #c8000080 50%, transparent 0), linear-gradient(#c8000080 50%, transparent 0 );
+    --background-size:30px 30px;
 
-  /* colours used throughout site */
-  /* transparent colors will show up differently on different coloured backgrounds */
-  --pallette1:#bf1f35; /* dark red */ 
-  --pallette2: #588d54; /* dark green */
-  --pallette3: #222222;  /* almost black*/
-  --pallette4: #ffffff;  /* white */
-  --pallette5: #c800001e; /* transparent pale pink */
-  --pallette6: #588d5434; /* transparent pale green */  
-  --pallette7: #bf1f344a; /* transparent pink */
-  --pallette8: #fe9696;  /* dark pink */
-  --pallette9: #6aa466; /*   */
-  --pallette10: #FBE5E2; /* solid pink */
+   /* colours used throughout site */
+    /* transparent colors will show up differently on different coloured backgrounds */
+    --colour1:#bf1f35; /* dark red */ 
+    --colour2: #588d54; /* dark green */
+    --colour3: #222222;  /* almost black*/
+    --colour4: #ffffff;  /* white */
+    --colour5: #c800001e; /* transparent pale pink */
+    --colour6: #588d5434; /* transparent pale green */  
+    --colour7: #bf1f344a; /* transparent pink */
+    --colour8: #fe9696;  /* dark pink */
+    --colour9: #6aa466; /*   */
+    --colour10: #FBE5E2; /* solid pink */
 
-  /* Fonts & Font Sizes */ 
-  --headerh1fontsize: 60px; /*Site Title*/
+  --fonttitle: lato-thin; /*Site Title*/
+  --titletextshadow: 4px 4px 4px #000000;
+  --fonttagline: lato; /*Site Title Tagline*/
+  --fontheadings: CherrySwash;
+  --fontmain: 'Courier New';
+
+  --headerh1fontsize: 50px; /*Site Title*/
   --h1fontsize: 32px;
   --h2fontsize: 24px;
   --h3fontsize: 20px;
   --h4fontsize: 16px;
   --h5fontsize: 14px;
   --h6fontsize: 12px;
-  --fontheadings: cherryswash;
 
-  --fonttitle: lato-thin; /*Site Title*/
-    --titletextshadow: 4px 4px 4px #000000;
-  --fonttagline: lato; /*Site Title Tagline*/
-    --fontsizetagline:14px;
+  --fontsizetagline:14px;
+  --fontsizemain:16px;
+  --fontsizebigger: 20px;
 
-  --fontmain: 'Courier New';
-    --fontsizemain:16px;
 
   /* horizontal rule decorative */  
   --divider: url(/images/siteimgs/divider2b.gif);
 
-
   /* Bullets */
   --bullet: url(/images/siteimgs/favicon_shroom1.gif); 
 
-  /* External Link Icon */
+/* External Link Icon */
   /* colour: https://angel-rs.github.io/css-color-filter-generator/ */
   --extlink: url(../images/siteimgs/external_link.png);
   --extlinkcolour: brightness(0) saturate(100%) invert(57%) sepia(17%) saturate(1262%) hue-rotate(314deg) brightness(114%) contrast(83%);
-
-    /* Images before headings on links page*/
-  --imgwebbefore: url(../images/siteimgs/links/coding.png) no-repeat;
-  --neositesbefore: url(../images/siteimgs/links/neosites.png) no-repeat;
-  --citscibefore: url(../images/siteimgs/links/scientist.png) no-repeat;
-  --funbefore: url(../images/siteimgs/links/fun.png) no-repeat;
-  --gamingbefore: url(../images/siteimgs/links/gaming.png) no-repeat;
-  --usefulbefore: url(../images/siteimgs/links/useful.png) no-repeat;
-  --booksbefore: url(../images/siteimgs/links/books.png) no-repeat;
 }
 
 html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
@@ -97,8 +72,6 @@ html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
     src: url(../fonts/CherrySwash-Bold.otf) format("opentype");
 }
 
-
-
 /* ====== Main Layout / Basic Structure ===== */
 
 body {
@@ -108,167 +81,174 @@ body {
     'nav main'
     'footer footer';
 
-  grid-template-columns: 310px 1fr;
+  grid-template-columns: 320px 1fr;
   grid-template-rows: 150px 1fr 70px;
-  padding-bottom: 10px;
-  margin: 0;
+  padding-bottom: 20px;
+  margin: auto;
   background: var(--background-color);
   background-size: var(--background-size);
   font-family: var(--fontmain);
-  color: var(--pallette3);
+  color: var(--colour3);
   font-size: var(--fontsizemain);
-
-}
-
-page-container {
-  width:90%;
-  margin: auto;
-  max-width: 1000px;
+  height: 100vh;
+  max-width: 1200px;
 }
 
 header { /* Site Title Area */
   grid-area: header;
-  background: var(--pallette1);
-  margin:20px;
-  margin-bottom: 10px;
+  background: var(--colour1);
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
   padding: 10px;
-  border-bottom: var(--pallette3) solid 15px;
-  border-radius: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px 10px 10px 10px;
+  border-bottom: var(--colour3) solid 15px;
 }
 
 nav { /* Main Menu Navigation */
   grid-area: nav;
-  background: var(--pallette4);
+  background: var(--colour4);
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
   padding-top: 5px;
   border-style: solid;
-  border-color: var(--pallette5);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: var(--colour6) solid 15px;
+  border-bottom: var(--colour6) solid 15px;
   padding: 5px;
-  border-top: var(--pallette6) solid 15px;
-  border-bottom: var(--pallette6) solid 15px;
 }
 
 
 main { 
   grid-area: main;
-  background: var(--pallette4);
+  background: var(--colour4);
   margin-left: 10px;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 10px;
   padding: 20px;
-  padding-top: 5px;
-  border-top: var(--pallette6) solid 15px;
-  border-bottom: var(--pallette6) solid 15px;
+  padding-top: 5px;  
+  border-radius: 10px 10px 10px 10px;
+  border-bottom: var(--colour6) solid 12px;
+  border-top: var(--colour6) solid 15px;
 }
 
 footer {
 grid-area:footer;
-background: var(--pallette4);
-color: var(--pallette3);
+background: var(--colour4);
+color: var(--colour3);
 text-align: center;
 margin: 20px;
-margin-top: 10px;
+margin-top: 0px;
 margin-bottom:10px;
 border-radius: 10px;
 padding-top: 10px;
 padding-bottom:10px;
+border-style: solid;
+border-color: var(--colour5);
+border: var(--pallette6) solid 15px;
 }
 
-/* Site Title  */
+
+
+/* ====== HEADINGS ===== */
 
 header h1 {
-  color: var(--pallette8);
-  font-family:var(--fonttitle);
-  text-shadow: var(--titletextshadow);
-  text-align: center;
-  font-size: var(--headerh1fontsize);
-  letter-spacing: 5px;
-  margin: 0;
-  text-transform: uppercase;
+      color: var(--colour8);
+      font-family:var(--fonttitle);
+      text-shadow: var(--titletextshadow);
+      text-align: center;
+      font-size: var(--headerh1fontsize);
+      letter-spacing: 5px;
+      margin: 0;
+      text-transform: uppercase;
 }
 
 tag-line {
   display:block;
-  color: var(--pallette4);
+  color: var(--colour4);
   font-family: var(--fonttagline);
   font-size: var(--fontsizetagline);
   text-align: center;
   letter-spacing: 2px;
 }
 
-/* ===== Main Menu =====*/ 
-
-.menu-buttons {
-margin-bottom:20px;
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--fontheadings);
 }
 
-.topnav a:hover { 
-  text-decoration: none;
-  background-color: var(--pallette1);
+h1 {
+font-size: var (--h1fontsize);
+}
+h2 {
+font-size: var (--h2fontsize);
+}
+h3 {
+font-size: var (--h3fontsize);
+}
+h4 {
+font-size: var (--h4fontsize);
+}
+h5 {
+font-size: var (--h5fontsize);
+}
+h6 {
+font-size: var (--h6fontsize);
 }
 
-.topnav a:visited {
-  background-color: var(--pallette8);
-  color: var(--pallette4);
-  text-decoration: none;
+/* Default Links & Lists */
+
+  a {
+    color: var(--colour9);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: var(--colour2);
+  }
+
+  a:hover {
+    color: var(--colour1);
+  }
+
+
+
+  a:visited hover {
+    color: var(--colour1);
+  }
+
+.navbutton:visited {
+color: var(--colour4)
 }
 
-.navbutton, .dropdown button { 
-  border: 0;
-  font-size:16px ;
-  color: var(--pallette4);
+/* ====== SIDEBAR STUFF ===== */
+
+#menu-buttons {
+margin:10px;
+margin-bottom: 20px;
+}
+
+.navbutton {
+  background-color: var(--colour8);
+  color: var(--colour4);
+  font-size:16px;
   text-decoration: none;
   padding: 5px;
-  background-color: var(--pallette8);
   border-radius: 5px;
   font-family: var(--fontmain);
-  margin-top: 3px;
   cursor: pointer;
-
 }
 
-.navbutton:hover, .dropdown button:hover {
-      background-color: var(--pallette1); 
-      color: var(--pallette4); 
+.navbutton:hover {
+      background-color: var(--colour1); 
+      color: var(--colour4); 
   } 
-
-.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  position: absolute;
-  padding: 5px 0;
-  z-index: 1;
-}
-.dropdown-content a {
-  display: block;
-  width: 100%;
-  font-size: 16px; 
-  border-radius: 0; 
-  padding: 5px 10px; 
-  background-color: var(--pallette8);
-  color: var(--pallette4);
-  text-decoration: none;
-
-}
-
-.dropdown-content a:hover {
-  background-color:var(--pallette1); 
-  color: var(--pallette4); 
-  text-decoration:none;
-}
 
 
 /* Text Formatting */
@@ -280,24 +260,24 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
   font-size: var(--h1fontsize);
-  color: var(--pallette1);
+  color: var(--colour1);
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 h2{
-background-color: var(--pallette8);
-    font-size: var(--h2fontsize);
-    color: var(--pallette4);
-    margin-top: 15px;
-    margin-bottom: 5px;
-border-radius: 10px;
-padding-left:10px;
+  background-color: var(--colour8);
+  font-size: var(--h2fontsize);
+  color: var(--colour4);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding-left:10px;
 }
 
 h3{
   font-size: var(--h3fontsize);
-  color: var(--pallette1);
+  color: var(--colour1);
   margin-top: 5px;
   margin-bottom: 0px;
 }
@@ -305,112 +285,102 @@ h3{
 
 h4 {
   font-size: var(--h4fontsize);
-  color: var(--pallette1);
-  margin-top: 0px;
+  color: var(--colour1);
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
 strong {
   font-weight: bold;
-  color: var(--pallette8);
+  color: var(--colour8);
 }
 
+.textbox {
+  background-color: var(--colour5);
+  border-color: var(--colour8);
+  border-style: solid;
+  border-width: 3px;
+  padding: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin: 5px auto 10px auto;
+  }
 
-/* fun font styling */
-
-rainbow-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(254, 211, 102), orange, red);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight:bold;
-} 
-
-upsidedown {
-  display: Inline-block;
-  transform: rotate(180deg);
-/*  transform: scaleY(-1);*/
+.textbox:hover {
+  border-color: var(--colour2);
 }
 
-/*void{
-  filter: drop-shadow(16px 16px 20px red) invert(75%);
-}*/
+.textbox h3 {
+  font-family: var(--fontheadings);
+  background-color: var(--colour8);
+  color: var(--colour4);
+  font-size: var(--h3fontsize);
+  border-radius: 10px;
+  padding-left:10px;
+  margin-bottom: 10px;
+}
 
-/* Default Links & Lists */
-
-  a {
-    color: var(--pallette2);
-    text-decoration: none;
+.textbox h4 {
+  font-family: var(--fontheadings);
+  background-color: var(--colour6);
+  color: var(--colour1);
+  font-size: var(--h4fontsize);
+  border-radius: 10px;
+  padding-left:10px;
+  margin-bottom: 10px;
   }
 
-  a:hover {
-    text-decoration: underline;
-  }
 
-  a:visited {
-    color: var(--pallette5);
-  }
+/* lists */
 
-  a:active {
-    text-decoration: underline overline;
-  }
-
-  ul  {
+.sidebar ul li, .bullets ul li {
+    padding-left:5px;
+    list-style-image:var(--bullet);
+    background-repeat: no-repeat;
     list-style-type: none;
-    padding:0px;
+    vertical-align:middle;
+}
 
-  }
 
-  li {
-    padding-bottom:5px;
-    padding-left:30px;
-    padding-left: 20px;
-    padding-bottom: 3px;
-    list-style: none;
+.starlist ul li {
+    list-style-type: none;  
+}
+
+.starlist ul li:before{
+    content: '\22C6';
+    padding-left:5px;
+    list-style-type: none; 
+    color: var(--colour8);
+    font-size: 1.5rem;
+    vertical-align:middle;
+}
+
+/* list with two columns used on about and lexicon page*/ 
+  .stripedlist {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    max-width: 95%;
+    margin:auto;
+    background-color: var(--colour7);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
   }
   
-  li a {
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: 14px;
-    list-style: none;
-  }
-
-  ol li {
-    padding:0px;
-    list-style: decimal;
-  }
-
-ul li{
-    background-image: var(--bullet);
-    background-repeat: no-repeat;
-}
-
-
-dt {
-margin-left: 0px;
-padding-left:20px;
-    background-image: var(--bullet);
-    background-repeat: no-repeat;
-}
-
-dd {
-margin-left: 0px;
-padding-left:20px;
-padding-bottom: 15px;
-}
-
-  /* Stuff used on multiple pages */
-
-  figure {
-    text-align: center;
+  .stripedlist div:nth-child(odd) {
+    background-color: var(--colour8);
+    padding:5px;
+    text-align: right;
   }
   
-  figcaption {
-    font-size: small;
+  .stripedlist div:nth-child(even) {
+    padding:5px;
   }
 
-    /* Table of Contents using H3 - Used on fandom pages*/
+
+/* ====== OTHER STUFF ===== */
+
+  /* Table of Contents using H3 - Used on fandom pages*/
   #toc {  
     columns: 3;
     -webkit-columns:3;
@@ -438,134 +408,6 @@ padding-bottom: 15px;
     list-style: none;
   }
 
-  hr.divider{
-    height: 25px;
-    background: var(--divider) repeat-x 0 0;
-    border: 0;
-    width: 80%;
-  }
-
-  hr.dashed { /* dashed line */
-    border-top: 3px dashed var(--pallette8);
-  }
-
-  cite { /* reference text */
-    text-align: left;
-    font-size: 12px;
-  }
-
-/* list with two columns used on about and lexicon page*/ 
-  .stripedlist {
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    max-width: 95%;
-    margin:auto;
-    background-color: var(--pallette7);
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-  
-  .stripedlist div:nth-child(odd) {
-    background-color: var(--pallette8);
-    padding:5px;
-    text-align: right;
-  }
-  
-  .stripedlist div:nth-child(even) {
-    padding:5px;
-  }
-
-
-
-
-/* ===== freeze buttons  ===== */
-/* the buttons that pause animated images */
-
-.freeze button {
-  background-color: var(--pallette8);
-  border: 0px;
-  border-radius: 5px;
-  color: var(--pallette4);
-  padding: 5px 5px;
-  text-align: center;
-  text-decoration: none;
-  font-family: var(--fontmain);
-  font-size: 12px;
-}
-
-
-/* Default Text Box */
-
-.textbox {
-  background-color: var(--pallette5);
-  border-color: var(--pallette8);
-  border-style: solid;
-  border-width: 3px;
-  padding: 10px;
-  padding-top: 10px;
-  border-radius: 10px;
-  margin: 5px auto 10px auto;
-  }
-
-  .textbox:hover {
-    border-color: var(--pallette2);
-}
-
-.textboxGreen {
-  background-color: var(--pallette6);
-  border-color: var(--pallette9);
-  border-style: solid;
-  border-width: 3px;
-  padding: 10px;
-  padding-top: 10px;
-  border-radius: 10px;
-  margin: 5px auto 10px auto;
-  }
-
-  .textboxGreen:hover {
-    border-color: var(--pallette8);
-}
-
-/*  textbox headings */
-.textbox h2, .textboxGreen h2 {
-background-color: var(--pallette8);
-color: var(--pallette4);
-font-size: var(--h2fontsize);
-border-radius: 10px;
-padding-left:10px;
-margin-bottom: 10px;
-}
-
-.textbox h3, .textboxGreen h3 {
-background-color: var(--pallette8);
-color: var(--pallette4);
-font-size: var(--h3fontsize);
-border-radius: 10px;
-padding-left:10px;
-margin-bottom: 10px;
-}
-
-.textbox h4, .textboxGreen h4 {
-  background-color: var(--pallette6);
-  color: var(--pallette1);
-  font-size: var(--h4fontsize);
-  border-radius: 10px;
-  padding-left:10px;
-  margin-bottom: 10px;
-  }
-
-
-
-/* img */
-
-.fancy img  { /* glowing boarder */
-    width:100%; 
-    max-width: 500px; 
-    height: auto;
-    border-radius: 10px; 
-    filter: drop-shadow(1px 3px 5px var(--pallette8));
-}
 
 /* External Link Icon*/
 
@@ -582,38 +424,129 @@ margin-bottom: 10px;
   background-position: center;
   background-size: 75% auto;
   vertical-align: text-bottom;
-filter: var(--extlinkcolour);
+  filter: var(--extlinkcolour);
 }
 
-/* ======== filter stuff ============= */
+/* fun font styling */
 
-#filterContainer {
-margin-top: 20px;
-}
+rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(254, 211, 102), orange, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+} 
 
-.show {
-  display: inline-block;
-}
-
-.container {
-  margin-top: 20px;
-  overflow: hidden;
-}
-
-.navbutton.active {
-      background-color: var(--pallette1); 
-      color: var(--pallette4); 
+.upsidedown {
+  display: Inline-block;
+  transform: rotate(180deg);
+/*  transform: scaleY(-1);*/
 }
 
 
 
 
-.posts_tagged {
-padding: 0px;
-margin: 0px;
+
+
+
+/* ============ INDEX PAGE ============= */  
+      .linkme {
+      text-align: center;
+      margin-top: 5px;
+      }
+
+/* =========== Blog ========== */
+
+#nextprev {
+text-align: center;
+}
+
+/* ========== Images ========== */
+
+  figure {
+    text-align: center;
+  }
+  
+  figcaption {
+    font-size: small;
+  }
+
+  .fancy img { /* glowing boarder */
+    max-width: 500px; 
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    filter: drop-shadow(1px 3px 5px var(--colour8));
 }
 
 
+/* ===== freeze buttons  ===== */
+/* the buttons that pause animated images */
+
+.freeze button {
+  background-color: var(--colour8);
+  border: 0px;
+  border-radius: 5px;
+  color: var(--colour4);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--fontmain);
+  font-size: 12px;
+}
+
+
+
+
+
+/* Random Quote CSS */
+
+.quotebox {
+  background-color: var(--colour6);
+  border-color: var(--colour6);
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: smaller;
+  }
+
+  .quotebox:hover {
+    border-color: var(--colour8);
+}
+
+#quotes1::before{
+content: "“";
+float: left;
+  font-weight: bold;
+  font-size:50px; 
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 15px;
+  padding-right: 8px; 
+  padding-left: 3px; 
+}
+
+.quotebox #author {
+  padding-right: 5px;
+}
+
+.quotebox button {
+  background-color: var(--colour6);
+  border-color: var(--colour6);
+  cursor: pointer;
+  color: var(--colour2);
+  display: block; 
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+
+
+     #frontpagebuttons{
+        padding-top:10px;
+        text-align:center;
+      }
 
 
 
@@ -622,13 +555,8 @@ margin: 0px;
   /* MEDIA QUERIES */ 
   /* these are for mobile and other screens */ 
 
-  @media only screen and (max-width:1000px) {
-    #heartdivider2 {
-      display: none;
-    }
-  }
 
-  @media only screen and (max-width:900px) {
+  @media only screen and (max-width:768px) {
     body {
 
       grid-template-areas:
@@ -641,7 +569,7 @@ margin: 0px;
     }
 
     header h1 {
-      color: var(--pallette8);
+      color: var(--colour8);
       font-family:var(--fonttitle);
       text-shadow: var(--titletextshadow);
       text-align: center;
@@ -650,23 +578,8 @@ margin: 0px;
       margin: 0;
       text-transform: uppercase;
     }
-  
-
-  
-  .frontgrid {
-    display: grid;
-grid-template-areas: 
-'intro intro status'
-'intro intro webrings'
-'images images webrings'
-'randomquote randomquote linkme'
-'recentupdates recentupdates recentupdates'
-'frontpagebuttons frontpagebuttons frontpagebuttons';
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: auto auto auto auto auto auto;
-column-gap: 10px;
   }
-}
+  
   
   @media only screen and (max-width: 600px) {
   
@@ -681,7 +594,7 @@ column-gap: 10px;
     }
   
     header h1 {
-      color: var(--pallette8);
+      color: var(--colour8);
       font-family:var(--fonttitle);
       text-shadow: var(--titletextshadow);
       text-align: center;
@@ -690,28 +603,4 @@ column-gap: 10px;
       margin: 0;
       text-transform: uppercase;
     }
-  
-  
-  .frontgrid {
-    display: grid;
-grid-template-areas: 
-'intro'
-'status'
-'randomquote'
-'linkme'
-'webrings'
-'recentupdates'
-'images'
-'frontpagebuttons';
-grid-template-columns: 1fr;
-grid-template-rows: auto auto auto auto auto auto;
-column-gap: 10px;
   }
-
-  #images {
-    display: none;
-  }
-
-}
-
-

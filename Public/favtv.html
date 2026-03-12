@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- ARCHIVERS: 
+
+DO NOT ARCHIVE THIS SITE.
+
+YOU DO NOT HAVE MY CONSENT TO DOWNLOAD, SCRAPE, CRAWL, OR RECORD THE CONTENTS OF THIS SITE IN ANY WAY. 
+I UNDERSTAND THAT PRESERVING THE WEB IS IMPORTANT, BUT I DO NOT WANT MY SITE ARCHIVED NOR PRESERVED. 
+I DO NOT CONSENT. 
+PLEASE REPECT MY WISHES. 
+
+THANKYOU
+
+-->
+
+
+<!-- Important Browser Stuff -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Block crawlers etc -->
+  <meta name="pinterest" content="nopin">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noimageindex">
+  <meta name="robots" content="noarchive">
+
+<!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon_shroom1.gif">
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
+
+
+<!-- Style Sheets -->
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/picnic.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/media.css" rel="stylesheet" type="text/css" media="all"> 
+  <link href="/css/" rel="stylesheet" type="text/css" media="all">
+  
+<!-- TF2 Webring -->
+  <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
+
+<!-- RSS FEED -->
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Space Cadet RSS feed">
+
+<!-- Javascript -->
+  <script src="/js/filter.js"></script>
+<!-- Site Title -->
+  <title>SPACE CADET | Favourite TV</title>
+
+</head>
+
+<body>
+
+<!-- Site Title and Tagline -->
+  <header>
+    <h1>SPACE CADET</h1>
+    <tag-line>Just a girl floating through space...</tag-line>
+
+  </header>
+
+<!-- Navigation -->
+  <nav>
+    <div class="sidebar">
+
+<div class="textbox">
+
+<div id="menu-buttons">
+<a href="/index.html" class="navbutton">Home</a> 
+<a href="/sitemap.html" class="navbutton">Sitemap</a>
+<a href="/guestbook.html" class="navbutton">Guestbook</a>
+</div>
+
+<h4>Stuff</h4>
+<ul>
+<li> <a href="/shinies.html">Shinies</a></li>
+<li><a href="/lexicon.html">Lexicon</a></li>
+<li><a href="/recipes.html">Cookbook</a></li>
+<!--<li><a href="/use.html">/Use</a></li>-->
+<li><a href="/tags/now.html">/now</a></li>
+<li><a href="/stutter.html">Stutter (microblog)</a></li>
+<li><a href="/blog.html">Blog</a></li>
+<!--<li><a href="/archives.html">ALL Posts</a></li>-->
+</ul>
+
+<h4>Books/Movies/Gaming</h4>
+<ul>
+<li><a href="/booklog.html">My Reading Log</a></li>
+<li><a href="/a24movies.html">My A24 Movie Challenge</a></li>
+<li><a href="/tf2freezecams.html">TF2 Freeze Cams</a></li>
+</ul>
+
+<h4>My Favs / Recs</h4>
+<ul>
+<li><a href="/favtv.html">Favourite TV Shows</a></li>
+<li><a href="/favmusic.html">Favourite Music</a></li>
+<li><a href="/fandom/harem.html">Favourite Characters</a> </li>
+<li><a href="/favflicks.html">Favourite Movies</a></li>
+
+</ul>
+
+<h4>For You</h4>
+<ul>
+<li><a href="/fandom/100x100.html">100x100 User Pics</a></li>
+<li><a href="/fandom/friendsonly.html">Friends Only Banners</a></li>
+<li> <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a></li>
+</ul>
+
+<h4>Exit</h4>
+<ul>
+<li><a href="/links.html">Links</a></li>
+<li><a href="/linksweb.html">Links - Neocities</a></li>
+</ul>
+
+<h4>Other</h4>
+<ul>
+<li><a href="changelog.html">Changelog</a></li>
+<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/rss.xml">RSS feed</a></li> 
+</ul>
+</div>
+</div>
+
+
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Pick a button:</p>
+
+<div><img src="/images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
+<div><img src="/images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
+<div><img src="/images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
+
+<p>please upload the button to your own webspace!</p>
+</div>
+</div> 
+  </nav>
+
+<!-- Main Conent -->
+  <main>
+    <article>
+    
+    <!-- Filter Script Tutorial: 
+https://www.w3schools.com/howto/howto_js_filter_elements.asp   
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
+--> 
+<h2>Favourite TV Shows</h2>
+<div class="textbox">
+<p>Just some TV Shows I love and recommend.</p>
+<p><strong>Note: This is a work in progress</strong></p>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('favourite')">All Time Favs</button>
+  <button class="btn" onclick="filterSelection('Childhood Favourite')">Childhood Favourite</button>
+  <button class="btn" onclick="filterSelection('Murder Mystery')">Murder Mystery</button>
+  <button class="btn" onclick="filterSelection('Scifi')">Sci-Fi</button>
+  <button class="btn" onclick="filterSelection('Japanese')">Japanese</button>
+  <button class="btn" onclick="filterSelection('Animated')">Animated</button>
+  <button class="btn" onclick="filterSelection('British')">British</button> 
+  <button class="btn" onclick="filterSelection('Cop Show')">Cop Show</button>
+  <button class="btn" onclick="filterSelection('Found Family')">Found Family</button>
+  <button class="btn" onclick="filterSelection('Comedy')">Comedy</button>
+  <button class="btn" onclick="filterSelection('Dark Comedy')">Dark Comedy</button>
+  <button class="btn" onclick="filterSelection('Horror')">Horror</button>
+</div>
+</div>
+<div class="textbox">
+<div class="gallery">
+<div class="filterDiv  Murder Mystery Cop Show Romance favourite"> 
+<div class="item">
+    <img src="/images/tvshows/castle.png" alt="Castle poster">
+    <div class="itemtxt">
+        <div class="title">Castle</div>
+        <div class="year">2009-2016</div>
+        <div class="year">8 Seasons</div>
+        <div class="year">complete</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt1219024/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Scifi Found Family  favourite"> 
+<div class="item">
+    <img src="/images/tvshows/stvoyager.png" alt="Star Trek Voyager poster">
+    <div class="itemtxt">
+        <div class="title">Star Trek Voyager</div>
+        <div class="year">1995-2001</div>
+        <div class="year">7 Seasons</div>
+        <div class="year">complete</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0112178/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Scifi   favourite"> 
+<div class="item">
+    <img src="/images/tvshows/stargatesg1.png" alt="Stargate SG1 poster">
+    <div class="itemtxt">
+        <div class="title">Stargate SG1</div>
+        <div class="year">1997-2007</div>
+        <div class="year">10 Seasons</div>
+        <div class="year">Complete</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0118480/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Japanese Childhood Favourite  favourite"> 
+<div class="item">
+    <img src="/images/tvshows/monkeymagic.png" alt="Monkey poster">
+    <div class="itemtxt">
+        <div class="title">Monkey</div>
+        <div class="year">1978-2004</div>
+        <div class="year">2 Seasons</div>
+        <div class="year"></div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0078659/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Cop Show Murder Mystery  favourite"> 
+<div class="item">
+    <img src="/images/tvshows/rizzles.png" alt="Rizzoli & Isles poster">
+    <div class="itemtxt">
+        <div class="title">Rizzoli & Isles</div>
+        <div class="year">2010-2016</div>
+        <div class="year">7 Seasons</div>
+        <div class="year">complete</div>
+    <div> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Dark Comedy Found Family  "> 
+<div class="item">
+    <img src="/images/tvshows/deadlikeme.png" alt="Dead Like Me poster">
+    <div class="itemtxt">
+        <div class="title">Dead Like Me</div>
+        <div class="year">2003-2004</div>
+        <div class="year">2 Seasons</div>
+        <div class="year"></div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0348913/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  British Comedy  favourite"> 
+<div class="item">
+    <img src="/images/tvshows/thisisjinsy.png" alt="This is Jinsy poster">
+    <div class="itemtxt">
+        <div class="title">This is Jinsy</div>
+        <div class="year">2010-2014</div>
+        <div class="year">2 Seasons</div>
+        <div class="year"></div>
+    <div> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Japanese Animated  "> 
+<div class="item">
+    <img src="/images/tvshows/samauripizzacats.png" alt="Samauri Pizza Cats poster">
+    <div class="itemtxt">
+        <div class="title">Samauri Pizza Cats</div>
+        <div class="year">1990-1990</div>
+        <div class="year">1 Seasons</div>
+        <div class="year"></div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0122834/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Horror   "> 
+<div class="item">
+    <img src="/images/tvshows/stephenkingsit.png" alt="Stephen King's IT poster">
+    <div class="itemtxt">
+        <div class="title">Stephen King's IT</div>
+        <div class="year">1990-1990</div>
+        <div class="year">1 Seasons</div>
+        <div class="year">complete</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0099864/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv     "> 
+<div class="item">
+    <img src="/images/tvshows/letthebloodrunfree.png" alt="Let the Blood Run Free poster">
+    <div class="itemtxt">
+        <div class="title">Let the Blood Run Free</div>
+        <div class="year">1990-1993</div>
+        <div class="year">2 Seasons</div>
+        <div class="year"></div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0098846/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv     "> 
+<div class="item">
+    <img src="/images/tvshows/river.png" alt="River poster">
+    <div class="itemtxt">
+        <div class="title">River</div>
+        <div class="year">2015-2015</div>
+        <div class="year">1 Seasons</div>
+        <div class="year"></div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt4258440/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Comedy Cop Show  "> 
+<div class="item">
+    <img src="/images/tvshows/ntsfsdsuv.png" alt="NTSF:SD:SUV poster">
+    <div class="itemtxt">
+        <div class="title">NTSF:SD:SUV</div>
+        <div class="year">2011-2013</div>
+        <div class="year">3 Seasons</div>
+        <div class="year"></div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt1783495/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+<div class="filterDiv  Cop Show Mystery  favourite"> 
+<div class="item">
+    <img src="/images/tvshows/svu.png" alt="Law & Order SVU poster">
+    <div class="itemtxt">
+        <div class="title">Law & Order SVU</div>
+        <div class="year">1999-</div>
+        <div class="year">26+ Seasons</div>
+        <div class="year">ongoing</div>
+    <div> 
+        <a href="https://www.imdb.com/title/tt0203259/" target="_blank"><img src="/images/siteimgs/IMDb.png" class="icons" title="View on IMDB"></a> 
+    </div> 
+        </div><!--txt-->
+    </div><!--show-->
+    </div><!-- filterdiv -->
+</div>
+<p><noscript>This page requires Javascript, sorry. </noscript></p>
+</div> <!-- textbox -->
+</div>
+    
+    </article>
+  </main> 
+
+<!-- Footer -->
+  <footer>
+    <div class="footer">
+    <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
+    <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
+</div> 
+  </footer>
+
+ 
+</body>
+</html> 

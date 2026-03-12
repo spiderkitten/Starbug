@@ -1,7 +1,7 @@
 ---
 title: Favourite Characters
 layout: layout/base.njk
-cssFile: harem.css
+cssFile: media.css
 eleventyExcludeFromCollections: true
 ---
 
@@ -13,14 +13,14 @@ eleventyExcludeFromCollections: true
 Characters I love! Character name / Actor Name / and where they are from. 
 
  
-<div class="fcgallery">
+<div class="gallery">
 
 {%- for harem in harem %}
-<div class="character">
+<div class="item">
     <img src="/images/harem/{{- harem.image }}" alt="image of {{ harem.character}}">
-<div class="charactertxt">
-    <div><strong>{{- harem.character }}</strong></div>
-    <div> {{- harem.actor }} </div>
+<div class="itemtxt">
+    <div class="title">{{- harem.character }} </div>
+    <div class="artist"> {{- harem.actor }} </div>
     <div>{{- harem.franchise }}</div>
 </div>
 </div>

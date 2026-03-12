@@ -9,12 +9,15 @@ eleventyExcludeFromCollections: true
 
  ### Changelog  
 
-Just a way to look back on all the updates I have made. I'll add every main update. Unless I forget.
+Just a way to look back on all the updates I have made. I'll add every main update. Unless I forget. 
 
-    {%- for changelog in changelog | reverse -%}
 
-<div class="changelog"><p><strong><time>{{ changelog.date }}</time>:</strong> - {{ changelog.update | safe }}</div></p>
+
+  {%- for changelog in changelog reversed -%}
+
+    <div class="changelog">
+    <p><strong><time>{{ changelog.date }}</time>:</strong> - {{ changelog.update }}</div></p>
     
-    {%- endfor -%}
+  {%- endfor -%}
 
 </div> 

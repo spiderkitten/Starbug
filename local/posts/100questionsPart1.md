@@ -3,7 +3,8 @@ title: 100 Questions for Webmaasters (Part 1/10)
 date: 2026-01-05
 lastmod: 
 description: 
-
+tags: 
+  - blog
 ---
 
 So, I found this questionnaire which was originally created by Mouseling.net (you can find it [here](https://mouseling.net/100webmaster)) and I thought I would try and answer some of the questions. 

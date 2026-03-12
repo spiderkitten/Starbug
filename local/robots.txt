@@ -1,183 +1,145 @@
-User-agent: AdsBot-Google
+User-agent: *
 Disallow: /
 
+User-agent: AddSearchBot
 User-agent: AI2Bot
-Disallow: /
-
+User-agent: AI2Bot-DeepResearchEval
 User-agent: Ai2Bot-Dolma
-Disallow: /
-
+User-agent: aiHitBot
+User-agent: amazon-kendra
 User-agent: Amazonbot
-Disallow: /
-
+User-agent: AmazonBuyForMe
+User-agent: Andibot
+User-agent: Anomura
 User-agent: anthropic-ai
-Disallow: /
-
 User-agent: Applebot
-Disallow: /
-
 User-agent: Applebot-Extended
-Disallow: /
-
-User-agent: AwarioRssBot
-Disallow: /
-
-User-agent: AwarioSmartBot
-Disallow: /
-
-User-agent: bingbot
-Disallow: /
-
+User-agent: atlassian-bot
+User-agent: Awario
+User-agent: bedrockbot
+User-agent: bigsur.ai
+User-agent: Bravebot
 User-agent: Brightbot 1.0
-Disallow: /
-
+User-agent: BuddyBot
 User-agent: Bytespider
-Disallow: /
-
 User-agent: CCBot
-Disallow: /
-
+User-agent: Channel3Bot
+User-agent: ChatGLM-Spider
+User-agent: ChatGPT Agent
 User-agent: ChatGPT-User
-Disallow: /
-
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: Claude-Web
-Disallow: /
-
 User-agent: ClaudeBot
-Disallow: /
-
+User-agent: Cloudflare-AutoRAG
+User-agent: CloudVertexBot
 User-agent: cohere-ai
-Disallow: /
-
 User-agent: cohere-training-data-crawler
-Disallow: /
-
+User-agent: Cotoyogi
+User-agent: Crawl4AI
 User-agent: Crawlspace
-Disallow: /
-
-User-agent: DataForSeoBot
-Disallow: /
-
+User-agent: Datenbank Crawler
+User-agent: DeepSeekBot
+User-agent: Devin
 User-agent: Diffbot
-Disallow: /
-
 User-agent: DuckAssistBot
-Disallow: /
-
+User-agent: Echobot Bot
+User-agent: EchoboxBot
 User-agent: FacebookBot
-Disallow: /
-
+User-agent: facebookexternalhit
+User-agent: Factset_spyderbot
+User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler
-Disallow: /
-
-User-agent: Googlebot
-Disallow: /
-
+User-agent: Gemini-Deep-Research
+User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
-Disallow: /
-
+User-agent: Google-Firebase
+User-agent: Google-NotebookLM
+User-agent: GoogleAgent-Mariner
 User-agent: GoogleOther
-Disallow: /
-
 User-agent: GoogleOther-Image
-Disallow: /
-
 User-agent: GoogleOther-Video
-Disallow: /
-
 User-agent: GPTBot
-Disallow: /
-
+User-agent: iAskBot
+User-agent: iaskspider
 User-agent: iaskspider/2.0
-Disallow: /
-
+User-agent: IbouBot
 User-agent: ICC-Crawler
-Disallow: /
-
 User-agent: ImagesiftBot
-Disallow: /
-
+User-agent: imageSpider
 User-agent: img2dataset
-Disallow: /
-
-User-agent: imgproxy
-Disallow: /
-
 User-agent: ISSCyberRiskCrawler
-Disallow: /
-
 User-agent: Kangaroo Bot
-Disallow: /
-
-User-agent: magpie-crawler
-Disallow: /
-
+User-agent: KlaviyoAIBot
+User-agent: KunatoCrawler
+User-agent: laion-huggingface-processor
+User-agent: LAIONDownloader
+User-agent: LCC
+User-agent: LinerBot
+User-agent: Linguee Bot
+User-agent: LinkupBot
+User-agent: Manus-User
+User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
-Disallow: /
-
+User-agent: meta-externalfetcher
 User-agent: Meta-ExternalFetcher
-Disallow: /
-
+User-agent: meta-webindexer
+User-agent: MistralAI-User
+User-agent: MistralAI-User/1.0
+User-agent: MyCentralAIScraperBot
+User-agent: netEstate Imprint Crawler
+User-agent: NotebookLM
 User-agent: NovaAct
-Disallow: /
-
 User-agent: OAI-SearchBot
-Disallow: /
-
 User-agent: omgili
-Disallow: /
-
 User-agent: omgilibot
-Disallow: /
-
+User-agent: OpenAI
 User-agent: Operator
-Disallow: /
-
 User-agent: PanguBot
-Disallow: /
-
-User-agent: peer39_crawler
-Disallow: /
-
-User-agent: peer39_crawler/1.0
-Disallow: /
-
+User-agent: Panscient
+User-agent: panscient.com
 User-agent: Perplexity-User
-Disallow: /
-
 User-agent: PerplexityBot
-Disallow: /
-
 User-agent: PetalBot
-Disallow: /
-
+User-agent: PhindBot
+User-agent: Poggio-Citations
+User-agent: Poseidon Research Crawler
+User-agent: QualifiedBot
+User-agent: QuillBot
+User-agent: quillbot.com
+User-agent: SBIntuitionsBot
 User-agent: Scrapy
-Disallow: /
-
 User-agent: SemrushBot-OCOB
-Disallow: /
-
 User-agent: SemrushBot-SWA
-Disallow: /
-
+User-agent: ShapBot
 User-agent: Sidetrade indexer bot
-Disallow: /
-
+User-agent: Spider
+User-agent: TavilyBot
+User-agent: TerraCotta
+User-agent: Thinkbot
+User-agent: TikTokSpider
 User-agent: Timpibot
-Disallow: /
-
+User-agent: TwinAgent
 User-agent: VelenPublicWebCrawler
-Disallow: /
-
+User-agent: WARDBot
 User-agent: Webzio-Extended
-Disallow: /
-
+User-agent: webzio-extended
+User-agent: wpbot
+User-agent: WRTNBot
+User-agent: YaK
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
+User-agent: YouBot
+User-agent: ZanistaBot
+User-agent: AdsBot-Google
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: bingbot
+User-agent: DataForSeoBot
+User-agent: Googlebot
+User-agent: imgproxy
+User-agent: magpie-crawler
+User-agent: peer39_crawler
+User-agent: peer39_crawler/1.0
 User-agent: Yandex
 Disallow: /
-
-User-agent: YouBot
-Disallow: /
-
-
-
-

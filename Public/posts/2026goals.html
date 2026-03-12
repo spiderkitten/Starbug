@@ -2,91 +2,102 @@
 <html lang="en">
 
 <head>
+
+<!-- ARCHIVERS: 
+
+DO NOT ARCHIVE THIS SITE.
+
+YOU DO NOT HAVE MY CONSENT TO DOWNLOAD, SCRAPE, CRAWL, OR RECORD THE CONTENTS OF THIS SITE IN ANY WAY. 
+I UNDERSTAND THAT PRESERVING THE WEB IS IMPORTANT, BUT I DO NOT WANT MY SITE ARCHIVED NOR PRESERVED. 
+I DO NOT CONSENT. 
+PLEASE REPECT MY WISHES. 
+
+THANKYOU
+
+-->
+
+
+<!-- Important Browser Stuff -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Block crawlers etc -->
   <meta name="pinterest" content="nopin">
   <meta name="robots" content="noindex, nofollow">
   <meta name="robots" content="noimageindex">
   <meta name="robots" content="noarchive">
 
+<!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon_shroom1.gif">
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
-    <link href="/css/gbook.css" rel="stylesheet" type="text/css" media="all">
 
+
+<!-- Style Sheets -->
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/picnic.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
+  <link href="/css/" rel="stylesheet" type="text/css" media="all">
+  
+<!-- TF2 Webring -->
   <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
 
-  <script src="/js/load.js"></script>
+<!-- RSS FEED -->
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Space Cadet RSS feed">
+
+<!-- Javascript -->
   <script src="/js/"></script>
-
-
-<!--Theme Switch Code -->
-  <script>
-    const defaultTheme = "css/styleNEW.css";
-    // Check if `theme` is set
-    if (localStorage.getItem("theme") === null) {
-      // Set to default theme
-      localStorage.setItem("theme", defaultTheme);
-    }
-    // Load theme CSS
-    document.head.insertAdjacentHTML(
-      'beforeend',
-      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
-    // Theme switcher
-    function setTheme(themeFile) {
-      // Set theme to new theme
-      localStorage.setItem('theme', themeFile);
-      // Refresh the page
-      location.reload();
-    }
-  </script>
-
+<!-- Site Title -->
   <title>SPACE CADET | 2026 Goals</title>
+
 </head>
 
 <body>
 
+<!-- Site Title and Tagline -->
   <header>
     <h1>SPACE CADET</h1>
     <tag-line>Just a girl floating through space...</tag-line>
+
   </header>
 
-<!-- Sidebar Nav Starts -->
-<nav>
-
-
+<!-- Navigation -->
+  <nav>
+    <div class="sidebar">
 
 <div class="textbox">
-<h2>Menu</h2>
-<div class="menu-buttons">
+
+<div id="menu-buttons">
 <a href="/index.html" class="navbutton">Home</a> 
 <a href="/sitemap.html" class="navbutton">Sitemap</a>
 <a href="/guestbook.html" class="navbutton">Guestbook</a>
 </div>
 
-
 <h4>Stuff</h4>
 <ul>
-<li><a href="/use.html">/Use</a>  </li>
 <li> <a href="/shinies.html">Shinies</a></li>
-<li><a href="/cookbook.html">Cookbook</a></li>
-<li><a href="/posts/index.html">Blog</a></li>
 <li><a href="/lexicon.html">Lexicon</a></li>
-<li><a href="/solottrpg.html">TTRPG Log</a></li>
+<li><a href="/recipes.html">Cookbook</a></li>
+<!--<li><a href="/use.html">/Use</a></li>-->
+<li><a href="/tags/now.html">/now</a></li>
+<li><a href="/stutter.html">Stutter (microblog)</a></li>
+<li><a href="/blog.html">Blog</a></li>
+<!--<li><a href="/archives.html">ALL Posts</a></li>-->
 </ul>
 
-<h4>Books/Movies</h4>
+<h4>Books/Movies/Gaming</h4>
 <ul>
-<li><a href="/booklog.html">Reading Log</a></li>
-<li><a href="/a24movies.html">A24 Movie Challenge</a></li>
+<li><a href="/booklog.html">My Reading Log</a></li>
+<li><a href="/a24movies.html">My A24 Movie Challenge</a></li>
+<li><a href="/tf2freezecams.html">TF2 Freeze Cams</a></li>
 </ul>
 
-<h4>Favs</h4>
+<h4>My Favs / Recs</h4>
 <ul>
+<li><a href="/favtv.html">Favourite TV Shows</a></li>
 <li><a href="/favmusic.html">Favourite Music</a></li>
-<li><a href="/favtvshows.html">Favourite TV Shows</a></li>
-<li><a href="/favmovies.html">Favourite Movies</a></li>
 <li><a href="/fandom/harem.html">Favourite Characters</a> </li>
+<li><a href="/favflicks.html">Favourite Movies</a></li>
+
 </ul>
 
 <h4>For You</h4>
@@ -96,52 +107,58 @@
 <li> <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a></li>
 </ul>
 
-<h4>Other</h4>
+<h4>Exit</h4>
 <ul>
 <li><a href="/links.html">Links</a></li>
-<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/linksweb.html">Links - Neocities</a></li>
 </ul>
 
-<h4>Theme Switch</h4>
+<h4>Other</h4>
 <ul>
-<li><a href="#" onclick="setTheme('/css/style.css')">Red (default)</a></li>
-<li><a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a></li>
+<li><a href="changelog.html">Changelog</a></li>
+<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/rss.xml">RSS feed</a></li> 
 </ul>
-        
-        
-  <!--<a href="/commonplace.html">Commonplace Book</a>-->     
-  <!--<a href="/posts/index.html">Posts</a>-->
-  <!--<a href="/links.html" class="navbutton">Links</a>-->
-
-    
-  
-
-</div> 
-</nav>
-<!-- Sidebar Nav ENDS -->
-
-<!-- Main Conent Start -->
-<main>
-
-  
-<div style="text-align: center;"> ← <a href="/posts/december2025Youtube.html">Youtube December 2025</a>  | <a href="/posts/index.html">All Posts</a> | <a href="/posts/100questionsPart1.html">100 Questions for Webmaasters (Part 1/10)</a> → 
 </div>
+</div>
+
+
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Pick a button:</p>
+
+<div><img src="/images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
+<div><img src="/images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
+<div><img src="/images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
+
+<p>please upload the button to your own webspace!</p>
+</div>
+</div> 
+  </nav>
+
+<!-- Main Conent -->
+  <main>
+    <article>
+    
+    
+<article>
+  <div class="textbox">
+  <h2>2026 Goals</h2>
+
+    <div class="postMetadata">
+          <strong>December 28, 2025</strong> 
+          <div>Tags: 
+          <!-- list the tags EXCEPT for the "post" tag -->
+          
+            <a href="../tags/blog.html">blog</a>
+            
+          </div>
+    </div>
+  </div>     
+
 <div class="textbox">
-
-<!-- title and date -->
-<h3>2026 Goals</h3>
-
-<div><strong>December 28, 2025</strong></div>
-
-
-</div><!-- text box -->
-
-
-<div class="textbox">
-<!-- content -->
-<h4>Contemplation</h4>
+          <h4>Contemplation</h4>
 <p>I've been thinking a lot about what goals I want to set myself for 2026 in terms of what I read and watch.</p>
 <h4>Movies</h4>
 <p>I really enjoyed doing my A24 Challenge and while that is still somewhat going on I would love to do another challenge.</p>
@@ -184,10 +201,18 @@
 <p>I wish <a href="https://www.reddit.com/r/thehemingwaylist/new/">The Hemmingway List</a> subreddit was still active, as I did actually make it part way through that a few years ago when they were spending the year reading Hemmingway's list of classics. I dipped when they got to Anna Karenina though as that was tooo much for me. I could probably read the list without the discussion though... hmm.</p>
 <p>But I really don't want to say &quot;I'll read a bunch of classics&quot; and then not read anything again, so I guess I will have a think about it. Maybe I could compromise and alternate a classic with a modern book?</p>
 
-
-</div>
-<div style="text-align: center;"> ← <a href="/posts/december2025Youtube.html">Youtube December 2025</a>  | <a href="/posts/index.html">All Posts</a> | <a href="/posts/100questionsPart1.html">100 Questions for Webmaasters (Part 1/10)</a> → 
-</div>
+</div>          
+          <!-- next/previous nav -->
+          <nav id="nextprev">
+          
+          <a class="next" href="/posts/100questionsPart1.html">« Next</a> |
+          
+          <a href="../archives.html">Archives</a>
+          
+          | <a class="previous" href="/posts/nowdecember2025youtube.html">Previous »</a>
+          
+          </nav>
+</article>
 
 <div class="textbox">
 <h3>Comments</h3>
@@ -196,18 +221,19 @@
 
 </div>
 
-</main> 
-<!-- Main Content END -->
+
+    
+    </article>
+  </main> 
 
 <!-- Footer -->
-<footer>
-<div class="footer">
+  <footer>
+    <div class="footer">
     <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
-</div>
-</footer>
- 
-<!-- Footer END -->
+</div> 
+  </footer>
 
+ 
 </body>
 </html> 

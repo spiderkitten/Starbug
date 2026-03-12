@@ -1,0 +1,41 @@
+---
+layout: layout/base.njk
+---
+
+<article>
+  <div class="textbox">
+  <h2>{{ title }}</h2>
+
+    <div class="postMetadata">
+          <strong>{{ page.date | dayMonthYear }}</strong> 
+          <div>Tags: 
+          <!-- list the tags EXCEPT for the "post" tag -->
+          {% set comma = joiner() %}
+            {% for tag in tags -%}
+              {% if tag !== 'posts' %}<a href="../tags/{{ tag | slugify }}.html">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+            {% endif %}
+          {%- endfor %}
+          </div>
+    </div>
+  </div>     
+
+<div class="textbox">
+          {{ content | safe }}
+</div>          
+          <!-- next/previous nav -->
+          <nav id="nextprev">
+          {% if nextPost.url %}
+          <a class="next" href="{{ nextPost.url }}">« Next</a> |
+          {% endif %}
+          <a href="../archives.html">Archives</a>
+          {% if prevPost.url %}
+          | <a class="previous" href="{{ prevPost.url }}">Previous »</a>
+          {% endif %}
+          </nav>
+</article>
+
+<div class="textbox">
+<h3>Comments</h3>
+	{%- include "partials/commentbox.njk" %}
+</div>
+

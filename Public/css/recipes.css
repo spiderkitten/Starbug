@@ -1,7 +1,7 @@
 
 #recipetitle h2 {
         font-size: 32px;
-        color: var(--pallette4);
+        color: var(--colour4);
         margin-top: 15px;
         margin-bottom: 5px;
         text-align: center;
@@ -10,8 +10,8 @@
 .recipephoto img {
     margin:auto;
     display: block;
-    width:500px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -24,7 +24,7 @@
     padding:5px;
     margin-top:10px;
     margin-bottom: 30px;
-    background-color: var(--pallette5);
+    background-color: var(--colour5);
 }
 
 .method {
@@ -35,7 +35,7 @@
     padding:5px;
     margin-top:10px;
     margin-bottom: 30px;
-    background-color: var(--pallette6);
+    background-color: var(--colour6);
 }
 
 .notes {
@@ -46,12 +46,12 @@
     padding:0 10px 0 10px;
     margin-top:10px;
     margin-bottom: 30px;
-    background-color: var(--pallette7);
+    background-color: var(--colour7);
 }
 
     .back a, .back a:visited {
-        background-color: var(--pallette1);
-        color: var(--pallette4);
+        background-color: var(--colour1);
+        color: var(--colour4);
         padding: 10px;
         border-radius:10px;
         cursor: pointer; /* makes it a pointy finger when hovering over*/ 
@@ -64,4 +64,3 @@
         text-align: left;
         font-size: 12px;
     }
-

@@ -2,91 +2,102 @@
 <html lang="en">
 
 <head>
+
+<!-- ARCHIVERS: 
+
+DO NOT ARCHIVE THIS SITE.
+
+YOU DO NOT HAVE MY CONSENT TO DOWNLOAD, SCRAPE, CRAWL, OR RECORD THE CONTENTS OF THIS SITE IN ANY WAY. 
+I UNDERSTAND THAT PRESERVING THE WEB IS IMPORTANT, BUT I DO NOT WANT MY SITE ARCHIVED NOR PRESERVED. 
+I DO NOT CONSENT. 
+PLEASE REPECT MY WISHES. 
+
+THANKYOU
+
+-->
+
+
+<!-- Important Browser Stuff -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Block crawlers etc -->
   <meta name="pinterest" content="nopin">
   <meta name="robots" content="noindex, nofollow">
   <meta name="robots" content="noimageindex">
   <meta name="robots" content="noarchive">
 
+<!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon_shroom1.gif">
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
-    <link href="/css/gbook.css" rel="stylesheet" type="text/css" media="all">
 
+
+<!-- Style Sheets -->
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/picnic.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
+  <link href="/css/" rel="stylesheet" type="text/css" media="all">
+  
+<!-- TF2 Webring -->
   <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
 
-  <script src="/js/load.js"></script>
+<!-- RSS FEED -->
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Space Cadet RSS feed">
+
+<!-- Javascript -->
   <script src="/js/"></script>
-
-
-<!--Theme Switch Code -->
-  <script>
-    const defaultTheme = "css/styleNEW.css";
-    // Check if `theme` is set
-    if (localStorage.getItem("theme") === null) {
-      // Set to default theme
-      localStorage.setItem("theme", defaultTheme);
-    }
-    // Load theme CSS
-    document.head.insertAdjacentHTML(
-      'beforeend',
-      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
-    // Theme switcher
-    function setTheme(themeFile) {
-      // Set theme to new theme
-      localStorage.setItem('theme', themeFile);
-      // Refresh the page
-      location.reload();
-    }
-  </script>
-
+<!-- Site Title -->
   <title>SPACE CADET | Vampire Resource Management</title>
+
 </head>
 
 <body>
 
+<!-- Site Title and Tagline -->
   <header>
     <h1>SPACE CADET</h1>
     <tag-line>Just a girl floating through space...</tag-line>
+
   </header>
 
-<!-- Sidebar Nav Starts -->
-<nav>
-
-
+<!-- Navigation -->
+  <nav>
+    <div class="sidebar">
 
 <div class="textbox">
-<h2>Menu</h2>
-<div class="menu-buttons">
+
+<div id="menu-buttons">
 <a href="/index.html" class="navbutton">Home</a> 
 <a href="/sitemap.html" class="navbutton">Sitemap</a>
 <a href="/guestbook.html" class="navbutton">Guestbook</a>
 </div>
 
-
 <h4>Stuff</h4>
 <ul>
-<li><a href="/use.html">/Use</a>  </li>
 <li> <a href="/shinies.html">Shinies</a></li>
-<li><a href="/cookbook.html">Cookbook</a></li>
-<li><a href="/posts/index.html">Blog</a></li>
 <li><a href="/lexicon.html">Lexicon</a></li>
-<li><a href="/solottrpg.html">TTRPG Log</a></li>
+<li><a href="/recipes.html">Cookbook</a></li>
+<!--<li><a href="/use.html">/Use</a></li>-->
+<li><a href="/tags/now.html">/now</a></li>
+<li><a href="/stutter.html">Stutter (microblog)</a></li>
+<li><a href="/blog.html">Blog</a></li>
+<!--<li><a href="/archives.html">ALL Posts</a></li>-->
 </ul>
 
-<h4>Books/Movies</h4>
+<h4>Books/Movies/Gaming</h4>
 <ul>
-<li><a href="/booklog.html">Reading Log</a></li>
-<li><a href="/a24movies.html">A24 Movie Challenge</a></li>
+<li><a href="/booklog.html">My Reading Log</a></li>
+<li><a href="/a24movies.html">My A24 Movie Challenge</a></li>
+<li><a href="/tf2freezecams.html">TF2 Freeze Cams</a></li>
 </ul>
 
-<h4>Favs</h4>
+<h4>My Favs / Recs</h4>
 <ul>
+<li><a href="/favtv.html">Favourite TV Shows</a></li>
 <li><a href="/favmusic.html">Favourite Music</a></li>
-<li><a href="/favtvshows.html">Favourite TV Shows</a></li>
-<li><a href="/favmovies.html">Favourite Movies</a></li>
 <li><a href="/fandom/harem.html">Favourite Characters</a> </li>
+<li><a href="/favflicks.html">Favourite Movies</a></li>
+
 </ul>
 
 <h4>For You</h4>
@@ -96,60 +107,66 @@
 <li> <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a></li>
 </ul>
 
-<h4>Other</h4>
+<h4>Exit</h4>
 <ul>
 <li><a href="/links.html">Links</a></li>
-<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/linksweb.html">Links - Neocities</a></li>
 </ul>
 
-<h4>Theme Switch</h4>
+<h4>Other</h4>
 <ul>
-<li><a href="#" onclick="setTheme('/css/style.css')">Red (default)</a></li>
-<li><a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a></li>
+<li><a href="changelog.html">Changelog</a></li>
+<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/rss.xml">RSS feed</a></li> 
 </ul>
-        
-        
-  <!--<a href="/commonplace.html">Commonplace Book</a>-->     
-  <!--<a href="/posts/index.html">Posts</a>-->
-  <!--<a href="/links.html" class="navbutton">Links</a>-->
-
-    
-  
-
-</div> 
-</nav>
-<!-- Sidebar Nav ENDS -->
-
-<!-- Main Conent Start -->
-<main>
-
-  
-<div style="text-align: center;"> ← <a href="/posts/first-post.html">First Post</a>  | <a href="/posts/index.html">All Posts</a> | <a href="/posts/november2025.html">/now November 2025</a> → 
 </div>
+</div>
+
+
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Pick a button:</p>
+
+<div><img src="/images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
+<div><img src="/images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
+<div><img src="/images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
+
+<p>please upload the button to your own webspace!</p>
+</div>
+</div> 
+  </nav>
+
+<!-- Main Conent -->
+  <main>
+    <article>
+    
+    
+<article>
+  <div class="textbox">
+  <h2>Vampire Resource Management</h2>
+
+    <div class="postMetadata">
+          <strong>February 2, 2024</strong> 
+          <div>Tags: 
+          <!-- list the tags EXCEPT for the "post" tag -->
+          
+            <a href="../tags/untagged.html">untagged</a>
+            
+          </div>
+    </div>
+  </div>     
+
 <div class="textbox">
-
-<!-- title and date -->
-<h3>Vampire Resource Management</h3>
-
-<div><strong>February 2, 2024</strong></div>
-
-
-</div><!-- text box -->
-
-
-<div class="textbox">
-<!-- content -->
-<p>As a long time horror fan, I've often wondered, what would happen if vampires turned everyone into vampires and there was no one left to feed on? or what if they just ran out of people to drain? </p>
+          <p>As a long time horror fan, I've often wondered, what would happen if vampires turned everyone into vampires and there was no one left to feed on? or what if they just ran out of people to drain?</p>
 <p>Fortunately, there are some really awesome scientists out there who have also pondered this question and actually come up with some research about it!</p>
-<p>I first read about this in an article over at <a href="https://www.futilitycloset.com">Futility Closet</a> back in 2020, titled "Resource Management". </p>
-<p> According to the article (and my own deep dive into the topic) there are a LOT of smart people who have written papers about how long humanity would last if Vampires ever put in a concerted effort to feed on us. </p>
+<p>I first read about this in an article over at <a href="https://www.futilitycloset.com">Futility Closet</a> back in 2020, titled &quot;Resource Management&quot;.</p>
+<p>According to the article (and my own deep dive into the topic) there are a LOT of smart people who have written papers about how long humanity would last if Vampires ever put in a concerted effort to feed on us.</p>
 <p><rainbow-text>Spoiler alert:</rainbow-text> Its not long. Back in the 1600s it would have only taken them two and a half years to wipe us all out.</p>
 <p>Other researchers discovered that if Vampires modelled a cyclical pattern of bloodsucking, they could keep humans alive indefinitely as a food source.</p>
 <p>Well. I for one welcome our new Vampire Overlords. But isn't that super interesting! Its fascinating but also kind of terrifying. I love that there are people in the world who wrote papers about this!</p>
   <figure class="fancy">
-    <img src="/images/siteimgs/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
+    <img src="/images/posts/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
     <figcaption>Les Vampires (1915–1916)</figcaption>
   </figure>
 <p>I'm going to copy paste the important part of the <a href="https://www.futilitycloset.com/2020/10/18/resource-management/">Futility Closet article</a>, in case the page ever goes missing because I love this! There's also some links to the papers mentioned at the bottom, and some links to other related papers that are available to read if anyone wants to check them out</p>
@@ -177,10 +194,18 @@
 </ul>
 </div>
 
-
-</div>
-<div style="text-align: center;"> ← <a href="/posts/first-post.html">First Post</a>  | <a href="/posts/index.html">All Posts</a> | <a href="/posts/november2025.html">/now November 2025</a> → 
-</div>
+</div>          
+          <!-- next/previous nav -->
+          <nav id="nextprev">
+          
+          <a class="next" href="/posts/nownovember2025.html">« Next</a> |
+          
+          <a href="../archives.html">Archives</a>
+          
+          | <a class="previous" href="/posts/first-post.html">Previous »</a>
+          
+          </nav>
+</article>
 
 <div class="textbox">
 <h3>Comments</h3>
@@ -189,18 +214,19 @@
 
 </div>
 
-</main> 
-<!-- Main Content END -->
+
+    
+    </article>
+  </main> 
 
 <!-- Footer -->
-<footer>
-<div class="footer">
+  <footer>
+    <div class="footer">
     <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
-</div>
-</footer>
- 
-<!-- Footer END -->
+</div> 
+  </footer>
 
+ 
 </body>
 </html> 

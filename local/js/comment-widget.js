@@ -17,7 +17,7 @@
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'css/gbook.css';
+const s_stylePath = '/css/gbook.css';
 const s_formId = '1FAIpQLSeSf8ImIWqGvPO6mI3CFKa1tYWLbMHnUl5Zd_gaJDF_buYhbA';
 const s_nameId = '455218446';
 const s_websiteId = '2060860369';
@@ -54,7 +54,7 @@ const s_filteredWords = [ // Add words to filter by putting them in quotes and s
 const s_widgetTitle = 'Leave a message!';
 const s_nameFieldLabel = 'Name';
 const s_websiteFieldLabel = 'Website (Optional)';
-const s_textFieldLabel = 'Your message - feel free to recommend a book!';
+const s_textFieldLabel = 'Your message';
 const s_submitButtonLabel = 'Submit';
 const s_loadingText = 'Loading comments...';
 const s_noCommentsText = 'No comments yet!';
@@ -106,7 +106,7 @@ const v_formHtml = `
 
     <div id="c_textWrapper" class="c-inputWrapper">
         <label class="c-label c-textLabel" for="entry.${s_textId}">${s_textFieldLabel}</label>
-        <textarea class="c-input c-textInput" name="entry.${s_textId}" id="entry.${s_textId}" rows="4" cols="50"  maxlength="${s_maxLength}" required></textarea>
+        <textarea class="c-input c-textInput" name="entry.${s_textId}" id="entry.${s_textId}" style="height:100px;   max-width: 100%;" rows="4" cols="50"  maxlength="${s_maxLength}" required></textarea>
     </div>
 
     <input id="c_submitButton" name="c_submitButton" type="submit" value="${s_submitButtonLabel}" disabled>

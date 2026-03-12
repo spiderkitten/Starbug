@@ -3,7 +3,8 @@ title: 100 Questions for Webmaasters (Part 4/10)
 date: 2026-01-07
 lastmod: 
 description: 
-
+tags: 
+  - blog
 ---
 
 So, I found this questionnaire which was originally created by Mouseling.net (you can find it [here](https://mouseling.net/100webmaster)) and I thought I would try and answer some of the questions. 
@@ -12,6 +13,7 @@ I'm breaking it up into parts though, so its an easier read.
 
 <strong>This is Part 4 questions 31 - 40</strong>
 
+<dl>
 <dt><strong>31. Do you prefer simple or highly visual websites?</strong></dt>
 <dd>that really depends on the design, but generally speaking I prefer simple</dd>
 
@@ -42,4 +44,4 @@ I'm breaking it up into parts though, so its an easier read.
 <dt><strong>40. If not, would you like to? And if you're comfortable answering, what do you do for work?</strong></dt>
 <dd>I would not want to now. I'm also not going to talk about what I do for work.</dd> 
 
-
+</dl>

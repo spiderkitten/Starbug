@@ -3,24 +3,26 @@ title: Vampire Resource Management
 date: 2024-02-02
 lastmod:
 description: how long it would take for vampires to wipe out humans
+tags:
+  - untagged
 ---
 
-<p>As a long time horror fan, I've often wondered, what would happen if vampires turned everyone into vampires and there was no one left to feed on? or what if they just ran out of people to drain? </p>
+As a long time horror fan, I've often wondered, what would happen if vampires turned everyone into vampires and there was no one left to feed on? or what if they just ran out of people to drain? 
 
-<p>Fortunately, there are some really awesome scientists out there who have also pondered this question and actually come up with some research about it!</p>
+ Fortunately, there are some really awesome scientists out there who have also pondered this question and actually come up with some research about it! 
 
-<p>I first read about this in an article over at <a href="https://www.futilitycloset.com">Futility Closet</a> back in 2020, titled "Resource Management". </p>
+ I first read about this in an article over at <a href="https://www.futilitycloset.com">Futility Closet</a> back in 2020, titled "Resource Management".  
 
-<p> According to the article (and my own deep dive into the topic) there are a LOT of smart people who have written papers about how long humanity would last if Vampires ever put in a concerted effort to feed on us. </p>
+ According to the article (and my own deep dive into the topic) there are a LOT of smart people who have written papers about how long humanity would last if Vampires ever put in a concerted effort to feed on us. 
 
-<p><rainbow-text>Spoiler alert:</rainbow-text> Its not long. Back in the 1600s it would have only taken them two and a half years to wipe us all out.</p>
+ <rainbow-text>Spoiler alert:</rainbow-text> Its not long. Back in the 1600s it would have only taken them two and a half years to wipe us all out. 
 
 <p>Other researchers discovered that if Vampires modelled a cyclical pattern of bloodsucking, they could keep humans alive indefinitely as a food source.</p>
 
 <p>Well. I for one welcome our new Vampire Overlords. But isn't that super interesting! Its fascinating but also kind of terrifying. I love that there are people in the world who wrote papers about this!</p>
 
   <figure class="fancy">
-    <img src="/images/siteimgs/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
+    <img src="/images/posts/levamp.png" alt="screenshot of scene from Les Vampires. Woman in bat costume approaching woman seated on bench.">
     <figcaption>Les Vampires (1915–1916)</figcaption>
   </figure>
  

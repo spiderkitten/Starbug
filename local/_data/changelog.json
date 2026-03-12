@@ -86,7 +86,13 @@
     {
         "date": "05 December 2025",
         "update": "Added some blog posts! thats it. nothing exciting."
-    }
-
-        
+    },
+    {
+        "date": "09 December 2025",
+        "update": "Added 2 new buttons, updated some links, added a couple of blog posts."
+    },
+    {
+        "date": "07 March 2026",
+        "update": "Completely redid the backend and tidied things up, removed some pages I no longer wanted to update and added a microblog, also added some blog posts"
+    }  
 ]

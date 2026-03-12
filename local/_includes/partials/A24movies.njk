@@ -1,12 +1,12 @@
 
 
-<div>
+<div style="text-align: center; font-size: var(--fontsizebigger)">
 <strong>
 {%- if A24movies.disliked != "" -%}
 ✗
 {%- endif %}
 {%- if A24movies.favourite != "" -%}
-&#9733;
+&#9829; 
 {%- endif %}
 
 </strong>
@@ -14,11 +14,16 @@
 
 <div>
 <strong>
+
 {%- if A24movies.seen != "" -%}
-&#10003;
+<input checked disabled type="checkbox">
+{% else %} 
+<input disabled type="checkbox">
+
 {%- endif -%}
 </strong>
 </div>
 
 <div>{{A24movies.year}}</div>
 <div>{{A24movies.title}}</div>
+

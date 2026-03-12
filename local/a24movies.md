@@ -1,7 +1,7 @@
 ---
 title: A24 Movie Challenge
 layout: layout/base.njk
-cssFile: movies.css
+cssFile: a24.css
 eleventyExcludeFromCollections: true
 ---
 
@@ -13,6 +13,8 @@ eleventyExcludeFromCollections: true
  <p>When most people think of A24 they think of their horror lineup. Midsommar, Hereditary, etc. They may even think of some of their bigger films like Everything Everywhere All At Once, Moonlight, and the upcoming (at time of writing) Civil War (2024). But A24 actually have so many more movies under their belt. Some are self produced, others they just distribute. But they all have a unique quality about them that makes them stand out compared to others.</p>
 
 <p>What I love about A24 is that unique quality of movies. Its rare to find one that is terrible. Even within the group of smaller lesser known films. I've watched a lot of them (see below) and while I didn't particularly enjoy some of them, the movies were still really high quality.</p>
+
+
 </div>
 
 <div class="textbox">
@@ -30,11 +32,15 @@ In 2023 I challenged myself to watch every A24 movie. I'd already watched a fair
 <h3>List of A24 Movies</h3>
              <p>Movies are divided into years but are otherwise <i>mostly</i> in release order (reverse). This list does not include documentaries unless I really wanted to see them. The list also does not include any movie post 2025 for now. </p>
 
-<div style="display: table; margin:auto;">
-<ul>     
-  <li><strong>&#10003;</strong> Movies I have seen</li>
-  <li><strong>&#9733;</strong> Movies I really liked</li>
-  <li><strong>✗</strong> Movies I disliked</li> 
+<div id="a24key" style="display: table; margin:auto;">
+<ul style="
+    list-style-type: none;
+    vertical-align:middle;">     
+  <li>
+<strong><input checked disabled type="checkbox"></strong> 
+Movies I have seen</li>
+  <li><strong style="font-size: var(--fontsizebigger);">&#9829;</strong> Movies I really liked</li>
+  <li><strong  style="font-size: var(--fontsizebigger);">✗</strong> Movies I disliked</li> 
 </ul>       
 </div>
 

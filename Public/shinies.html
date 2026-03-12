@@ -2,91 +2,102 @@
 <html lang="en">
 
 <head>
+
+<!-- ARCHIVERS: 
+
+DO NOT ARCHIVE THIS SITE.
+
+YOU DO NOT HAVE MY CONSENT TO DOWNLOAD, SCRAPE, CRAWL, OR RECORD THE CONTENTS OF THIS SITE IN ANY WAY. 
+I UNDERSTAND THAT PRESERVING THE WEB IS IMPORTANT, BUT I DO NOT WANT MY SITE ARCHIVED NOR PRESERVED. 
+I DO NOT CONSENT. 
+PLEASE REPECT MY WISHES. 
+
+THANKYOU
+
+-->
+
+
+<!-- Important Browser Stuff -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Block crawlers etc -->
   <meta name="pinterest" content="nopin">
   <meta name="robots" content="noindex, nofollow">
   <meta name="robots" content="noimageindex">
   <meta name="robots" content="noarchive">
 
+<!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon_shroom1.gif">
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
-    <link href="/css/" rel="stylesheet" type="text/css" media="all">
 
+
+<!-- Style Sheets -->
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/picnic.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
+  <link href="/css/" rel="stylesheet" type="text/css" media="all">
+  
+<!-- TF2 Webring -->
   <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
 
-  <script src="/js/load.js"></script>
+<!-- RSS FEED -->
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Space Cadet RSS feed">
+
+<!-- Javascript -->
   <script src="/js/freeze.js"></script>
-
-
-<!--Theme Switch Code -->
-  <script>
-    const defaultTheme = "css/styleNEW.css";
-    // Check if `theme` is set
-    if (localStorage.getItem("theme") === null) {
-      // Set to default theme
-      localStorage.setItem("theme", defaultTheme);
-    }
-    // Load theme CSS
-    document.head.insertAdjacentHTML(
-      'beforeend',
-      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
-    // Theme switcher
-    function setTheme(themeFile) {
-      // Set theme to new theme
-      localStorage.setItem('theme', themeFile);
-      // Refresh the page
-      location.reload();
-    }
-  </script>
-
+<!-- Site Title -->
   <title>SPACE CADET | Shinies</title>
+
 </head>
 
 <body>
 
+<!-- Site Title and Tagline -->
   <header>
     <h1>SPACE CADET</h1>
     <tag-line>Just a girl floating through space...</tag-line>
+
   </header>
 
-<!-- Sidebar Nav Starts -->
-<nav>
-
-
+<!-- Navigation -->
+  <nav>
+    <div class="sidebar">
 
 <div class="textbox">
-<h2>Menu</h2>
-<div class="menu-buttons">
+
+<div id="menu-buttons">
 <a href="/index.html" class="navbutton">Home</a> 
 <a href="/sitemap.html" class="navbutton">Sitemap</a>
 <a href="/guestbook.html" class="navbutton">Guestbook</a>
 </div>
 
-
 <h4>Stuff</h4>
 <ul>
-<li><a href="/use.html">/Use</a>  </li>
 <li> <a href="/shinies.html">Shinies</a></li>
-<li><a href="/cookbook.html">Cookbook</a></li>
-<li><a href="/posts/index.html">Blog</a></li>
 <li><a href="/lexicon.html">Lexicon</a></li>
-<li><a href="/solottrpg.html">TTRPG Log</a></li>
+<li><a href="/recipes.html">Cookbook</a></li>
+<!--<li><a href="/use.html">/Use</a></li>-->
+<li><a href="/tags/now.html">/now</a></li>
+<li><a href="/stutter.html">Stutter (microblog)</a></li>
+<li><a href="/blog.html">Blog</a></li>
+<!--<li><a href="/archives.html">ALL Posts</a></li>-->
 </ul>
 
-<h4>Books/Movies</h4>
+<h4>Books/Movies/Gaming</h4>
 <ul>
-<li><a href="/booklog.html">Reading Log</a></li>
-<li><a href="/a24movies.html">A24 Movie Challenge</a></li>
+<li><a href="/booklog.html">My Reading Log</a></li>
+<li><a href="/a24movies.html">My A24 Movie Challenge</a></li>
+<li><a href="/tf2freezecams.html">TF2 Freeze Cams</a></li>
 </ul>
 
-<h4>Favs</h4>
+<h4>My Favs / Recs</h4>
 <ul>
+<li><a href="/favtv.html">Favourite TV Shows</a></li>
 <li><a href="/favmusic.html">Favourite Music</a></li>
-<li><a href="/favtvshows.html">Favourite TV Shows</a></li>
-<li><a href="/favmovies.html">Favourite Movies</a></li>
 <li><a href="/fandom/harem.html">Favourite Characters</a> </li>
+<li><a href="/favflicks.html">Favourite Movies</a></li>
+
 </ul>
 
 <h4>For You</h4>
@@ -96,36 +107,41 @@
 <li> <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a></li>
 </ul>
 
-<h4>Other</h4>
+<h4>Exit</h4>
 <ul>
 <li><a href="/links.html">Links</a></li>
-<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/linksweb.html">Links - Neocities</a></li>
 </ul>
 
-<h4>Theme Switch</h4>
+<h4>Other</h4>
 <ul>
-<li><a href="#" onclick="setTheme('/css/style.css')">Red (default)</a></li>
-<li><a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a></li>
+<li><a href="changelog.html">Changelog</a></li>
+<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/rss.xml">RSS feed</a></li> 
 </ul>
-        
-        
-  <!--<a href="/commonplace.html">Commonplace Book</a>-->     
-  <!--<a href="/posts/index.html">Posts</a>-->
-  <!--<a href="/links.html" class="navbutton">Links</a>-->
+</div>
+</div>
 
-    
-  
 
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Pick a button:</p>
+
+<div><img src="/images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
+<div><img src="/images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
+<div><img src="/images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
+
+<p>please upload the button to your own webspace!</p>
+</div>
 </div> 
-</nav>
-<!-- Sidebar Nav ENDS -->
+  </nav>
 
-<!-- Main Conent Start -->
-<main>
-
-  <h2>Shinies!</h2>
+<!-- Main Conent -->
+  <main>
+    <article>
+    
+    <h2>Shinies!</h2>
 <p>This is where you will find all the little collectables I have found around the place, and the cliques/fanlistings I have joined. Everything should be linked to the source where possible.</p>
 <div class="freeze"> <!-- gifs start paused -->
   <div style="text-align: center;">
@@ -221,20 +237,30 @@ template: <a href=""><img src=""></a>
   <iframe width="350" height="330" src="https://gifypet.neocities.org/pet/pet.html?name=Mosscap&dob=1724573017&gender=undefined&element=Fire&pet=robot.gif&map=forest.jpg&background=&tablecolor=%23529d32&textcolor=black" style="border: none; overflow: hidden;" ></iframe>
 </div>
 </div>
+<script>
+  function freezegifs() {
+    var x = document.querySelectorAll('.freeze img, img.freeze');
+    for(var i=0; i<x.length; i++) {
+      x[i].src = x[i].src.slice(0, -3) + 'png' ;}}
 
+  function resumegifs() {
+    var x = document.querySelectorAll('.freeze img, img.freeze');
+    for(var i=0; i<x.length; i++) {
+      x[i].src = x[i].src.slice(0, -3) + 'gif' ;}}
 
-</main> 
-<!-- Main Content END -->
+</script>
+    
+    </article>
+  </main> 
 
 <!-- Footer -->
-<footer>
-<div class="footer">
+  <footer>
+    <div class="footer">
     <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
-</div>
-</footer>
- 
-<!-- Footer END -->
+</div> 
+  </footer>
 
+ 
 </body>
 </html> 

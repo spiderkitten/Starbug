@@ -3,7 +3,8 @@ title: 100 Questions for Webmaasters (Part 5/10)
 date: 2026-01-07
 lastmod: 
 description: 
-
+tags: 
+  - blog
 ---
 
 So, I found this questionnaire which was originally created by Mouseling.net (you can find it [here](https://mouseling.net/100webmaster)) and I thought I would try and answer some of the questions. 
@@ -12,7 +13,8 @@ I'm breaking it up into parts though, so its an easier read.
 
 <strong>This is Part 5 questions 41 - 50</strong>
 
-<dt>41. Do you communicate with people by email very much?</strong></dt>
+<dl>
+<dt><strong>41. Do you communicate with people by email very much?</strong></dt>
 <dd>not really no, mostly use my phone</dd>
 
 <dt><strong>42. Some people reject social media and use websites as a replacement. Do you keep social media outside of your website?</strong></dt>
@@ -53,3 +55,4 @@ at the end of the day, people at on your site because they want to look at it. d
 
 
 </dd>
+</dl>

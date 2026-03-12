@@ -1,0 +1,86 @@
+/* ============= A24 MOVIES PAGE ========== */ 
+
+.A24 {
+    display: grid;
+    grid-template-columns: 40px 40px 50px 1fr;
+    max-width: 95%;
+    margin:auto;
+
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .A24 div {
+    text-align: left;
+    padding:10px;
+  }
+  
+  /* Column 1*/
+  .A24 div:nth-child(4n-7) {
+    background: var(--colour5);
+    color: var(--pallette1);
+    padding:10px;
+  }
+  
+  /* column 2 */
+  .A24 div:nth-child(4n-6) {
+    background: var(--colour6);
+    color: var(--pallette2);
+    padding:10px;
+  }
+  
+  /* Column 3 */
+  .A24 div:nth-child(4n-5) {
+    background: var(--colour7);
+    padding:10px;
+  }
+  
+    /* column 4*/
+  .A24 div:nth-child(4n-4) {
+    background: var(--colour8);
+  }
+
+  .A24progress {
+  text-align: center;
+  margin-top: 15px;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width:70%;
+    height: 15px;
+    border-radius: 10px;
+    background-color:var(--colour6);
+  }
+
+  progress::-webkit-progress-bar {
+    background-color:var(--colour6);
+    border-radius: 10px;
+  }
+
+  progress::-webkit-progress-value {
+    background-color: var(--colour8);
+    border-radius: 10px;
+  }
+
+
+progress::-moz-progress-bar {
+    background-color:var(--colour6);
+    border-radius: 10px;
+}
+  progress::-moz-progress-value {
+    background-color: var(--colour8);
+    border-radius: 10px;
+  }
+
+#a24key input[type="checkbox"] {
+    margin:0px;
+    vertical-align:middle;
+}
+
+  

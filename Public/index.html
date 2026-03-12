@@ -2,91 +2,102 @@
 <html lang="en">
 
 <head>
+
+<!-- ARCHIVERS: 
+
+DO NOT ARCHIVE THIS SITE.
+
+YOU DO NOT HAVE MY CONSENT TO DOWNLOAD, SCRAPE, CRAWL, OR RECORD THE CONTENTS OF THIS SITE IN ANY WAY. 
+I UNDERSTAND THAT PRESERVING THE WEB IS IMPORTANT, BUT I DO NOT WANT MY SITE ARCHIVED NOR PRESERVED. 
+I DO NOT CONSENT. 
+PLEASE REPECT MY WISHES. 
+
+THANKYOU
+
+-->
+
+
+<!-- Important Browser Stuff -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Block crawlers etc -->
   <meta name="pinterest" content="nopin">
   <meta name="robots" content="noindex, nofollow">
   <meta name="robots" content="noimageindex">
   <meta name="robots" content="noarchive">
 
+<!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon_shroom1.gif">
   <link rel="icon" type="image/x-icon" href="/images/siteimgs/favicon.ico">
-  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/index.css" rel="stylesheet" type="text/css" media="all"> 
-    <link href="/css/" rel="stylesheet" type="text/css" media="all">
 
+
+<!-- Style Sheets -->
+  <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/picnic.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/css/" rel="stylesheet" type="text/css" media="all"> 
+  <link href="/css/" rel="stylesheet" type="text/css" media="all">
+  
+<!-- TF2 Webring -->
   <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">   
 
-  <script src="/js/load.js"></script>
+<!-- RSS FEED -->
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Space Cadet RSS feed">
+
+<!-- Javascript -->
   <script src="/js/randomquote.js"></script>
+<!-- Site Title -->
+  <title>SPACE CADET | Just a girl floating through space</title>
 
-
-<!--Theme Switch Code -->
-  <script>
-    const defaultTheme = "css/styleNEW.css";
-    // Check if `theme` is set
-    if (localStorage.getItem("theme") === null) {
-      // Set to default theme
-      localStorage.setItem("theme", defaultTheme);
-    }
-    // Load theme CSS
-    document.head.insertAdjacentHTML(
-      'beforeend',
-      `<link rel="stylesheet" href="${localStorage.getItem('theme')}"/>`);
-    // Theme switcher
-    function setTheme(themeFile) {
-      // Set theme to new theme
-      localStorage.setItem('theme', themeFile);
-      // Refresh the page
-      location.reload();
-    }
-  </script>
-
-  <title>SPACE CADET | Index</title>
 </head>
 
 <body>
 
+<!-- Site Title and Tagline -->
   <header>
     <h1>SPACE CADET</h1>
     <tag-line>Just a girl floating through space...</tag-line>
+
   </header>
 
-<!-- Sidebar Nav Starts -->
-<nav>
-
-
+<!-- Navigation -->
+  <nav>
+    <div class="sidebar">
 
 <div class="textbox">
-<h2>Menu</h2>
-<div class="menu-buttons">
+
+<div id="menu-buttons">
 <a href="/index.html" class="navbutton">Home</a> 
 <a href="/sitemap.html" class="navbutton">Sitemap</a>
 <a href="/guestbook.html" class="navbutton">Guestbook</a>
 </div>
 
-
 <h4>Stuff</h4>
 <ul>
-<li><a href="/use.html">/Use</a>  </li>
 <li> <a href="/shinies.html">Shinies</a></li>
-<li><a href="/cookbook.html">Cookbook</a></li>
-<li><a href="/posts/index.html">Blog</a></li>
 <li><a href="/lexicon.html">Lexicon</a></li>
-<li><a href="/solottrpg.html">TTRPG Log</a></li>
+<li><a href="/recipes.html">Cookbook</a></li>
+<!--<li><a href="/use.html">/Use</a></li>-->
+<li><a href="/tags/now.html">/now</a></li>
+<li><a href="/stutter.html">Stutter (microblog)</a></li>
+<li><a href="/blog.html">Blog</a></li>
+<!--<li><a href="/archives.html">ALL Posts</a></li>-->
 </ul>
 
-<h4>Books/Movies</h4>
+<h4>Books/Movies/Gaming</h4>
 <ul>
-<li><a href="/booklog.html">Reading Log</a></li>
-<li><a href="/a24movies.html">A24 Movie Challenge</a></li>
+<li><a href="/booklog.html">My Reading Log</a></li>
+<li><a href="/a24movies.html">My A24 Movie Challenge</a></li>
+<li><a href="/tf2freezecams.html">TF2 Freeze Cams</a></li>
 </ul>
 
-<h4>Favs</h4>
+<h4>My Favs / Recs</h4>
 <ul>
+<li><a href="/favtv.html">Favourite TV Shows</a></li>
 <li><a href="/favmusic.html">Favourite Music</a></li>
-<li><a href="/favtvshows.html">Favourite TV Shows</a></li>
-<li><a href="/favmovies.html">Favourite Movies</a></li>
 <li><a href="/fandom/harem.html">Favourite Characters</a> </li>
+<li><a href="/favflicks.html">Favourite Movies</a></li>
+
 </ul>
 
 <h4>For You</h4>
@@ -96,55 +107,87 @@
 <li> <a href="/fandom/moodthemes.html">LJ/DW Mood Themes</a></li>
 </ul>
 
-<h4>Other</h4>
+<h4>Exit</h4>
 <ul>
 <li><a href="/links.html">Links</a></li>
-<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/linksweb.html">Links - Neocities</a></li>
 </ul>
 
-<h4>Theme Switch</h4>
+<h4>Other</h4>
 <ul>
-<li><a href="#" onclick="setTheme('/css/style.css')">Red (default)</a></li>
-<li><a href="#" onclick="setTheme('/css/bluestyle.css')">Blue</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexia.css')">Dyslexia (Red)</a></li>
-<li><a href="#" onclick="setTheme('/css/dyslexiablue.css')">Dyslexia (Blue)</a></li>
+<li><a href="changelog.html">Changelog</a></li>
+<li><a href="/credits.html">Site Credits</a></li>
+<li><a href="/rss.xml">RSS feed</a></li> 
 </ul>
-        
-        
-  <!--<a href="/commonplace.html">Commonplace Book</a>-->     
-  <!--<a href="/posts/index.html">Posts</a>-->
-  <!--<a href="/links.html" class="navbutton">Links</a>-->
+</div>
+</div>
 
-    
-  
 
+<div id="linkme" class="textbox">
+<h3>Link Me</h3>
+<div class="linkme">
+<p>Want to link to me? Pick a button:</p>
+
+<div><img src="/images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
+<div><img src="/images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
+<div><img src="/images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
+
+<p>please upload the button to your own webspace!</p>
+</div>
 </div> 
-</nav>
-<!-- Sidebar Nav ENDS -->
+  </nav>
 
-<!-- Main Conent Start -->
-<main>
-
-  <div class="frontgrid">
-<!-- Intro Section -->
-<div id="intro">
-<h2>Welcome</h2>
+<!-- Main Conent -->
+  <main>
+    <article>
+    
+    <h2>Welcome</h2>
 <p>Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <span class="upsidedown">Australia</span>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever. </p>
 <p>Some of my favourite things are: Reading, postcards, snailmail, movies, dandelions, bats, bees, citizen science, postcrossing, hopepunk, horror, weird things, and more. </p>
 <p>I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://trakt.tv/users/spiderkitten">Trakt</a></p>
 <p>Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to sign my guestbook before you leave!</p>
+<!-- grid to align quotes and rings-->
+<!-- RECENT Stutter -->
+<div id="stutter" class="textbox">
+<h2>Latest Stutter</h2>
+<div class="bullets"> 
+<div id="recentPostList">
+  <ul>
+  <li><a href="March 07 2026"> I'm so over the warm weather and the humidity. Its march it should be cooling down by now!</a></li>
+</div><!--recentPostList-->
+</div><!--bullets-->
+</div><!--stutter-->
+<!-- Quotes -->
+<div id="randomquote" class="textbox">
+<h3>Random Quote</h3>
+<div  id="quote" class="quotebox">
+<p><span id="quotes1"></span>
+<br>
+<span id="quotes2"></span></p>
+<div style="text-align: right;">-- <span id="author"></span> </div>
+<button id="generate">refresh</button>
+</div><!--quote-->
+</div><!--randomquote-->
+<!--
+## Recent Blog Posts
+
+<div id="recentPostList">
+  <ul>
+  <li><a href="/posts/nowfebruary2026youtube.html"> /now February 2026 Youtube</a></li>
+  <li><a href="/posts/tropfest2026.html"> Tropfest 2026</a></li>
+  <li><a href="/posts/nowjanuary2026youtube.html"> /now January 2026 Youtube</a></li>
+  <li><a href="/posts/nowjanuary2026.html"> /now January 2026</a></li>
+  
+
 </div>
-<div id="images">
-<hr class="divider">
 </div>
-<!-- Status Box -->
-<div id="status" class="textbox">
-<h3>Status/Currently</h3>
-<div><strong>Reading:</strong>Brigands & Breadknives by Travid Baldree</div>
-<div><strong>Watching:</strong>Patience S2</div>
-<div><strong>Playing:</strong>Astroneer & TF2</div>
-</div>
-<!-- Webrings -->
+--> 
+<div id="changelog" class="textbox">
+<h3>Most Recent Site Change</h3>
+<div><p><strong> 07 March 2026:</strong> Completely redid the backend and tidied things up, removed some pages I no longer wanted to update and added a microblog, also added some blog posts</p><a href="changelog.html">Full Changelog</a>
+</div><!-- -->
+</div><!--changelog-->
+<!-- WEBRINGS -->
 <div id="webrings" class="textbox">
 <h3>Rings and Things</h3>
 <!-- TF2 Webring -->
@@ -161,56 +204,25 @@
 <area href="https://baccyflap.com/noai/?nxt&s=spc" target="_top" shape="rect" coords="72,16,83,26" alt="next" title="next">
 </map>
 <img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
-</div>
-</div>
-<!-- Quotes -->
-<div id="randomquote" class="textbox">
-<h3>Random Quote</h3>
-<div id="quote" class="quotebox">
-<p><span id="quotes1"></span>
-<br>
-<span id="quotes2"></span></p>
-<div style="text-align: right;">-- <span id="author"></span> </div>
-<button id="generate">refresh</button>
-</div>
-</div>
-<!-- -->
-<div id="linkme" class="textbox">
-<h3>Link Me</h3>
-<div class="linkme">
-<p>Want to link to me? Pick a button:</p>
-<div><img src="images/siteimgs/starbug88x31button.png" alt="graphic to use for linking to this site"></div>  
-<div><img src="images/siteimgs/starbug88x31button2.gif" alt="graphic to use for linking to this site" ></div> 
-<div><img src="images/siteimgs/starbug88x31button3.gif" alt="graphic to use for linking to this site" ></div>
- <p>please upload the button to your own webspace!</p>
-</div>
-</div>
-<div id="recentupdates" class="textbox">
-<h3>Recent Updates</h3><div class="changelog"><p><strong>05 December 2025:</strong> - Added some blog posts! thats it. nothing exciting.</div></p><div class="changelog"><p><strong>29 November 2025:</strong> - Changed the nav menu to a sidebar, as the top menu with hover dropdowns wasn&#39;t at all accessible and it was bothering me. Not sure I like the sidebar, it feels like the page is a bit crowded with it, but for now it will do. Also removed a few pages that I wasn&#39;t happy with to redo them. Am planning to redo the colour scheme as the contrast isn&#39;t strong enough, not sure what colours to do though!</div></p><div class="changelog"><p><strong>28 October 2025:</strong> - Added a commonplace book, changed the reading log, fav music and fav movie pages so they are filterable. Added a modal/popup for images on commonplace book page. Updated the site credits page and the sitemap. Added a few song to favourite music. Added 2019, 2018 and 2017 to my reading log. Also worked on validating my code and I think I was successful!</div></p>
-<p><a href="changelog.html">Previous Updates</a></p>
-</div>
+</div><!--NO AI webring-->
+</div><!--textbox-->
+<!-- buttons -->
 <div id="frontpagebuttons">
-<a href="https://jigsaw.w3.org/css-validator/check/referer">
-<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
- <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a> <a href="https://lu.tiny-universes.net/graphix.html"><img src="images/buttons/myownwebsite.gif" title="I built my own site and you can too!" alt=""></a> <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
-</div>
-</div> <!-- end flexbox-->
-<div style="clear:both"></div>
-<script src="/js/webmeji.js"></script>
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a>  <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
+</div><!--buttons-->
 
-
-</main> 
-<!-- Main Content END -->
+    
+    </article>
+  </main> 
 
 <!-- Footer -->
-<footer>
-<div class="footer">
+  <footer>
+    <div class="footer">
     <div>Site by <rainbow-text>Starbug</rainbow-text> 2022-2025 | <a href="/credits.html">Site Credits</a> </div> 
     <div style="font-size:12px;"><a href="https://justinjackson.ca/webmaster/">I'm a fucking webmaster</a></div>
-</div>
-</footer>
- 
-<!-- Footer END -->
+</div> 
+  </footer>
 
+ 
 </body>
 </html> 
