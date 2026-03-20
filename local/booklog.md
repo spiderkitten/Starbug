@@ -15,7 +15,11 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 
 ## Reading Log
 
-A log of things I have read. 
+A log of things I have read over the past few years. Actively working to add books to the page (going backwards to 2009), currently up to 2015. 
+
+2015 I read a year of comics, so that year is mostly comics. 
+
+Feel free to leave a book rec in the comment box below, or just let me know anything bookish! :D 
 
 <!-- almost didn't add ratings, because I find them so subjective, and to be honest, I do actually use a browser addon to block ratings on goodreads, because I don't want to be influenced by ratings - I want to read a book and make my own decision about it. But the stars do look pretty lol and some people like ratings so here we are. Note that there are a lot of three star rated books. I suggest just checking the other ratings.--> 
 
@@ -33,8 +37,12 @@ A log of things I have read.
   <button class="btn" onclick="filterSelection('2018')">2018</button>
   <button class="btn" onclick="filterSelection('2017')">2017</button>
   <button class="btn" onclick="filterSelection('2016')">2016</button>
+  <button class="btn" onclick="filterSelection('2015')">2015</button>
   <button class="btn" onclick="filterSelection('pre2009')">Pre 2009</button>
   <button class="btn" onclick="filterSelection('comment')">Comment Box</button>
+
+
+
 
 <!-- 
 <div id="ratings"> 
@@ -136,12 +144,12 @@ magical realism, urban fantasy,
 
 </div><!--booktxt-->
 </div><!--book-->
-
 </div> 
-
-
     {%- endfor -%}
+
+
 </div>
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 <noscript>This page requires Javascript, sorry.</noscript> 
 </div><!-- textbox -->
  

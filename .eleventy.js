@@ -72,12 +72,6 @@ module.exports = function (eleventyConfig) {
     });
 
 
- 
-
-
-
-
-
 
     // Add the filter "readableDate" to simplify the way blog dates are presented. Change the timezone to your own
     eleventyConfig.addFilter('readableDate', (dateObj) => {
@@ -100,6 +94,15 @@ module.exports = function (eleventyConfig) {
         }
         return arr.slice(0, count);
     });
+
+
+
+// 
+
+
+
+
+
 
   // This makes the eleventy command quieter (with less detail)
         eleventyConfig.setQuietMode(true);
