@@ -15,11 +15,15 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
 
 ## Reading Log
 
-A log of things I have read over the past few years. Actively working to add books to the page (going backwards to 2009), currently up to 2015. 
+A log of things I have read over the past few years. Actively working to add books to the page (going backwards to 2009), currently up to 2014. 
 
 2015 I read a year of comics, so that year is mostly comics. 
 
+<strong>Note: This page is image heavy and may take a moment to load. </strong>
+
 Feel free to leave a book rec in the comment box below, or just let me know anything bookish! :D 
+
+
 
 <!-- almost didn't add ratings, because I find them so subjective, and to be honest, I do actually use a browser addon to block ratings on goodreads, because I don't want to be influenced by ratings - I want to read a book and make my own decision about it. But the stars do look pretty lol and some people like ratings so here we are. Note that there are a lot of three star rated books. I suggest just checking the other ratings.--> 
 
