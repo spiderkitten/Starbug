@@ -21,6 +21,6 @@ Comment box at the bottom of the page! :)
 </div>
 
 <div class="textbox">
-<h3>Comments</h3>
-	{%- include "partials/commentbox.njk" %}
+<div id="c_widget"></div>
+<script src="js/comment-widget.js"></script>
 </div>
