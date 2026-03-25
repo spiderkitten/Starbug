@@ -14,25 +14,12 @@ eleventyExcludeFromCollections: true
 
 <p>Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to <a href="guestbook.html">sign my guestbook</a> before you leave!</p>
 
+
+
+
 <!-- grid to align quotes and rings-->
 
-<!-- RECENT Stutter -->
-<div id="stutter" class="textbox">
-
-## Latest Stutter
-<div class="bullets"> 
-<div id="recentPostList">
-  <ul>
-  {% assign top_stutter = stutter | reverse %}
-  {%- for stutter in top_stutter limit:1 -%}
-    <li><a href="{{ stutter.date }}"> {{ stutter.content }}</a></li>
-  {% endfor %}
-
-</div><!--recentPostList-->
-</div><!--bullets-->
-</div><!--stutter-->
-
-
+<div id="indexgrid">
 <!-- Quotes -->
 <div id="randomquote" class="textbox">
 <h3>Random Quote</h3>
@@ -45,36 +32,6 @@ eleventyExcludeFromCollections: true
 <button id="generate">refresh</button>
 </div><!--quote-->
 </div><!--randomquote-->
-
-
-<!--
-## Recent Blog Posts
-
-<div id="recentPostList">
-  <ul>
-  {% assign top_posts = collections.posts | reverse %}
-  {%- for post in top_posts limit:4 -%}
-    <li><a href="{{ post.url }}"> {{ post.data.title }}</a></li>
-  {% endfor %}
-
-</div>
-</div>
---> 
-
-<div id="changelog" class="textbox">
-
-### Most Recent Site Change
- 
-<div> 
-{%- assign changes = changelog | reverse -%}
-{%- for changes in changes limit:1  -%}
-<p><strong> {{ changes.date }}:</strong> {{ changes.update }}</p>
-  {%- endfor -%}
-
-<a href="changelog.html">Full Changelog</a>
-</div><!-- -->
-</div><!--changelog-->
-
 
 <!-- WEBRINGS -->
 <div id="webrings" class="textbox">
@@ -95,6 +52,26 @@ eleventyExcludeFromCollections: true
 <img usemap="#noaimini2" src="https://baccyflap.com/noai/miniwidget2.gif" alt="a white rounded rectangle in red outline, with the words 'no ai webring' ">
 </div><!--NO AI webring-->
 </div><!--textbox-->
+
+</div>
+
+
+<div id="changelog" class="textbox">
+
+### Most Recent Site Change
+ 
+<div> 
+{%- assign changes = changelog | reverse -%}
+{%- for changes in changes limit:1  -%}
+<p><strong> {{ changes.date }}:</strong> {{ changes.update }}</p>
+  {%- endfor -%}
+
+<a href="changelog.html">Full Changelog</a>
+</div><!-- -->
+</div><!--changelog-->
+
+
+
 
 <!-- buttons -->
 

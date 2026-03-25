@@ -3,6 +3,7 @@ title: First Post
 date: 2024-01-01
 lastmod: 
 description: this is my first post!
+icon: blog
 tags:
   - blog
 ---

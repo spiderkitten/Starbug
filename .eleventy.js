@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
 
     // Edit these to include your images, CSS, and other folders and files that you want to copy over to your public folder. "addPassThroughCopy" means it will copy those files over as-is without processing them, and "addWatchTarget" means it tracks changes and updates live when you use the --serve command
     eleventyConfig.addPassthroughCopy("./local/css");
-    eleventyConfig.addWatchTarget("./local/css/");
+    eleventyConfig.addWatchTarget("./local/css");
     eleventyConfig.addPassthroughCopy("./local/images");
     eleventyConfig.addWatchTarget("./local/images/");
     eleventyConfig.addPassthroughCopy("./local/js");
@@ -47,6 +47,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./local/not_found.html");
     eleventyConfig.addPassthroughCopy("local/robots.txt");
     eleventyConfig.addPassthroughCopy("local/ai.txt");
+    eleventyConfig.addPassthroughCopy("local/codex/css");
+    eleventyConfig.addWatchTarget("local/codex/css");
+    eleventyConfig.addPassthroughCopy("local/codex/images");
+    eleventyConfig.addWatchTarget("local/codex/images");
+
     // Load the RSS plugin
     eleventyConfig.addPlugin(pluginRss);
 

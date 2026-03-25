@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
 </div>-->
 
 
-<div class="bullets">
+<div class="bullet">
 
 
 ## Blog Posts
@@ -25,10 +25,12 @@ eleventyExcludeFromCollections: true
 <ul >
 {% assign top_posts = collections.posts | reverse %}
 {%- for post in top_posts -%}
-  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  <li class="{{ post.data.icon }}"><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ul>
-</div><!--postarchive-->
+</div>
+<!--postarchive-->
+
 
 
 

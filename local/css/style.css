@@ -229,7 +229,7 @@ font-size: var (--h6fontsize);
 color: var(--colour4)
 }
 
-/* ====== SIDEBAR STUFF ===== */
+/* ====== NAVBAR STUFF ===== */
 
 #menu-buttons {
 margin:10px;
@@ -457,6 +457,13 @@ rainbow-text {
       margin-top: 5px;
       }
 
+#indexgrid {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  column-gap: 10px;
+}
+
+
 /* =========== Blog ========== */
 
 #nextprev {
@@ -545,13 +552,62 @@ float: left;
 
 
 
-     #frontpagebuttons{
+    #frontpagebuttons{
         padding-top:10px;
         text-align:center;
       }
 
 
 
+/* Blog category icons */
+
+.youtube {
+    padding-left:5px;
+    list-style-image: url('/images/blog/youtube.png');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.now {
+    padding-left:5px;
+    list-style-image: url('/images/blog/now.png');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.movies {
+    padding-left:5px;
+    list-style-image: url('/images/blog/movies.png');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.web {
+    padding-left:5px;
+    list-style-image: url('/images/blog/web.png');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.academic {
+    padding-left:5px;
+    list-style-image: url('/images/blog/academic.png');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.blog {
+    padding-left:5px;
+    list-style-image: url('/images/blog/blog.png');
+    background-repeat: no-repeat;
+    list-style-type: none;
+    vertical-align: middle;
+}
 
 /*====================================================================*/
   /* MEDIA QUERIES */ 

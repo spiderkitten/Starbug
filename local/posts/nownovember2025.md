@@ -3,6 +3,7 @@ title: /now November 2025
 date: 2025-11-30
 lastmod: 
 description: 
+icon: now
 tags:
   - now
 ---

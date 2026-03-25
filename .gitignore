@@ -31,4 +31,7 @@ Public/test.html
 
 # Other pages
 
-
+local/codex
+Public/codex
+local/_includes/layout/codex.njk
+local/_data/codexchangelog.json
