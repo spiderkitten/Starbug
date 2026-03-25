@@ -56,6 +56,19 @@ eleventyExcludeFromCollections: true
 </div>
 
 
+<!-- RECENT Stutter -->
+<div id="stutter" class="textbox">
+
+## Latest Stutter
+<div>
+  {% assign top_stutter = stutter | reverse %}
+  {%- for stutter in top_stutter limit:1 -%}
+<p><strong>{{ stutter.date }}:</strong> <a href="stutter.html">{{ stutter.content }}</a></p>
+  {% endfor %}
+</div>
+</div><!--stutter-->
+
+
 <div id="changelog" class="textbox">
 
 ### Most Recent Site Change
