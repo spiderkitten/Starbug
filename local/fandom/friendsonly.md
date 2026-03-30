@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 
 <div class="textbox">
 
-### Info 
+## Info 
 This is a collection of all the Friends Only banners I have made over the years. They were made for use at sites like LiveJournal and Dreamwidth as images to let people know your journal locked to friends only 
 
 These are all my own work. I made them. 
@@ -30,9 +30,9 @@ You are free to use these anywhere, with the following caveat:
 </ul>
 </div>
 
-<h3 id="directory">Directory by Series / Topic</h3>
+<h2 id="directory">Directory by Series / Topic</h2>
 
-
+<div id="toc" style="padding:20px; margin:auto;"></div>
 
 <div class="textbox">
   <h3 id="foassorted">Assorted</h3>
@@ -109,3 +109,58 @@ You are free to use these anywhere, with the following caveat:
     </div>
 -->
 </div>
+
+<script>
+window.onload = () => {
+
+/* TABLE OF CONTENTS H3 */
+
+      // Get all headings
+      var headings = document.querySelectorAll("h3");
+
+      // Create TOC container
+      var toc = document.getElementById("toc");
+
+      // Iterate over headings
+      for (var i = 0; i < headings.length; i++) {
+        var heading = headings[i];
+
+        // Create TOC list item
+        var li = document.createElement("li");
+        li.innerHTML = heading.textContent;
+
+        // Add hyperlink to TOC list item
+        var link = document.createElement("a");
+        link.href = "#" + heading.id;
+        link.appendChild(li);
+
+        // Add TOC list item to TOC container
+        toc.appendChild(link);
+      }
+
+      /* TABLE OF CONTENTS H2 */
+
+      // Get all headings
+      var headings = document.querySelectorAll("h2");
+
+      // Create TOC container
+      var toc = document.getElementById("toc2");
+
+      // Iterate over headings
+      for (var i = 0; i < headings.length; i++) {
+        var heading = headings[i];
+
+        // Create TOC list item
+        var li = document.createElement("li");
+        li.innerHTML = heading.textContent;
+
+        // Add hyperlink to TOC list item
+        var link = document.createElement("a");
+        link.href = "#" + heading.id;
+        link.appendChild(li);
+
+        // Add TOC list item to TOC container
+        toc.appendChild(link);
+      }
+}
+</script>

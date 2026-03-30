@@ -84,9 +84,8 @@ body {
     'footer footer';
 
   grid-template-columns: 320px 1fr;
-  grid-template-rows: 150px 1fr 70px;
-  padding-bottom: 20px;
-  margin: auto;
+  grid-template-rows: 150px 1fr 100px;
+
   background: var(--background-color);
   background-size: var(--background-size);
   font-family: var(--fontmain);
@@ -94,6 +93,9 @@ body {
   font-size: var(--fontsizemain);
   height: 100vh;
   max-width: 1200px;
+  margin: auto;
+  margin-bottom: 10px;
+
 }
 
 header { /* Site Title Area */
@@ -142,21 +144,28 @@ main {
 }
 
 footer {
-grid-area:footer;
+grid-area: footer;
 background: var(--colour4);
 color: var(--colour3);
 text-align: center;
-margin: 20px;
-margin-top: 0px;
-margin-bottom:10px;
 border-radius: 10px;
-padding-top: 10px;
-padding-bottom:10px;
+
 border-style: solid;
 border-color: var(--colour5);
 border: var(--pallette6) solid 15px;
+
+padding-top: 10px;
+padding-bottom: 10px;
+
+margin: 20px;
+margin-top: 0px;
+margin-bottom: 20px;
+
+  border-bottom: var(--colour6) solid 10px;
+  border-top: var(--colour6) solid 10px;
 }
 
+ 
 
 
 /* ====== HEADINGS ===== */
@@ -463,6 +472,7 @@ rainbow-text {
   column-gap: 10px;
 }
 
+ 
 
 /* =========== Blog ========== */
 
@@ -609,6 +619,37 @@ float: left;
     vertical-align: middle;
 }
 
+.youtuberecs {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-areas: youtuberecsDate youtuberecsURL;
+  column-gap: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.youtuberecsDate {
+background-color: var(--colour5);
+border-radius: 10px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+margin: 3px;
+margin-right:0px;
+padding: 3px;
+text-align: center;
+}
+
+.youtuberecsURL {
+background-color: var(--colour5);
+margin: 3px;
+margin-left: 0px;
+padding: 3px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+
 /*====================================================================*/
   /* MEDIA QUERIES */ 
   /* these are for mobile and other screens */ 
@@ -636,8 +677,48 @@ float: left;
       margin: 0;
       text-transform: uppercase;
     }
+
+    #indexgrid {
+      display: grid;
+      column-gap: 10px;
+      grid-template-areas:  
+        'randomquote'
+        'webrings';
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+
+ 
+
+header {
+  margin: 10px;
+  padding: 5px;
+}
+
+nav { /* Main Menu Navigation */
+  grid-area: nav;
+  
+  margin: 10px;
+  padding: 5px;
+}
+
+main { 
+  grid-area: main;
+  margin: 10px;
+  padding: 5px;
+}
+
+footer {
+  margin: 10px;
+  padding: 5px;
+}
+
   }
   
+
+
+
+
   
   @media only screen and (max-width: 600px) {
   
@@ -656,9 +737,51 @@ float: left;
       font-family:var(--fonttitle);
       text-shadow: var(--titletextshadow);
       text-align: center;
-      font-size: 45px;
+      font-size: 40px;
       letter-spacing: 5px;
       margin: 0;
       text-transform: uppercase;
     }
+
+    #indexgrid {
+      display: grid;
+      column-gap: 10px;
+      grid-template-areas:  
+        'randomquote'
+        'webrings';
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+
+ 
+
+header {
+  margin: 10px;
+  padding: 5px;
+}
+
+nav { /* Main Menu Navigation */
+  grid-area: nav;
+  
+  margin: 10px;
+  padding: 5px;
+}
+
+main { 
+  grid-area: main;
+  margin: 10px;
+  padding: 5px;
+}
+
+footer {
+  margin: 10px;
+  padding: 5px;
+}
+
+  #toc {  
+    columns: 2;
+    -webkit-columns:2;
   }
+
+  }
+

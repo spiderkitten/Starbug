@@ -23,8 +23,6 @@ A log of things I have read over the past few years. Actively working to add boo
 
 Feel free to leave a book rec in the comment box below, or just let me know anything bookish! :D 
 
-
-
 <!-- almost didn't add ratings, because I find them so subjective, and to be honest, I do actually use a browser addon to block ratings on goodreads, because I don't want to be influenced by ratings - I want to read a book and make my own decision about it. But the stars do look pretty lol and some people like ratings so here we are. Note that there are a lot of three star rated books. I suggest just checking the other ratings.--> 
 
 <div id="myBtnContainer">
@@ -42,6 +40,7 @@ Feel free to leave a book rec in the comment box below, or just let me know anyt
   <button class="btn" onclick="filterSelection('2017')">2017</button>
   <button class="btn" onclick="filterSelection('2016')">2016</button>
   <button class="btn" onclick="filterSelection('2015')">2015</button>
+  <button class="btn" onclick="filterSelection('2014')">2014</button>
   <button class="btn" onclick="filterSelection('pre2009')">Pre 2009</button>
   <button class="btn" onclick="filterSelection('comment')">Comment Box</button>
 
@@ -104,6 +103,7 @@ magical realism, urban fantasy,
   <button class="btn" onclick="filterSelection('clowns')">Clowns</button>
   <button class="btn" onclick="filterSelection('female detective')">Female Detective</button>
   <button class="btn" onclick="filterSelection('spooky')">Spooky</button> 
+  <button class="btn" onclick="filterSelection('zombies')">Zombies</button> 
 -->
 </div>
 </div>
