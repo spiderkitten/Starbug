@@ -35,11 +35,6 @@ Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> 
   <!-- WEBRINGS -->
   <div id="webrings" class="textbox">
     <h3>Rings and Things</h3>
-      <!-- TF2 Webring -->
-        <div id='fortring'>
-          <script src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
-          <script src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
-        </div>
       <!--No AI Webring-->
         <div style="text-align: center;">
           <map name="noaimini2">
