@@ -36,6 +36,3 @@ Public/codex
 local/_includes/layout/codex.njk
 local/_data/codexchangelog.json
 
-local/youtuberecs.md
-local/_data/youtuberecs.json
-Public/youtuberecs.html

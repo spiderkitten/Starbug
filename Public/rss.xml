@@ -3,30 +3,16 @@
   <title>Space Cadet</title>
   <subtitle>Just a girl floating through space</subtitle>
   <link href="https://starbug.neocities.org/rss.xml" rel="self"/>
-  <updated>2026-02-28T00:00:00Z</updated>
+  <updated>2026-02-22T00:00:00Z</updated>
   <id>https://starbug.neocities.org</id>
   <author>
     <name>Starbug</name>
   </author>
   <entry>
-    <title>/now February 2026 Youtube</title>
-    <link href="https://starbug.neocities.org/posts/nowfebruary2026youtube.html"/>
-    <updated>2026-02-28T00:00:00Z</updated>
-    <id>https://starbug.neocities.org/posts/nowfebruary2026youtube.html</id>
-    <content xml:lang="" type="html"></content>
-  </entry>
-  <entry>
     <title>Tropfest 2026</title>
     <link href="https://starbug.neocities.org/posts/tropfest2026.html"/>
     <updated>2026-02-22T00:00:00Z</updated>
     <id>https://starbug.neocities.org/posts/tropfest2026.html</id>
-    <content xml:lang="" type="html"></content>
-  </entry>
-  <entry>
-    <title>/now January 2026 Youtube</title>
-    <link href="https://starbug.neocities.org/posts/nowjanuary2026youtube.html"/>
-    <updated>2026-01-25T00:00:00Z</updated>
-    <id>https://starbug.neocities.org/posts/nowjanuary2026youtube.html</id>
     <content xml:lang="" type="html"></content>
   </entry>
   <entry>
@@ -111,6 +97,20 @@
     <link href="https://starbug.neocities.org/posts/2026goals.html"/>
     <updated>2025-12-28T00:00:00Z</updated>
     <id>https://starbug.neocities.org/posts/2026goals.html</id>
+    <content xml:lang="" type="html"></content>
+  </entry>
+  <entry>
+    <title>/now December 2025</title>
+    <link href="https://starbug.neocities.org/posts/nowdecember2025.html"/>
+    <updated>2025-12-20T00:00:00Z</updated>
+    <id>https://starbug.neocities.org/posts/nowdecember2025.html</id>
+    <content xml:lang="" type="html"></content>
+  </entry>
+  <entry>
+    <title>/now November 2025</title>
+    <link href="https://starbug.neocities.org/posts/nownovember2025.html"/>
+    <updated>2025-11-30T00:00:00Z</updated>
+    <id>https://starbug.neocities.org/posts/nownovember2025.html</id>
     <content xml:lang="" type="html"></content>
   </entry>
 </feed>

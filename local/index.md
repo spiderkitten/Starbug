@@ -75,9 +75,20 @@ Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> 
 <div style="padding-left: 10px;"><strong>{{ post.date | dayMonthYear }}:</strong><a href="{{ post.url }}"> {{ post.data.title }}</a></div> 
   {% endfor %}
 </div>
+
+#### Site Update  
+
+<div> 
+{%- assign changes = changelog | reverse -%}
+{%- for changes in changes limit:1  -%}
+<div style="padding-left: 10px;"><strong> {{ changes.date }}:</strong><a href="changelog.html"> {{ changes.update }}</a></div>
+  {%- endfor -%}
+
+</div><!-- -->
 </div><!--textbox-->
 
 
+<!--
 <div id="changelog" class="textbox">
 
 ### Most Recent Site Update
@@ -89,8 +100,9 @@ Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> 
   {%- endfor -%}
 
 <a href="changelog.html">Full Changelog</a>
-</div><!-- -->
-</div><!--changelog textbox-->
+</div> 
+</div>-->
+<!--changelog textbox-->
 
 
 

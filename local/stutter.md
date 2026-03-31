@@ -20,7 +20,3 @@ Comment box at the bottom of the page! :)
   </div>
 </div>
 
-<div class="textbox">
-<div id="c_widget"></div>
-<script src="js/comment-widget.js"></script>
-</div>

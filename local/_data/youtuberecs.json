@@ -1,0 +1,61 @@
+{
+    "videos":[
+    {
+    "date": "Jan 03 26",
+    "title": "Parajanov's Visual Masterpiece: \"The Color of Pomegranates\"",
+    "url": "https://www.youtube.com/watch?v=v83F0WgRH8s",
+    "channel": "World Cinema"
+    },
+    {
+    "date": "Feb 10 26",
+    "title": "The Real Reason Silent Film Actors Looked So Strange",
+    "url": "https://www.youtube.com/watch?v=f2G_GaXpLiI",
+    "channel": "Swofford"
+    },
+    {
+    "date": "Feb 11 26",
+    "title": "Midsommar | Cozy ~ 10 Hours of Hårga Temple Burning Ambience | A24",
+    "url": "https://www.youtube.com/watch?v=wHeSG0Q9x90",
+    "channel": "A24"
+    },
+    {
+    "date": "Feb 22 26",
+    "title": "How to Make Every iPhone Call Go to Speaker Automatically – Easy Setup!",
+    "url": "https://www.youtube.com/watch?v=zwfZPAmFOtc",
+    "channel": "Bobby G's Corner"
+    },
+    {
+    "date": "Mar 03 26",
+    "title": "NYC Is Dumping One Billion Oysters Into Its Harbor—And It's Working",
+    "url": "https://www.youtube.com/watch?v=kinmq0UPizg",
+    "channel": "Cheddar"
+    },
+    {
+    "date": "Mar 10 26",
+    "title": "If You Grew Up In The 1970s, You Probably Possess These Rare Traits",
+    "url": "https://www.youtube.com/watch?v=xSw8x3z33XM",
+    "channel": "?"
+    },
+    {
+    "date": "Mar 11 26",
+    "title": "What happens when Lava meets Tree?",
+    "url": "https://www.youtube.com/watch?v=gg8PQX5JHf4",
+    "channel": "?"
+    }
+    ],
+
+    "channels":[
+        {
+    "name": "Tara Farms",
+    "url": "https://www.youtube.com/@TaraFarms/videos",
+    "description": "Tara is a third generation sheep farmer raising her own sheep for meat. She makes hilarious youtube videos about daily farm life on her 4000 acre family farm in Victoria, Australia."
+        },
+
+        {
+    "name": "Jet Lag: The Game",
+    "url": "https://www.youtube.com/@jetlagthegame/videos",
+    "description": "Super fun travel channel where a group of friends travel to different countries playing tag, hide and seek, capture the flag etc across an entire country. They utilise a deck of cards they have created (and sell) that have challenges and curses to help or hinder them as they travel."
+        }
+    ]
+
+}

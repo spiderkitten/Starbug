@@ -23,12 +23,15 @@ eleventyExcludeFromCollections: true
         - <a href="recipes/microwaveporridge.html">Microwave Porridge</a>
         - <a href="recipes/seedypnutbutter.html">Seedy Peanut Butter</a>
         - <a href="recipes/slowcookerbolognaise.html">Slow Cooker Bolognaise Sauce</a>
-    - <a href="/tags/now.html">/now</a>
+        - <a href="recipes/slowcookercornedbeef.html">Slow Cooker Corned Beef</a>
+        - <a href="recipes/minipizzas.html">Mini Pizzas</a>
+        - <a href="recipes/slowcookercurrysausages.html">Slowcooker Curried Sausages</a>
     - <a href="stutter.html">Stutter (microblog)</a>
     - <a href="blog.html">Blog</a>
    <!-- - <a href="commonplace.html">Commonplace Book</a> - random snippets -->
 - Books/Movies
     - <a href="booklog.html">Reading log</a> 
+    - <a href="youtuberecs.html">Youtube Recs</a>
     - <a href="a24movies.html">A24 Challenge </a> - *I'm watching all A24 Movies*
     - <a href="tf2freezecams.html">TF2 Freezecams</a>
 - Favourites
