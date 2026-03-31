@@ -1,3 +1,32 @@
+/* 
+
+Hi! 
+
+If you are looking at this stylesheet to see how I did something, feel free to steal bits of code and use them 
+
+please do not take my entire stylesheet though
+
+if you need help or have questions please leave a comment in my guestbook and I'll try to reply
+
+alternatively, if you are on reddit and need general neocities or coding help try:  
+
+/r/neocities  
+
+If you are more of a discord person there is a discord for the subreddit, here is an invite code:  
+https://discord.gg/345pePmpUX
+
+other places to get help:  
+https://discourse.32bit.cafe   
+https://forum.melonland.net (Closed on Mondays) 
+
+thanks!
+
+*/
+
+/* root sets variables to be (re)used in different sections, to learn about variables:  
+https://www.w3schools.com/css/css3_variables.asp
+ */
+
 :root {
 
     /* gingham background */
@@ -48,9 +77,11 @@
   --extlinkcolour: brightness(0) saturate(100%) invert(57%) sepia(17%) saturate(1262%) hue-rotate(314deg) brightness(114%) contrast(83%);
 }
 
+/* Mushroom cursor */
 html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
 
 /* FONTS */
+/* see credits page for where to get the fonts */
 
 @font-face{
   font-family: lato-thin; /* used for site title */
@@ -63,7 +94,7 @@ html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
 }
 
 @font-face{
-  font-family: CherrySwash; /* used for headings https://www.fontsquirrel.com/fonts/cherry-swash or https://fonts.google.com/specimen/Cherry+Swash */
+  font-family: CherrySwash; /* used for headings */
     src: url(../fonts/CherrySwash-Regular.otf) format("opentype");
 }
 
@@ -129,7 +160,7 @@ nav { /* Main Menu Navigation */
 }
 
 
-main { 
+main { /* content section */
   grid-area: main;
   background: var(--colour4);
   margin-left: 10px;
@@ -143,7 +174,7 @@ main {
   border-top: var(--colour6) solid 15px;
 }
 
-footer {
+footer { /* footer */
 grid-area: footer;
 background: var(--colour4);
 color: var(--colour3);
@@ -165,12 +196,11 @@ margin-bottom: 20px;
   border-top: var(--colour6) solid 10px;
 }
 
- 
 
+/* ====== HEADER ===== */
 
-/* ====== HEADINGS ===== */
-
-header h1 {
+/* the main site title */
+header h1 { 
       color: var(--colour8);
       font-family:var(--fonttitle);
       text-shadow: var(--titletextshadow);
@@ -181,7 +211,8 @@ header h1 {
       text-transform: uppercase;
 }
 
-tag-line {
+/* the line of text under the site title */
+tag-line { 
   display:block;
   color: var(--colour4);
   font-family: var(--fonttagline);
@@ -190,55 +221,9 @@ tag-line {
   letter-spacing: 2px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: var(--fontheadings);
-}
+/* ====== SIDEBAR STUFF ===== */
 
-h1 {
-font-size: var (--h1fontsize);
-}
-h2 {
-font-size: var (--h2fontsize);
-}
-h3 {
-font-size: var (--h3fontsize);
-}
-h4 {
-font-size: var (--h4fontsize);
-}
-h5 {
-font-size: var (--h5fontsize);
-}
-h6 {
-font-size: var (--h6fontsize);
-}
-
-/* Default Links & Lists */
-
-  a {
-    color: var(--colour9);
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: var(--colour2);
-  }
-
-  a:hover {
-    color: var(--colour1);
-  }
-
-
-
-  a:visited hover {
-    color: var(--colour1);
-  }
-
-.navbutton:visited {
-color: var(--colour4)
-}
-
-/* ====== NAVBAR STUFF ===== */
+/* buttons at top of sidebar */
 
 #menu-buttons {
 margin:10px;
@@ -256,27 +241,42 @@ margin-bottom: 20px;
   cursor: pointer;
 }
 
+/* sets the hover colour */
 .navbutton:hover {
       background-color: var(--colour1); 
       color: var(--colour4); 
   } 
 
+/* sets the visited colour */
+.navbutton:visited {
+color: var(--colour4)
+}
+
+/* centers the text in the LINK ME box and adds a gap at the top */
+  .linkme {
+  text-align: center;
+  margin-top: 5px;
+  }
+
+
+/* ====== MAIN CONTENT ====== */
 
 /* Text Formatting */
 
+/* the font and sizes for the headings, uses the variables set in the root section above */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--fontheadings);
+font-family: var(--fontheadings);
 }
 
-
-h1{
-  font-size: var(--h1fontsize);
+h1 {
+  font-size: var (--h1fontsize);
   color: var(--colour1);
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-h2{
+h2 {
+font-size: var (--h2fontsize);
   background-color: var(--colour8);
   font-size: var(--h2fontsize);
   color: var(--colour4);
@@ -285,26 +285,56 @@ h2{
   border-radius: 10px;
   padding-left:10px;
 }
-
-h3{
-  font-size: var(--h3fontsize);
+h3 {
+font-size: var (--h3fontsize);
   color: var(--colour1);
   margin-top: 5px;
   margin-bottom: 0px;
 }
 
-
 h4 {
-  font-size: var(--h4fontsize);
+font-size: var (--h4fontsize);
   color: var(--colour1);
   margin-top: 10px;
   margin-bottom: 0px;
 }
 
+h5 {
+font-size: var (--h5fontsize);
+}
+
+h6 {
+font-size: var (--h6fontsize);
+}
+
+
+/* bold text */
 strong {
   font-weight: bold;
   color: var(--colour8);
 }
+
+/* Default Links */
+
+  a {
+    color: var(--colour9);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: var(--colour2);
+  }
+
+  a:hover {
+    color: var(--colour1);
+  }
+
+  a:visited hover {
+    color: var(--colour1);
+  }
+
+
+/* the boxes around different content */
 
 .textbox {
   background-color: var(--colour5);
@@ -344,6 +374,7 @@ strong {
 
 /* lists */
 
+/* lists in the sidebar */
 .sidebar ul li, .bullets ul li {
     padding-left:5px;
     list-style-image:var(--bullet);
@@ -353,6 +384,7 @@ strong {
 }
 
 
+/* star icon for lists on pages in FOR YOU section */
 .starlist ul li {
     list-style-type: none;  
 }
@@ -366,7 +398,9 @@ strong {
     vertical-align:middle;
 }
 
-/* list with two columns used on about and lexicon page*/ 
+
+/* the list of words with two columns used on lexicon page */ 
+  /* see credits page in Site Wide section for code snippet*/
   .stripedlist {
     display: grid;
     grid-template-columns: 180px 1fr;
@@ -392,6 +426,8 @@ strong {
 /* ====== OTHER STUFF ===== */
 
   /* Table of Contents using H3 - Used on fandom pages*/
+  /* see credits page in 100x100 section for code snippet*/
+
   #toc {  
     columns: 3;
     -webkit-columns:3;
@@ -420,7 +456,11 @@ strong {
   }
 
 
-/* External Link Icon*/
+/* External Link Icon */
+/* 
+icon that displays at the end of an external link 
+see credits page for link to tutorial
+*/
 
 [href^="http"]:not([href*="flap"]):not(:has(img))::after{
   content: '(external link)';
@@ -448,59 +488,17 @@ rainbow-text {
   font-weight:bold;
 } 
 
+/* turns text upside down 
+the last line reverses the text, I don't use that but have left it here in case its useful
+*/
 .upsidedown {
   display: Inline-block;
   transform: rotate(180deg);
-/*  transform: scaleY(-1);*/
+/*transform: scaleY(-1);*/ 
 }
-
-
-
-
-
-
-
-/* ============ INDEX PAGE ============= */  
-      .linkme {
-      text-align: center;
-      margin-top: 5px;
-      }
-
-#indexgrid {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  column-gap: 10px;
-}
-
- 
-
-/* =========== Blog ========== */
-
-#nextprev {
-text-align: center;
-}
-
-/* ========== Images ========== */
-
-  figure {
-    text-align: center;
-  }
-  
-  figcaption {
-    font-size: small;
-  }
-
-  .fancy img { /* glowing boarder */
-    max-width: 500px; 
-    width: 100%;
-    height: auto;
-    border-radius: 10px; 
-    filter: drop-shadow(1px 3px 5px var(--colour8));
-}
-
 
 /* ===== freeze buttons  ===== */
-/* the buttons that pause animated images */
+/* the buttons that pause animated images on several pages */
 
 .freeze button {
   background-color: var(--colour8);
@@ -514,9 +512,47 @@ text-align: center;
   font-size: 12px;
 }
 
+/* ========== Images ========== */
+
+  /* the main container for images
+
+  figure {
+  }
+
+  /*
+  
+  /* centers text underneath images and makes it small */
+  figcaption {
+    text-align: center;
+    font-size: small;
+  }
+
+  /* glowing border around images */
+  .fancy img { 
+    max-width: 500px; 
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    filter: drop-shadow(1px 3px 5px var(--colour8));
+}
 
 
 
+/* ============ INDEX PAGE ============= */  
+
+/* places the rings and things box next to the random quote box */
+
+#indexgrid {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  column-gap: 10px;
+}
+
+/* centers the buttons at bottom of page */
+    #frontpagebuttons{
+        padding-top:10px;
+        text-align:center;
+      }
 
 /* Random Quote CSS */
 
@@ -561,13 +597,13 @@ float: left;
 }
 
 
+/* =========== Blog ========== */
 
-    #frontpagebuttons{
-        padding-top:10px;
-        text-align:center;
-      }
+/* centers the navigation at the bottom of blog posts */
 
-
+#nextprev {
+text-align: center;
+}
 
 /* Blog category icons */
 
@@ -619,8 +655,9 @@ float: left;
     vertical-align: middle;
 }
 
-/**/
+/* =========== Youtube Recs Page ========== */
 
+/* puts the title next to the date*/
 .youtubevidgrid {
 display: grid;
 grid-template-columns: 100px 1fr;
@@ -629,6 +666,9 @@ grid-column-gap: 10px;
 grid-row-gap: 10px;
 }
 
+/* puts the description on a new line
+probably could have done this an easier way haha
+*/
 .youtubechannelgrid {
 display: grid;
 grid-template-columns: 1fr;
@@ -641,6 +681,7 @@ margin: 10px;
 /*====================================================================*/
   /* MEDIA QUERIES */ 
   /* these are for mobile and other screens */ 
+  /* mostly just making things smaller, different font sizes etc */
 
 
   @media only screen and (max-width:768px) {
@@ -670,13 +711,13 @@ margin: 10px;
       display: grid;
       column-gap: 10px;
       grid-template-areas:  
-        'randomquote'
-        'webrings';
+        'randomquote';
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
- 
+#webrings {
+display:none;}
 
 header {
   margin: 10px;
@@ -730,13 +771,14 @@ footer {
       display: grid;
       column-gap: 10px;
       grid-template-areas:  
-        'randomquote'
-        'webrings';
+        'randomquote';
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
- 
+#webrings {
+display:none;}
+
 
 header {
   margin: 10px;

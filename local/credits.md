@@ -114,6 +114,11 @@ Everything this site is made with.
 - <a href="https://github.com/moment/luxon/">luxon</a> - for date stuff 
 - <a href="https://gfscott.com/embed-everything/">Embed Everything 11ty Plugin</a> - easily embed things (youtube etc)
 
+#### Other Stuff  
+
+- <a href="https://bobmonsour.com/blog/the-evolution-of-my-CSS-pipeline-in-eleventy-part-2/#selectively-including-a-css-bundle">the "Selectively including a CSS bundle" bit</a> which helped me figure out how to include a second stylesheet on specific pages without needing to load it on every page 
+
+
 <!-- 
 eleventy-plugin-rss  
 eleventy-plugin-readingtime
