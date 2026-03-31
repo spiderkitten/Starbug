@@ -1,7 +1,7 @@
 ---
 title: Favourite TV
 layout: layout/base.njk
-cssFile: media.css
+pageIsFavs: true
 script: filter.js
 eleventyExcludeFromCollections: true
 ---

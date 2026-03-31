@@ -1,6 +1,7 @@
 ---
 title: Guest Book
 layout: layout/base.njk
+pageIsGbook: true
 eleventyExcludeFromCollections: true
 ---
 ## Guestbook 

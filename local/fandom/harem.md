@@ -1,7 +1,7 @@
 ---
 title: Favourite Characters
 layout: layout/base.njk
-cssFile: media.css
+pageIsFavs: true
 eleventyExcludeFromCollections: true
 ---
 

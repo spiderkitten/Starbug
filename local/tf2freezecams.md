@@ -1,7 +1,7 @@
 ---
 title: TF2 Freeze Cams
 layout: layout/base.njk
-cssFile: modal.css
+pageIsModal: true
 script: modal.js
 eleventyExcludeFromCollections: true
 ---
