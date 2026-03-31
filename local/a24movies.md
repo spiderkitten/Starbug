@@ -1,7 +1,7 @@
 ---
 title: A24 Movie Challenge
 layout: layout/base.njk
-cssFile: a24.css
+pageIsA24: true
 eleventyExcludeFromCollections: true
 ---
 

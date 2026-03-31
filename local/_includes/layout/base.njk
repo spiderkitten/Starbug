@@ -33,8 +33,15 @@ THANKYOU
 
 <!-- Style Sheets -->
   <link href="/css/style.css" title="style" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/{{ cssFile }}" rel="stylesheet" type="text/css" media="all"> 
-  
+
+{% if pageIsA24 %}
+  <link href="/css/a24.css" title="style" rel="stylesheet" type="text/css" media="all">
+{% endif %}
+
+  <!--<link href="/css/{{ cssFile }}" rel="stylesheet" type="text/css" media="all">--> 
+
+<!-- RSS FEED -->
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Space Cadet RSS feed">
 
 <!-- Site Title -->
   <title>SPACE CADET | {{ title }}</title>

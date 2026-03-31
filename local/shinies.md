@@ -3,7 +3,7 @@ title: Shinies
 layout: layout/base.njk
 eleventyExcludeFromCollections: true
 ---
-    
+
 ## Shinies! 
 
 This is where you will find all the little collectables I have found around the place, and the cliques/fanlistings I have joined. Everything should be linked to the source where possible. 
