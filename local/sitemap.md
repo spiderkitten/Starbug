@@ -1,7 +1,6 @@
 ---
 title: Sitemap
 layout: layout/base.njk
-cssFile: index.css
 eleventyExcludeFromCollections: true
 ---
 

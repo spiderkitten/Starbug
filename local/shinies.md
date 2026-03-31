@@ -1,7 +1,6 @@
 ---
 title: Shinies
 layout: layout/base.njk
-script: freeze.js
 eleventyExcludeFromCollections: true
 ---
     

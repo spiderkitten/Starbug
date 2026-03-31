@@ -1,8 +1,6 @@
 ---
 title: Links
 layout: layout/base.njk
-cssFile: "links.css"
-script: freeze.js
 eleventyExcludeFromCollections: true
 ---
 
