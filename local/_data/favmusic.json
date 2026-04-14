@@ -36,6 +36,7 @@
         "genre4": "",
         "year": "1933",
         "cover": "bh_gloomysunday.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=5H7HGdkiV6o",
         "spotify": "https://open.spotify.com/track/3Ygc3SDJwpw3e0BGeoQx1k"
     }, 
@@ -49,6 +50,7 @@
         "genre4": "",
         "year": "1941",
         "cover": "is_settheworldonfire.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=TmIwm5RElRs",
         "spotify": "https://open.spotify.com/track/7Ca88RFeeUu4Cn52sFxobX"
         },
@@ -62,6 +64,7 @@
         "genre4": "",
         "year": "1973",
         "cover": "ej_bennyjets.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=qT-vsQ41LxM",
         "spotify": "https://open.spotify.com/track/6Ulcs1ZFV3yMQmQrSfixiM"
     },
@@ -75,6 +78,7 @@
         "genre4": "",
         "year": "1978",
         "cover": "kb_wuthering.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=-1pMMIe4hb4",
         "spotify": "https://open.spotify.com/track/5YSI1311X8t31PBjkBG4CZ"
     },
@@ -88,6 +92,7 @@
         "genre4": "",
         "year": "1980",
         "cover": "kb_babushka.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=6xckBwPdo1c",
         "spotify": "https://open.spotify.com/track/53Mz9H5UvWMQUXHZnaZYKQ"
     },
@@ -101,6 +106,7 @@
         "genre4": "",
         "year": "1982",
         "cover": "safetydance.png",
+        "favourite": "favourite",
         "youtube": "https://www.youtube.com/watch?v=1p_BvaHsgGg",
         "spotify": "https://open.spotify.com/track/4UB3TaEGEY9WoOpxYNMgy4"
     },
@@ -114,6 +120,7 @@
         "genre4": "",
         "year": "1982",
         "cover": "tb_mickey.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=0aqLwHP4y6Q",
         "spotify": "https://open.spotify.com/track/5b6v3PGTEXnOEh4hy9aPhS"
     },
@@ -127,6 +134,7 @@
         "genre4": "",
         "year": "1984",
         "cover": "lc_danceme.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=NGorjBVag0I",
         "spotify": "https://open.spotify.com/track/3mFzIFFFmEXTQs6BDAK2ZZ"
     },
@@ -140,6 +148,7 @@
         "genre4": "",
         "year": "1994",
         "cover": "tdc_tonightwefly.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=ypeegdF7GyM",
         "spotify": "https://open.spotify.com/track/2DPWQEfEW4ptmAQfTbZE76"
     },
@@ -153,6 +162,7 @@
         "genre4": "",
         "year": "1995",
         "cover": "nckm_wildroses.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=lDpnjE1LUvE",
         "spotify": "https://open.spotify.com/track/1L8SrVwjhIRsUdM7TkQprW"
@@ -167,6 +177,7 @@
         "genre4": "",
         "year": "2004",
         "cover": "ss_returntooz.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=1uLvInKofyU",
         "spotify": "https://open.spotify.com/track/2ZKvMKqLhFhLaJNj2OJiTj"
     },  
@@ -180,6 +191,7 @@
         "genre4": "",
         "year": "2005",
         "cover": "dr_computercamp.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=140ea47ndME",
         "spotify": "https://open.spotify.com/track/5SGFitKHO5tKkcU2Y2xKEY"
     }, 
@@ -193,6 +205,7 @@
         "genre4": "",
         "year": "2001",
         "cover": "mbsg_formidable.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=P0kyigrkFk8",
         "spotify": "https://open.spotify.com/track/58kZxYpe9SPKw8GluyUhyX"
@@ -207,6 +220,7 @@
         "genre4": "",
         "year": "2004",
         "cover": "shatner_common.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=eDMz5RL-wvM",
         "spotify": "https://open.spotify.com/track/6pT57VywIGw8eyKB22Gq63"
     }, 
@@ -220,6 +234,7 @@
         "genre4": "",
         "year": "2000",
         "cover": "avalanches_frontier.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=zdj9pfloICI",
         "spotify": "https://open.spotify.com/track/3mPJHVpCvzykoxmWnYdnFq"
@@ -234,6 +249,7 @@
         "genre1": "2010s",
         "year": "2016",
         "cover": "kl_novampires.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=p1g3iZPna9Q",
         "spotify": "https://open.spotify.com/track/0vrY8GSxSO8SvcQiD6mMGy"
     },
@@ -247,6 +263,7 @@
         "genre4": "",
         "year": "2013",
         "cover": "db_thestars.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=gH7dMBcg-gE",
         "spotify": "https://open.spotify.com/track/1nRynODR7IrQMp54k3l24h"
     },
@@ -260,6 +277,7 @@
         "genre4": "",
         "year": "2012",
         "cover": "wolf_firstaidkit.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=oILduYYv7PY",
         "spotify": "https://open.spotify.com/track/64MZlAEryuE2KlLS2lWWFX"
     },
@@ -273,6 +291,7 @@
         "genre4": "",
         "year": "2020",
         "cover": "chats_pubfeed.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=1LGM82uPuvA",
         "spotify": "https://open.spotify.com/track/0zWNKqet9eB1T8rXO1wccY"
@@ -287,6 +306,7 @@
         "genre4": "",
         "year": "1988",
         "cover": "utelemper_ichbineinvamp.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=uOZQ9nkbwls",
         "spotify": "https://open.spotify.com/track/44ULJeRB10hmt8ht2JpcVp"
     },
@@ -300,6 +320,7 @@
         "genre4": "",
         "year": "1988",
         "cover": "utelemper_ichbineinvamp.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=VCtRNqucy6I",
         "spotify": "https://open.spotify.com/track/2DDKglu5fRwAExhYYr7hkH"
     },
@@ -313,6 +334,7 @@
         "genre4": "",
         "year": "1874",
         "cover": "verdi_requium.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=X6cogix3cwQ",
         "spotify": "https://open.spotify.com/track/18mjTyCpqUWuF1HedQZW4s"
     },
@@ -326,6 +348,7 @@
         "genre4": "",
         "year": "1812",
         "cover": "beethoven_7.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=AjtiL4lmojc",
         "spotify": "https://open.spotify.com/track/6338sagiRPpH6dOsT6yYw9"
     },
@@ -339,6 +362,7 @@
         "genre4": "",
         "year": "1990",
         "cover": "tmbg_flood.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://youtube.com/playlist?list=PLC80P4gsPr-afJQ5fLffo3k1PL4Lmyxv_&si=E6C_jF4Cy14iwHk2",
         "spotify": "https://open.spotify.com/album/7FwAtuhhWivxvK4aPgyyUD"
@@ -353,6 +377,7 @@
         "genre4": "",
         "year": "1992",
         "cover": "missworld.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mWleAAp2gqwO8E4huKQbBjutwDESYuoVM",
         "spotify": "https://open.spotify.com/album/3DCxGwWnbZ2Gdqb5YdVbcR"
@@ -367,6 +392,7 @@
         "genre4": "",
         "year": "1996",
         "cover": "DivineComedy_Casanova.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://youtube.com/playlist?list=OLAK5uy_k2Mp-kVnKo_uIbH6dhmCb97DlylF21MpA&si=BsrlQbN35MFPLYoc",
         "spotify": "https://open.spotify.com/album/5zhKAcWDyjCIDk2yqxsHmV"
@@ -381,6 +407,7 @@
         "genre4": "",
         "year": "1992",
         "cover": "B52s_GoodStuff.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lW-U_n0Ft4zzPKWsP7i9tg2wGRnEeyAFg",
         "spotify": "https://open.spotify.com/album/2tC65uef7FBlSKhhGTzscE"
@@ -395,6 +422,7 @@
         "genre4": "",
         "year": "1979",
         "cover": "B52s.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lxA_KLcIK1bBrmyFTOm5oWoOIffv825JQ",
         "spotify": "https://open.spotify.com/album/3eXETk1esvZPRluDCWH3GN"
@@ -409,6 +437,7 @@
         "genre4": "",
         "year": "1981",
         "cover": "onj_physical.png",
+        "favourite": "",
         "album": "album",
         "country": "australia",
         "youtube": "https://www.youtube.com/playlist?list=PL1HH8zxceYTa18tn15TFqcN5X58HpYHpV",
@@ -424,6 +453,7 @@
         "genre4": "",
         "year": "1975",      
         "cover": "rhps.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://www.youtube.com/playlist?list=PLOhhrxpnIVS5RU0CDvBUdKEfplM9MpQkZ",
         "spotify": "https://open.spotify.com/album/4QviryaneolcRmDB57SLco"
@@ -438,6 +468,7 @@
         "genre4": "",
         "year": "1992",
         "cover": "frente_clunk.png",
+        "favourite": "",
         "country": "australia",
         "album": "album",
         "youtube": "https://www.youtube.com/watch?v=AKIMuRDz98w",
@@ -453,6 +484,7 @@
         "genre4": "",
         "year": "1978",
         "cover": "GreaseOST.png",
+        "favourite": "",
         "album": "album",
         "youtube": "https://www.youtube.com/playlist?list=PL8Lpw39GxwbMEkdXCWe7xag-PgLAH1ouR",
         "spotify": "https://open.spotify.com/album/5n47Dui0H3pGpZSOxITmoq"
@@ -467,6 +499,7 @@
         "genre4": "",
         "year": "1981",
         "cover": "UV_Vienna.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=VVkHZz0WOqs",
         "spotify": "https://open.spotify.com/track/2LXjhNee4iPRVemx9NSZQ3"
     },
@@ -480,6 +513,7 @@
         "genre4": "",
         "year": "1972",
         "cover": "LR_PerfectDay.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=9wxI4KK9ZYo",
         "spotify": "https://open.spotify.com/track/4TOMI010Sd4ZAX4aZ5TS85"
     },
@@ -493,6 +527,7 @@
         "genre4": "",
         "year": "1967",
         "cover": "JA_whiterabbit.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=WANNqr-vcx0",
         "spotify": "https://open.spotify.com/track/4vpeKl0vMGdAXpZiQB2Dtd"
     },
@@ -506,6 +541,7 @@
         "genre4": "",
         "year": "2000",
         "cover": "UL_punishingkiss.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=oGqU0DhVO9Y",
         "spotify": "https://open.spotify.com/track/3cZH3Rowm4z2VVaXCx5kJt"
     },
@@ -519,6 +555,7 @@
         "genre4": "",
         "year": "2000",
         "cover": "UL_punishingkiss.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=f2gNV5l_seY",
         "spotify": "https://open.spotify.com/track/6FXDTDDfmScY2aw1Re32oq"
     },
@@ -532,6 +569,7 @@
         "genre4": "",
         "year": "1998",
         "cover": "space_tomjones.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=-3S_anLBy5w",
         "spotify": "https://open.spotify.com/track/03hqDHqrGHIC6U7fxdUp7P"
     },
@@ -545,6 +583,7 @@
         "genre4": "",
         "year": "1996",
         "cover": "cardigans_lovefool.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=NI6aOFI7hms",
         "spotify": "https://open.spotify.com/track/7aQjPecQdIuNd1sz3KCDhD"
     },
@@ -558,6 +597,7 @@
         "genre4": "",
         "year": "2000",
         "cover": "Goldfrapp_Lovelyhead.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=KHM4PrHqNCo",
         "spotify": "https://open.spotify.com/track/34m5VO0lMzldJPRli4MhHS"
     },
@@ -571,6 +611,7 @@
         "genre4": "",
         "year": "2004",
         "cover": "LB_beautiful.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=zVmyscySaW4",
         "spotify": "https://open.spotify.com/track/2oDbNu0S9oaZoItnUT6vgO"
@@ -585,6 +626,7 @@
         "genre4": "",
         "year": "2001",
         "cover": "MP_bunnyfoo.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=aPGdA2bPX90",
         "spotify": "https://open.spotify.com/track/2t0uGJc5p7pZp1o0v4ubgT"
     },
@@ -598,6 +640,7 @@
         "genre4": "",
         "year": "1969",
         "cover": "TDN_LadySam.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=fukEMl9_xZ0",
         "spotify": "https://open.spotify.com/track/4BiV61Rsj8KZ0yK0nGe8wg"
     },
@@ -611,6 +654,7 @@
         "genre4": "",
         "year": "1979",
         "cover": "B_HeartGlass.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=WGU_4-5RaxU",
         "spotify": "https://open.spotify.com/track/41AE8ODX2JETBCa6muhSLY"
     },
@@ -624,6 +668,7 @@
         "genre4": "",
         "year": "1999",
         "cover": "MF_allmylittle.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=eo8vW_0H_Kg",
         "spotify": "https://open.spotify.com/track/3KvTZQPpzPw9UKxaGlJkBs"
     },
@@ -637,6 +682,7 @@
         "genre4": "",
         "year": "2009",
         "cover": "GT_Ballad.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=Pj6Q0xRW5bQ",
         "spotify": "https://open.spotify.com/track/5gp7p27TA3U5ynL45u9M79"
@@ -665,6 +711,7 @@
         "genre4": "",
         "year": "2002",
         "cover": "MGF_rollercoaster.png",
+        "favourite": "",
         "country": "australia",
         "youtube": "https://www.youtube.com/watch?v=yhPFmWPeWuo",
         "spotify": "https://open.spotify.com/track/2xf9nTxHbWa2qSjfqtUcXJ"
@@ -679,120 +726,234 @@
         "genre4": "",
         "year": "1998",
         "cover": "Stardust_MSBWY.png",
+        "favourite": "",
         "youtube": "https://www.youtube.com/watch?v=FQlAEiCb8m0",
         "spotify": "https://open.spotify.com/album/7Kusf5plZjl76X5ARWJbNO"
     },
 
     {
-    "title": "Love is Blindness",
-    "artist": "Jack White",
-    "genre1": "2010s",
+        "title": "Love is Blindness",
+        "artist": "Jack White",
+        "genre1": "2010s",
         "genre2": "",
         "genre3": "",
         "genre4": "",
-    "year": "2011",
-    "cover": "jw_loveisblindness.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=ZWir6wUkPtw",
-    "spotify": "https://open.spotify.com/track/1kBM7AURqQTIXFePNVpEwP"
+        "year": "2011",
+        "cover": "jw_loveisblindness.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=ZWir6wUkPtw",
+        "spotify": "https://open.spotify.com/track/1kBM7AURqQTIXFePNVpEwP"
     }, 
 
     {
-    "title": "Paint it Black",
-    "artist": "The Rolling Stones",
-    "genre1": "60s",
+        "title": "Paint it Black",
+        "artist": "The Rolling Stones",
+        "genre1": "60s",
         "genre2": "",
         "genre3": "",
         "genre4": "",
-    "year": "1966",
-    "cover": "rs_paintitblack.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=EBUFtoC2oj4",
-    "spotify": "https://open.spotify.com/track/78Az0Z1vNJgqv9QSB0ULLV"
+        "year": "1966",
+        "cover": "rs_paintitblack.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=EBUFtoC2oj4",
+        "spotify": "https://open.spotify.com/track/78Az0Z1vNJgqv9QSB0ULLV"
     },
 
     {
-    "title": "I Love to Love",
-    "artist": "Tina Charles",
-    "genre1": "70s",
+        "title": "I Love to Love",
+        "artist": "Tina Charles",
+        "genre1": "70s",
         "genre2": "",
         "genre3": "",
         "genre4": "",
-    "year": "1976",
-    "cover": "tc_ilovetolove.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=TMnns_iIB2M",
-    "spotify": "https://open.spotify.com/track/1RWIYIrWxrlrPQuJM9i5Dv"
+        "year": "1976",
+        "cover": "tc_ilovetolove.png",
+        "favourite": "favourite",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=TMnns_iIB2M",
+        "spotify": "https://open.spotify.com/track/1RWIYIrWxrlrPQuJM9i5Dv"
     },
 
     {
-    "title": "Krap Karate",
-    "artist": "Tripod",
-    "genre1": "comedy",
+        "title": "Krap Karate",
+        "artist": "Tripod",
+        "genre1": "comedy",
         "genre2": "2000s",
         "genre3": "",
         "genre4": "",
-    "year": "2004",
-    "cover": "tripod_krapkarate.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=QfJm68Uqn4k",
-    "spotify": "https://open.spotify.com/track/76r8AG66EEmmdhrfrdDCo8"
+        "year": "2004",
+        "cover": "tripod_krapkarate.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=QfJm68Uqn4k",
+        "spotify": "https://open.spotify.com/track/76r8AG66EEmmdhrfrdDCo8"
     },
 
     {
-    "title": "Video Killed the Radio Star",
-    "artist": "Buggles",
-    "genre1": "70s",
+        "title": "Video Killed the Radio Star",
+        "artist": "Buggles",
+        "genre1": "70s",
         "genre2": "",
         "genre3": "",
         "genre4": "",
-    "year": "1979",
-    "cover": "buggles_videokilled.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=W8r-tXRLazs",
-    "spotify": "https://open.spotify.com/track/7nm8w9dMwTjlWDosdnxBSn"
+        "year": "1979",
+        "cover": "buggles_videokilled.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=W8r-tXRLazs",
+        "spotify": "https://open.spotify.com/track/7nm8w9dMwTjlWDosdnxBSn"
     }, 
 
     {
-    "title": "Cherry Bomb",
-    "artist": "The Runaways",
-    "genre1": "70s",
+        "title": "Cherry Bomb",
+        "artist": "The Runaways",
+        "genre1": "70s",
         "genre2": "",
         "genre3": "",
         "genre4": "",
-    "year": "1976",
-    "cover": "runaways_cherrybomb.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=_EBvXpjudf8",
-    "spotify": "https://open.spotify.com/track/7cdnq45E9aP2XDStHg5vd7"
+        "year": "1976",
+        "cover": "runaways_cherrybomb.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=_EBvXpjudf8",
+        "spotify": "https://open.spotify.com/track/7cdnq45E9aP2XDStHg5vd7"
     },
 
     {
-    "title": "Transylvanian Concubine",
-    "artist": "Rasputina",
-    "genre1": "90s",
+        "title": "Transylvanian Concubine",
+        "artist": "Rasputina",
+        "genre1": "90s",
         "genre2": "",
         "genre3": "",
         "genre4": "",
-    "year": "1996",
-    "cover": "rasputina_transylvania.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=sjSncJwKf6M",
-    "spotify": "https://open.spotify.com/track/32ld9N8e1101MHfc1vNPIV"
+        "year": "1996",
+        "cover": "rasputina_transylvania.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=sjSncJwKf6M",
+        "spotify": "https://open.spotify.com/track/32ld9N8e1101MHfc1vNPIV"
     },
 
     {
-    "title": "Little Black Dress",
-    "artist": "Shock Treatment OST",
-    "genre1": "musicals",
+        "title": "Little Black Dress",
+        "artist": "Shock Treatment OST",
+        "genre1": "musicals",
         "genre2": "80s",
         "genre3": "",
         "genre4": "",
-    "year": "1981",
-    "cover": "littleblackdress_shocktreament.png",
-    "album": "",
-    "youtube": "https://www.youtube.com/watch?v=PW8xc0fucKs",
-    "spotify": "https://open.spotify.com/track/4mnk4usZpqDxF8Yuif8Loa"
+        "year": "1981",
+        "cover": "littleblackdress_shocktreament.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=PW8xc0fucKs",
+        "spotify": "https://open.spotify.com/track/4mnk4usZpqDxF8Yuif8Loa"
+    },
+
+    {
+        "title": "The Man Who Sold the World",
+        "artist": "David Bowie",
+        "genre1": "glam rock",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "1970",
+        "cover": "db_manwhosaved.png",
+        "favourite": "",
+        "album": "",
+        "youtube": "https://www.youtube.com/watch?v=u3MX-rUtS6M",
+        "spotify": ""
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "genre1": "",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "",
+        "cover": "",
+        "favourite": "",
+        "album": "",
+        "youtube": "",
+        "spotify": ""
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "genre1": "",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "",
+        "cover": "",
+        "favourite": "",
+        "album": "",
+        "youtube": "",
+        "spotify": ""
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "genre1": "",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "",
+        "cover": "",
+        "favourite": "",
+        "album": "",
+        "youtube": "",
+        "spotify": ""
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "genre1": "",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "",
+        "cover": "",
+        "favourite": "",
+        "album": "",
+        "youtube": "",
+        "spotify": ""
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "genre1": "",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "",
+        "cover": "",
+        "favourite": "",
+        "album": "",
+        "youtube": "",
+        "spotify": ""
+    },
+
+    {
+        "title": "",
+        "artist": "",
+        "genre1": "",
+        "genre2": "",
+        "genre3": "",
+        "genre4": "",
+        "year": "",
+        "cover": "",
+        "favourite": "",
+        "album": "",
+        "youtube": "",
+        "spotify": ""
     }
 
     ]
