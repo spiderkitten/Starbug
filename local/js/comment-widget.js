@@ -92,6 +92,7 @@ const v_mainHtml = `
 const v_formHtml = `
     <h2 id="c_widgetTitle">${s_widgetTitle}</h2>
 
+<div class="gbookflex"> 
     <div id="c_nameWrapper" class="c-inputWrapper">
         <label class="c-label c-nameLabel" for="entry.${s_nameId}">${s_nameFieldLabel}</label>
         <br>
@@ -103,6 +104,7 @@ const v_formHtml = `
         <br>
         <input class="c-input c-websiteInput" name="entry.${s_websiteId}" id="entry.${s_websiteId}" type="url" pattern="https://.*">
     </div>
+</div>
 
     <div id="c_textWrapper" class="c-inputWrapper">
         <label class="c-label c-textLabel" for="entry.${s_textId}">${s_textFieldLabel}</label>

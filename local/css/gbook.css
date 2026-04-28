@@ -219,3 +219,11 @@ https://content-security-policy.neocities.org/
     margin-right: 4px;
     margin-left: 4px;
 }
+
+.gbookflex {
+display: flex; 
+}
+
+.c-input {
+margin-right: 5px;
+}
