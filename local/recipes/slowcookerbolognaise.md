@@ -2,6 +2,10 @@
 title: Lazy Slow Cooker Bolognaise
 recipephoto: placeholder.png
 
+tags: 
+  - dinner
+  - beef
+  - slowcooker
 ---
 
 

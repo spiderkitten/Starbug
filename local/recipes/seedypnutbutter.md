@@ -3,7 +3,8 @@ title: Seedy Peanut Butter
 recipephoto: seedypnutbutter.png
 recipecaption: Container of Seedy Peanut Butter
 
-
+tags: 
+  - breakfast
 ---
 
 <!--Ingredients List-->

@@ -2,6 +2,10 @@
 title: Slow Cooker Corned Beef
 recipephoto: placeholder.png
 
+tags: 
+  - dinner
+  - beef
+  - slowcooker
 ---
 
 

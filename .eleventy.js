@@ -71,11 +71,18 @@ module.exports = function (eleventyConfig) {
         return coll;
     });
 
+
+    // return only the tags that are recipe related 
+    // https://markllobrera.com/posts/eleventy-tag-list-sorting-and-post-count/  
+    eleventyConfig.addCollection("RecipeTagList", require("./local/filters/getRecipeTagList.js"));
+
+
+
+
     // Return the length of a collection for tag clouds 
     eleventyConfig.addFilter('length', (collection) => {
         return collection[1].length;
     });
-
 
 
     // Add the filter "readableDate" to simplify the way blog dates are presented. Change the timezone to your own

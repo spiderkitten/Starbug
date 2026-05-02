@@ -3,6 +3,8 @@ title: Easy Apple Turnovers
 recipephoto: placeholder.png
 
 tags: 
+  - dessert
+  - snack
 ---
 
 <!--Ingredients List-->

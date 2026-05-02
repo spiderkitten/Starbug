@@ -2,6 +2,10 @@
 title: Lazy Slowcooker Spicy Beef
 recipephoto: placeholder.png
 
+tags: 
+- dinner
+- beef
+- slowcooker
 ---
 
 <!--Ingredients List-->

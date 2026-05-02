@@ -16,8 +16,19 @@ Also, most of them are pretty mild and maybe a bit bland. Even the spicy ones. I
 
 Note: Work in Progress
 
+ 
 
+#### Tags
+ 
+{% for tag in collections.RecipeTagList %}
 
+<div style="display: inline"> 
+<a href="/recipes/tags/{{tag}}.html" class="postlist-link">{{ tag }}</a> ({{ collections[tag].length }})  
+</div>
+{% endfor %}
+
+ 
+### All Recipes
 <!-- all posts tagged "posts" in reverse chronological order-->
 <div class="postarchive">
 <ul>

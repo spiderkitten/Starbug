@@ -2,6 +2,10 @@
 title: Slowcooker Curried Sausages
 recipephoto: placeholder.png
 
+tags: 
+  - dinner
+  - beef
+  - slowcooker
 ---
 
 <!--Ingredients List-->

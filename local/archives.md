@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
  
 <!-- all the tags ordered by frequency-->
 <p style="text-align:center;">
-{% for tag in collections -%}{% if tag[0] != "all" and tag[0] != "posts" %}<a href="../tags/{{ tag[0] | slugify }}.html">{{ tag[0] }}</a> ({{ tag | length }}) {% endif %}{%- endfor %}
+{% for tag in collections -%}{% if tag[0] != "all" and tag[0] != "posts" and tag[0] !="RecipeTagList" %}<a href="../tags/{{ tag[0] | slugify }}.html">{{ tag[0] }}</a> ({{ tag | length }}) {% endif %}{%- endfor %}
 </p>
 
 </div>

@@ -36,3 +36,6 @@ Public/codex
 local/_includes/layout/codex.njk
 local/_data/codexchangelog.json
 
+local/fanfic/test.md
+Public/tags/star-trek-voyager.html
+Public/tags/stargate-sg1.html

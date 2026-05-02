@@ -3,6 +3,8 @@ title: Mini Pizzas
 recipephoto: placeholder.png
 
 tags: 
+  - lunch
+  - dinner
 ---
 
 <!--Ingredients List-->

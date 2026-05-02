@@ -2,6 +2,9 @@
 title: Crustless Pumpkin Spinach Quiche
 recipephoto: pumpkinquiche.png 
 recipecaption:  
+
+tags:
+  - dinner
 ---
 
 <!--Ingredients List-->
