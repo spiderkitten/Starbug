@@ -114,10 +114,11 @@ Everything this site is made with.
 - <a href="https://github.com/moment/luxon/">luxon</a> - for date stuff 
 - <a href="https://gfscott.com/embed-everything/">Embed Everything 11ty Plugin</a> - easily embed things (youtube etc)
 
-#### Other Stuff  
+#### Other 11ty Stuff  
 
 - <a href="https://bobmonsour.com/blog/the-evolution-of-my-CSS-pipeline-in-eleventy-part-2/#selectively-including-a-css-bundle">the "Selectively including a CSS bundle" bit</a> which helped me figure out how to include a second stylesheet on specific pages without needing to load it on every page 
 
+- <a href="https://markllobrera.com/posts/eleventy-tag-list-sorting-and-post-count/ ">Tag List and Post Count</a> helped with getting the tag cloud on some pages (recipes)
 
 <!-- 
 eleventy-plugin-rss  

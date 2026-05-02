@@ -514,26 +514,24 @@ the last line reverses the text, I don't use that but have left it here in case 
 
 /* ========== Images ========== */
 
-  /* the main container for images
 
-  figure {
+figure {
+  width:90%;
   }
-
-  /*
   
   /* centers text underneath images and makes it small */
   figcaption {
     text-align: center;
     font-size: small;
   }
-
   /* glowing border around images */
   .fancy img { 
     max-width: 500px; 
-    width: 100%;
     height: auto;
     border-radius: 10px; 
     filter: drop-shadow(1px 3px 5px var(--colour8));
+  display: block;
+  margin: auto;
 }
 
 

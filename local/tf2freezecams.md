@@ -11,11 +11,6 @@ eleventyExcludeFromCollections: true
 
 When you die in TF2 you get a freeze frame of the person who killed you and you can take a screen shot. I thought it might be fun to share some of mine! 
 
-  <div id='fortring'>
-      <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
-      <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
-  </div>
-
 <div class="textbox">
 <h3>Spies being Spies!</h3>
 <div class="gallery">
@@ -80,8 +75,14 @@ When you die in TF2 you get a freeze frame of the person who killed you and you 
   <div class="caption"></div>
 </div>
 
+
+
 </div>
 
+  <div id='fortring'>
+      <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
+      <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
+  </div>
 
 <!-- Gallery template
 

@@ -74,7 +74,7 @@ module.exports = function (eleventyConfig) {
 
     // return only the tags that are recipe related 
     // https://markllobrera.com/posts/eleventy-tag-list-sorting-and-post-count/  
-    eleventyConfig.addCollection("RecipeTagList", require("./local/filters/getRecipeTagList.js"));
+    eleventyConfig.addCollection("RecipeTagList", require("./local/_filters/getRecipeTagList.js"));
 
 
 
