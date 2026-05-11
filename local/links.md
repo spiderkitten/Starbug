@@ -16,9 +16,6 @@ Just a collection of sites I wanted to share.
 <div><a href=" "><img src=""></a></div>
  -->
 
-<script type="text/javascript" src="https://mysteriouspanda.tumblr.com/js"> 
-https://mysteriouspanda.tumblr.com/rss
-
 <!--============BOOKS==========-->
 
 <div class="textbox">
