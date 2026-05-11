@@ -29,6 +29,11 @@ test.js
 local/test.md
 Public/test.html 
 
+local/fanfic/test.md
+Public/tags/star-trek-voyager.html
+Public/tags/stargate-sg1.html
+
+
 # Other pages
 
 local/codex
@@ -36,6 +41,10 @@ Public/codex
 local/_includes/layout/codex.njk
 local/_data/codexchangelog.json
 
-local/fanfic/test.md
-Public/tags/star-trek-voyager.html
-Public/tags/stargate-sg1.html
+local/nostalgia.md
+local/_data/nostalgia.json
+local/css/nostalgia.css
+local/images/nostalgia/*
+Public/images/nostalgia/*
+Public/nostalgia.html
+Public/css/nostalgia.css

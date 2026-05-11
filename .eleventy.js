@@ -49,6 +49,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("local/ai.txt");
     eleventyConfig.addPassthroughCopy("local/codex/css");
     eleventyConfig.addWatchTarget("local/codex/css");
+    eleventyConfig.addPassthroughCopy("local/codex/js");
+    eleventyConfig.addWatchTarget("local/codex/js");
     eleventyConfig.addPassthroughCopy("local/codex/images");
     eleventyConfig.addWatchTarget("local/codex/images");
 

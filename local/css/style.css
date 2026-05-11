@@ -676,6 +676,23 @@ grid-row-gap: 5px;
 margin: 10px;
 }
 
+/* =========== Nostalgia Page ========== */
+
+.container { /* Masonry container */
+
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+
+    margin: 15px;
+    padding: 0;
+}
+
+
 /*====================================================================*/
   /* MEDIA QUERIES */ 
   /* these are for mobile and other screens */ 
