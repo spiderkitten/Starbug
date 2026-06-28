@@ -29,7 +29,7 @@ test.js
 local/test.md
 Public/test.html 
 
-local/fanfic/test.md
+
 Public/tags/star-trek-voyager.html
 Public/tags/stargate-sg1.html
 
@@ -48,3 +48,7 @@ local/images/nostalgia/*
 Public/images/nostalgia/*
 Public/nostalgia.html
 Public/css/nostalgia.css
+
+local/_data/ficrecs.json
+local/fandom/ficrecs.md
+Public/fandom/ficrecs.html

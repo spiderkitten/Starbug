@@ -48,6 +48,13 @@
     "actor": "Richard Dean Anderson",
     "franchise": "Stargate SG1",
     "image": "joneill.png"
+    },
+
+    {
+    "character": "Endora",
+    "actor": "Agnes Moorehead",
+    "franchise": "Bewitched",
+    "image": "endora.png"
     }
         
 ]

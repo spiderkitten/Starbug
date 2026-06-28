@@ -413,7 +413,7 @@ strong {
   }
   
   .stripedlist div:nth-child(odd) {
-    background-color: var(--colour8);
+    background-color: var(--colour8) none none none;
     padding:5px;
     text-align: right;
   }
@@ -424,6 +424,16 @@ strong {
 
 
 /* ====== OTHER STUFF ===== */
+
+
+.hr {
+  border-color: var(--colour4);
+  border-style: dashed;
+  border-width: 3px 0px 0px 0px;
+  margin: 10px auto 10px auto;
+
+  }
+
 
   /* Table of Contents using H3 - Used on fandom pages*/
   /* see credits page in 100x100 section for code snippet*/
