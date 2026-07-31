@@ -52,3 +52,7 @@ Public/css/nostalgia.css
 local/_data/ficrecs.json
 local/fandom/ficrecs.md
 Public/fandom/ficrecs.html
+local/aushorror.md
+local/_data/aushorror.json
+local/_includes/partials/aushorror.njk
+Public/aushorror.html

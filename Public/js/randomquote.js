@@ -65,6 +65,18 @@ const generateQuote = function() {
         quote1: "I ate his liver with some fava beans and a nice Chianti",
         quote2: "",
         author: "Hannibal Lector, Silence of the Lambs"
+    },
+
+    {
+        quote1: "I'm not ashamed to dress 'like a woman' because I don't think its shameful to be a woman",
+        quote2: "",
+        author: "Iggy Pop"
+    },
+
+    {
+        quote1: "I like beautiful things telling me terrible things",
+        quote2: "",
+        author: "Tom Waits"
     }
 
 

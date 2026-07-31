@@ -546,7 +546,7 @@
     {
     "title": "Slice",
     "year": "2018",
-    "seen": "",
+    "seen": "yes",
     "favourite": "",
     "disliked":""
     },
@@ -992,7 +992,7 @@
     },
 
     {
-    "title": "The Wale",
+    "title": "The Whale",
     "year": "2022",
     "seen": "",
     "favourite": "",
@@ -1400,23 +1400,7 @@
     },
 
     {
-    "title": "Marty Supreme",
-    "year": "2025",
-    "seen": "",
-    "favourite": "",
-    "disliked":""
-    },
-
-    {
-    "title": "Andre is an Idiot",
-    "year": "2025",
-    "seen": "",
-    "favourite": "",
-    "disliked":""
-    },
-
-    {
-    "title": "Architecton",
+    "title": "If I Had Legs I'd Kick You",
     "year": "2025",
     "seen": "",
     "favourite": "",
@@ -1432,15 +1416,7 @@
     },
 
     {
-    "title": "If I Had Legs I'd Kick You",
-    "year": "2025",
-    "seen": "",
-    "favourite": "",
-    "disliked":""
-    },
-
-    {
-    "title": "Mother Mary",
+    "title": "Marty Supreme",
     "year": "2025",
     "seen": "",
     "favourite": "",
@@ -1449,9 +1425,145 @@
 
     {
     "title": "Pillion",
-    "year": "2025",
+    "year": "2026",
     "seen": "",
     "favourite": "",
     "disliked":""
-    } 
+    }, 
+
+    {
+    "title": "How To Make a Killing",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Andre is an Idiot",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Undertone",
+    "year": "2026",
+    "seen": "yes",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "The Drama",
+    "year": "2026",
+    "seen": "yes",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Mother Mary",
+    "year": "2026",
+    "seen": "yes",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Backrooms",
+    "year": "2026",
+    "seen": "yes",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "The Death of Robin Hood",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "The Invite",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Tony",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Onslaught",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Misty Green",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Club Kid",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "The Debut",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Enemies",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Famous",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "The Land of Nod",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    },
+
+    {
+    "title": "Nuisance Bear",
+    "year": "2026",
+    "seen": "",
+    "favourite": "",
+    "disliked":""
+    }
 ]
