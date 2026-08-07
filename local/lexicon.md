@@ -20,19 +20,18 @@ eleventyExcludeFromCollections: true
 
 <h3>Lexicon</h3>
 <h4>A-K</h4>
-<div class="stripedlist">
+<div class="stripes">
 <div>Bimble</div><div>to walk at a leisurely pace</div>
 <div>Clowder</div><div>cluster of cats</div>
 <div>Dendrophile</div><div>someone who loves trees</div>
 <div>Frondescence</div><div>the unfurling of leaves</div>
 <div>Grotesquerie</div><div>grotesque things collectively</div>
 <div>Incandescent</div><div>emitting light, full of emotion</div>
-<div></div><div></div>
 
 </div>
 
 <h4>L-Z</h4>
-<div class="stripedlist">
+<div class="stripes">
 <div>Librocubicularist</div> <div>someone who reads in bed</div>
 <div>Lubberwort</div><div>16th Century, meaning: lazy, stupid person</div>
 <div>Mellifluous</div><div>a pleasing sweet sound</div>
@@ -42,6 +41,5 @@ eleventyExcludeFromCollections: true
 <div>Thalassophile</div><div>someone who loves the sea</div>
 <div>Tickeld Pink</div><div>idiom, meaning: very pleased</div>
 <div>Wayfarer</div><div>Person who travels on foot</div>
-<div></div><div></div>
 </div>
 </div>
