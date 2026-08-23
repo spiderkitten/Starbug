@@ -33,12 +33,12 @@ Movies I have seen</li>
 </ul>       
 </div>
 
-<p><strong>5 Most recently seen:</strong> A Different Man, The Exception, Eddington, Obvious Child, Slice</p>
+<p><strong>5 Most recently seen:</strong> The Invite, Undertone, The Drama, Backrooms, Mother Mary</p>
 
 <div class="moviesprogress">
 <div>Total Seen:</div>
 <div><progress value="105"  max="182"></progress></div>
-<div>104/182</div>
+<div>109/182</div>
 </div><!--progress-->
 
 </div>
