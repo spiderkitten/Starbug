@@ -30,7 +30,7 @@ module.exports = (eleventyConfig) => {
 
 
 
-// This is all the stuff that Eleventy is going to process when it exports your site
+// stuff that Eleventy processes when it exports site
 
 module.exports = function (eleventyConfig) {
 
@@ -58,7 +58,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
 
 
-    // Adds Next & Previous links to the bottom of our blog posts
+    // Adds Next & Previous links to the bottom of blog posts
     eleventyConfig.addCollection("posts", function(collection) {
         const coll = collection.getFilteredByTag("posts");
     
@@ -122,7 +122,7 @@ module.exports = function (eleventyConfig) {
         eleventyConfig.setQuietMode(true);
 
 
-    // These are the folders that Eleventy will use. "src" is where you edit files that Eleventy will then take in and export into "public," which you upload.
+    // "src" = local, "public" = upload
         return {
             dir: {
                 input: "local",

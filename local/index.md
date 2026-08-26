@@ -6,6 +6,8 @@ description:
 eleventyExcludeFromCollections: true
 ---
 
+<div class="welcome">
+
 ## Welcome
 
 Hi, I'm <rainbow-text>Starbug</rainbow-text>, a Queer Gen X woman who lives near Sydney in <span class="upsidedown">Australia</span>. Welcome to my little space on the internet! Space Cadet is a personal site where I will throw random stuff and just do whatever.
@@ -15,7 +17,7 @@ Some of my favourite things are: Reading, postcards, snailmail, movies, dandelio
 I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://wetrakr.com/user/Spiderkitten">WeTrakr</a>
 
 Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to <a href="guestbook.html">sign my guestbook</a> before you leave!
-
+</div>
 
 <!-- grid to align quotes and rings-->
 
