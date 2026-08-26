@@ -3,10 +3,11 @@ title: Tropfest 2026
 date: 2026-02-22
 lastmod: 
 description: 
-icon: 
+icon: movie
 tags: 
   - youtube
   - shortfilm
+  - movies
 ---
 
 ## Tropfest 2026
