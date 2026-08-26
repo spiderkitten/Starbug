@@ -106,5 +106,9 @@
     {
         "date": "02 May 2026",
         "update": "moved the tf2 webring code to the tf2 freezecam page, added tags to recipes, "
+    },
+    {
+        "date": "26 Aug 2026",
+        "update": "just a minor update, fixed something that was broken"
     }
 ]
