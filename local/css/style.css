@@ -34,7 +34,7 @@ https://www.w3schools.com/css/css3_variables.asp
     --background-size:30px 30px;
 
    /* colours used throughout site */
-    /* transparent colors will show up differently on different coloured backgrounds */
+    /* transparent colors will show up differently on different coloured backgrounds*/
     --colour1:#bf1f35; /* dark red */ 
     --colour2: #588d54; /* dark green */
     --colour3: #222222;  /* almost black*/
@@ -43,7 +43,7 @@ https://www.w3schools.com/css/css3_variables.asp
     --colour6: #588d5434; /* transparent pale green */  
     --colour7: #bf1f344a; /* transparent pink */
     --colour8: #fe9696;  /* dark pink */
-    --colour9: #6aa466; /*   */
+    --colour9: #6aa466; /*  links */
     --colour10: #FBE5E2; /* solid pink */
 
   --fonttitle: lato-thin; /*Site Title*/
@@ -77,8 +77,11 @@ https://www.w3schools.com/css/css3_variables.asp
   --extlinkcolour: brightness(0) saturate(100%) invert(57%) sepia(17%) saturate(1262%) hue-rotate(314deg) brightness(114%) contrast(83%);
 }
 
-/* Mushroom cursor */
-html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
+/* Mushroom cursor and scrollbar colour */
+html {
+cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; 
+scrollbar-color: var(--colour8) var(--colour1);
+}
 
 /* FONTS */
 /* see credits page for where to get the fonts */
@@ -102,6 +105,8 @@ html {cursor: url(../images/siteimgs/favicon_shroom1.gif),auto; }
   font-family: CherrySwashBold;
     src: url(../fonts/CherrySwash-Bold.otf) format("opentype");
 }
+
+
 
 
 
@@ -424,6 +429,7 @@ strong {
 
 
 /* ====== OTHER STUFF ===== */
+
 
 
 .hr {

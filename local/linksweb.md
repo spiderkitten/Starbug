@@ -66,6 +66,8 @@ Fellow oldies! Neocities sites run by people aged 40+
 <li><a href="https://onnade.neocities.org/">In Women's Hands: Transmitting the Literature of Heian Japan</a></li>
 <li><a href="https://bugstamp.net/">Daniel's Bug Stamp Collection</a></li>
 
+<li><a href="https://claraisknitting.neocities.org">Clara Is Knitting</a></li>
+
 </ul>
 </div>
 
