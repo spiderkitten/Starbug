@@ -56,7 +56,7 @@ Not long after that I rewatched Rocky Horror Picture Show and fell in love with 
 <figcaption>Tim Curry as Dr Frank N Furter in RHPS</figcaption>
 </figure>
 
-And of course I loved Tim Curry in other things. As Long John Silver in Muppet Treasure Island, the Cardinal in Three Muskateers, Nigel Thornberry in The Wild Thornerries (which I watched my child was young). He was also in Home Alone 2, Legend, and more. 
+And of course I loved Tim Curry in other things. As Long John Silver in Muppet Treasure Island, the Cardinal in Three Muskateers, Nigel Thornberry in The Wild Thornerries (which I watched when my child was young). He was also in Home Alone 2, Legend, and more. 
 
 In 2012 Tim Curry had a stroke that left him partially paralyzed,  affecting the left side of his body and his ability to walk. He also had brain surgery at the time. 
 

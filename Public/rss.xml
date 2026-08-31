@@ -3,11 +3,18 @@
   <title>Space Cadet</title>
   <subtitle>Just a girl floating through space</subtitle>
   <link href="https://starbug.neocities.org/rss.xml" rel="self"/>
-  <updated>2026-08-27T00:00:00Z</updated>
+  <updated>2026-08-31T00:00:00Z</updated>
   <id>https://starbug.neocities.org</id>
   <author>
     <name>Starbug</name>
   </author>
+  <entry>
+    <title>You Shouldn&#39;t Trust AI</title>
+    <link href="https://starbug.neocities.org/posts/youshouldnttrustAI1.html"/>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <id>https://starbug.neocities.org/posts/youshouldnttrustAI1.html</id>
+    <content xml:lang="" type="html"></content>
+  </entry>
   <entry>
     <title>RIP Tim Curry</title>
     <link href="https://starbug.neocities.org/posts/TimCurry.html"/>
@@ -104,13 +111,6 @@
     <link href="https://starbug.neocities.org/posts/100questionsPart2.html"/>
     <updated>2026-01-05T00:00:00Z</updated>
     <id>https://starbug.neocities.org/posts/100questionsPart2.html</id>
-    <content xml:lang="" type="html"></content>
-  </entry>
-  <entry>
-    <title>100 Questions for Webmaasters (Part 1/10)</title>
-    <link href="https://starbug.neocities.org/posts/100questionsPart1.html"/>
-    <updated>2026-01-05T00:00:00Z</updated>
-    <id>https://starbug.neocities.org/posts/100questionsPart1.html</id>
     <content xml:lang="" type="html"></content>
   </entry>
 </feed>

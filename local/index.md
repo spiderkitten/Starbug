@@ -17,6 +17,9 @@ Some of my favourite things are: Reading, postcards, snailmail, movies, dandelio
 I log everything I read and watch on <a href="https://www.goodreads.com/user/show/21899-mysteriouspanda">Goodreads</a> and <a href="https://wetrakr.com/user/Spiderkitten">WeTrakr</a>
 
 Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> if you want to follow me there and don't forget to <a href="guestbook.html">sign my guestbook</a> before you leave!
+
+
+
 </div>
 
 <!-- grid to align quotes and rings-->
@@ -106,7 +109,9 @@ Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> 
 
 <!-- buttons -->
 <div id="frontpagebuttons">
- <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a>  <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a>
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a>  <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a> <a href="https://shens.world/dev/notes/backup"><img src="images/buttons/backup-now-6.gif"></a>
 </div><!--buttons-->
+
+
 
 
