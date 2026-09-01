@@ -109,7 +109,7 @@ Check out my <a href="https://neocities.org/site/starbug">Neocities Profile</a> 
 
 <!-- buttons -->
 <div id="frontpagebuttons">
- <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!"></a>  <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt=""> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt=""></a> <a href="https://shens.world/dev/notes/backup"><img src="images/buttons/backup-now-6.gif"></a>
+ <a href="https://yesterweb.org/no-to-web3/"> <img src="images/buttons/roly-saynotoweb3.gif" alt="" title="Say No To Web3!" class="swing"></a> <a href="https://notbyai.fyi"><img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" height="31" alt="" title="Powered by a human!" class="swing"></a>  <img src="images/buttons/macmade-wht.gif" title="Made with a Mac" alt="" class="swing"> <a href="https://neocities.org/"><img src="images/buttons/neocities_button.gif" title="Hosted by Neocities" alt="" class="swing"></a> <a href="https://shens.world/dev/notes/backup"><img src="images/buttons/backup-now-6.gif" class="swing"></a>
 </div><!--buttons-->
 
 

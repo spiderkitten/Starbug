@@ -19,6 +19,7 @@ Everything this site is made with.
 - <a href="https://stackoverflow.com/a/65614267 ">active selection button code</a> - used on the books, music, movie pages (the w3 version didn't work)   
 - <a href="https://www.30secondsofcode.org/css/s/zebra-striped-list-or-table/">Striped List tutorial</a>  
 - <a href="https://solaria.neocities.org/guides/gifpausetut">Freeze Gifs (stop animations) code</a> by Solaria
+- <a href="https://www.cattocss.com">Swing code</a> css to make the buttons swing on hover
 
 #### Index Page 
  - <a href="https://blog.kritikapattalam.com/build-a-random-quote-generator-using-javascript">Random Quote tutorial</a> 

@@ -34,7 +34,7 @@ template:
   <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/nicky.gif" alt="detective in trenchcoat" title="Newlambda Adoptable - Nicky"></a>
   <a href="https://newlambda.neocities.org/stuff/adopt"><img src="images/adoptables/pxl_LegendofLuoXiaohei.gif" alt="wide eyed cat in a basket" title="Newlambdia Adoptable - Cat"></a>
   <a href="https://thegardenofmadeline.neocities.org/pages/adopts">
-<img src="images/adoptables/may12023.gif" style="width: 60px" alt="bee carrying a package" title="The Garden of Madeline Adoptable - Bee"></a> <a href="https://confetticake.neocities.org/adoptables"><img src="images/adoptables/orville.gif" title="Confetti Cake Adoptables - Kitten"></a>
+<img src="images/adoptables/may12023.gif" style="width: 60px" alt="bee carrying a package" title="The Garden of Madeline Adoptable - Bee"></a> <a href="https://confetticake.neocities.org/adoptables"><img src="images/adoptables/orville.gif" title="Confetti Cake Adoptables - Kitten"></a> <a href="https://velvetmoth.neocities.org"><img src="images/adoptables/painting_moon_adoptable.gif" alt="" title=""></a> <a href="https://velvetmoth.neocities.org"><img src="images/adoptables/hawk_moth_adoptable.gif" alt="" title=""></a>
 
 </div>
 
@@ -57,7 +57,7 @@ template:
   <img src="images/blinkies/aishas.gif"  alt="Neopets Aisha blinkie" title="I Heart Aishas">
   <img src="images/blinkies/iloveglitter.gif"  alt="I love glitter blinkie" title="I heart glitter"> 
   <img src="images/blinkies/ilovelighthouses.gif"  alt="I love lighthouses blinkie" title="I heart Lighthouses"> 
-  <img src="images/blinkies/ilovepizza.gif"  alt="I love pizza blinkie" title="I Heart Pizza">
+  <img src="images/blinkies/ilovepizza.gif"  alt="I love pizza blinkie" title="I Heart Pizza"> <a href="https://velvetmoth.neocities.org"><img src="images/blinkies/responsible.gif" alt="" title=""></a> <a href="https://velvetmoth.neocities.org"><img src="images/blinkies/ancient_creature.gif" alt="" title=""></a> <a href="https://velvetmoth.neocities.org"><img src="images/blinkies/stardew_valley.gif" alt="" title=""></a>
 </div>
 
 
@@ -66,7 +66,7 @@ template:
 
 ### >Buttons 
 
-  <img src="images/buttons/macmade-wht.gif"  alt="Made With a Mac button" title="Made with a Mac"> <img src="images/buttons/myownwebsite.gif"  alt="I Made My OWn Website button" title="I Made My Own Website"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" style="width: 88px" height="32"  alt="Produced by a Human not by AI button" title="Produced by a Human not by AI"> <img src="images/buttons/neocities_button.gif"  alt="Neocities button" title="Neocities"> <img src="images/buttons/roly-saynotoweb3.gif"  alt="Say No to Web3 button" title="Say No to Web3"> <img src="images/buttons/startrek.gif"  alt="Boldy Go Star Trek button" title="Boldy Go!"> <a href="https://moonpr1sm.com/random/30plusclub"><img src="images/buttons/30plusclub.gif"  alt="30 plus club" title="30+ Club"></a>
+  <img src="images/buttons/macmade-wht.gif"  alt="Made With a Mac button" title="Made with a Mac"> <img src="images/buttons/myownwebsite.gif"  alt="I Made My OWn Website button" title="I Made My Own Website"> <img src="images/buttons/Produced-By-Human-Not-By-AI-Badge-white.gif" style="width: 88px" height="32"  alt="Produced by a Human not by AI button" title="Produced by a Human not by AI"> <img src="images/buttons/neocities_button.gif"  alt="Neocities button" title="Neocities"> <img src="images/buttons/roly-saynotoweb3.gif"  alt="Say No to Web3 button" title="Say No to Web3"> <img src="images/buttons/startrek.gif"  alt="Boldy Go Star Trek button" title="Boldy Go!"> <a href="https://moonpr1sm.com/random/30plusclub"><img src="images/buttons/30plusclub.gif"  alt="30 plus club" title="30+ Club"></a> <a href="#"><img src="images/buttons/minecraft.gif" alt="" title=""></a>
 </div>
 
 <!-- Cliques -->
@@ -75,8 +75,8 @@ template:
 ### Cliques 
   <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcspace.gif"  alt="Space clique button" title="Space"></a>
   <a href="https://www.lejlart.com/apple.html"><img src="images/cliques/mcppm.gif"  alt="Peppermint Clique button" title="Peppermint"></a>
+ <a href="https://web.archive.org/web/20120720072006/http://www.kintanti.com/downloads/cliques/cliques.php"><img src="images/adoptables/australia1.gif"></a>
 </div>
-
 <!-- Stamps -->
 
 <div class="textbox">
