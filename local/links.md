@@ -16,30 +16,17 @@ Just a collection of sites I wanted to share.
 <div><a href=" "><img src=""></a></div>
  -->
 
-<!--============BOOKS==========-->
-
-<div class="textbox">
-
-### Books
-
-<dl>
-<dt><a href="https://howlongtoread.com/">How Long to Read</a></dt>
-<dd>do a reading test to find your reading speed, then for any book you enter it will tell you approx how long it will take you to read it.</dd>
-<dt><a href="https://qbdatabase.wpcomstaging.com/">Queer Books Database</a></dt>
-<dd>a free, public, searchable database listing queer rep in books</dd>
-<dt><a href="https://figcat.com/">Figcat</a></dt>
-<dd>a repository of lists of books compiled by hand from various sources. Some are super niche lists, for example "Metaphysical detective stories and other literary mysteries" and "Epics, picaresques, and proto-novels: narrative fiction up to 1700"</dd>
-</ul>
-
-<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
-</div>    
-
 <!--============ FUN SITES ==========-->
 
 <div class="textbox">
 <h3 id="fun">Fun Sites</h3>
 
 <dl> 
+
+<dt><a href="https://anthropeum.com">Anthropeum</a></dt>
+<dd>daily game where you need to guess the origin and age of ten artifacts from The Met NY's collection. pin a location on the map, and move a slider for the general year. </dd>
+</dl>
+
 <dt><a href="https://realbirdfakebird.com/">Real Fake Bird</a></dt>
 <dd>Daily game - given a set of things and you have to guess if they are real or fake. For example "Are these real Abba Songs"</dd>
 
@@ -52,12 +39,21 @@ Just a collection of sites I wanted to share.
 
 
 <!-- ========== USEFUL ========== -->
+<!-- template  
+
+<dt><a href=""></a></dt>
+<dd></dd>
+-->
 
 <div class="textbox">
 
 <h3 id="useful">Useful Sites</h3>
 
 <dl>
+
+<dt><a href="https://byebyepaywall.com">Bye Bye Paywall</a></dt>
+<dd>allows you to view content that is hidden behind paywalls by showing a cached version of the page</dd>
+
 <dt><a href="https://temp-mail.org/en/">Temp Email</a></dt>
 <dd>get a temporary/throwaway email that exists only as long as the browser page is open. Super useful when you need to give an email adress to access something and don't want to end up on a mail list.</dd>
 
@@ -81,6 +77,23 @@ Just a collection of sites I wanted to share.
 <div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
 </div>
 
+<!--============BOOKS==========-->
+
+<div class="textbox">
+
+### Books
+
+<dl>
+<dt><a href="https://howlongtoread.com/">How Long to Read</a></dt>
+<dd>do a reading test to find your reading speed, then for any book you enter it will tell you approx how long it will take you to read it.</dd>
+<dt><a href="https://qbdatabase.wpcomstaging.com/">Queer Books Database</a></dt>
+<dd>a free, public, searchable database listing queer rep in books</dd>
+<dt><a href="https://figcat.com/">Figcat</a></dt>
+<dd>a repository of lists of books compiled by hand from various sources. Some are super niche lists, for example "Metaphysical detective stories and other literary mysteries" and "Epics, picaresques, and proto-novels: narrative fiction up to 1700"</dd>
+</ul>
+
+<div style="text-align: right;"><a href="#top">top <i class="arrow up"></i></a></div>
+</div>    
 
  <!-- ========== CITIZEN SCIENCE ========== -->
 <div class="textbox">
