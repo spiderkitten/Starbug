@@ -57,3 +57,6 @@ local/aushorror.md
 local/_data/aushorror.json
 local/_includes/partials/aushorror.njk
 Public/aushorror.html
+local/OLDindex.md
+Public/OLDindex.html
+Public/OLDindex copy.html
