@@ -13,50 +13,10 @@ log/
 *.log
 
 
-node_modules/
-package.json
-package-lock.json
-
-PublicBU/*
+node_modules
 
 
-
-# test pages
 test.html
-test.css
-test2.css
-test.js
-local/test.md
-Public/test.html 
 
-
-Public/tags/star-trek-voyager.html
-Public/tags/stargate-sg1.html
-
-
-# Other pages
-
-local/codex
-Public/codex
-local/_includes/layout/codex.njk
-local/_data/codexchangelog.json
-
-local/nostalgia.md
-local/_data/nostalgia.json
-local/css/nostalgia.css
-local/images/nostalgia/*
-Public/images/nostalgia/*
-Public/nostalgia.html
-Public/css/nostalgia.css
-
-local/_data/ficrecs.json
-local/fandom/ficrecs.md
-Public/fandom/ficrecs.html
-
-local/aushorror.md
-local/_data/aushorror.json
-local/_includes/partials/aushorror.njk
-Public/aushorror.html
-local/OLDindex.md
-Public/OLDindex.html
-Public/OLDindex copy.html
+package-lock.json
+package.json

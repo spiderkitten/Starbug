@@ -6,13 +6,13 @@ If you are looking at this stylesheet to see how I did something, feel free to s
 
 please do not take my entire stylesheet though
 
-if you need help or have questions please leave a comment in my guestbook and I'll try to reply
+I've tried to leave notes and tutorial links near the relevant code. But if you need help or have questions please leave a comment in my guestbook and I'll try to reply
 
-alternatively, if you are on reddit and need general neocities or coding help try:  
+alternatively, if you are on reddit and need general neocities/nekoweb/coding help try:  
 
-/r/neocities  
+/r/neocities or /r/nekoweb or /r/html or /r/css    
 
-If you are more of a discord person there is a discord for the subreddit, here is an invite code:  
+If you are more of a discord person there is a discord for the neocities subreddit, here is an invite code:  
 https://discord.gg/345pePmpUX
 
 other places to get help:  
@@ -23,7 +23,8 @@ thanks!
 
 */
 
-/* root sets variables to be (re)used in different sections, to learn about variables:  
+/* 
+root sets variables to be (re)used in different sections of css  
 https://www.w3schools.com/css/css3_variables.asp
  */
 
@@ -107,9 +108,6 @@ scrollbar-color: var(--colour8) var(--colour1);
 }
 
 
-
-
-
 /* ====== Main Layout / Basic Structure ===== */
 
 body {
@@ -120,7 +118,7 @@ body {
     'footer footer';
 
   grid-template-columns: 320px 1fr;
-  grid-template-rows: 150px 1fr 100px;
+  grid-template-rows: 0px 1fr 100px;
 
   background: var(--background-color);
   background-size: var(--background-size);
@@ -137,7 +135,7 @@ body {
 header { /* Site Title Area */
   grid-area: header;
   background: var(--colour1);
-  margin-top: 15px;
+  margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 5px;

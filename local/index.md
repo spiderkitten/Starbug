@@ -12,6 +12,6 @@ eleventyExcludeFromCollections: true
 
 This site is currently on hiatus while I rework it. 
 
-Check back later! 
+Check back later! :)
 
 </div>
